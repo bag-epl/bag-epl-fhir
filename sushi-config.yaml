@@ -3,30 +3,31 @@
 
 # Package name
 # https://confluence.hl7.org/display/FHIR/NPM+Package+Specification#NPMPackageSpecification-Packagename
-id: ch.fhir.ig.ch-ig
-canonical: http://fhir.ch/ig/ch-ig
-name: CH_IG
-title: "CH IG (R4)"
-description: Implementation Guide CH IG (R4) for ...
+id: ch.fhir.ig.ch-epl
+canonical: http://fhir.ch/ig/ch-epl
+name: CH_EPL
+title: "CH EPL (R5)"
+description: Implementation Guide CH EPL (R5) for ...
 status: draft
 license: CC0-1.0
 copyright: CC0-1.0
-jurisdiction: urn:iso:std:iso:3166#CHE
-date: 2023-05-11
+# ignore information about deprecated item, see https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin
+jurisdiction: urn:iso:std:iso:3166#CH
+date: 2023-11-10
 version: 0.1.0
-fhirVersion: 4.0.1
-copyrightYear: 2021+
+fhirVersion: 5.0.0
+copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 publisher:
-  name: HL7 Switzerland
+  name: Federal Office of Public Health FOPH
 contact:
-  - name: HL7 Switzerland
+  - name: Federal Office of Public Health FOPH
     telecom:
       - system: url
-        value: https://www.hl7.ch/
+        value: https://www.bag.admin.ch/bag/en/home/das-bag/kontakt-standort.html
 
-dependencies:
-  ch.fhir.ig.ch-core: 3.0.0
+#dependencies:
+#  ch.fhir.ig.ch-core: 3.0.0
 
 pages:
   index.md:
@@ -45,13 +46,7 @@ menu:
   Terminology: terminology.html
   Artifacts: artifacts.html
 
-# Parameters
 # Core FHIR: http://build.fhir.org/codesystem-guide-parameter-code.html
 # FHIR Tools IG: http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
-parameters:
-  allow-extensible-warnings: true
+#parameters:
 
-resources:
-  CodeSystem/ch-ig-example-translation:
-    name: CH IG Example Translation
-    exampleBoolean: false

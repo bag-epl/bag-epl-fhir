@@ -1,5 +1,5 @@
 Instance: HansMuster
-InstanceOf: ChIgPractitioner
+InstanceOf: ChEplPractitioner
 Usage: #example
 Title: "Hans Muster"
 Description: "Example for Practitioner"
