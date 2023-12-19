@@ -26,6 +26,8 @@ Alias: $CSChIgExampleTranslation =      http://fhir.ch/ig/ch-ig/CodeSystem/ch-ig
 // IG specific CodeSystems
 // Section Yellow - Medicinal Products
 
+// FHIR Code-Systems
+Alias:  $FHIR-Domain =                                      http://hl7.org/fhir/medicinal-product-domain
 
 Alias:  $Swissmedic-Domain =                                http://swissmedic.ch/fhir/Domain //Vorschlag
 Alias:  $Swissmedic-Type =                                  http://swissmedic.ch/fhir/Type //Vorschlag
