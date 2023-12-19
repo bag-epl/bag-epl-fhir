@@ -31,7 +31,7 @@ Alias:  $Swissmedic-CombinedPharmaceuticalDoseForm =        urn:oid:0.4.0.127.0.
 
 // Section purple - Clinical Particulars 
 
-// Section blue - Packaging - Manufacturing
+
 
 
 
