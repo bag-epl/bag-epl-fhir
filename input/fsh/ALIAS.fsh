@@ -25,6 +25,11 @@ Alias: $CSChIgExampleTranslation =      http://fhir.ch/ig/ch-ig/CodeSystem/ch-ig
 
 // IG specific CodeSystems
 // Section Yellow - Medicinal Products
+
+
+Alias:  $Swissmedic-Domain =                                http://swissmedic.ch/fhir/Domain //Vorschlag
+Alias:  $Swissmedic-Type =                                  http://swissmedic.ch/fhir/Type //Vorschlag
+Alias:  $Swissmedic-AuthorizedDoseForm =                    http://swissmedic.ch/fhir/AuthorisedDoseForms //Vorschlag
 Alias:  $Swissmedic-CombinedPharmaceuticalDoseForm =        urn:oid:0.4.0.127.0.16.1.1.2.3 //EDQM
 
 // Section Green - Marketing Authorisations
