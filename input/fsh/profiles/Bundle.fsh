@@ -6,3 +6,8 @@ Description: "Profile of the Bundle resource for representing the set of resourc
 * . ^short = "IDMP Bundle"
 * type = #collection 
 * entry 1..
+
+
+RuleSet: bundleEntry(type, id)
+* fullUrl = "http://example.org/{type}/{id}"
+* resource = {id}
