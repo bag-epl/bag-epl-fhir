@@ -15,9 +15,9 @@ Description: "Profile of the DocumentReference resource for representing profess
 * type.coding ^slicing.rules = #open
 * type.coding contains 
     Swissmedic 0..1
-* type.coding[Swissmedic] from Swissmedic_DocumentType (required)
+* type.coding[Swissmedic] 
 * type.coding[Swissmedic].system 1..
-* type.coding[Swissmedic].system = $Swissmedic-DocumentType
+* type.coding[Swissmedic].system = $Swissmedic-AttachedDocumentTypeVS
 * type.coding[Swissmedic].code 1..
 
 * content.attachment.url 1..

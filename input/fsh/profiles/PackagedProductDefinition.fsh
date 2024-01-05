@@ -11,7 +11,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * identifier contains
     PCID 0..1 and
     GTIN 0..1 
-* identifier[PCID] ^patternIdentifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/PCID"
+* identifier[PCID] ^patternIdentifier.system = $PCID
 * identifier[PCID].value 1..
 * identifier[GTIN] ^patternIdentifier.system = "urn:oid:2.51.1.1"
 * identifier[GTIN].value 1..
@@ -25,14 +25,9 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * legalStatusOfSupply.code.coding ^slicing.discriminator.path = "system"
 * legalStatusOfSupply.code.coding ^slicing.rules = #open
 * legalStatusOfSupply.code.coding contains 
-    HCI 0..1 and
     Swissmedic 0..1
-* legalStatusOfSupply.code.coding[HCI] from HCI_LegalStatusOfSupply (required)
-* legalStatusOfSupply.code.coding[HCI].system 1..
-* legalStatusOfSupply.code.coding[HCI].system = $HCI-LegalStatusOfSupply (exactly)
-* legalStatusOfSupply.code.coding[HCI].code 1..
 * legalStatusOfSupply.code.coding[Swissmedic].system 1..
-* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupply (exactly)
+* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyVS (exactly)
 * legalStatusOfSupply.code.coding[Swissmedic].code 1..
 
 * marketingStatus.country = $country#CH
@@ -48,7 +43,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * marketingStatus.status.coding[HCI].system = $HCI-MarketingStatus
 * marketingStatus.status.coding[HCI].code 0..1 */
 * marketingStatus.status.coding[Swissmedic].system 1..
-* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatus
+* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusVS
 * marketingStatus.status.coding[Swissmedic].code 1..
 
 * statusDate
@@ -58,14 +53,9 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.type.coding ^slicing.discriminator.path = "system"
 * packaging.type.coding ^slicing.rules = #open
 * packaging.type.coding contains 
-    HCI 0..1 and
     Swissmedic 0..1 
-* packaging.type.coding[HCI] from HCI_PackageItemType (required)
-* packaging.type.coding[HCI].system 1..
-* packaging.type.coding[HCI].system = $HCI-PackageItemType (exactly)
-* packaging.type.coding[HCI].code 1..
 * packaging.type.coding[Swissmedic].system 1..
-* packaging.type.coding[Swissmedic].system = $Swissmedic-PackageItemType (exactly)
+* packaging.type.coding[Swissmedic].system = $Swissmedic-PackageItemContainerTypeVS (exactly)
 * packaging.type.coding[Swissmedic].code 1..
 
 * packaging.quantity ^short = "The quantity of this level of packaging in the package that contains it (with the outermost level being 1)."
@@ -83,7 +73,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding contains 
     Swissmedic 0..1
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system 1..
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-PrecautionsOfStorage
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorageVS
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].code 1..
 
 * packaging.containedItem.item only CodeableReference(IDMPManufacturedItemDefinition or IDMPPackagedProductDefinition)

@@ -17,12 +17,8 @@ Description: "Profile of the Ingredient resource for representing the material u
 * role.coding contains 
     HCI 0..1 and
     Swissmedic 0..1
-* role.coding[HCI] from HCI_IngredientRole (required)
-* role.coding[HCI].system 1..
-* role.coding[HCI].system = $HCI-IngredientRole (exactly)
-* role.coding[HCI].code 1..
 * role.coding[Swissmedic].system 1..
-* role.coding[Swissmedic].system = $Swissmedic-IngredientRole (exactly)
+* role.coding[Swissmedic].system = $Swissmedic-IngredientRoleVS (exactly)
 * role.coding[Swissmedic].code 1..
 
 // substance
@@ -34,7 +30,7 @@ Description: "Profile of the Ingredient resource for representing the material u
 * substance.code.concept.coding contains 
     UNII 0..1 
 * substance.code.concept.coding[UNII].system 1..
-* substance.code.concept.coding[UNII].system = $substance-unii (exactly)
+* substance.code.concept.coding[UNII].system = $Swissmedic-SubstanceVS (exactly)
 * substance.code.concept.coding[UNII].code 1..
 
 * substance.strength.presentationRatio.numerator

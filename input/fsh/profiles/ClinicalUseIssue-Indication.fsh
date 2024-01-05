@@ -43,6 +43,6 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.intendedEffect.concept.coding contains 
     Swissmedic 0..1
 * indication.intendedEffect.concept.coding[Swissmedic].system 1..
-* indication.intendedEffect.concept.coding[Swissmedic].system = $Swissmedic-IntendedEffect
+* indication.intendedEffect.concept.coding[Swissmedic].system = $Swissmedic-IntendedEffectVS
 * indication.intendedEffect.concept.coding[Swissmedic].code 1..
 

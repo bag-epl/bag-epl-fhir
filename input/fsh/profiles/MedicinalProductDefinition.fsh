@@ -8,7 +8,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 // * MPID
 
 * identifier.system 1..
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MPID" // Vorschlag für Swissmedic Naming System
+* identifier.system = $MPID // Vorschlag für Swissmedic Naming System
 * identifier.value 1..
 
 // * type
@@ -20,10 +20,10 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * domain.coding contains 
     Swissmedic 0..1
 * domain.coding[Swissmedic].system 1..
-* domain.coding[Swissmedic].system = $Swissmedic-Domain
+* domain.coding[Swissmedic].system = $Swissmedic-DomainVS
 * domain.coding[Swissmedic].code 1..
 
-* extension contains IDMPAuthorisedDoseForm named authorisedDoseForm 0..1
+//* extension contains IDMPAuthorizedDoseForm named authorizedDoseForm 0..1
 
 * combinedPharmaceuticalDoseForm.coding 1..
 * combinedPharmaceuticalDoseForm.coding ^slicing.discriminator[+].type = #value
@@ -42,14 +42,9 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * legalStatusOfSupply.coding ^slicing.discriminator.path = "system"
 * legalStatusOfSupply.coding ^slicing.rules = #open
 * legalStatusOfSupply.coding contains 
-    HCI 0..1 and
     Swissmedic 0..1
-* legalStatusOfSupply.coding[HCI] from HCI_LegalStatusOfSupply (required)
-* legalStatusOfSupply.coding[HCI].system 1..
-* legalStatusOfSupply.coding[HCI].system = $HCI-LegalStatusOfSupply (exactly)
-* legalStatusOfSupply.coding[HCI].code 1..
 * legalStatusOfSupply.coding[Swissmedic].system 1..
-* legalStatusOfSupply.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupply (exactly)
+* legalStatusOfSupply.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyVS (exactly)
 * legalStatusOfSupply.coding[Swissmedic].code 1..
 
 * additionalMonitoringIndicator.coding 1..
@@ -59,7 +54,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * additionalMonitoringIndicator.coding contains 
     Swissmedic 0..1
 * additionalMonitoringIndicator.coding[Swissmedic].system 1..
-* additionalMonitoringIndicator.coding[Swissmedic].system = $Swissmedic-AdditionalMonitoringIndicator (exactly)
+* additionalMonitoringIndicator.coding[Swissmedic].system = $Swissmedic-AdditionalMonitoringIndicatorVS (exactly)
 * additionalMonitoringIndicator.coding[Swissmedic].code 1..
 
 * pediatricUseIndicator.coding 1..
@@ -69,7 +64,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * pediatricUseIndicator.coding contains 
     Swissmedic 0..1
 * pediatricUseIndicator.coding[Swissmedic].system 1..
-* pediatricUseIndicator.coding[Swissmedic].system = $Swissmedic-PediatricUseIndicator (exactly)
+* pediatricUseIndicator.coding[Swissmedic].system = $Swissmedic-PediatricUseIndicatorVS (exactly)
 * pediatricUseIndicator.coding[Swissmedic].code 1..
 
 * classification ^slicing.discriminator[+].type = #value
@@ -85,14 +80,9 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * classification[ATC].coding.system = $atc (exactly)
 * classification[ATC].coding.code 1..
 
-* classification[IT].coding 1..
-* classification[IT].coding.system 1..
-* classification[IT].coding.system = $Swissmedic-IT (exactly)
-* classification[IT].coding.code 1..
-
 * classification[Heilmittelcode].coding 1..
 * classification[Heilmittelcode].coding.system 1..
-* classification[Heilmittelcode].coding.system = $Swissmedic-Heilmittelcode (exactly)
+* classification[Heilmittelcode].coding.system = $Swissmedic-HeilmittelcodeVS (exactly)
 * classification[Heilmittelcode].coding.code 1..
 
 * marketingStatus.country = $country#CH
@@ -102,12 +92,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * marketingStatus.status.coding ^slicing.discriminator[=].path = "system"
 * marketingStatus.status.coding ^slicing.rules = #open
 * marketingStatus.status.coding contains 
-    HCI 0..1 and 
     Swissmedic 0..1
-* marketingStatus.status.coding[HCI] from HCI_MarketingStatus (required) 
-* marketingStatus.status.coding[HCI].system 0..1
-* marketingStatus.status.coding[HCI].system = $HCI-MarketingStatus
-* marketingStatus.status.coding[HCI].code 0..1
 * marketingStatus.status.coding[Swissmedic].system 0..1
 * marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatus
 * marketingStatus.status.coding[Swissmedic].code 0..1

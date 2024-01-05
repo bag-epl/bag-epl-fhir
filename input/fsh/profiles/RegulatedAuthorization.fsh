@@ -23,7 +23,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * type.coding contains 
     Swissmedic 0..1
 * type.coding[Swissmedic].system 1..
-* type.coding[Swissmedic].system = $Swissmedic-AuthorizationStatus (exactly)
+* type.coding[Swissmedic].system = $Swissmedic-AuthorisationStatusVS (exactly)
 * type.coding[Swissmedic].code 1..
 
 * status.coding 1..
@@ -31,14 +31,9 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * status.coding ^slicing.discriminator.path = "system"
 * status.coding ^slicing.rules = #open
 * status.coding contains 
-    HCI 0..1 and
     Swissmedic 0..1
-* status.coding[HCI] from HCI_AuthorizationStatus (required)
-* status.coding[HCI].system 1..
-* status.coding[HCI].system = $HCI-AuthorizationStatus (exactly)
-* status.coding[HCI].code 1..
 * status.coding[Swissmedic].system 1..
-* status.coding[Swissmedic].system = $Swissmedic-AuthorizationStatus (exactly)
+* status.coding[Swissmedic].system = $Swissmedic-AuthorisationStatusVS (exactly)
 * status.coding[Swissmedic].code 1..
 
 * statusDate

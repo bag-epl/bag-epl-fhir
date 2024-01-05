@@ -1,7 +1,7 @@
 Extension: IDMPAuthorisedDoseForm
-Id: idmp-authoriseddoseform
-Title: "IDMP Authorised Dose Form"
-Description: "Extension for representing the authorised dose form"
+Id: authoriseddoseform
+Title: "IDMP Authorized Dose Form"
+Description: "Extension for representing the authorized dose form"
 
 * valueCodeableConcept.coding 1..
 * valueCodeableConcept.coding ^slicing.discriminator[+].type = #value
@@ -10,5 +10,5 @@ Description: "Extension for representing the authorised dose form"
 * valueCodeableConcept.coding contains 
     Swissmedic 0..1
 * valueCodeableConcept.coding[Swissmedic].system 1..
-* valueCodeableConcept.coding[Swissmedic].system = $Swissmedic-AuthorizedDoseForm
+* valueCodeableConcept.coding[Swissmedic].system = $Swissmedic-AuthorisedDoseFormVS
 * valueCodeableConcept.coding[Swissmedic].code 1..
