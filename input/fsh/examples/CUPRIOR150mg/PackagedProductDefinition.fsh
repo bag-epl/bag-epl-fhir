@@ -39,7 +39,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorageVS#NO30 "Nicht über 30°C lagern"
 
-* packaging.containedItem[+].item.reference = Reference(MI-Trientini-tetrahydrochloridum-150mg-Tablet)
+* packaging.containedItem[+].item.reference = Reference(MI-Trientinum-150mg-Filmtabletten)
 * packaging.containedItem[=].amount.value = 72
 * packaging.containedItem[=].amount.unit = "Tablet"
 * packaging.containedItem[=].amount.system = $Swissmedic-PackageItemContainerTypeVS

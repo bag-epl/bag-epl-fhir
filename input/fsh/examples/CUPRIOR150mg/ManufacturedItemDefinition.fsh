@@ -1,8 +1,8 @@
 // Manufactured Item
-Instance: MI-Trientini-150mg-Filmtabletten
+Instance: MI-Trientinum-150mg-Filmtabletten
 InstanceOf: IDMPManufacturedItemDefinition
 Usage: #example
-Title: "MI Trientini-tetrahydrochloridum-150mg-Tablet"
+Title: "MI Trientinum-150mg-Tablet"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a ManufacturedItemDefinition (Manufactured Item)"
 * status = #active
 

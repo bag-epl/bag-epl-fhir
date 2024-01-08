@@ -1,4 +1,4 @@
-Instance: Cuprior-150mg-Tablet
+Instance: Trientinum-150mg-Tablet
 InstanceOf: IDMPMedicinalProductDefinition
 Usage: #example
 Title: "CUPRIOR Filmtabl 150 mg 72 Stk"

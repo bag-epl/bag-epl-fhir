@@ -1,8 +1,8 @@
 // Pharmaceutical Product
-Instance: PhP-Trientini-150mg-Tablet
+Instance: PhP-Trientinum-150mg-Tablet
 InstanceOf: IDMPAdministrableProductDefinition
 Usage: #example
-Title: "PhP Trientini-tetrahydrochloridum-150mg-Tablet"
+Title: "PhP Trientinum-150mg-Tablet"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an AdministrableProductDefinition (Pharmaceutical Product)"
 // n/a
 * identifier.system = $PhPID

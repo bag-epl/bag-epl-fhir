@@ -46,7 +46,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * identifier.value = "68291002"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
-* subject = Reference(PMP-Trientini-tetrahydrochloridum-150mg-Tablet) // PackagedProductDefinition
+* subject = Reference(PMP-Trientinum-150mg-Filmtabletten) // PackagedProductDefinition
 
 // Marketing Authorisation.Country
 * region = $country#CH "Switzerland"

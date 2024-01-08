@@ -9,7 +9,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(MedicinalProductDefinition, Cuprior-150mg-Tablet)
+  * insert bundleEntry(MedicinalProductDefinition, Trientinum-150mg-Tablet)
 * entry[+]
   * insert bundleEntry(DocumentReference, DocRef-FI-Cuprior)
 * entry[+]
@@ -19,8 +19,8 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(RegulatedAuthorisation, MA-67719001)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefiniton, MI-Trientini-150mg-Filmtabletten) 
+  * insert bundleEntry(ManufacturedItemDefiniton, MI-Trientinum-150mg-Filmtabletten) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Trientini-150mg-Tablet)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Trientinum-150mg-Tablet)
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10061091)

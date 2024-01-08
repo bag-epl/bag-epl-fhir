@@ -8,7 +8,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalParticulars-
 * type = #indication
 
 // (the link between the IDMP class and Medicinal Product)
-* subject = Reference(Trientini-tetrahydrochloridum-150mg-Tablet) 
+* subject = Reference(Trientinum-150mg-Tablet) 
 
 // Therapeutic Indication.Indication as "Disease / Symptom / Procedure", and Therapeutic Indication.Indication Text
 * indication.diseaseSymptomProcedure.concept = $meddra#10061091 "Copper metabolism disorder"
