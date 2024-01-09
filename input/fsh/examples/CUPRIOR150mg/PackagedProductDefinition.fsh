@@ -8,8 +8,8 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * identifier[+].system = "http://swissmedic.ch/ig/idmp/NamingSystem/PCID"
 * identifier[=].value = "CH-7640109110007-6771901-001"
 
-//* identifier[+].system = $gtin
-//* identifier[=].value = "7680677190018"
+* identifier[+].system = $gtin
+* identifier[=].value = "7680677190018"
 
 // (the link from Packaged Medicinal Product to Medicinal Product)
 * packageFor = Reference(Trientinum-150mg-Tablet)

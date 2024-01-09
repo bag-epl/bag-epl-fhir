@@ -15,8 +15,7 @@ Description: "Profile of the Ingredient resource for representing the material u
 * role.coding ^slicing.discriminator.path = "system"
 * role.coding ^slicing.rules = #open
 * role.coding contains 
-    HCI 0..1 and
-    Swissmedic 0..1
+     Swissmedic 0..1
 * role.coding[Swissmedic].system 1..
 * role.coding[Swissmedic].system = $Swissmedic-IngredientRoleVS (exactly)
 * role.coding[Swissmedic].code 1..

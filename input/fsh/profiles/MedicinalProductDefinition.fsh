@@ -11,7 +11,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * identifier.system = $MPID // Vorschlag für Swissmedic Naming System
 * identifier.value 1..
 
-// * type
+// * domain
 
 * domain.coding 1..
 * domain.coding ^slicing.discriminator[+].type = #value
@@ -23,9 +23,9 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * domain.coding[Swissmedic].system = $Swissmedic-DomainVS
 * domain.coding[Swissmedic].code 1..
 
-//* extension contains IDMPAuthorizedDoseForm named authorizedDoseForm 0..1
+* extension contains IDMPAuthorizedDoseForm named authorizedDoseForm 0..1
 
-* combinedPharmaceuticalDoseForm.coding 1..
+* combinedPharmaceuticalDoseForm.coding 0..
 * combinedPharmaceuticalDoseForm.coding ^slicing.discriminator[+].type = #value
 * combinedPharmaceuticalDoseForm.coding ^slicing.discriminator[=].path = "system"
 * combinedPharmaceuticalDoseForm.coding ^slicing.rules = #open
@@ -47,7 +47,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * legalStatusOfSupply.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyVS (exactly)
 * legalStatusOfSupply.coding[Swissmedic].code 1..
 
-* additionalMonitoringIndicator.coding 1..
+* additionalMonitoringIndicator.coding 0..1
 * additionalMonitoringIndicator.coding ^slicing.discriminator.type = #value
 * additionalMonitoringIndicator.coding ^slicing.discriminator.path = "system"
 * additionalMonitoringIndicator.coding ^slicing.rules = #open
@@ -57,7 +57,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * additionalMonitoringIndicator.coding[Swissmedic].system = $Swissmedic-AdditionalMonitoringIndicatorVS (exactly)
 * additionalMonitoringIndicator.coding[Swissmedic].code 1..
 
-* pediatricUseIndicator.coding 1..
+* pediatricUseIndicator.coding 0..1
 * pediatricUseIndicator.coding ^slicing.discriminator.type = #value
 * pediatricUseIndicator.coding ^slicing.discriminator.path = "system"
 * pediatricUseIndicator.coding ^slicing.rules = #open
@@ -72,7 +72,6 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * classification ^slicing.rules = #open
 * classification contains
     ATC 0..1 and
-    IT 0..1 and
     Heilmittelcode 0..1
 
 * classification[ATC].coding 1..
@@ -87,7 +86,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * marketingStatus.country = $country#CH
 
-* marketingStatus.status.coding 1..
+* marketingStatus.status.coding 0..1
 * marketingStatus.status.coding ^slicing.discriminator[+].type = #value
 * marketingStatus.status.coding ^slicing.discriminator[=].path = "system"
 * marketingStatus.status.coding ^slicing.rules = #open

@@ -8,6 +8,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleVS#WIRKS "Wirkstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceVS#SJ76Y07H5F "Trientinum"
 * substance[=].strength[+].presentationRatio[+].numerator = 150 'mg' "mg" 
+* substance[=].strength[=].presentationRatio[=].denominator = 1 '{Tablet}' "Tablet" 
 
 Instance: Mannitolum
 InstanceOf: IDMPIngredient

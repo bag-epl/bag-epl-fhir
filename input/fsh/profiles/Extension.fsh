@@ -1,5 +1,5 @@
-Extension: IDMPAuthorisedDoseForm
-Id: authoriseddoseform
+Extension: IDMPAuthorizedDoseForm
+Id: authorizedDoseForm
 Title: "IDMP Authorized Dose Form"
 Description: "Extension for representing the authorized dose form"
 

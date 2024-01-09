@@ -12,7 +12,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * domain.coding[Swissmedic] = $Swissmedic-DomainVS#HAM "Humanarzneimittel"
 
 // Authorised Pharmaceutical Dose Form
-//* extension[authorisedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseFormVS#10221000 "Filmtabletten"
+* extension[authorizedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseFormVS#10221000 "Filmtabletten"
 
 // Medicinal Product.Combined Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a

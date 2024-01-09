@@ -43,7 +43,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 
 // Marketing Authorisation.Marketing Authorisation Number
 * identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
-* identifier.value = "68291002"
+* identifier.value = "67719001"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
 * subject = Reference(PMP-Trientinum-150mg-Filmtabletten) // PackagedProductDefinition
