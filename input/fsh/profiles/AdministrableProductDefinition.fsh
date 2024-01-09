@@ -25,7 +25,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * administrableDoseForm.coding contains 
     Swissmedic 1..1
 * administrableDoseForm.coding[Swissmedic].system 1..
-* administrableDoseForm.coding[Swissmedic].system = $Swissmedic-AdministrableDoseFormVS
+* administrableDoseForm.coding[Swissmedic].system = $Swissmedic-AdministrableDoseForm
 * administrableDoseForm.coding[Swissmedic].code 1..
 
 // unit of presentation
@@ -36,7 +36,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * unitOfPresentation.coding contains 
     Swissmedic 1..1
 * unitOfPresentation.coding[Swissmedic].system 1..
-* unitOfPresentation.coding[Swissmedic].system = $Swissmedic-UnitOfPresentationVS
+* unitOfPresentation.coding[Swissmedic].system = $Swissmedic-UnitOfPresentation
 * unitOfPresentation.coding[Swissmedic].code 1..
 
 * producedFrom only Reference(IDMPManufacturedItemDefinition)
@@ -51,5 +51,5 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * routeOfAdministration.code.coding contains 
     Swissmedic 1..1
 * routeOfAdministration.code.coding[Swissmedic].system 1..
-* routeOfAdministration.code.coding[Swissmedic].system = $Swissmedic-RouteOfAdministrationVS
+* routeOfAdministration.code.coding[Swissmedic].system = $Swissmedic-RouteOfAdministration
 * routeOfAdministration.code.coding[Swissmedic].code 1..

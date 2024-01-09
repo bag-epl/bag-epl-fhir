@@ -17,7 +17,7 @@ Description: "Profile of the DocumentReference resource for representing profess
     Swissmedic 0..1
 * type.coding[Swissmedic] 
 * type.coding[Swissmedic].system 1..
-* type.coding[Swissmedic].system = $Swissmedic-AttachedDocumentTypeVS
+* type.coding[Swissmedic].system = $Swissmedic-AttachedDocumentType
 * type.coding[Swissmedic].code 1..
 
 * content.attachment.url 1..

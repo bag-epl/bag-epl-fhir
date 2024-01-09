@@ -9,10 +9,10 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * identifier[=].value = "CH-7640109110007-6771901"
 
 // n/a -> FHIR: If this medicine applies to human or veterinary uses.
-* domain.coding[Swissmedic] = $Swissmedic-DomainVS#HAM "Humanarzneimittel"
+* domain.coding[Swissmedic] = $Swissmedic-Domain#HAM "Humanarzneimittel"
 
 // Authorised Pharmaceutical Dose Form
-* extension[authorizedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseFormVS#10221000 "Filmtabletten"
+* extension[authorizedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseForm#10221000 "Filmtabletten"
 
 // Medicinal Product.Combined Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a
@@ -20,17 +20,17 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * indication = "Cuprior wird angewendet zur Behandlung von Morbus Wilson bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter mit Unverträglichkeit gegenüber einer D-Penicillamin-Therapie."
 
 // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyVS#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupply#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Medicinal Product.Additional Monitoring Indicator
 // * additionalMonitoringIndicator = $Swissmedic-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
 
 // Medicinal Product.Pediatric Use Indicator
-* pediatricUseIndicator = $Swissmedic-PediatricUseIndicatorVS#No "Nein"
+* pediatricUseIndicator = $Swissmedic-PediatricUseIndicator#No "Nein"
 
 // Product Classification.Value
 * classification[+] = $atc#L01EX13
-* classification[+] = $Swissmedic-HeilmittelcodeVS#S "Synthetika"
+* classification[+] = $Swissmedic-Heilmittelcode#S "Synthetika"
 
 // Marketing Status
 //* marketingStatus[+].country = $country#CH "Switzerland"

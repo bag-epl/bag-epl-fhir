@@ -27,7 +27,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * legalStatusOfSupply.code.coding contains 
     Swissmedic 0..1
 * legalStatusOfSupply.code.coding[Swissmedic].system 1..
-* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyVS (exactly)
+* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupply (exactly)
 * legalStatusOfSupply.code.coding[Swissmedic].code 1..
 
 * marketingStatus.country = $country#CH
@@ -39,7 +39,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * marketingStatus.status.coding contains 
         Swissmedic 0..1
 * marketingStatus.status.coding[Swissmedic].system 1..
-* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusVS
+* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatus
 * marketingStatus.status.coding[Swissmedic].code 1..
 
 * statusDate
@@ -51,7 +51,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.type.coding contains 
     Swissmedic 0..1 
 * packaging.type.coding[Swissmedic].system 1..
-* packaging.type.coding[Swissmedic].system = $Swissmedic-PackageItemContainerTypeVS (exactly)
+* packaging.type.coding[Swissmedic].system = $Swissmedic-PackageItemContainerType (exactly)
 * packaging.type.coding[Swissmedic].code 1..
 
 * packaging.quantity ^short = "The quantity of this level of packaging in the package that contains it (with the outermost level being 1)."
@@ -69,7 +69,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding contains 
     Swissmedic 0..1
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system 1..
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorageVS
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorage
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].code 1..
 
 * packaging.containedItem.item only CodeableReference(IDMPManufacturedItemDefinition or IDMPPackagedProductDefinition)
