@@ -38,10 +38,6 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * marketingStatus.status.coding ^slicing.rules = #open
 * marketingStatus.status.coding contains 
         Swissmedic 0..1
-/* marketingStatus.status.coding[HCI] from HCI_MarketingStatus (required) 
-* marketingStatus.status.coding[HCI].system 0..1
-* marketingStatus.status.coding[HCI].system = $HCI-MarketingStatus
-* marketingStatus.status.coding[HCI].code 0..1 */
 * marketingStatus.status.coding[Swissmedic].system 1..
 * marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusVS
 * marketingStatus.status.coding[Swissmedic].code 1..
