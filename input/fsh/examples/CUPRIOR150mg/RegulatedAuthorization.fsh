@@ -17,7 +17,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * region = $country#CH "Switzerland"
 
 // Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusVS#Z "zugelassen" 
+* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatus#Z "zugelassen" 
 
 // Marketing Authorisation.Authorisation Status Date
 * statusDate = "2021-01-21" 
@@ -58,7 +58,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * validityPeriod.start = "2021-01-21"
 
 // Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusVS#Z "zugelassen" 
+* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatus#Z "zugelassen" 
 
 // Marketing Authorisation.Marketing Authorisation Holder (Organisation)
 * holder.reference = "#holder-Curatis-AG"

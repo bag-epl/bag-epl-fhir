@@ -5,15 +5,15 @@ Title: "IDMP PackagedProductDefinition"
 Description: "Profile of the PackagedProductDefinition resource for representing a medically related item or items, in a container or package."
 * . ^short = "IDMP PackagedProductDefinition"
 
-* identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "$this"
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains
     PCID 0..1 and
     GTIN 0..1 
-* identifier[PCID] ^patternIdentifier.system = $PCID
+* identifier[PCID].system = $PCID
 * identifier[PCID].value 1..
-* identifier[GTIN] ^patternIdentifier.system = "urn:oid:2.51.1.1"
+* identifier[GTIN].system = "urn:oid:2.51.1.1"
 * identifier[GTIN].value 1..
 
 * packageFor only Reference(IDMPMedicinalProductDefinition)

@@ -1,1 +1,4 @@
 == Suppressed Messages ==
+
+# Slices on codings with given CodeSystems
+Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)

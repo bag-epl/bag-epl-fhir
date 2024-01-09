@@ -23,7 +23,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * type.coding contains 
     Swissmedic 0..1
 * type.coding[Swissmedic].system 1..
-* type.coding[Swissmedic].system = $Swissmedic-AuthorisationStatusVS (exactly)
+* type.coding[Swissmedic].system = $Swissmedic-AuthorisationStatus (exactly)
 * type.coding[Swissmedic].code 1..
 
 * status.coding 1..
@@ -33,7 +33,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * status.coding contains 
     Swissmedic 0..1
 * status.coding[Swissmedic].system 1..
-* status.coding[Swissmedic].system = $Swissmedic-AuthorisationStatusVS (exactly)
+* status.coding[Swissmedic].system = $Swissmedic-AuthorisationStatus (exactly)
 * status.coding[Swissmedic].code 1..
 
 * statusDate

@@ -2,6 +2,8 @@ Extension: IDMPAuthorizedDoseForm
 Id: authorizedDoseForm
 Title: "IDMP Authorized Dose Form"
 Description: "Extension for representing the authorized dose form"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
 
 * valueCodeableConcept.coding 1..
 * valueCodeableConcept.coding ^slicing.discriminator[+].type = #value
