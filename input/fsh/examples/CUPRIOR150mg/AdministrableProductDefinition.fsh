@@ -10,5 +10,14 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an AdministrableProduct
 
 * status = #active
 
+// (link to Medicinal Product)
+* formOf = Reference(Trientinum-150mg-Tablet)
+
+// Pharmaceutical Product.Administrable Dose Form
+* administrableDoseForm.coding[Swissmedic] = $Swissmedic-AdministrableDoseFormVS#10221000 "Filmtablette"
+
+// Pharmaceutical Product.Unit of Presentation
+* unitOfPresentation.coding[Swissmedic] = $Swissmedic-UnitOfPresentationVS#15054000 "Tablette"
+
 // Route of Administration.Route of Administration
 * routeOfAdministration.code = $Swissmedic-RouteOfAdministrationVS#20053000 "Oral use"
