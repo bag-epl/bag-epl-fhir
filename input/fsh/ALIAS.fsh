@@ -42,12 +42,11 @@ Alias:  $FHIR-Domain =                                       http://hl7.org/fhir
 // Section Yellow - Medicinal Product
 
 // Swissmedic
-Alias:  $Swissmedic-Domain =                                 https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-Domain //Provisorisch
-Alias:  $Swissmedic-DomainVS =                               https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-Domain //Provisorisch
-Alias:  $Swissmedic-AuthorisedDoseForm =                     https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-AuthorisedDoseForm //Provisorisch
+Alias:  $Swissmedic-Domain =                                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-ePL-Domain //Provisorisch
+Alias:  $Swissmedic-DomainVS =                               http://fhir.ch/ig/ch-epl/ValueSet/ch-ePL-Domain //Provisorisch
+Alias:  $Swissmedic-AuthorisedDoseForm =                     http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-AuthorisedDoseForm //Provisorisch
 Alias:  $Swissmedic-AuthorisedDoseFormVS =                   https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-AuthorisedDoseForm //Provisorisch
-Alias:  $Swissmedic-CombinedPharmaceuticalDoseForm =         https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-CombinedPharmaceuticalDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.3
-Alias:  $Swissmedic-CombinedPharmaceuticalDoseFormVS =       https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-CombinedPharmaceuticalDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.3
+Alias:  $Swissmedic-CombinedPharmaceuticalDoseForm =         urn:oid:0.4.0.127.0.16.1.1.2.3
 Alias:  $Swissmedic-AdditionalMonitoringIndicator =          https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-AdditionalMonitoringIndicator //Provisorisch
 Alias:  $Swissmedic-AdditionalMonitoringIndicatorVS =        https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-AdditionalMonitoringIndicator //Provisorisch
 Alias:  $Swissmedic-PediatricUseIndicator =                  https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-PediatricUseIndicator //Provisorisch
@@ -124,8 +123,7 @@ Alias:  $Swissmedic-Scoring =                                https://fhir.ch/ig/
 Alias:  $Swissmedic-ScoringVS =                              https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-Scoring //Provisorisch
 Alias:  $Swissmedic-ManufacturedDoseForm =                   https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ManufacturedDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.2 
 Alias:  $Swissmedic-ManufacturedDoseFormVS =                 https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ManufacturedDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.2 
-Alias:  $Swissmedic-UnitOfPresentation =                     https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ManufacturedDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.11 
-Alias:  $Swissmedic-UnitOfPresentationVS =                   https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ManufacturedDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.11 
+Alias:  $Swissmedic-UnitOfPresentation =                     urn:oid:0.4.0.127.0.16.1.1.2.3 
 
 // BAG
 Alias:  $BAG-PackagingStatus =                               https://fhir.ch/ig/ch-epl/CodeSystem/ch-bag-PackagingStatus 

@@ -21,14 +21,3 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an AdministrableProduct
 
 // Route of Administration.Route of Administration
 * routeOfAdministration.code = $Swissmedic-RouteOfAdministration#20053000 "Oral use"
-
-// Pharmaceutical Product.Ingredient 
-//* contained[+] = Trientinum150
-//* contained[+] = Mannitolum
-//* contained[+] = SilicaColloidalisAnhydrica
-//* contained[+] = GlyceroliDibehenas
-//* contained[+] = PolyAlcoholVinylicus
-//* contained[+] = Talcum
-//* contained[+] = TitaniiDioxidumE171
-//* contained[+] = GlycerylIsostearate
-//* contained[+] = YellowLakeE172

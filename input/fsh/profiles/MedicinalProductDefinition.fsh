@@ -25,6 +25,10 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * extension contains IDMPAuthorizedDoseForm named authorizedDoseForm 0..1
 
+//* extension contains
+//    IDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
+//    IDMPwasauchimmer named sowieso
+* combinedPharmaceuticalDoseForm from EdqmCombinedPharmaceuticalDoseForm
 * combinedPharmaceuticalDoseForm.coding 0..
 * combinedPharmaceuticalDoseForm.coding ^slicing.discriminator[+].type = #value
 * combinedPharmaceuticalDoseForm.coding ^slicing.discriminator[=].path = "system"
@@ -32,7 +36,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * combinedPharmaceuticalDoseForm.coding contains 
     EDQM 0..1
 * combinedPharmaceuticalDoseForm.coding[EDQM].system 1..
-* combinedPharmaceuticalDoseForm.coding[EDQM].system = $edqm
+* combinedPharmaceuticalDoseForm.coding[EDQM].system = $Swissmedic-CombinedPharmaceuticalDoseForm
 * combinedPharmaceuticalDoseForm.coding[EDQM].code 1..
 
 * indication ^short = "Description of indication(s) for this product"

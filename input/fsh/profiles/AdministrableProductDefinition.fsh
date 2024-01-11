@@ -29,6 +29,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * administrableDoseForm.coding[Swissmedic].code 1..
 
 // unit of presentation
+* unitOfPresentation from EdqmUnitOfPresentation
 * unitOfPresentation.coding 1..
 * unitOfPresentation.coding ^slicing.discriminator[+].type = #value
 * unitOfPresentation.coding ^slicing.discriminator[=].path = "system"
