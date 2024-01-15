@@ -26,3 +26,19 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a Bundle"
   * insert bundleEntry(ClinicalUseDefinition, IND-10061091)
 * entry[+]
   * insert bundleEntry(Ingredient, Trientinum150)
+* entry[+]
+  * insert bundleEntry(Ingredient, Mannitolum)
+* entry[+]
+  * insert bundleEntry(Ingredient, SilicaColloidalisAnhydrica)
+* entry[+]
+  * insert bundleEntry(Ingredient, GlyceroliDibehenas)
+* entry[+]
+  * insert bundleEntry(Ingredient, PolyAlcoholVinylicus)
+* entry[+]
+  * insert bundleEntry(Ingredient, Talcum)
+* entry[+]
+  * insert bundleEntry(Ingredient, TitaniiDioxidumE171)
+* entry[+]
+  * insert bundleEntry(Ingredient, GlycerylIsostearate)
+* entry[+]
+  * insert bundleEntry(Ingredient, YellowLakeE172)

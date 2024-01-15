@@ -52,4 +52,5 @@ parameters:
   excludettl: true
   special-url:
     - urn:oid:0.4.0.127.0.16.1.1.2.3 # edqm-combined-pharmaceutical-dose-form
+    - urn:oid:0.4.0.127.0.16.1.1.2.7 # edqm-packaging
     - urn:oid:0.4.0.127.0.16.1.1.2.11 # edqm-unit-of-presentation

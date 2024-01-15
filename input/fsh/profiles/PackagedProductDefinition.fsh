@@ -44,6 +44,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 
 * statusDate
 
+* packaging.type from EdqmPackaging
 * packaging.type.coding 1..
 * packaging.type.coding ^slicing.discriminator.type = #value
 * packaging.type.coding ^slicing.discriminator.path = "system"

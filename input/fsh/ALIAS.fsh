@@ -103,12 +103,9 @@ Alias:  $Swissmedic-IntendedEffectVS =                       https://fhir.ch/ig/
 // Section blue - Packaging
 
 // Swissmedic
-Alias:  $Swissmedic-PackSizeUnit =                           https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-PackSizeUnit //Provisorisch EDQM urn:oid:0.4.0.127.0.16.1.1.2.11
-Alias:  $Swissmedic-PackSizeUnitVS =                         https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-PackSizeUnit //Provisorisch EDQM urn:oid:0.4.0.127.0.16.1.1.2.11
 Alias:  $Swissmedic-DataCarrierIdentifierSystem =            https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-DataCarrierIdentifierSystem //Provisorisch GS1 urn:oid:2.51.1.1
 Alias:  $Swissmedic-DataCarrierIdentifierSystemVS =          https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-DataCarrierIdentifierSystem //Provisorisch GS1 urn:oid:2.51.1.1
-Alias:  $Swissmedic-PackageItemContainerType =               https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-PackageItemContainerType //Provisorisch EDQM urn:oid:0.4.0.127.0.16.1.1.2.7
-Alias:  $Swissmedic-PackageItemContainerTypeVS =             https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-PackageItemContainerType //Provisorisch EDQM urn:oid:0.4.0.127.0.16.1.1.2.7
+Alias:  $Swissmedic-PackageItemContainerType =               urn:oid:0.4.0.127.0.16.1.1.2.7
 Alias:  $Swissmedic-PackageCharacteristics =                 https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-PackageCharacteristics //Provisorisch 
 Alias:  $Swissmedic-PackageCharacteristicsVS =               https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-PackageCharacteristics //Provisorisch
 Alias:  $Swissmedic-PackageComponentType =                   https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-PackageComponentType //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.9
@@ -123,7 +120,7 @@ Alias:  $Swissmedic-Scoring =                                https://fhir.ch/ig/
 Alias:  $Swissmedic-ScoringVS =                              https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-Scoring //Provisorisch
 Alias:  $Swissmedic-ManufacturedDoseForm =                   https://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ManufacturedDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.2 
 Alias:  $Swissmedic-ManufacturedDoseFormVS =                 https://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ManufacturedDoseForm //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.2 
-Alias:  $Swissmedic-UnitOfPresentation =                     urn:oid:0.4.0.127.0.16.1.1.2.3 
+Alias:  $Swissmedic-UnitOfPresentation =                     urn:oid:0.4.0.127.0.16.1.1.2.11 
 
 // BAG
 Alias:  $BAG-PackagingStatus =                               https://fhir.ch/ig/ch-epl/CodeSystem/ch-bag-PackagingStatus 
