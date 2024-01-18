@@ -3,13 +3,17 @@ Id: edqm-unit-of-presentation
 Title: "EDQM - Unit of Presentation"
 Description: "Value Set for the Unit of Presentation from EDQM used by Swissmedic"
 * ^experimental = false
-* include codes from system $Swissmedic-UnitOfPresentation
+* include codes from system $Swissmedic-UnitOfPresentationCS
+//* identifier.use = #official
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.11"
 
 CodeSystem: EdqmUnitOfPresentation
 Id: edqm-unit-of-presentation
 Title: "EDQM - Unit of Presentation"
 Description: "EDQM - Standard Terms used in Switzerland (aggregations of codes of ValueSets Unit of Presentation, see original codes system defined in https://standardterms.edqm.eu/#)"
-* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.11"
+//* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.1" 
+// todo: https://github.com/hl7ch/ch-emed/issues/253 - OID kann momentan nicht verwendet werden, da hinter dem EMED Pfad der Content vom Code System nicht komplett ist.
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

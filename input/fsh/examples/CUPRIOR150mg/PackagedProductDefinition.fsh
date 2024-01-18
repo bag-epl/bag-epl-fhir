@@ -28,7 +28,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * statusDate = "2005-04-10" // Fantasiedatum  
 
 // Package Item (Container).Package Item (Container) Type
-* packaging.type.coding[Swissmedic] = $Swissmedic-PackageItemContainerType#30007000 "Blister"
+* packaging.type.coding[Swissmedic] = $Swissmedic-PackageItemContainerTypeCS#30007000 "Blister"
 // Package Item (Container).Package Item (Container) Quantity
 * packaging.quantity = 72
 
@@ -41,5 +41,5 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * packaging.containedItem[+].item.reference = Reference(MI-Trientinum-150mg-Filmtabletten)
 * packaging.containedItem[=].amount.value = 6
 * packaging.containedItem[=].amount.unit = "Blister"
-* packaging.containedItem[=].amount.system = $Swissmedic-PackageItemContainerType
+* packaging.containedItem[=].amount.system = $Swissmedic-PackageItemContainerTypeCS
 * packaging.containedItem[=].amount.code = #30007000

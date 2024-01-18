@@ -44,7 +44,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 
 * statusDate
 
-* packaging.type from EdqmPackaging
+* packaging.type from EdqmPackaging (required)
 * packaging.type.coding 1..
 * packaging.type.coding ^slicing.discriminator.type = #value
 * packaging.type.coding ^slicing.discriminator.path = "system"
@@ -52,7 +52,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.type.coding contains 
     Swissmedic 0..1 
 * packaging.type.coding[Swissmedic].system 1..
-* packaging.type.coding[Swissmedic].system = $Swissmedic-PackageItemContainerType (exactly)
+* packaging.type.coding[Swissmedic].system = $Swissmedic-PackageItemContainerTypeCS
 * packaging.type.coding[Swissmedic].code 1..
 
 * packaging.quantity ^short = "The quantity of this level of packaging in the package that contains it (with the outermost level being 1)."

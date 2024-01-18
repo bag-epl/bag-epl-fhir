@@ -3,13 +3,16 @@ Id: edqm-packaging
 Title: "EDQM - Packaging"
 Description: "Value Set for the Packaging from EDQM used by Swissmedic"
 * ^experimental = false
-* include codes from system $Swissmedic-PackageItemContainerType
+* include codes from system $Swissmedic-PackageItemContainerTypeCS
+//* identifier.use = #official
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.7"
 
 CodeSystem: EdqmPackaging
 Id: edqm-packaging
 Title: "EDQM - Packaging"
 Description: "EDQM - Standard Terms used in Switzerland (aggregations of codes of ValueSets Packaging, see original codes system defined in https://standardterms.edqm.eu/#)"
-* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.7"
+//* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.1"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

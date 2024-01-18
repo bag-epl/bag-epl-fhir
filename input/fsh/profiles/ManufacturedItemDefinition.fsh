@@ -9,6 +9,7 @@ Description: "Profile of the ManufacturedItemDefinition resource for representin
 * status
 
 // manufactured dose form
+* manufacturedDoseForm from $Swissmedic-ManufacturedDoseFormVS (required)
 * manufacturedDoseForm.coding 1..
 * manufacturedDoseForm.coding ^slicing.discriminator[+].type = #value
 * manufacturedDoseForm.coding ^slicing.discriminator[=].path = "system"
@@ -16,7 +17,7 @@ Description: "Profile of the ManufacturedItemDefinition resource for representin
 * manufacturedDoseForm.coding contains 
     Swissmedic 0..1
 * manufacturedDoseForm.coding[Swissmedic].system 1..
-* manufacturedDoseForm.coding[Swissmedic].system = $Swissmedic-ManufacturedDoseForm
+* manufacturedDoseForm.coding[Swissmedic].system = $Swissmedic-ManufacturedDoseFormCS
 * manufacturedDoseForm.coding[Swissmedic].code 1..
 
 // unit of presentation
@@ -27,7 +28,7 @@ Description: "Profile of the ManufacturedItemDefinition resource for representin
 * unitOfPresentation.coding contains 
     Swissmedic 1..1
 * unitOfPresentation.coding[Swissmedic].system 1..
-* unitOfPresentation.coding[Swissmedic].system = $Swissmedic-UnitOfPresentation
+* unitOfPresentation.coding[Swissmedic].system = $Swissmedic-UnitOfPresentationCS
 * unitOfPresentation.coding[Swissmedic].code 1..
 
 // TODO: definieren other characteristics

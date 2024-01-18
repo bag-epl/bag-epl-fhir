@@ -1,15 +1,18 @@
-ValueSet: EdqmCombinedPharmaceuticalDoseForm
+ValueSet: EdqmCombinedPharmaceuticalDoseFormVS
 Id: edqm-combined-pharmaceutical-dose-form
 Title: "EDQM - Combined Pharmaceutical Dose Form"
 Description: "Value Set for the Combined Pharmaceutical Dose Froms from EDQM used by Swissmedic"
 * ^experimental = false
-* include codes from system $Swissmedic-CombinedPharmaceuticalDoseForm
+* include codes from system EdqmCombinedPharmaceuticalDoseFormCS
+//* identifier.use = #official
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.3"
 
-CodeSystem: EdqmCombinedPharmaceuticalDoseForm
+CodeSystem: EdqmCombinedPharmaceuticalDoseFormCS
 Id: edqm-combined-pharmaceutical-dose-form
 Title: "EDQM - Combined Pharmaceutical Dose Form"
 Description: "EDQM - Standard Terms used in Switzerland (aggregations of codes of ValueSets Combined Pharmaceutical Dose Form, see original codes system defined in https://standardterms.edqm.eu/#)"
-* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.3"
+//* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.1"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

@@ -7,7 +7,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a ManufacturedItemDefin
 * status = #active
 
 // 	Manufactured Item.Manufactured Dose Form
-* manufacturedDoseForm.coding[Swissmedic] = $Swissmedic-ManufacturedDoseForm#10221000 "Filmtablette"
+* manufacturedDoseForm.coding[Swissmedic] = $Swissmedic-ManufacturedDoseFormCS#10221000 "Filmtablette"
 
 // Manufactured Item.Unit of Presentation
-* unitOfPresentation.coding[Swissmedic] = $Swissmedic-UnitOfPresentation#15054000 "Tablet"
+* unitOfPresentation.coding[Swissmedic] = $Swissmedic-UnitOfPresentationCS#15054000 "Tablet"
