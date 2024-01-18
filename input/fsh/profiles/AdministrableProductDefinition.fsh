@@ -26,11 +26,11 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * administrableDoseForm.coding contains 
     Swissmedic 1..1
 * administrableDoseForm.coding[Swissmedic].system 1..
-* administrableDoseForm.coding[Swissmedic].system = $Swissmedic-AdministrableDoseFormCS
+* administrableDoseForm.coding[Swissmedic].system = $edqm
 * administrableDoseForm.coding[Swissmedic].code 1..
 
 // unit of presentation
-* unitOfPresentation from EdqmUnitOfPresentation (required)
+* unitOfPresentation from EdqmUnitOfPresentationVS (required)
 * unitOfPresentation.coding 1..
 * unitOfPresentation.coding ^slicing.discriminator[+].type = #value
 * unitOfPresentation.coding ^slicing.discriminator[=].path = "system"
@@ -38,7 +38,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * unitOfPresentation.coding contains 
     Swissmedic 1..1
 * unitOfPresentation.coding[Swissmedic].system 1..
-* unitOfPresentation.coding[Swissmedic].system = $Swissmedic-UnitOfPresentationCS
+* unitOfPresentation.coding[Swissmedic].system = $edqm
 * unitOfPresentation.coding[Swissmedic].code 1..
 
 * producedFrom only Reference(IDMPManufacturedItemDefinition)
@@ -53,5 +53,5 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * routeOfAdministration.code.coding contains 
     Swissmedic 1..1
 * routeOfAdministration.code.coding[Swissmedic].system 1..
-* routeOfAdministration.code.coding[Swissmedic].system = $Swissmedic-RouteOfAdministrationCS
+* routeOfAdministration.code.coding[Swissmedic].system = $edqm
 * routeOfAdministration.code.coding[Swissmedic].code 1..

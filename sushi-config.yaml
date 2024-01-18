@@ -7,7 +7,7 @@ id: ch.fhir.ig.ch-epl
 canonical: http://fhir.ch/ig/ch-epl
 name: CH_EPL
 title: "CH EPL (R5)"
-description: Implementation Guide CH EPL (R5) for ...
+description: Implementation Guide CH EPL (R5)
 status: draft
 license: CC0-1.0
 copyright: CC0-1.0

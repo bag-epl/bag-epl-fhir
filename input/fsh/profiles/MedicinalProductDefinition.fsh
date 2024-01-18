@@ -36,7 +36,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * combinedPharmaceuticalDoseForm.coding contains 
     EDQM 0..1
 * combinedPharmaceuticalDoseForm.coding[EDQM].system 1..
-* combinedPharmaceuticalDoseForm.coding[EDQM].system = $Swissmedic-CombinedPharmaceuticalDoseFormCS
+* combinedPharmaceuticalDoseForm.coding[EDQM].system = $edqm
 * combinedPharmaceuticalDoseForm.coding[EDQM].code 1..
 
 * indication ^short = "Description of indication(s) for this product"

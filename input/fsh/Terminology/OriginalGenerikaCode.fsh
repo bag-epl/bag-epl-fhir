@@ -10,7 +10,7 @@ Id: edqm-original-generica-code
 Title: "CH ePL - Original Generica Code"
 Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Original Generica Code"
 * ^experimental = false
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^content = #complete
 * #G "Generika"
 * #O "Original"
