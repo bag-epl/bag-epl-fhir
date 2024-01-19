@@ -70,8 +70,8 @@ Alias:  $Swissmedic-AttachedDocumentTypeVS =                 http://fhir.ch/ig/c
 
 // BAG
 Alias:  $ePL-OriginalGenericCodeCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-original-generic-code 
-Alias:  $BAG-StatusMedicinalProduct =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-bag-OriginalGenericCode 
-Alias:  $BAG-StatusMedicinalProductVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-bag-OriginalGenericCode 
+Alias:  $ePL-StatusPraeparateCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-status-medicinal-product 
+Alias:  $ePL-StatusPraeparateVS =                            http://fhir.ch/ig/ch-epl/ValueSet/ch-epl-foph-status-medicinal-product 
 
 // Section Green - Marketing Authorisations
 

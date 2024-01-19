@@ -17,7 +17,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an AdministrableProduct
 * administrableDoseForm.coding[Swissmedic] = $Swissmedic-AdministrableDoseFormCS#10221000 "Filmtablette"
 
 // Pharmaceutical Product.Unit of Presentation
-* unitOfPresentation.coding[Swissmedic] = $Swissmedic-UnitOfPresentationCS#15054000 "Tablet"
+* unitOfPresentation.coding[Swissmedic] = $Swissmedic-UnitOfPresentationCS#15054000 "Tablette"
 
 // Route of Administration.Route of Administration
 * routeOfAdministration.code = $Swissmedic-RouteOfAdministrationCS#20053000 "Oral use"
