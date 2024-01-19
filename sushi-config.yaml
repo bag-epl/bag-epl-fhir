@@ -8,7 +8,7 @@ canonical: http://fhir.ch/ig/ch-epl
 name: CH_EPL
 title: "CH EPL (R5)"
 description: Implementation Guide CH EPL (R5)
-status: draft
+status: active
 license: CC0-1.0
 copyright: CC0-1.0
 # ignore information about deprecated item, see https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin
@@ -27,7 +27,7 @@ contact:
         value: https://www.bag.admin.ch/bag/en/home/das-bag/kontakt-standort.html
 
 dependencies:
-  ch.fhir.ig.ch-emed: 4.0.1
+#  ch.fhir.ig.ch-emed: 4.0.1
   hl7.terminology: 5.4.0
 
 pages:

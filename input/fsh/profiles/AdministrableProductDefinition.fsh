@@ -18,7 +18,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * formOf only Reference(IDMPMedicinalProductDefinition)
 
 // administrable dose form
-* administrableDoseForm from $Swissmedic-AdministrableDoseFormVS (required)
+* administrableDoseForm from EdqmPharmaceuticalDoseFormVS (required)
 * administrableDoseForm.coding 1..
 * administrableDoseForm.coding ^slicing.discriminator[+].type = #value
 * administrableDoseForm.coding ^slicing.discriminator[=].path = "system"
@@ -45,7 +45,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 
 // device reference
 // * device only Reference(IDMPDeviceDefinition)
-* routeOfAdministration.code from $Swissmedic-RouteOfAdministrationVS (required)
+* routeOfAdministration.code from EdqmRouteOfAdministrationVS (required)
 * routeOfAdministration.code.coding 1..
 * routeOfAdministration.code.coding ^slicing.discriminator[+].type = #value
 * routeOfAdministration.code.coding ^slicing.discriminator[=].path = "system"

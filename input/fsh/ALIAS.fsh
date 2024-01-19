@@ -80,7 +80,7 @@ Alias:  $Swissmedic-RegulatoryAuthorzationType =             http://fhir.ch/ig/c
 Alias:  $Swissmedic-RegulatoryAuthorzationTypeVS =           http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-RegulatoryAuthorsationType //Provisorisch
 Alias:  $Swissmedic-LegalStatusOfSupply =                    http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-LegalStatusOfSupply //Provisorisch
 Alias:  $Swissmedic-LegalStatusOfSupplyVS =                  http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-LegalStatusOfSupply //Provisorisch
-Alias:  $Swissmedic-AuthorisationStatus =                    http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-AuthorisationStatus //Provisorisch
+Alias:  $Swissmedic-AuthorisationStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-AuthorisationStatus //Provisorisch
 Alias:  $Swissmedic-AuthorisationStatusVS =                  http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-AuthorisationStatus //Provisorisch
 Alias:  $Swissmedic-ProcedureType =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ProcedureType //Provisorisch
 Alias:  $Swissmedic-ProcedureTypeVS =                        http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ProcedureType //Provisorisch
@@ -111,14 +111,14 @@ Alias:  $Swissmedic-PackageComponentType =                   http://fhir.ch/ig/c
 Alias:  $Swissmedic-PackageComponentTypeVS =                 http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-PackageComponentType //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.9
 Alias:  $Swissmedic-ShelfLifeType =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ShelfLifeType //Provisorisch
 Alias:  $Swissmedic-ShelfLifeTypeVS =                        http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ShelfLifeType //Provisorisch
-Alias:  $Swissmedic-ShelfLifeTimePeriodUnit =                http://unitsofmeasure.org 
+// Alias:  $Swissmedic-ShelfLifeTimePeriodUnit =                http://unitsofmeasure.org 
 Alias:  $Swissmedic-ShelfLifeTimePeriodUnitVS =              http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ShelfLifeTimePeriodUnit //Provisorisch
 Alias:  $Swissmedic-SpecialPrecautionsForStorage =           http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-SpecialPrecautionsForStorage //Provisorisch
 Alias:  $Swissmedic-SpecialPrecautionsForStorageVS =         http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-SpecialPrecautionsForStorage //Provisorisch
 Alias:  $Swissmedic-Scoring =                                http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-Scoring //Provisorisch
 Alias:  $Swissmedic-ScoringVS =                              http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-Scoring //Provisorisch
-Alias:  $Swissmedic-ManufacturedDoseFormCS =                 urn:oid:0.4.0.127.0.16.1.1.2.1
-Alias:  $Swissmedic-ManufacturedDoseFormVS =                 http://fhir.ch/ig/ch-emed/ValueSet/edqm-pharmaceuticaldoseform 
+// Alias:  $Swissmedic-ManufacturedDoseFormCS =                 urn:oid:0.4.0.127.0.16.1.1.2.1
+// Alias:  $Swissmedic-ManufacturedDoseFormVS =                 http://fhir.ch/ig/ch-emed/ValueSet/edqm-pharmaceuticaldoseform 
 // Alias:  $Swissmedic-UnitOfPresentationCS =                   http://fhir.ch/ig/ch-epl/CodeSystem/edqm-unit-of-presentation
 
 // BAG
@@ -145,11 +145,11 @@ Alias:  $Swissmedic-StrengthPresentationUnitVS =             http://fhir.ch/ig/c
 
 // Swissmedic
 // Alias:  $Swissmedic-RouteOfAdministrationCS =                urn:oid:0.4.0.127.0.16.1.1.2.1
-Alias:  $Swissmedic-RouteOfAdministrationVS =                http://fhir.ch/ig/ch-emed/ValueSet/edqm-routeofadministration
+// Alias:  $Swissmedic-RouteOfAdministrationVS =                http://fhir.ch/ig/ch-emed/ValueSet/edqm-routeofadministration
 Alias:  $Swissmedic-MethodOfAdministration =                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-MethodOfAdministration //Provisorisch 
 Alias:  $Swissmedic-MethodOfAdministrationVS =               http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-MethodOfAdministration //Provisorisch 
 // Alias:  $Swissmedic-AdministrableDoseFormCS =                urn:oid:0.4.0.127.0.16.1.1.2.1
-Alias:  $Swissmedic-AdministrableDoseFormVS =                http://fhir.ch/ig/ch-emed/ValueSet/edqm-pharmaceuticaldoseform
+//Alias:  $Swissmedic-AdministrableDoseFormVS =                http://fhir.ch/ig/ch-emed/ValueSet/edqm-pharmaceuticaldoseform
 
 // External Identifier Systems
 
