@@ -3,7 +3,9 @@ Id: edqm-route-of-administration
 Title: "EDQM - Route Of Administration"
 Description: "Value Set for the Route Of Administration from EDQM"
 * ^experimental = false
-
+* ^identifier.use = #official
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.6"
 * $edqm#20001000 "Auricular use"
 * $edqm#20002500 "Buccal use"
 * $edqm#20003000 "Cutaneous use"

@@ -3,9 +3,9 @@ Id: edqm-combined-pharmaceutical-dose-form
 Title: "EDQM - Combined Pharmaceutical Dose Form"
 Description: "Value Set for the Combined Pharmaceutical Dose Froms from EDQM used by Swissmedic"
 * ^experimental = false
-//* identifier.use = #official
-//* identifier.system = "urn:ietf:rfc:3986"
-//* identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.3"
+* ^identifier.use = #official
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.3"
 * $edqm#50001500 "Concentrate and diluent for solution for infusion"
 * $edqm#13086000 "Concentrate and solvent for concentrate for oral spray, suspension"
 * $edqm#50002000 "Concentrate and solvent for concentrate for solution for infusion"

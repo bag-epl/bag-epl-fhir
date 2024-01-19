@@ -3,7 +3,9 @@ Id: edqm-pharmaceutical-dose-form
 Title: "EDQM - Pharmaceutical Dose Form"
 Description: "Value Set for the Pharmaceutical Dose Form"
 * ^experimental = false
-
+* ^identifier.use = #official
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:0.4.0.127.0.16.1.1.2.2"
 * $edqm#10100500 "Concentrate for oral suspension"
 * $edqm#10101000 "Oral drops, solution"
 * $edqm#10102000 "Oral drops, suspension"

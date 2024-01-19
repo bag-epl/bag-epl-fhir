@@ -55,6 +55,10 @@ parameters:
   display-warnings: true
   special-url:
     - urn:oid:0.4.0.127.0.16.1.1.2.1 # edqm-standard-terms
+    - urn:oid:0.4.0.127.0.16.1.1.2.2 # edqm-pharmaceutical-dose-form
     - urn:oid:0.4.0.127.0.16.1.1.2.3 # edqm-combined-pharmaceutical-dose-form
+    - urn:oid:0.4.0.127.0.16.1.1.2.4 # edqm-combined-term
+    - urn:oid:0.4.0.127.0.16.1.1.2.5 # edqm-combination-packaging
+    - urn:oid:0.4.0.127.0.16.1.1.2.6 # edqm-route-of-administration
     - urn:oid:0.4.0.127.0.16.1.1.2.7 # edqm-packaging
     - urn:oid:0.4.0.127.0.16.1.1.2.11 # edqm-unit-of-presentation
