@@ -14,5 +14,5 @@ Description: "Extension for representing the authorized dose form"
 * value[x].coding contains 
     Swissmedic 0..1
 * value[x].coding[Swissmedic].system 1..
-//* value[x].coding[Swissmedic].system = $Swissmedic-AuthorisedDoseFormCS
+* value[x].coding[Swissmedic].system = $edqm
 * value[x].coding[Swissmedic].code 1..

@@ -7,8 +7,8 @@ id: ch.fhir.ig.ch-epl
 canonical: http://fhir.ch/ig/ch-epl
 name: CH_EPL
 title: "CH EPL (R5)"
-description: Implementation Guide CH EPL (R5) for ...
-status: draft
+description: Implementation Guide CH EPL (R5)
+status: active
 license: CC0-1.0
 copyright: CC0-1.0
 # ignore information about deprecated item, see https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin
@@ -27,7 +27,7 @@ contact:
         value: https://www.bag.admin.ch/bag/en/home/das-bag/kontakt-standort.html
 
 dependencies:
-  ch.fhir.ig.ch-emed: 4.0.1
+#  ch.fhir.ig.ch-emed: 4.0.1
   hl7.terminology: 5.4.0
 
 pages:
@@ -55,6 +55,10 @@ parameters:
   display-warnings: true
   special-url:
     - urn:oid:0.4.0.127.0.16.1.1.2.1 # edqm-standard-terms
+    - urn:oid:0.4.0.127.0.16.1.1.2.2 # edqm-pharmaceutical-dose-form
     - urn:oid:0.4.0.127.0.16.1.1.2.3 # edqm-combined-pharmaceutical-dose-form
+    - urn:oid:0.4.0.127.0.16.1.1.2.4 # edqm-combined-term
+    - urn:oid:0.4.0.127.0.16.1.1.2.5 # edqm-combination-packaging
+    - urn:oid:0.4.0.127.0.16.1.1.2.6 # edqm-route-of-administration
     - urn:oid:0.4.0.127.0.16.1.1.2.7 # edqm-packaging
     - urn:oid:0.4.0.127.0.16.1.1.2.11 # edqm-unit-of-presentation
