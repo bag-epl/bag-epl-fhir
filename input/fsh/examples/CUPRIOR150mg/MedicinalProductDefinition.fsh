@@ -20,17 +20,17 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * indication = "Cuprior wird angewendet zur Behandlung von Morbus Wilson bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter mit Unverträglichkeit gegenüber einer D-Penicillamin-Therapie."
 
 // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupply#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Medicinal Product.Additional Monitoring Indicator
 // * additionalMonitoringIndicator = $Swissmedic-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
 
-// Medicinal Product.Pediatric Use Indicator
-* pediatricUseIndicator = $Swissmedic-PediatricUseIndicator#No "Nein"
+// Medicinal Product.ic Use Indicator
+* pediatricUseIndicator = $Swissmedic-PediatricUseIndicatorCS#No "Nicht zugelassen für die Anwendung bei Kindern"
 
 // Product Classification.Value
 * classification[+] = $atc#L01EX13
-* classification[+] = $Swissmedic-Heilmittelcode#S "Synthetika"
+* classification[+] = $Swissmedic-HeilmittelcodeCS#S "Synthetika"
 
 // Marketing Status
 //* marketingStatus[+].country = $country#CH "Switzerland"

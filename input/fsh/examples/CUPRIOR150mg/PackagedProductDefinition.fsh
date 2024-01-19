@@ -18,7 +18,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk"
 
 // Marketing Authorisation.Legal Status of Supply (for a package)
-* legalStatusOfSupply[+].code.coding[Swissmedic] = $Swissmedic-LegalStatusOfSupply#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply[+].code.coding[Swissmedic] = $Swissmedic-LegalStatusOfSupplyCS#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Packaged Medicinal Product.Marketing Status
 * marketingStatus[+].country = $country#CH "Switzerland"
@@ -33,10 +33,10 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * packaging.quantity = 72
 
 // Package Item (Container).Shelf Life / Storage
-* packaging.shelfLifeStorage[0].type = $Swissmedic-ShelfLifeType#100000073403 "Originalverschlossene Packung"
+* packaging.shelfLifeStorage[0].type = $EMA-ShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale"
 * packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month"
 
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorage#NO30 "Nicht über 30°C lagern"
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C"
 
 * packaging.containedItem[+].item.reference = Reference(MI-Trientinum-150mg-Filmtabletten)
 * packaging.containedItem[=].amount.value = 6

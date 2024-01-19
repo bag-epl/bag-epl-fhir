@@ -3,7 +3,7 @@ Id: ch-additional-monitoring-indicator
 Title: "CH - Additional Monitoring Indicator"
 Description: "Value Set for the Additional Monitoring Indicator from Swissmedic used by FOPH"
 * ^experimental = false
-* include codes from system $Swissmedic-additional-monitoring-indicatorCS
+* include codes from system ChAdditionalMonitoringIndicatorCS
 
 CodeSystem: ChAdditionalMonitoringIndicatorCS
 Id: ch-additional-monitoring-indicator

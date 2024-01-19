@@ -1,12 +1,12 @@
 ValueSet: ChEplStatusPackungVS
-Id: ch-epl-status-packung
+Id: ch-epl-foph-packaging-status
 Title: "CH ePL - Status Packung"
 Description: "Value Set for Status Packung from ePL used by FOPH"
 * ^experimental = false
-* include codes from system $ePL-StatusPackungCS
+* include codes from system $ePL-PackagingStatusCS
 
 CodeSystem: ChEplStatusPackungCS
-Id: ch-epl-status-package
+Id: ch-epl-foph-packaging-status
 Title: "CH ePL - Status Packung"
 Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Status Packung"
 * ^experimental = false

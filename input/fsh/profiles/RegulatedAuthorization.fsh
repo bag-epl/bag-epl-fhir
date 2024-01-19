@@ -16,18 +16,20 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 
 * region = $country#CH
 
-// type from $Swissmedic-AuthorisationStatusVS (required)
-* type.coding 0..1
-* type.coding ^slicing.discriminator.type = #value
-* type.coding ^slicing.discriminator.path = "system"
-* type.coding ^slicing.rules = #open
-* type.coding contains 
-    Swissmedic 0..1
-* type.coding[Swissmedic].system 1..
-* type.coding[Swissmedic].system = $Swissmedic-AuthorisationStatusCS
-* type.coding[Swissmedic].code 1..
+// Zulassungstyp
+//* type from ChAuthorisationStatusVS (required)
+//* type.coding 0..1
+//* type.coding ^slicing.discriminator.type = #value
+//* type.coding ^slicing.discriminator.path = "system"
+//* type.coding ^slicing.rules = #open
+//* type.coding contains 
+//    Swissmedic 0..1
+//* type.coding[Swissmedic].system 1..
+//* type.coding[Swissmedic].system = $Swissmedic-AuthorisationTypeCS
+//* type.coding[Swissmedic].code 1..
 
-// status from $Swissmedic-AuthorisationStatusVS (required)
+// Zulassungsstatus
+* status from ChAuthorisationStatusVS (required)
 * status.coding 1..
 * status.coding ^slicing.discriminator.type = #value
 * status.coding ^slicing.discriminator.path = "system"

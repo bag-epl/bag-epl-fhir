@@ -3,7 +3,7 @@ Id: ch-epl-status-praeparate
 Title: "CH ePL - Status Präparate"
 Description: "Value Set for Status Präparate from ePL used by FOPH"
 * ^experimental = false
-* include codes from system $ePL-StatusPraeparateCS
+* include codes from system ChEplStatusPraeparateCS
 
 CodeSystem: ChEplStatusPraeparateCS
 Id: ch-epl-status-praeparate

@@ -10,6 +10,7 @@ Description: "Profile of the Ingredient resource for representing the material u
 * for only Reference(IDMPMedicinalProductDefinition or IDMPAdministrableProductDefinition or IDMPManufacturedItemDefinition)
 
 // ingredient role
+* role from ChIngredientRoleVS (required)
 * role.coding 1..
 * role.coding ^slicing.discriminator.type = #value
 * role.coding ^slicing.discriminator.path = "system"
@@ -17,7 +18,7 @@ Description: "Profile of the Ingredient resource for representing the material u
 * role.coding contains 
      Swissmedic 0..1
 * role.coding[Swissmedic].system 1..
-* role.coding[Swissmedic].system = $Swissmedic-IngredientRole (exactly)
+* role.coding[Swissmedic].system = $Swissmedic-IngredientRoleCS (exactly)
 * role.coding[Swissmedic].code 1..
 
 // substance

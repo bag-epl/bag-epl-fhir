@@ -41,6 +41,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * indication ^short = "Description of indication(s) for this product"
 
+* legalStatusOfSupply from ChLegalStatusOfSupplyVS (required)
 * legalStatusOfSupply.coding 1..
 * legalStatusOfSupply.coding ^slicing.discriminator.type = #value
 * legalStatusOfSupply.coding ^slicing.discriminator.path = "system"
@@ -48,9 +49,10 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * legalStatusOfSupply.coding contains 
     Swissmedic 0..1
 * legalStatusOfSupply.coding[Swissmedic].system 1..
-* legalStatusOfSupply.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupply (exactly)
+* legalStatusOfSupply.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyCS
 * legalStatusOfSupply.coding[Swissmedic].code 1..
 
+* additionalMonitoringIndicator from ChAdditionalMonitoringIndicatorVS (required)
 * additionalMonitoringIndicator.coding 0..1
 * additionalMonitoringIndicator.coding ^slicing.discriminator.type = #value
 * additionalMonitoringIndicator.coding ^slicing.discriminator.path = "system"
@@ -58,9 +60,10 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * additionalMonitoringIndicator.coding contains 
     Swissmedic 0..1
 * additionalMonitoringIndicator.coding[Swissmedic].system 1..
-* additionalMonitoringIndicator.coding[Swissmedic].system = $Swissmedic-AdditionalMonitoringIndicator (exactly)
+* additionalMonitoringIndicator.coding[Swissmedic].system = $Swissmedic-AdditionalMonitoringIndicatorCS
 * additionalMonitoringIndicator.coding[Swissmedic].code 1..
 
+* pediatricUseIndicator from ChPediatricUseIndicatorVS (required)
 * pediatricUseIndicator.coding 0..1
 * pediatricUseIndicator.coding ^slicing.discriminator.type = #value
 * pediatricUseIndicator.coding ^slicing.discriminator.path = "system"
@@ -68,7 +71,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * pediatricUseIndicator.coding contains 
     Swissmedic 0..1
 * pediatricUseIndicator.coding[Swissmedic].system 1..
-* pediatricUseIndicator.coding[Swissmedic].system = $Swissmedic-PediatricUseIndicator (exactly)
+* pediatricUseIndicator.coding[Swissmedic].system = $Swissmedic-PediatricUseIndicatorCS
 * pediatricUseIndicator.coding[Swissmedic].code 1..
 
 * classification ^slicing.discriminator[+].type = #value
@@ -85,7 +88,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * classification[Heilmittelcode].coding 1..
 * classification[Heilmittelcode].coding.system 1..
-* classification[Heilmittelcode].coding.system = $Swissmedic-Heilmittelcode (exactly)
+* classification[Heilmittelcode].coding.system = $Swissmedic-HeilmittelcodeCS (exactly)
 * classification[Heilmittelcode].coding.code 1..
 
 * marketingStatus.country = $country#CH

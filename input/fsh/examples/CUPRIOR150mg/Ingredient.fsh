@@ -6,7 +6,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#WIRKS "Wirkstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#WIRKS "Wirkstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#SJ76Y07H5F "Trientinum"
 * substance[=].strength[+].presentationRatio[+].numerator = 150 'mg' "mg" 
 * substance[=].strength[=].presentationRatio[=].denominator = 1 '{Tablet}' "Tablet" 
@@ -19,7 +19,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#3OWL53L36A "Mannitolum"
 
 Instance: SilicaColloidalisAnhydrica
@@ -30,7 +30,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#ETJ7Z6XBU4 "Silica colloidalis anhydrica"
 
 Instance: GlyceroliDibehenas
@@ -41,7 +41,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#R8WTH25YS2 "Glyceroli dibehenas"
 
 Instance: PolyAlcoholVinylicus
@@ -52,7 +52,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#532B59J990 "Poly (alcohol vinylicus)"
 
 Instance: Talcum
@@ -63,7 +63,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#7SEV7J4R1U "Talcum"
 
 Instance: TitaniiDioxidumE171
@@ -74,7 +74,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#15FIX9V2JP "Titanii Dioxidum E171"
 
 Instance: GlycerylIsostearate
@@ -85,7 +85,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#HYE7O27HAO "Glyceryl Isostearate"
 
 Instance: YellowLakeE172
@@ -96,5 +96,5 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Tablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmtabletten) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRole#HNIDK "Hilfsstoff" 
+* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#HNIDK "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $Swissmedic-Substance#EX438O2MRT "Yellow Lake E172"

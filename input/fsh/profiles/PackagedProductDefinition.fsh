@@ -27,7 +27,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * legalStatusOfSupply.code.coding contains 
     Swissmedic 0..1
 * legalStatusOfSupply.code.coding[Swissmedic].system 1..
-* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupply
+* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyCS
 * legalStatusOfSupply.code.coding[Swissmedic].code 1..
 
 * marketingStatus.country = $country#CH
@@ -63,6 +63,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.type 
 * packaging.shelfLifeStorage.periodDuration
 
+* packaging.shelfLifeStorage.specialPrecautionsForStorage from ChSpecialPrecautionsForStorageVS (required)
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding 1..
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.discriminator[+].type = #value
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.discriminator[=].path = "system"
@@ -70,7 +71,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding contains 
     Swissmedic 0..1
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system 1..
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorage
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorageCS
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].code 1..
 
 * packaging.containedItem.item only CodeableReference(IDMPManufacturedItemDefinition or IDMPPackagedProductDefinition)

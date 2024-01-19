@@ -1,12 +1,12 @@
-ValueSet: ChHeilmittelcodeVS
-Id: ch-heilmittelcode
+ValueSet: ChSwissmedicHeilmittelcodeVS
+Id: ch-swissmedic-heilmittelcode
 Title: "CH - Heilmittelcode"
 Description: "Value Set for the Heilmittelcode from Swissmedic used by FOPH"
 * ^experimental = false
-* include codes from system $Swissmedic-heilmittelcodeCS
+* include codes from system ChSwissmedicHeilmittelcodeCS
 
-CodeSystem: ChHeilmittelcodeCS
-Id: ch-heilmittelcode
+CodeSystem: ChSwissmedicHeilmittelcodeCS
+Id: ch-swissmedic-heilmittelcode
 Title: "CH - Heilmittelcode"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Heilmittelcode)"
 * ^experimental = false

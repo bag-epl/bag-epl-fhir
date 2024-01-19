@@ -3,7 +3,7 @@ Id: ch-epl-preisaenderungstyp
 Title: "CH ePL - Preisaenderungstyp"
 Description: "Value Set for Preisaenderungstyp from ePL used by FOPH"
 * ^experimental = false
-* include codes from system $ePL-PreisaenderungstypCS
+* include codes from system ChEplPreisaenderungstypCS
 
 CodeSystem: ChEplPreisaenderungstypCS
 Id: ch-epl-preisaenderungstyp
