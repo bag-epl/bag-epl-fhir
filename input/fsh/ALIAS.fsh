@@ -69,7 +69,7 @@ Alias:  $Swissmedic-AttachedDocumentType =                   http://fhir.ch/ig/c
 Alias:  $Swissmedic-AttachedDocumentTypeVS =                 http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-AttachedDocumentType //Provisorisch
 
 // BAG
-Alias:  $ePL-OriginalGenericCodeCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-original-generic-code 
+// Alias:  $ePL-OriginalGenericCodeCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-original-generic-code 
 Alias:  $BAG-StatusMedicinalProduct =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-bag-OriginalGenericCode 
 Alias:  $BAG-StatusMedicinalProductVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-bag-OriginalGenericCode 
 
