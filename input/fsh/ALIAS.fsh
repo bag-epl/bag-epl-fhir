@@ -20,7 +20,7 @@ Alias: $ISO-NamePartVS =                http://hl7.org/fhir/ValueSet/medicinal-p
 // EMA
 Alias:  $EMA-MediaType =                https://spor.ema.europa.eu/v1/lists/200000015398
 Alias:  $EMA-Material =                 https://spor.ema.europa.eu/v1/lists/200000003199
-Alias:  $EMA-ShelfLifeType =            https://spor.ema.europa.eu/v1/lists/100000073343
+Alias:  $EMA-ShelfLifeType =            https://spor.ema.europa.eu/rmswi/#/lists/100000073343/terms
 
 // MedDRA
 Alias:  $IndicationAs =                 http://terminology.hl7.org/CodeSystem/mdr //MedDRA
@@ -42,28 +42,22 @@ Alias: $CSChIgExampleTranslation =      https://fhir.ch/ig/ch-ig/CodeSystem/ch-i
 Alias:  $FHIR-Domain =                                       http://hl7.org/fhir/medicinal-product-domain
 
 // Section Yellow - Medicinal Product
+Alias:  $CH-MedicialProductNameTypeCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 
 // Swissmedic
-Alias:  $Swissmedic-Domain =                                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-ePL-Domain //Provisorisch
+Alias:  $Swissmedic-DomainCS =                                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-domain //Provisorisch
 Alias:  $Swissmedic-AuthorisedDoseFormCS =                   urn:oid:0.4.0.127.0.16.1.1.2.1
 //Alias:  $Swissmedic-CombinedPharmaceuticalDoseFormCS =       http://fhir.ch/ig/ch-epl/CodeSystem/edqm-combined-pharmaceutical-dose-form
 Alias:  $Swissmedic-AdditionalMonitoringIndicatorCS =        http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-additional-monitoring-indicator //Provisorisch
 Alias:  $Swissmedic-PediatricUseIndicatorCS =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-pediatric-use-indicator //Provisorisch
-Alias:  $Swissmedic-SpecialMeasures =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-SpecialMeasures //Provisorisch
-Alias:  $Swissmedic-SpecialMeasuresVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-SpecialMeasures //Provisorisch
+//Alias:  $Swissmedic-SpecialMeasures =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-SpecialMeasures //Provisorisch
 Alias:  $Swissmedic-HeilmittelcodeCS =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-heilmittelcode //Provisorisch
 Alias:  $Swissmedic-OrphanIndicationType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-OrphanIndicationType //Provisorisch
-Alias:  $Swissmedic-OrphanIndicationTypeVS =                 http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-OrphanIndicationType //Provisorisch
 Alias:  $Swissmedic-OrphanDesignationAuthorisationStatus =   http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-OrphanDesignationAuthorisationStatus //Provisorisch
-Alias:  $Swissmedic-OrphanDesignationAuthorisationStatusVS = http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-OrphanDesignationAuthorisationStatus //Provisorisch
-Alias:  $Swissmedic-MedicinalProductNameType =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-MedicinalProductNameType //Provisorisch
-Alias:  $Swissmedic-MedicinalProductNameTypeVS =             http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-MedicinalProductNameType //Provisorisch
+Alias:  $CH-MedicinalProductNameType =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 Alias:  $Swissmedic-MasterFileType =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-MasterFileType //Provisorisch
-Alias:  $Swissmedic-MasterFileTypeVS =                       http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-MasterFileType //Provisorisch
 Alias:  $Swissmedic-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ReferencedProductType //Provisorisch
-Alias:  $Swissmedic-ReferencedProductTypeVS =                http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ReferencedProductType //Provisorisch
-Alias:  $Swissmedic-AttachedDocumentType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-AttachedDocumentType //Provisorisch
-Alias:  $Swissmedic-AttachedDocumentTypeVS =                 http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-AttachedDocumentType //Provisorisch
+Alias:  $Swissmedic-AttachedDocumentTypeCS =                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-attached-document-type //Provisorisch
 
 // BAG
 // Alias:  $ePL-OriginalGenericCodeCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-original-generic-code 
@@ -81,8 +75,7 @@ Alias:  $Swissmedic-ProcedureType =                          http://fhir.ch/ig/c
 Alias:  $Swissmedic-ProcedureTypeVS =                        http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ProcedureType //Provisorisch
 Alias:  $Swissmedic-ApplicationType =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ApplicationType //Provisorisch
 Alias:  $Swissmedic-ApplicationTypeVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ApplicationType //Provisorisch
-Alias:  $Swissmedic-MarketingStatus =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-MarketingStatus //Provisorisch
-Alias:  $Swissmedic-MarketingStatusVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-MarketingStatus //Provisorisch
+Alias:  $Swissmedic-MarketingStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-marketing-status //Provisorisch
 
 // BAG
 Alias:  $ePL-MedicinalProductStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-medicinal-product-status
@@ -91,8 +84,7 @@ Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/c
 // Section purple - Clinical Particulars 
 
 // Swissmedic
-Alias:  $Swissmedic-IntendedEffect =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-IntendedEffect //Provisorisch
-Alias:  $Swissmedic-IntendedEffectVS =                       http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-IntendedEffect //Provisorisch
+//Alias:  $ema-IntendedEffectCS =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-ema-intended-effect //Provisorisch
 
 // Section blue - Packaging
 

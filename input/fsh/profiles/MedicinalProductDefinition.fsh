@@ -12,7 +12,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * identifier.value 1..
 
 // * domain
-
+* domain from ChSwissmedicDomainVS (required)
 * domain.coding 1..
 * domain.coding ^slicing.discriminator[+].type = #value
 * domain.coding ^slicing.discriminator[=].path = "system"
@@ -20,7 +20,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * domain.coding contains 
     Swissmedic 0..1
 * domain.coding[Swissmedic].system 1..
-* domain.coding[Swissmedic].system = $Swissmedic-Domain
+* domain.coding[Swissmedic].system = $Swissmedic-DomainCS
 * domain.coding[Swissmedic].code 1..
 
 * extension contains IDMPAuthorizedDoseForm named authorizedDoseForm 0..1
@@ -100,7 +100,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * marketingStatus.status.coding contains 
     Swissmedic 0..1
 * marketingStatus.status.coding[Swissmedic].system 0..1
-* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatus
+* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusCS
 * marketingStatus.status.coding[Swissmedic].code 0..1
 
 * attachedDocument ^short = "Professional information and/or patient information"

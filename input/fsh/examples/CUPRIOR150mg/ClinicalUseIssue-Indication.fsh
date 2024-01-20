@@ -17,4 +17,4 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalParticulars-
 //* indication.comorbidity.concept = $Swissmedic-Comorbidity#.. "xxx"
 
 // Therapeutic Indication.Intended Effect
-* indication.intendedEffect.concept = $Swissmedic-IntendedEffect#200000003194 "Therapie"
+* indication.intendedEffect.concept = $ema#200000003194 "therapeutic"

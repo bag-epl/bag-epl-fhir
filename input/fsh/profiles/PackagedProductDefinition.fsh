@@ -20,6 +20,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 
 * description ^short = "Textual description (this is not the name of the package or product)"
 
+* legalStatusOfSupply.code from ChSwissmedicLegalStatusOfSupplyVS (required)
 * legalStatusOfSupply.code.coding 1..
 * legalStatusOfSupply.code.coding ^slicing.discriminator.type = #value
 * legalStatusOfSupply.code.coding ^slicing.discriminator.path = "system"
@@ -32,6 +33,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 
 * marketingStatus.country = $country#CH
 
+* marketingStatus.status from ChSwissmedicMarketingStatusVS (required)
 * marketingStatus.status.coding 0..1
 * marketingStatus.status.coding ^slicing.discriminator[+].type = #value
 * marketingStatus.status.coding ^slicing.discriminator[=].path = "system"
@@ -39,7 +41,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * marketingStatus.status.coding contains 
         Swissmedic 0..1
 * marketingStatus.status.coding[Swissmedic].system 1..
-* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatus
+* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusCS
 * marketingStatus.status.coding[Swissmedic].code 1..
 
 * statusDate

@@ -22,7 +22,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 
 // Packaged Medicinal Product.Marketing Status
 * marketingStatus[+].country = $country#CH "Switzerland"
-* marketingStatus[=].status.coding[Swissmedic] = $Swissmedic-MarketingStatus#iH "im Handel"
+* marketingStatus[=].status.coding[Swissmedic] = $Swissmedic-MarketingStatusCS#iH "im Handel"
 
 // Marketing Status Date
 * statusDate = "2005-04-10" // Fantasiedatum  
