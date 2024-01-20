@@ -29,7 +29,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 //* type.coding[Swissmedic].code 1..
 
 // Zulassungsstatus
-* status from ChAuthorisationStatusVS (required)
+* status from ChSwissmedicAuthorisationStatusVS (required)
 * status.coding 1..
 * status.coding ^slicing.discriminator.type = #value
 * status.coding ^slicing.discriminator.path = "system"

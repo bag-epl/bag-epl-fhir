@@ -1,13 +1,13 @@
-ValueSet: ChLegalStatusOfSupplyVS
+ValueSet: ChSwissmedicLegalStatusOfSupplyVS
 Id: ch-swissmedic-legal-status-of-supply
-Title: "CH - Abgabekategorie"
-Description: "Value Set for the Legal Status of Supply from Swissmedic used by FOPH"
+Title: "CH Swissmedic - Abgabekategorie"
+Description: "Value Set for the Legal Status of Supply from Swissmedic"
 * ^experimental = false
-* include codes from system ChLegalStatusOfSupplyCS
+* include codes from system ChSwissmedicLegalStatusOfSupplyCS
 
-CodeSystem: ChLegalStatusOfSupplyCS
+CodeSystem: ChSwissmedicLegalStatusOfSupplyCS
 Id: ch-swissmedic-legal-status-of-supply
-Title: "CH - Abgabekategorie"
+Title: "CH Swissmedic - Abgabekategorie"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Abgabekategorie)"
 * ^experimental = false
 * ^caseSensitive = true

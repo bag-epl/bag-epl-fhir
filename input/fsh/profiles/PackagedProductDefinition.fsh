@@ -63,7 +63,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.type 
 * packaging.shelfLifeStorage.periodDuration
 
-* packaging.shelfLifeStorage.specialPrecautionsForStorage from ChSpecialPrecautionsForStorageVS (required)
+* packaging.shelfLifeStorage.specialPrecautionsForStorage from ChSwissmedicSpecialPrecautionsForStorageVS (required)
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding 1..
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.discriminator[+].type = #value
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.discriminator[=].path = "system"

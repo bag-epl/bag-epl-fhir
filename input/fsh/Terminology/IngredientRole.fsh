@@ -1,13 +1,13 @@
-ValueSet: ChIngredientRoleVS
+ValueSet: ChSwissmedicIngredientRoleVS
 Id: ch-swissmedic-ingredient-role
-Title: "CH - Funktion des Inhaltssoffes"
+Title: "CH Swissmedic - Funktion des Inhaltssoffes"
 Description: "Value Set for the Ingredient Role from Swissmedic"
 * ^experimental = false
-* include codes from system ChIngredientRoleCS
+* include codes from system ChSwissmedicIngredientRoleCS
 
-CodeSystem: ChIngredientRoleCS
+CodeSystem: ChSwissmedicIngredientRoleCS
 Id: ch-swissmedic-ingredient-role
-Title: "CH - Funktion des Inhaltssoffes"
+Title: "CH Swissmedic - Funktion des Inhaltssoffes"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Funktion des Inhaltssoffes)"
 * ^experimental = false
 * ^caseSensitive = true

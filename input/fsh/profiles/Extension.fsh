@@ -6,7 +6,7 @@ Description: "Extension for representing the authorized dose form"
 * ^context[=].expression = "MedicinalProductDefinition"
 
 * value[x] only CodeableConcept
-* value[x] from ChEplAuthorisedPharmaceuticalDoseFormVS (required)
+* value[x] from ChSwissmedicAuthorisedPharmaceuticalDoseFormVS (required)
 * value[x].coding 1..
 * value[x].coding ^slicing.discriminator[+].type = #value
 * value[x].coding ^slicing.discriminator[=].path = "system"

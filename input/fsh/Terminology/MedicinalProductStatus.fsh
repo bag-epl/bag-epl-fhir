@@ -1,14 +1,14 @@
 ValueSet: ChEplStatusPraeparateVS
-Id: ch-epl-status-praeparate
-Title: "CH ePL - Status Präparate"
+Id: ch-epl-foph-status-praeparate
+Title: "CH EPL - Status Präparate"
 Description: "Value Set for Status Präparate from ePL used by FOPH"
 * ^experimental = false
 * include codes from system ChEplStatusPraeparateCS
 
 CodeSystem: ChEplStatusPraeparateCS
-Id: ch-epl-status-praeparate
-Title: "CH ePL - Status Präparate"
-Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Status Präparate"
+Id: ch-epl-foph-status-praeparate
+Title: "CH EPL - Status Präparate"
+Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Status Präparate"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

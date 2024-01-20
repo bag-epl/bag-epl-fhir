@@ -1,13 +1,13 @@
-ValueSet: ChAdditionalMonitoringIndicatorVS
-Id: ch-additional-monitoring-indicator
-Title: "CH - Additional Monitoring Indicator"
+ValueSet: ChSwissmedicAdditionalMonitoringIndicatorVS
+Id: ch-swissmedic-additional-monitoring-indicator
+Title: "CH Swissmedic- Additional Monitoring Indicator"
 Description: "Value Set for the Additional Monitoring Indicator from Swissmedic used by FOPH"
 * ^experimental = false
-* include codes from system ChAdditionalMonitoringIndicatorCS
+* include codes from system ChSwissmedicAdditionalMonitoringIndicatorCS
 
-CodeSystem: ChAdditionalMonitoringIndicatorCS
-Id: ch-additional-monitoring-indicator
-Title: "CH - Additional Monitoring Indicator"
+CodeSystem: ChSwissmedicAdditionalMonitoringIndicatorCS
+Id: ch-swissmedic-additional-monitoring-indicator
+Title: "CH Swissmedic - Additional Monitoring Indicator"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Additional Monitoring Indicator"
 * ^experimental = false
 * ^caseSensitive = false

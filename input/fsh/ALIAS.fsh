@@ -45,9 +45,7 @@ Alias:  $FHIR-Domain =                                       http://hl7.org/fhir
 
 // Swissmedic
 Alias:  $Swissmedic-Domain =                                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-ePL-Domain //Provisorisch
-Alias:  $Swissmedic-DomainVS =                               http://fhir.ch/ig/ch-epl/ValueSet/ch-ePL-Domain //Provisorisch
 Alias:  $Swissmedic-AuthorisedDoseFormCS =                   urn:oid:0.4.0.127.0.16.1.1.2.1
-Alias:  $Swissmedic-AuthorisedDoseFormVS =                   http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-AuthorisedDoseForm //Provisorisch
 //Alias:  $Swissmedic-CombinedPharmaceuticalDoseFormCS =       http://fhir.ch/ig/ch-epl/CodeSystem/edqm-combined-pharmaceutical-dose-form
 Alias:  $Swissmedic-AdditionalMonitoringIndicatorCS =        http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-additional-monitoring-indicator //Provisorisch
 Alias:  $Swissmedic-PediatricUseIndicatorCS =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-pediatric-use-indicator //Provisorisch
@@ -122,8 +120,7 @@ Alias:  $ePL-PackagingStatusCS =                               http://fhir.ch/ig
 
 // Swissmedic
 Alias:  $Swissmedic-IngredientRoleCS =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ingredient-role //Provisorisch                      
-Alias:  $Swissmedic-Substance =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-Substance //Provisorisch                      
-Alias:  $Swissmedic-SubstanceVS =                            http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-Substance //Provisorisch
+Alias:  $Swissmedic-SubstanceCS =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-substance //Provisorisch                      
 Alias:  $Swissmedic-OriginOfSubstance =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-OriginOfSubstance //Provisorisch                      
 Alias:  $Swissmedic-OriginOfSubstanceVS =                    http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-OriginOfSubstance //Provisorisch
 Alias:  $Swissmedic-QuantityOperator =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-QuantityOperator //Provisorisch                      
