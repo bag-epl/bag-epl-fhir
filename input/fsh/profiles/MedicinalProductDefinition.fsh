@@ -1,9 +1,9 @@
-Profile: IDMPMedicinalProductDefinition
+Profile: CHIDMPMedicinalProductDefinition
 Parent: MedicinalProductDefinition
-Id: idmp-medicinalproductdefinition
+Id: ch-idmp-medicinalproductdefinition
 Title: "IDMP MedicinalProductDefinition"
 Description: "Profile of the MedicinalProductDefinition resource for representing the detailed data of medicinal products." 
-* . ^short = "IDMP MedicinalProductDefinition"
+* . ^short = "CH IDMP MedicinalProductDefinition"
 
 // * MPID
 
@@ -23,7 +23,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * domain.coding[Swissmedic].system = $Swissmedic-DomainCS
 * domain.coding[Swissmedic].code 1..
 
-* extension contains IDMPAuthorizedDoseForm named authorizedDoseForm 0..1
+* extension contains CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1
 
 //* extension contains
 //    IDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
@@ -104,7 +104,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * marketingStatus.status.coding[Swissmedic].code 0..1
 
 * attachedDocument ^short = "Professional information and/or patient information"
-* attachedDocument only Reference(IDMPDocumentReference)
+* attachedDocument only Reference(CHIDMPDocumentReference)
 
 * name ^slicing.discriminator[+].type = #value
 * name ^slicing.discriminator[=].path = "usage.language"

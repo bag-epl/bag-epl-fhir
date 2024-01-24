@@ -1,6 +1,6 @@
 // Indications
 Instance: IND-10061091
-InstanceOf: IDMPClinicalUseDefinitionIndication
+InstanceOf: CHIDMPClinicalUseDefinitionIndication
 Usage: #example
 Title: "Indication 10061091"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalParticulars-Indication (Indication)"

@@ -1,9 +1,9 @@
-Profile: IDMPDocumentReference
+Profile: CHIDMPDocumentReference
 Parent: DocumentReference
-Id: idmp-documentreference
-Title: "IDMP DocumentReference"
+Id: ch-idmp-documentreference
+Title: "CH IDMP DocumentReference"
 Description: "Profile of the DocumentReference resource for representing professional information and patient information as attachments."
-* . ^short = "IDMP DocumentReference"
+* . ^short = "CH IDMP DocumentReference"
 
 * status
 

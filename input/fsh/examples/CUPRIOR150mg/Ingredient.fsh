@@ -1,5 +1,5 @@
 Instance: Trientinum150
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Trientinum 150 mg"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -12,7 +12,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[=].strength[=].presentationRatio[=].denominator = 1 '{Tablet}' "Tablet" 
 
 Instance: Mannitolum
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Mannitolum"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -23,7 +23,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#3OWL53L36A "Mannitol"
 
 Instance: SilicaColloidalisAnhydrica
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Silica colloidalis anhydrica"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -34,7 +34,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#ETJ7Z6XBU4 "SILICON DIOXIDE"
 
 Instance: GlyceroliDibehenas
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Glyceroli dibehenas"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -45,7 +45,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#R8WTH25YS2 "GLYCEROL DIBEHENATE"
 
 Instance: PolyAlcoholVinylicus
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Poly (alcohol vinylicus)"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -56,7 +56,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#532B59J990 "Poly(vinyl alcohol)"
 
 Instance: Talcum
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Talcum"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -67,7 +67,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#7SEV7J4R1U "Talc"
 
 Instance: TitaniiDioxidumE171
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Titanii Dioxidum"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -78,7 +78,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#15FIX9V2JP "Titanium dioxide"
 
 Instance: GlycerylIsostearate
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Glyceryl Isostearate"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"
@@ -89,7 +89,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#HYE7O27HAO "Glyceryl isostearate"
 
 Instance: YellowLakeE172
-InstanceOf: IDMPIngredient
+InstanceOf: CHIDMPIngredient
 Usage: #inline
 Title: "Yellow Lake E172"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredient)"

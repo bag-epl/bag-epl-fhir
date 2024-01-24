@@ -2,7 +2,7 @@
 FHIR® Implementation Guide for the 'Elektronische Plattform Leistungen (EPL)' of the Swiss Federal Office of Public Health (FOPH).
 
 * [Current Stable Version](https://fhir.ch/ig/ch-epl/index.html)
-* [CI Build](https://build.fhir.org/ig/bag-epl/bag-epl-fhir/branches/master/index.html)
+* [CI Build](https://build.fhir.org/ig/foph-epl/foph-epl-fhir/branches/master/index.html)
 
 ***************************
 
@@ -44,9 +44,9 @@ FHIR® Implementation Guide for the 'Elektronische Plattform Leistungen (EPL)' o
 * If you haven't already done so, create a local *GitHub* folder on your computer (e.g. `C:\Users\username\Documents\GitHub`).
 * Open a terminal in VSC (Terminal > New Terminal)
 * Navigate to the local *GitHub* folder in the terminal (`cd .\Documents\`, `cd .\GitHub\`)
-* Then clone the repository via the terminal: `git clone https://github.com/bag-epl/bag-epl-fhir.git`
+* Then clone the repository via the terminal: `git clone https://github.com/foph-epl/foph-epl-fhir.git`
 * Open the folder of the repository in VSC (File > Open Folder...)
-* Navigate to this repository in the therminal (`cd .\bag-epl-fhir\ `)
+* Navigate to this repository in the therminal (`cd .\foph-epl-fhir\ `)
 
 ## Install the FHIR IG publisher
 * In VSC press *F1* or *Ctrl+Shift+P*
@@ -57,7 +57,7 @@ FHIR® Implementation Guide for the 'Elektronische Plattform Leistungen (EPL)' o
    * See also instructions for [installing the IG publisher](#install-the-fhir-ig-publisher)
    * In VSC press *F1* or *Ctrl+Shift+P*
    * Type following command in the field: *FHIR run IGPublisher*
-   * Copy the link from the result in your terminal in a web browser (`file:///C:/Users/username/Documents/GitHub/bag-epl-fhir/qa.html`)
+   * Copy the link from the result in your terminal in a web browser (`file:///C:/Users/username/Documents/GitHub/foph-epl-fhir/qa.html`)
    * Change `qa.html` to `index.html` and see your IG!
 * Option B:   
    * Get the latest IG publisher from https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar. 

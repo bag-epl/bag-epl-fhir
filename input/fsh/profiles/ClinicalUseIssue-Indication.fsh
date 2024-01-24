@@ -1,15 +1,15 @@
-Profile: IDMPClinicalUseDefinitionIndication
+Profile: CHIDMPClinicalUseDefinitionIndication
 Parent: ClinicalUseDefinition
-Id: idmp-clinicalusedefinition-indication
-Title: "IDMP ClinicalUseDefinition Indication"
+Id: ch-idmp-clinicalusedefinition-indication
+Title: "CH IDMP ClinicalUseDefinition Indication"
 Description: "Profile of the ClinicalUseDefinition resource for representing an indication."
-* . ^short = "IDMP ClincalUseDefinition Indication"
+* . ^short = "CH IDMP ClincalUseDefinition Indication"
 
 * type = #indication
 //* type. ^short = "indication | contraindication | interaction | undesirable-effect"
 //* type obeys idmp-cud-1
 
-* subject only Reference(IDMPMedicinalProductDefinition)
+* subject only Reference(CHIDMPMedicinalProductDefinition)
 
 * indication 1..
 

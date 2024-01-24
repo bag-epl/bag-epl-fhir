@@ -1,5 +1,5 @@
 Instance: MA-6771901
-InstanceOf: IDMPRegulatedAuthorization
+InstanceOf: CHIDMPRegulatedAuthorization
 Usage: #example
 Title: "6771901"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"
@@ -34,7 +34,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 // ---------------------------------------------------------------------------------------------------------------------------
 
 Instance: MA-67719001
-InstanceOf: IDMPRegulatedAuthorization
+InstanceOf: CHIDMPRegulatedAuthorization
 Usage: #example
 Title: "67719001"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"

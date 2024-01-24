@@ -1,9 +1,9 @@
-Profile: IDMPManufacturedItemDefinition
+Profile: CHIDMPManufacturedItemDefinition
 Parent: ManufacturedItemDefinition
-Id: idmp-manufactureditemdefinition
-Title: "IDMP ManufacturedItemDefinition"
+Id: ch-idmp-manufactureditemdefinition
+Title: "CH IDMP ManufacturedItemDefinition"
 Description: "Profile of the ManufacturedItemDefinition resource for representing the characteristics of a medicinal manufactured item as contained in a packaged medicinal product."
-* . ^short = "IDMP ManufacturedItemDefinition"
+* . ^short = "CH IDMP ManufacturedItemDefinition"
 
 // status internal
 * status

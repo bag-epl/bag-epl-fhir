@@ -1,9 +1,9 @@
-Profile: IDMPAdministrableProductDefinition
+Profile: CHIDMPAdministrableProductDefinition
 Parent: AdministrableProductDefinition
-Id: idmp-administrableproductdefinition
-Title: "IDMP AdministrableProductDefinition"
+Id: ch-idmp-administrableproductdefinition
+Title: "CH IDMP AdministrableProductDefinition"
 Description: "Profile of the AdministrableProductDefinition resource for representing a medicinal product in the final form which is suitable for administering to a patient."
-* . ^short = "IDMP AdministrableProductDefinition"
+* . ^short = "CH IDMP AdministrableProductDefinition"
 
 * contained ^short = "The ingredients of this administrable medicinal product as inline resources."
 
@@ -15,7 +15,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 // status internal
 * status
 
-* formOf only Reference(IDMPMedicinalProductDefinition)
+* formOf only Reference(CHIDMPMedicinalProductDefinition)
 
 // administrable dose form
 * administrableDoseForm from EdqmPharmaceuticalDoseFormVS (required)
@@ -41,7 +41,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * unitOfPresentation.coding[Swissmedic].system = $edqm
 * unitOfPresentation.coding[Swissmedic].code 1..
 
-* producedFrom only Reference(IDMPManufacturedItemDefinition)
+* producedFrom only Reference(CHIDMPManufacturedItemDefinition)
 
 // device reference
 // * device only Reference(IDMPDeviceDefinition)

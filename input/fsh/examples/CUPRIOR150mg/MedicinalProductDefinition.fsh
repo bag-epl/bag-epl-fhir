@@ -1,5 +1,5 @@
 Instance: Trientinum-150mg-Tablet
-InstanceOf: IDMPMedicinalProductDefinition
+InstanceOf: CHIDMPMedicinalProductDefinition
 Usage: #example
 Title: "CUPRIOR Filmtabl 150 mg 72 Stk"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefinition (Medicinal Product)"

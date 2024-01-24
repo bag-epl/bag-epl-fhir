@@ -1,9 +1,9 @@
-Profile: IDMPPackagedProductDefinition
+Profile: CHIDMPPackagedProductDefinition
 Parent: PackagedProductDefinition
-Id: idmp-packagedproductdefinition
+Id: ch-idmp-packagedproductdefinition
 Title: "IDMP PackagedProductDefinition"
 Description: "Profile of the PackagedProductDefinition resource for representing a medically related item or items, in a container or package."
-* . ^short = "IDMP PackagedProductDefinition"
+* . ^short = "CH IDMP PackagedProductDefinition"
 
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
@@ -16,7 +16,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * identifier[GTIN].system = "urn:oid:2.51.1.1"
 * identifier[GTIN].value 1..
 
-* packageFor only Reference(IDMPMedicinalProductDefinition)
+* packageFor only Reference(CHIDMPMedicinalProductDefinition)
 
 * description ^short = "Textual description (this is not the name of the package or product)"
 
@@ -76,7 +76,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorageCS
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].code 1..
 
-* packaging.containedItem.item only CodeableReference(IDMPManufacturedItemDefinition or IDMPPackagedProductDefinition)
+* packaging.containedItem.item only CodeableReference(CHIDMPManufacturedItemDefinition or CHIDMPPackagedProductDefinition)
 * packaging.containedItem.amount 1..
 * packaging.containedItem.amount.value 1..
 * packaging.containedItem.amount.unit 1..

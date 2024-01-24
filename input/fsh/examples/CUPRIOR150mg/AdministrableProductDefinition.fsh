@@ -1,6 +1,6 @@
 // Pharmaceutical Product
 Instance: PhP-Trientinum-150mg-Tablet
-InstanceOf: IDMPAdministrableProductDefinition
+InstanceOf: CHIDMPAdministrableProductDefinition
 Usage: #example
 Title: "PhP Trientinum-150mg-Tablet"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an AdministrableProductDefinition (Pharmaceutical Product)"

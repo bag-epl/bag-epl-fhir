@@ -1,6 +1,6 @@
 // Packaged Medicinal Product
 Instance: PMP-Trientinum-150mg-Filmtabletten
-InstanceOf: IDMPPackagedProductDefinition
+InstanceOf: CHIDMPPackagedProductDefinition
 Usage: #example
 Title: "CH-68291001"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefinition (Packaged Medicinal Product)"

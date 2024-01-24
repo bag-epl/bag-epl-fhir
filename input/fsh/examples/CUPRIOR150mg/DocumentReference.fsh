@@ -1,6 +1,6 @@
 // Fachinformation
 Instance: DocRef-FI-Cuprior
-InstanceOf: IDMPDocumentReference
+InstanceOf: CHIDMPDocumentReference
 Usage: #example
 Title: "Cuprior, Filmtabletten Fachinformation"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a DocumentReference"
@@ -12,7 +12,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a DocumentReference"
 
 // Patienteninformation
 Instance: DocRef-PI-Cuprior
-InstanceOf: IDMPDocumentReference
+InstanceOf: CHIDMPDocumentReference
 Usage: #example
 Title: "Cuprior, Filmtabletten Patienteninformation"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a DocumentReference"

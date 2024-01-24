@@ -1,6 +1,6 @@
-Profile: IDMPRegulatedAuthorization
+Profile: CHIDMPRegulatedAuthorization
 Parent: RegulatedAuthorization
-Id: idmp-regulatedauthorization
+Id: ch-idmp-regulatedauthorization
 Title: "IDMP RegulatedAuthorization"
 Description: "Profile of the RegulatedAuthorization resource for representing the market authorization of a (packaged) medicinal product."
 * . ^short = "IDMP RegulatedAuthorization"
@@ -12,7 +12,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * identifier.value 1..
 
 //Reference(MedicinalProductDefinition | BiologicallyDerivedProduct | NutritionProduct | PackagedProductDefinition | ManufacturedItemDefinition | Ingredient | SubstanceDefinition | DeviceDefinition | ResearchStudy | ActivityDefinition | PlanDefinition | ObservationDefinition | Practitioner | Organization | Location)
-* subject only Reference(IDMPMedicinalProductDefinition or IDMPPackagedProductDefinition or IDMPManufacturedItemDefinition or IDMPIngredient)
+* subject only Reference(CHIDMPMedicinalProductDefinition or CHIDMPPackagedProductDefinition or CHIDMPManufacturedItemDefinition or CHIDMPIngredient)
 
 * region = $country#CH
 

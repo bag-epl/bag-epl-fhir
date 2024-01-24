@@ -13,4 +13,4 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^caseSensitive = true
 * ^content = #complete
 * #Swissmedic "Zugelassener Arzneimittelname"
-* #BAG "BAG Arzneimittelname"
+* #FOPH "BAG Arzneimittelname"

@@ -1,13 +1,13 @@
-Profile: IDMPIngredient
+Profile: CHIDMPIngredient
 Parent: Ingredient
-Id: idmp-ingredient
+Id: ch-idmp-ingredient
 Title: "IDMP Ingredient"
 Description: "Profile of the Ingredient resource for representing the material used in the preparation of a medicinal/pharmaceutical product."
-* . ^short = "IDMP Ingredient"
+* . ^short = "CH IDMP Ingredient"
 
 * status 
 
-* for only Reference(IDMPMedicinalProductDefinition or IDMPAdministrableProductDefinition or IDMPManufacturedItemDefinition)
+* for only Reference(CHIDMPMedicinalProductDefinition or CHIDMPAdministrableProductDefinition or CHIDMPManufacturedItemDefinition)
 
 // ingredient role
 * role from ChSwissmedicIngredientRoleVS (required)

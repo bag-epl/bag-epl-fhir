@@ -59,10 +59,9 @@ Alias:  $Swissmedic-MasterFileType =                         http://fhir.ch/ig/c
 Alias:  $Swissmedic-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ReferencedProductType //Provisorisch
 Alias:  $Swissmedic-AttachedDocumentTypeCS =                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-attached-document-type //Provisorisch
 
-// BAG
+// FOPH
 // Alias:  $ePL-OriginalGenericCodeCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-original-generic-code 
-Alias:  $BAG-StatusMedicinalProduct =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-bag-OriginalGenericCode 
-Alias:  $BAG-StatusMedicinalProductVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-bag-OriginalGenericCode 
+Alias:  $ePL-StatusMedicinalProduct =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-status-medicinal-product 
 
 // Section Green - Marketing Authorisations
 
@@ -77,7 +76,7 @@ Alias:  $Swissmedic-ApplicationType =                        http://fhir.ch/ig/c
 Alias:  $Swissmedic-ApplicationTypeVS =                      http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-ApplicationType //Provisorisch
 Alias:  $Swissmedic-MarketingStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-marketing-status //Provisorisch
 
-// BAG
+// FOPH
 Alias:  $ePL-MedicinalProductStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-medicinal-product-status
 Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-type-of-price-change 
 
@@ -105,7 +104,7 @@ Alias:  $Swissmedic-ScoringVS =                              http://fhir.ch/ig/c
 // Alias:  $Swissmedic-ManufacturedDoseFormVS =                 http://fhir.ch/ig/ch-emed/ValueSet/edqm-pharmaceuticaldoseform 
 // Alias:  $Swissmedic-UnitOfPresentationCS =                   http://fhir.ch/ig/ch-epl/CodeSystem/edqm-unit-of-presentation
 
-// BAG
+// FOPH
 Alias:  $ePL-PackagingStatusCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-packaging-status 
 
 // Section orange - Substances Strength
