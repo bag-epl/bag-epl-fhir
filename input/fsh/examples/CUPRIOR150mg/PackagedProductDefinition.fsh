@@ -33,7 +33,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * packaging.quantity = 72
 
 // Package Item (Container).Shelf Life / Storage
-* packaging.shelfLifeStorage[0].type = $EMA-ShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale"
+* packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale"
 * packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month"
 
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C"

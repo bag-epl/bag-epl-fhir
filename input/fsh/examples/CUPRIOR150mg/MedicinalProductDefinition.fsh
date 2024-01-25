@@ -28,6 +28,11 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 // Medicinal Product.ic Use Indicator
 * pediatricUseIndicator = $Swissmedic-PediatricUseIndicatorCS#No "Nicht zugelassen für die Anwendung bei Kindern"
 
+// FOPH EPL Product.Limitation
+//* extension[limitation].valueBoolean = true
+// FOPH EPL Product.FullLimitationText
+* extension[fullLimitationText].valueString = "CUPRIOR wird vergütet zur Behandlung der Kupferspeicherkrankheit (Morbus Wilson) bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter, die eine Behandlung mit D-Penicillamin nicht vertragen. Die Behandlung muss von Gastroenterologen oder Hepatologen mit Erfahrung bei der Behandlung von Patienten mit Morbus Wilson initiiert und überwacht werden."
+
 // Product Classification.Value
 * classification[+] = $atc#L01EX13
 * classification[+] = $Swissmedic-HeilmittelcodeCS#S "Synthetika"

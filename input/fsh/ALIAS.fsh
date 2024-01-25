@@ -79,6 +79,7 @@ Alias:  $Swissmedic-MarketingStatusCS =                      http://fhir.ch/ig/c
 // FOPH
 Alias:  $ePL-MedicinalProductStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-medicinal-product-status
 Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-type-of-price-change 
+Alias:  $ePL-LimitationStatusCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-limitation-status 
 
 // Section purple - Clinical Particulars 
 

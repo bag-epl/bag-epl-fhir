@@ -13,6 +13,8 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 
 * indication 1..
 
+* indication.extension contains ChEplLimitation named limitation 0..1
+
 * indication.diseaseSymptomProcedure.concept 1..
 * indication.diseaseSymptomProcedure.concept.coding 1..
 * indication.diseaseSymptomProcedure.concept.coding ^slicing.discriminator[+].type = #value
@@ -46,4 +48,3 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.intendedEffect.concept.coding[Swissmedic].system 1..
 * indication.intendedEffect.concept.coding[Swissmedic].system = $ema
 * indication.intendedEffect.concept.coding[Swissmedic].code 1..
-

@@ -23,11 +23,11 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * domain.coding[Swissmedic].system = $Swissmedic-DomainCS
 * domain.coding[Swissmedic].code 1..
 
-* extension contains CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1
+* extension contains
+    CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
+    // EPLLimitation named limitation 1..1 and // Extensions FOPH 
+    EPLFullLimitationText named fullLimitationText 0..1 // Extensions FOPH 
 
-//* extension contains
-//    IDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
-//    IDMPwasauchimmer named sowieso
 * combinedPharmaceuticalDoseForm from EdqmCombinedPharmaceuticalDoseFormVS (required)
 * combinedPharmaceuticalDoseForm.coding 0..
 * combinedPharmaceuticalDoseForm.coding ^slicing.discriminator[+].type = #value
@@ -73,6 +73,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * pediatricUseIndicator.coding[Swissmedic].system 1..
 * pediatricUseIndicator.coding[Swissmedic].system = $Swissmedic-PediatricUseIndicatorCS
 * pediatricUseIndicator.coding[Swissmedic].code 1..
+
 
 * classification ^slicing.discriminator[+].type = #value
 * classification ^slicing.discriminator[=].path = "coding.system"
