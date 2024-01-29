@@ -36,7 +36,86 @@ Description: "Extension for representing the full wording of the limitations use
 
 * value[x] only string
 
+// Extensions for Marketing Authorisation
+
+Extension: EPLFOPHDossierNumber
+Id: fophDossierNumber
+Title: "CH - EPL Number of the FOPH Dossier"
+Description: "Extension for representing the Number of the Dossier assigned by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* valueIdentifier
+  * system = "http://fhir.ch/ig/ch-epl/NamingSystem/FOPHDossierNumber"
+
+Extension: EPLReimbursementEnd
+Id: reimbursementEnd
+Title: "CH - EPL End date of the reimbursement"
+Description: "Extension for representing the enddate of the reimbursement by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+/*
+Extension: EPLReimbursementStatus
+Id: reimbursementStatus
+Title: "EPL Reimbursement Status"
+Description: "Extension for representing the reimbursement status"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only CodeableConcept
+* value[x] from ChEplReimbursementStatusVS (required)
+* value[x].coding 1..
+* value[x].coding ^slicing.discriminator[+].type = #value
+* value[x].coding ^slicing.discriminator[=].path = "system"
+* value[x].coding ^slicing.rules = #open
+* value[x].coding contains 
+    FOPH 0..1
+* value[x].coding[FOPH].system 1..
+* value[x].coding[FOPH].system = $ePL-ReimbursementStatusCS
+* value[x].coding[FOPH].code 1..
+
+Extension: EPLDateOfReimbursementStatus
+Id: dateOfReimbursementStatus
+Title: "CH - EPL Date of the Reimbursement Status"
+Description: "Extension for representing the date when a status of the reimbursement has been assigned by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLListingStart
+Id: listingStart
+Title: "CH - EPL Start date of the listing"
+Description: "Extension for representing the startdate of the listing by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLListingEnd
+Id: listingEnd
+Title: "CH - EPL End date of the listing"
+Description: "Extension for representing the startdate of the listing by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLDateOfFirstListing
+Id: dateOfFirstListing
+Title: "CH - EPL Date of First Listing"
+Description: "Extension for representing the date when a listing started for the first time by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+*/
+
 // Extensions for Limitation Status
+
 Extension: EPLLimitationStatus
 Id: limitationStatus
 Title: "EPL Limitation Status"

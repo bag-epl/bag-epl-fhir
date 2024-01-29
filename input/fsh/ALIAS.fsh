@@ -66,8 +66,7 @@ Alias:  $ePL-StatusMedicinalProduct =                        http://fhir.ch/ig/c
 // Section Green - Marketing Authorisations
 
 // Swissmedic
-Alias:  $Swissmedic-RegulatoryAuthorzationType =             http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-RegulatoryAuthorsationType //Provisorisch
-Alias:  $Swissmedic-RegulatoryAuthorzationTypeVS =           http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-RegulatoryAuthorsationType //Provisorisch
+Alias:  $CH-AuthorisationType =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-authorisation-type //Provisorisch
 Alias:  $Swissmedic-LegalStatusOfSupplyCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-legal-status-of-supply //Provisorisch
 Alias:  $Swissmedic-AuthorisationStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-authorisation-status //Provisorisch
 Alias:  $Swissmedic-ProcedureType =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ProcedureType //Provisorisch
@@ -80,6 +79,7 @@ Alias:  $Swissmedic-MarketingStatusCS =                      http://fhir.ch/ig/c
 Alias:  $ePL-MedicinalProductStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-medicinal-product-status
 Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-type-of-price-change 
 Alias:  $ePL-LimitationStatusCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-limitation-status 
+Alias:  $ePL-ReimbursementStatusCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status  
 
 // Section purple - Clinical Particulars 
 

@@ -17,16 +17,27 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * region = $country#CH
 
 // Zulassungstyp
-//* type from ChAuthorisationStatusVS (required)
-//* type.coding 0..1
-//* type.coding ^slicing.discriminator.type = #value
-//* type.coding ^slicing.discriminator.path = "system"
-//* type.coding ^slicing.rules = #open
-//* type.coding contains 
-//    Swissmedic 0..1
-//* type.coding[Swissmedic].system 1..
-//* type.coding[Swissmedic].system = $Swissmedic-AuthorisationTypeCS
-//* type.coding[Swissmedic].code 1..
+* type from ChAuthorisationTypeVS (required)
+* type.coding 0..1
+* type.coding ^slicing.discriminator.type = #value
+* type.coding ^slicing.discriminator.path = "system"
+* type.coding ^slicing.rules = #open
+* type.coding contains 
+    CH 0..1
+* type.coding[CH].system 1..
+* type.coding[CH].system = $CH-AuthorisationType
+* type.coding[CH].code 1..
+
+//*     EPLDateOfReimbursementStatus named dateOfReimbursementStatus 1..1 and
+//*     EPLListingStart named listingStart 1..1 and
+//*     EPLListingEnd named listingEnd 1..1 and
+//*     EPLDateOfFirstListing named dateOfFirstListing 0..1
+
+//* rename status to reimbursementStatus
+//* rename authorisationStatusDate to reimbursementStatusDate
+//* rename validityPeriod.start to listingPeriod.start
+//* rename validityPeriod.end to listingPeriod.end
+//* rename dateOfFirstAuthorisation to dateOfFirstListing
 
 // Zulassungsstatus
 * status from ChSwissmedicAuthorisationStatusVS (required)
@@ -44,6 +55,10 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 
 * validityPeriod.start
 * validityPeriod.end
+
+* extension contains
+    EPLFOPHDossierNumber named fophDossierNumber 0..1 and
+    EPLReimbursementEnd named reimbursementEnd 0..1 
 
 * holder ^type.aggregation = #contained
 
