@@ -1,5 +1,5 @@
 // Packaged Medicinal Product
-Instance: PMP-Trientinum-150mg-Filmtabletten
+Instance: PMP-Cuprior-150mg-Filmcoatedtablet
 InstanceOf: CHIDMPPackagedProductDefinition
 Usage: #example
 Title: "CH-68291001"
@@ -12,7 +12,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * identifier[=].value = "7680677190018"
 
 // (the link from Packaged Medicinal Product to Medicinal Product)
-* packageFor = Reference(Trientinum-150mg-Tablet)
+* packageFor = Reference(Cuprior-150mg-Filmcoatedtablet)
 
 // Packaged Medicinal Product.description
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk"
@@ -38,7 +38,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C"
 
-* packaging.containedItem[+].item.reference = Reference(MI-Trientinum-150mg-Filmtabletten)
+* packaging.containedItem[+].item.reference = Reference(MI-Trientinum-150mg-Filmcoatedtablet)
 * packaging.containedItem[=].amount.value = 6
 * packaging.containedItem[=].amount.unit = "Blister"
 * packaging.containedItem[=].amount.system = $edqm

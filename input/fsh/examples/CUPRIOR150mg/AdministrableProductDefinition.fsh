@@ -1,5 +1,5 @@
 // Pharmaceutical Product
-Instance: PhP-Trientinum-150mg-Tablet
+Instance: PhP-Trientinum-150mg-Filmcoatedtablet
 InstanceOf: CHIDMPAdministrableProductDefinition
 Usage: #example
 Title: "PhP Trientinum-150mg-Tablet"
@@ -11,7 +11,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an AdministrableProduct
 * status = #active
 
 // (link to Medicinal Product)
-* formOf = Reference(Trientinum-150mg-Tablet)
+* formOf = Reference(Cuprior-150mg-Filmcoatedtablet)
 
 // Pharmaceutical Product.Administrable Dose Form
 * administrableDoseForm.coding[Swissmedic] = $edqm#10221000 "Film-coated tablet"

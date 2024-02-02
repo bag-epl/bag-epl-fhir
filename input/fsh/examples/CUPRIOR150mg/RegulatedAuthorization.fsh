@@ -11,7 +11,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * identifier.value = "6771901"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
-* subject = Reference(Trientinum-150mg-Tablet) // MedicinalProductDefinition
+* subject = Reference(Cuprior-150mg-Filmcoatedtablet) // MedicinalProductDefinition
 
 // Marketing Authorisation.Country
 * region = $country#CH "Switzerland"
@@ -73,7 +73,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * identifier.value = "67719001"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
-* subject = Reference(PMP-Trientinum-150mg-Filmtabletten) // PackagedProductDefinition
+* subject = Reference(PMP-Cuprior-150mg-Filmcoatedtablet) // PackagedProductDefinition
 
 // Marketing Authorisation.Country
 * region = $country#CH "Switzerland"

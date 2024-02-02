@@ -1,32 +1,30 @@
-Die nachfolgenden Anwendungsfälle dienen der Illustration der Szenarien, wie sie bei meldepflichtigen Laborbefunden, die ans Bundesamt für Gesundheit übermittelt werden, auftreten. Die Fälle sollen exemplarisch die Repräsentation der Labormeldungen darstellen. Sie wurden inhaltlich und klinisch noch nicht validiert.
+Die nachfolgenden Anwendungsfälle dienen der Illustration der Szenarien, wie sie bei der Publizierung der Späzialitätenliste, welches vom Bundesamt für Gesundheit publiziert wird, auftreten. 
 
-### Szenario 1 - Meldeweg für den Standardfall
-Dieser Meldeweg gilt für Erreger wie [Neisseria gonorrhoeae](#neisseria-gonorrhoeae), [Chlamydia trachomatis](#chlamydia-trachomatis) und weitere.
+### Szenario 1 - Fallbeispiel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed sapien ac mauris pharetra venenatis. 
 
 {% include img.html img="scenario1.png" caption="Abb. 3: Meldeweg für den Standardfall" width="60%" %}
 
-#### Neisseria gonorrhoeae
-[Herr Daniel Meier](Patient-1Pat-DM.html) geboren am 22.08.1960, wohnhaft in 3000 Bern, konsultiert am 11.07.2023 die [Ärztin Dr. Monika Giacometti am Kantonsspital](PractitionerRole-1PR-KsAbc.html). Herr Meier klagt über Juckreiz der Harnröhre und Schmerzen beim Wasserlassen. Da der Verdacht auf eine Harnwegsinfektion besteht, wird ein [Abstrich](Specimen-1Spec-Specimen.html) abgenommen und zur Analyse an das [Labor](Organization-1Org-Labor.html) geschickt. Mittels Isolierung in Kultur wird am 14.07.2023 [Neisseria gonorrhoeae nachgewiesen (LOINC 697-3)](Observation-1Obs-NeisseriaGonorrhoeae.html). Das Labor meldet den **[meldepflichtigen Laborbefund](Bundle-1Doc-NeisseriaGonorrhoeae.html)** dem Meldesystem des Bundesamtes für Gesundheit.
+#### Cuprior 150 mg Filmtabletten
+Etiam sed felis magna. Sed malesuada neque neque, eget euismod dolor facilisis non. Pellentesque eget nibh vel magna fermentum sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi posuere felis at nunc laoreet, nec dictum eros placerat. Vivamus pulvinar nec diam id lacinia. Aenean laoreet turpis vitae pretium tincidunt. 
 
-##### Broker Szenario
-[Private Dienstleister (sog. Broker)](Organization-1bOrg-Broker.html), welche den **[meldepflichtigen Laborbefund](Bundle-1bDoc-NeisseriaGonorrhoeae.html)** im Auftrag des [Labors](Organization-1bOrg-Labor.html) an das Meldesystem des Bundesamtes für Gesundheit übermitteln, werden im FHIR-Dokument als Autor des Dokuments abgebildet.
+#### Entocort Enema
+Fusce ut enim vestibulum, efficitur mauris ac, ultricies arcu. In eu risus eros. Duis odio nulla, ultricies quis purus sit amet, consequat vehicula leo. Nulla facilisi. Pellentesque et fermentum felis, ac convallis erat. Nam sed aliquet leo. Praesent feugiat nunc at orci porttitor ultrices. Etiam rhoncus suscipit elit nec lobortis. Proin at nibh turpis. Nam iaculis risus vel libero sodales, venenatis maximus eros egestas. Sed augue ligula, consectetur eget diam vitae, posuere condimentum leo. Suspendisse et enim sapien. 
 
-#### Chlamydia trachomatis
-Frau Hanna Felber, geboren am 17.10.1985, wohnhaft in 4552 Derendingen, konsultiert am 29.7.2023 ihren Hausarzt Dr. Peter Hauser in seiner Praxis in Solothurn. Frau Felber klagt über Brennen beim Wasserlösen und vaginalem Ausfluss. Da der Verdacht auf eine Harnwegsinfektion besteht, wird mit einem sterilen Verfahren eine urethrale Probe entnommen und an das Labor geschickt. Mittels Kultur wird am 4.8.2023 Chlamydia trachomatis (LOINC 6349-5) nachgewiesen. Das Labor meldet den positiven **[meldepflichtigen Laborbefund](Bundle-2Doc-ChlamydiaTrachomatis.html)** unter Angabe des verwendeten Probematerials (SNOMED CT 119393003) ans Bundesamt für Gesundheit.
-
-### Szenario 2 - Meldeweg für Bestätigungstests
-Dieser Meldeweg gilt für Erreger wie [Salmonella spp.](#salmonella-spp), [Neisseria meningitidis](#neisseria-meningitidis) und weitere.
+### Szenario 2 - Fallbeispiel 2
+Fusce sodales, tellus sed accumsan maximus, diam ligula laoreet ex, euismod molestie metus nulla quis mi.
 
 {% include img.html img="scenario2.png" caption="Abb. 4: Meldeweg für Bestätigungstests" width="60%" %}
 
-#### Salmonella spp.
-In einer Blutprobe wurden Salmonella spp. gefunden. Eine Befundmeldung geht an den Auftraggeber (Praxis/Klinik); eine 1. Meldung erfolgt an das BAG (unter Angabe der Auftragsnummer und des/ der auftraggebenden Arztes/ Klinik).
-Da es sich nicht um den Typ S. enteritidis handelt, wird die Probe zur genauen Typisierung an das Nationale Zentrum für enteropathogene Bakterien und Listerien („NENT“, Sekundärlabor) geschickt. Das Sekundärlabor benötigt Stammdaten zum Auftraggeber und zum Patienten, Angaben zur Herkunft der Probe (Lebensmittel, Faeces, Blut, Urin etc.), die gewünschte Typisierung und die vorangehenden Resultate. Nach erfolgter Typisierung schickt das Sekundärlabor seine Befunde (die 2. Meldung) zusammen mit der Auftragsnummer des zuweisenden Labors an das BAG.
+#### Estalis
+Pellentesque faucibus ligula at dignissim lacinia. Curabitur ullamcorper auctor tortor. Mauris imperdiet nisl ut laoreet laoreet. Donec dapibus dictum est, vitae efficitur lectus ultrices sit amet. Integer mollis, est ac vulputate bibendum, leo odio mattis turpis, eu malesuada turpis ipsum quis eros. Pellentesque ullamcorper facilisis velit vel aliquam. Donec ac auctor nisl. Duis aliquet ac dui eget tempus. Pellentesque ornare elit ac dapibus varius. Donec venenatis tortor eu ultricies malesuada. Nulla in sapien accumsan, imperdiet erat sed, efficitur purus. Ut vitae facilisis neque, vitae convallis justo. Sed vulputate ante fermentum tellus ullamcorper commodo. Suspendisse pellentesque pulvinar lectus non accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed elementum neque. 
 
-#### Neisseria meningitidis
-Eine Liquorprobe wurde vom Kreisspital notfallmässig zugeschickt und direkt mikroskopisch untersucht. Es finden sich gramnegative Diplokokken. Dieser Befund zu einer Infektion mit Neisseria meningitidis muss innerhalb eines Tages gemeldet werden. Die weitere Verarbeitung (Kultur, Genomsequenz) erfolgt durch das Nationale Zentrum für Meningokokken (Sekundärlabor), von welchem wiederum eine vollständige Meldung zusammen mit der Auftragsnummer des Primärlabors an die Sektion Meldesysteme des BAG erfolgt.
+#### Keytruda
+Nullam ullamcorper tempus elit, id sodales nisl condimentum ac. Aenean congue placerat mi id aliquam. Nullam consequat ex a vehicula scelerisque. Cras vulputate mauris sed auctor malesuada. Aenean accumsan arcu a sapien viverra placerat. Phasellus libero eros, consequat eget tellus nec, condimentum efficitur dolor. Donec laoreet eget turpis in blandit. Phasellus maximus eu enim et maximus. 
 
 
-### Szenario 3 - Meldeweg bei Weitergabe eines Laborautrages oder bei HIV-Diagnose
+### Szenario 3 - Fallbeispiel 3
+
+Sed feugiat luctus augue, ac auctor dolor cursus non. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
 {% include img.html img="scenario3.png" caption="Abb. 5: Meldeweg bei Weitergabe eines Laborautrages oder bei HIV-Diagnose" width="55%" %}

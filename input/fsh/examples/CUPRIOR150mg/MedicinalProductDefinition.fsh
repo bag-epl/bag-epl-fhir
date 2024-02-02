@@ -1,4 +1,4 @@
-Instance: Trientinum-150mg-Tablet
+Instance: Cuprior-150mg-Filmcoatedtablet
 InstanceOf: CHIDMPMedicinalProductDefinition
 Usage: #example
 Title: "CUPRIOR Filmtabl 150 mg 72 Stk"

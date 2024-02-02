@@ -33,6 +33,12 @@ dependencies:
 pages:
   index.md:
     title: Home
+  idmp.md:
+    title: IDMP Standard ISO 11615
+  authorised-medicinal-product.md:
+    title: Datasource Authorised Medicinal Product
+  spezialitaetenliste.md:
+    title: Dataexport FOPH Spezialitätenliste
   usecase-german.md:
     title: Use Cases
   examples.md:
@@ -46,6 +52,10 @@ pages:
 
 menu:
   Home: index.html
+  Documentation:
+    ISO IDMP: idmp.html
+    Datasource: authorised-medicinal-product.html
+    Spezialitätenliste: spezialitaetenliste.html
   Use Case:
     German: usecase-german.html 
   Examples: examples.html

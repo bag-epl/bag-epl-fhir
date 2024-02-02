@@ -1,5 +1,5 @@
 // Manufactured Item
-Instance: MI-Trientinum-150mg-Filmtabletten
+Instance: MI-Trientinum-150mg-Filmcoatedtablet
 InstanceOf: CHIDMPManufacturedItemDefinition
 Usage: #example
 Title: "MI Trientinum-150mg-Tablet"
