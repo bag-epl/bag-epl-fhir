@@ -21,6 +21,8 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(RegulatedAuthorisation, MA-67719001)
 * entry[+]
+  * insert bundleEntry(RegulatedAuthorisation, FOPH-21208001)
+* entry[+]
   * insert bundleEntry(ManufacturedItemDefinition, MI-Trientinum-150mg-Filmcoatedtablet) 
 * entry[+]
   * insert bundleEntry(AdministrableProductDefinition, PhP-Trientinum-150mg-Filmcoatedtablet)

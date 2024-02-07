@@ -7,9 +7,10 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 
 * contained
 
-* identifier.system 1..
+
+* identifier.system 0..1
 * identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
-* identifier.value 1..
+* identifier.value 0..1
 
 //Reference(MedicinalProductDefinition | BiologicallyDerivedProduct | NutritionProduct | PackagedProductDefinition | ManufacturedItemDefinition | Ingredient | SubstanceDefinition | DeviceDefinition | ResearchStudy | ActivityDefinition | PlanDefinition | ObservationDefinition | Practitioner | Organization | Location)
 * subject only Reference(CHIDMPMedicinalProductDefinition or CHIDMPPackagedProductDefinition or CHIDMPManufacturedItemDefinition or CHIDMPIngredient)

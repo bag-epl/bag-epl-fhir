@@ -1,8 +1,8 @@
 // Manufactured Item
-Instance: MI-Budesonidum-2-3mg-TabletForRectalSuspension
+Instance: MI-Budesonide-2-3mg-TabletForRectalSuspension
 InstanceOf: CHIDMPManufacturedItemDefinition
 Usage: #example
-Title: "MI Budesonidum 2.3mg Tablet"
+Title: "MI Budesonide 2.3mg Tablet"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a ManufacturedItemDefinition (Manufactured Item)"
 * status = #active
 
@@ -13,10 +13,10 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Ma
 * unitOfPresentation.coding[Swissmedic] = $edqm#15054000 "Tablet"
 
 // Manufactured Item
-Instance: MI-Budesonidum-2-3mg-Bottle
+Instance: MI-Budesonide-2-3mg-Bottle
 InstanceOf: CHIDMPManufacturedItemDefinition
 Usage: #example
-Title: "MI Budesonidum 2.3mg Bottle"
+Title: "MI Budesonide 2.3mg Bottle"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a ManufacturedItemDefinition (Manufactured Item)"
 * status = #active
 

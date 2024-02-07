@@ -17,7 +17,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * region = $country#CH "Switzerland"
 
 // Marketing Authorisation.Authorisation Type
-* type[+].coding[CH] = ChAuthorisationTypeCS#SL "Vergütung SL" 
+* type[+].coding[CH] = ChAuthorisationTypeCS#MA "Marktzulassung" 
 
 // Marketing Authorisation.Authorisation Status
 * status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
@@ -27,30 +27,6 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 
 // Marketing Authorisation.Validity Period Start, Marketing Authorisation.Validity Period End
 * validityPeriod.start = "2021-01-21"
-
-
-
-// Reimbursement Speciality List.Reimbursement Status
-//* reimbursementStatus[+].coding[FOPH] = $ePL-ReimbursementStatusCS#RS01 "Sample Value"
-
-// Reimbursement Speciality List.Date Of Reimbursement Status
-//* reimbursementStatusDate = "2021-01-21" 
-
-// Reimbursement Speciality List.Start Date Of Listing  Reimbursement Speciality List.End Date Of Listing 
-//* listingPeriod.start = "2021-01-21" 
-//* listingPeriod.end = "2021-01-21" 
-
-
-
-// Reimbursement Speciality List.End Date Of First Listing
-//* dateOfFirstListing = "2021-01-21" 
-
-// FOPH Dossier Number
-//* extension[EPLFOPHDossierNumber].valueIdentifier.system = "http://fhir.ch/ig/ch-epl/NamingSystem/FOPHDossierNumber"
-//* extension[EPLFOPHDossierNumber].valueIdentifier.value = "1234567"
-
-// Reimbursement Speciality List.End Date Of Reimbursement
-//* extension[reimbursementEnd].valueDateTime = "2021-01-21" 
 
 // Marketing Authorisation.Marketing Authorisation Holder (Organisation)
 * holder.reference = "#holder-Curatis-AG"
@@ -78,14 +54,54 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 // Marketing Authorisation.Country
 * region = $country#CH "Switzerland"
 
+// Marketing Authorisation.Authorisation Type
+* type[+].coding[CH] = ChAuthorisationTypeCS#MA "Marktzulassung" 
+
+// Marketing Authorisation.Authorisation Status
+* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
+
 // Marketing Authorisation.Authorisation Status Date
 * statusDate = "2021-01-21" 
 
 // Marketing Authorisation.Validity Period Start, Marketing Authorisation.Validity Period End
 * validityPeriod.start = "2021-01-21"
 
-// Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
+// Marketing Authorisation.Marketing Authorisation Holder (Organisation)
+* holder.reference = "#holder-Curatis-AG"
+
+// 	Marketing Authorisation.Medicines Regulatory Agency (Organisation)
+* regulator.reference = "#regulator-swissmedic"
+
+// ---------------------------------------------------------------------------------------------------------------------------
+
+Instance: FOPH-21208001
+InstanceOf: CHIDMPRegulatedAuthorization
+Usage: #example
+Title: "21208001"
+Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"
+* contained[+] = holder-Curatis-AG
+
+// FOPH Dossier Number
+* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
+* identifier.value = "21208"
+
+// (the link to Medicinal Product or Packaged Medicinal Product)
+* subject = Reference(PMP-Cuprior-150mg-Filmcoatedtablet) // PackagedProductDefinition
+
+// Marketing Authorisation.Country
+//* region = $country#CH "Switzerland"
+
+// Marketing Authorisation.Authorisation Type
+* type[+].coding[CH] = ChAuthorisationTypeCS#SL "Vergütung SL" 
+
+// Reimbursement Status
+* status[+].coding[FOPH] = $FOPH-ReimbursementStatusCS#Z "zugelassen" 
+
+// Marketing Authorisation.Reimbursement Status Date
+* statusDate = "2021-01-21" 
+
+// Marketing Authorisation.Listing Period Start, Marketing Authorisation.Listing Period End
+* validityPeriod.start = "2021-01-21"
 
 // Reimbursement Speciality List.Reimbursement Status
 //* reimbursementStatus[+].coding[FOPH] = $ePL-ReimbursementStatusCS#RS01 "Sample Value"
@@ -109,7 +125,3 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 
 // Marketing Authorisation.Marketing Authorisation Holder (Organisation)
 * holder.reference = "#holder-Curatis-AG"
-
-// 	Marketing Authorisation.Medicines Regulatory Agency (Organisation)
-* regulator.reference = "#regulator-swissmedic"
-

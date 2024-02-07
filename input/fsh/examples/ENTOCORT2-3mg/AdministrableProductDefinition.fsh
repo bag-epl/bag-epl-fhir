@@ -1,8 +1,8 @@
 // Pharmaceutical Product
-Instance: PhP-Budesonidum-2-3mg-RectalSuspension 
+Instance: PhP-Budesonide-2-3mg-RectalSuspension 
 InstanceOf: CHIDMPAdministrableProductDefinition
 Usage: #example
-Title: "PhP Budesonidum 2.3mg Rectal suspension"
+Title: "PhP Budesonide 2.3mg Rectal suspension"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an AdministrableProductDefinition (Pharmaceutical Product)"
 // n/a
 * identifier.system = $PhPID

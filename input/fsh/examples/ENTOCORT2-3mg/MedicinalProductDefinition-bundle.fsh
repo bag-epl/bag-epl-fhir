@@ -21,12 +21,12 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(RegulatedAuthorisation, MA-52042011)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Budesonidum-2-3mg-TabletForRectalSuspension) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Budesonide-2-3mg-TabletForRectalSuspension) 
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Budesonidum-2-3mg-Bottle) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Budesonide-2-3mg-Bottle) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Budesonidum-2-3mg-RectalSuspension)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Budesonide-2-3mg-RectalSuspension)
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10009900)
 * entry[+]
-  * insert bundleEntry(Ingredient, Budesonidum2-3mg)
+  * insert bundleEntry(Ingredient, Budesonide2-3mg)

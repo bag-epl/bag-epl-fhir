@@ -46,7 +46,7 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 * attachedDocument[+] = Reference(DocRef-PI-Entocort)
 
 // Medicinal Product Name.Full Name
-* name[de-CH][0].productName = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk "
+* name[de-CH][0].productName = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk"
 * name[de-CH][=].part[0].part = "ENTOCORT Enema"
 * name[de-CH][=].part[=].type = $ISO-NamePart#InventedNamePart "Invented Name Part"
 * name[de-CH][=].part[+].part = "Klistier Lösung + Tabletten"

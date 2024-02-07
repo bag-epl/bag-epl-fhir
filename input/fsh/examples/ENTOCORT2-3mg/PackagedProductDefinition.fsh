@@ -43,7 +43,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Pa
 
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C"
 
-* packaging.containedItem[+].item.reference = Reference(MI-Budesonidum-2-3mg-TabletForRectalSuspension)
+* packaging.containedItem[+].item.reference = Reference(MI-Budesonide-2-3mg-TabletForRectalSuspension)
 * packaging.containedItem[=].amount.value = 7
 * packaging.containedItem[=].amount.unit = "Blister"
 * packaging.containedItem[=].amount.system = $edqm
