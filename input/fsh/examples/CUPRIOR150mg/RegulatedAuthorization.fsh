@@ -95,7 +95,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * type[+].coding[CH] = ChAuthorisationTypeCS#SL "Vergütung SL" 
 
 // Reimbursement Status
-* status[+].coding[FOPH] = $FOPH-ReimbursementStatusCS#Z "zugelassen" 
+//* status[+].coding[FOPH] = $FOPH-ReimbursementStatusCS#Z "zugelassen" 
 
 // Marketing Authorisation.Reimbursement Status Date
 * statusDate = "2021-01-21" 

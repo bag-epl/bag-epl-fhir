@@ -15,7 +15,7 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * #A "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)"
 * #A+ "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)"
 * #B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
-* #B/C "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)/Abgabe nach Fachberatung durch Medizinalpe"
+* #B/C "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)/Abgabe nach Fachberatung durch Medizinalpersonen"
 * #B/D "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)/Abgabe nach Fachberatung (D)"
 * #C "Abgabe nach Fachberatung durch Medizinalpersonen (C)"
 * #C/D "Abgabe nach Fachberatung durch Medizinalpersonen (C)/Abgabe nach Fachberatung (D)"
