@@ -32,3 +32,28 @@ Description: "Identifier holding a number for OrgID (Organisation Identifier of 
 * system ^short = "OrgID"
 * value 1..
 * value ^short = "OrgID"
+
+
+// ------------------------------- Authorization.identifier ------------------------------- //
+
+Profile: SwissmedicIdentifier
+Parent: Identifier
+Id: ch-swissmedic-authorization-identifier
+Title: "Marketing Authorization Identifier"
+Description: "Identifier holding the Swissmedic Authorisation Number"
+* system 1..
+* system = "urn:oid:2.16.756.5" (exactly)
+* system ^short = "MarketingAuthorizationNumber"
+* value 1..
+* value ^short = "MarketingAuthorizationNumber"
+
+Profile: FOPHIdentifier
+Parent: Identifier
+Id: ch-foph-dossier-number
+Title: "FOPH Dossier Number"
+Description: "Identifier holding the Dossier number of FOPH"
+* system 1..
+* system = "urn:oid:2.16.756.1" (exactly)
+* system ^short = "FOPHDossierNumber"
+* value 1..
+* value ^short = "FOPHDossierNumber"

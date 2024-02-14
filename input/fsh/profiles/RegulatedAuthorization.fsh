@@ -8,9 +8,40 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * contained
 
 
-* identifier.system 0..1
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
-* identifier.value 0..1
+//* identifier.system 0..1
+//* identifier.system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-swissmedic-marketing-authorisation-number"
+//* identifier.value 0..1
+
+//* identifier.system 0..1
+//* identifier.system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-foph-dossier-no"
+//* identifier.value 0..1
+
+/* identifier 1..* MS
+* identifier.system 1..1 MS
+* identifier.value 1..1 MS
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier contains 
+    Swissmedic 0..1 and
+    FOPH 0..1
+* identifier[Swissmedic] ^slicing.description = "Require specific types of identifiers."
+//* identifier[Swissmedic] contains Swissmedic 0..1 MS
+* identifier[Swissmedic].system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-swissmedic-marketing-authorisation-number"
+* identifier[FOPH] ^slicing.description = "Require specific types of identifiers."
+//* identifier[FOPH] contains FOPH 0..1 MS
+* identifier[FOPH].system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-foph-dossier-number"*/
+
+
+* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.path = "$this"
+* identifier ^slicing.rules = #open
+* identifier.value 1..
+* identifier contains
+    Swissmedic 0..1 and
+    FOPH 0..1
+* identifier[Swissmedic] only SwissmedicIdentifier
+* identifier[FOPH] only FOPHIdentifier
 
 //Reference(MedicinalProductDefinition | BiologicallyDerivedProduct | NutritionProduct | PackagedProductDefinition | ManufacturedItemDefinition | Ingredient | SubstanceDefinition | DeviceDefinition | ResearchStudy | ActivityDefinition | PlanDefinition | ObservationDefinition | Practitioner | Organization | Location)
 * subject only Reference(CHIDMPMedicinalProductDefinition or CHIDMPPackagedProductDefinition or CHIDMPManufacturedItemDefinition or CHIDMPIngredient)

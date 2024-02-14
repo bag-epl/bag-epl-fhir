@@ -82,7 +82,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * contained[+] = holder-Curatis-AG
 
 // FOPH Dossier Number
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
+* identifier.system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-foph-dossier-number"
 * identifier.value = "21208"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)

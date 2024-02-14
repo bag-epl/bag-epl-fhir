@@ -20,7 +20,7 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 * indication = "Leichte bis mittelschwere Colitis ulcerosa des Rectums sowie des Colon sigmoideum."
 
 // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "B"
 
 // Medicinal Product.Additional Monitoring Indicator
 // * additionalMonitoringIndicator = $Swissmedic-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"

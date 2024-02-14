@@ -18,7 +18,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Pa
 * description = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk"
 
 // Marketing Authorisation.Legal Status of Supply (for a package)
-* legalStatusOfSupply[+].code.coding[Swissmedic] = $Swissmedic-LegalStatusOfSupplyCS#B "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply[+].code.coding[Swissmedic] = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Packaged Medicinal Product.Marketing Status
 * marketingStatus[+].country = $country#CH "Switzerland"
