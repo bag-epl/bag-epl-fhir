@@ -12,6 +12,6 @@ Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete
-* #MA "Marktzulassung"
-* #OR "Orphan Zulassung"
-* #SL "Vergütung SL"
+* #756000002001 "Marktzulassung"
+* #756000002002 "Orphan Zulassung"
+* #756000002003 "Vergütung SL"

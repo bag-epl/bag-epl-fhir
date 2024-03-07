@@ -7,6 +7,11 @@ Description: "EMA - Standard Terms used in Switzerland (see original codes syste
 * ^caseSensitive = true
 * ^content = #fragment
 
+//EMADomain
+* #100000000012 "Human"
+* #100000000013 "Veterinary"
+* #100000000014 "Human And Veterinary"
+
 //EMAIntendeEffect
 * #200000003192 "preventive"
 * #200000003194 "therapeutic"

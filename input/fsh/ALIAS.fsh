@@ -9,9 +9,10 @@ Alias: $language =                      urn:ietf:bcp:47
 Alias: $country =                       urn:iso:std:iso:3166
 
 Alias: $edqm =                          urn:oid:0.4.0.127.0.16.1.1.2.1 // https://confluence.hl7.org/display/TA/EDQM+Standard+Terms
-Alias: $meddra =                        http://terminology.hl7.org/CodeSystem/mdr
 Alias: $gtin =                          urn:oid:2.51.1.1
 Alias: $ema =                           urn:oid:1.2.276.0.76
+Alias: $mdr =                           http://terminology.hl7.org/CodeSystem/mdr
+Alias: $sct =                           http://snomed.info/sct
 
 // ISO 
 Alias: $ISO-NamePart  =                 http://hl7.org/fhir/medicinal-product-name-part-type
@@ -65,7 +66,7 @@ Alias:  $ePL-StatusMedicinalProduct =                        http://fhir.ch/ig/c
 // Section Green - Marketing Authorisations
 
 // Swissmedic
-Alias:  $CH-AuthorisationType =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-authorisation-type //Provisorisch
+Alias:  $CH-AuthorisationType =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-authorisation-type //Provisorisch
 Alias:  $Swissmedic-LegalStatusOfSupplyCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-legal-status-of-supply //Provisorisch
 Alias:  $Swissmedic-AuthorisationStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-authorisation-status //Provisorisch
 Alias:  $Swissmedic-ProcedureType =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ProcedureType //Provisorisch
@@ -79,6 +80,9 @@ Alias:  $ePL-MedicinalProductStatusCS =                      http://fhir.ch/ig/c
 Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-type-of-price-change 
 Alias:  $ePL-LimitationStatusCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-limitation-status 
 Alias:  $ePL-ReimbursementStatusCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status  
+Alias:  $ePL-ListingStatusCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-listing-status  
+Alias:  $ePL-GammeCS =                                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-gamme
+Alias:  $ePL-PriceTypeCS =                                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-price-type
 
 // Section purple - Clinical Particulars 
 
@@ -105,13 +109,14 @@ Alias:  $Swissmedic-ScoringVS =                              http://fhir.ch/ig/c
 // Alias:  $Swissmedic-UnitOfPresentationCS =                   http://fhir.ch/ig/ch-epl/CodeSystem/edqm-unit-of-presentation
 
 // FOPH
-Alias:  $ePL-PackagingStatusCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-packaging-status 
+Alias:  $ePL-PackagingStatusCS =                             http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-packaging-status 
+Alias:  $ePL-OtherCharacteristicsPackagedItemCS =            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-other-characteristics-packaged-item
 
 // Section orange - Substances Strength
 
 // Swissmedic
 Alias:  $Swissmedic-IngredientRoleCS =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-ingredient-role //Provisorisch                      
-Alias:  $Swissmedic-SubstanceCS =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-substance //Provisorisch                      
+Alias:  $Swissmedic-SubstanceCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-substance //Provisorisch                      
 Alias:  $Swissmedic-OriginOfSubstance =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-OriginOfSubstance //Provisorisch                      
 Alias:  $Swissmedic-OriginOfSubstanceVS =                    http://fhir.ch/ig/ch-epl/ValueSet/ch-swissmedic-OriginOfSubstance //Provisorisch
 Alias:  $Swissmedic-QuantityOperator =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-swissmedic-QuantityOperator //Provisorisch                      

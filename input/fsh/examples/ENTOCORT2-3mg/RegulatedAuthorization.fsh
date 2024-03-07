@@ -17,7 +17,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an M
 * region = $country#CH "Switzerland"
 
 // Marketing Authorisation.Authorisation Type
-* type[+].coding[CH] = ChAuthorisationTypeCS#SL "Vergütung SL" 
+* type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marktzulassung" 
 
 // Marketing Authorisation.Authorisation Status
 * status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 

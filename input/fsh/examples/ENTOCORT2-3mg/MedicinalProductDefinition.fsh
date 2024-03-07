@@ -9,7 +9,7 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 * identifier[=].value = "CH-7601001346451-5204201"
 
 // n/a -> FHIR: If this medicine applies to human or veterinary uses.
-* domain.coding[Swissmedic] = $Swissmedic-DomainCS#HAM "Human Arzneimittel"
+* domain.coding[EMA] = $ema#100000000012 "Human"  
 
 // Authorised Pharmaceutical Dose Form
 * extension[authorizedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseFormCS#50064000 "Tablet and solvent for rectal suspension"
@@ -20,7 +20,7 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 * indication = "Leichte bis mittelschwere Colitis ulcerosa des Rectums sowie des Colon sigmoideum."
 
 // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "B"
+* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Medicinal Product.Additional Monitoring Indicator
 // * additionalMonitoringIndicator = $Swissmedic-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"

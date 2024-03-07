@@ -23,7 +23,7 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.diseaseSymptomProcedure.concept.coding contains 
     Swissmedic 0..1
 * indication.diseaseSymptomProcedure.concept.coding[Swissmedic].system 1..
-* indication.diseaseSymptomProcedure.concept.coding[Swissmedic].system = $meddra
+* indication.diseaseSymptomProcedure.concept.coding[Swissmedic].system = $mdr
 * indication.diseaseSymptomProcedure.concept.coding[Swissmedic].code 1..
 
 * indication.comorbidity.concept 1..
@@ -34,7 +34,7 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.comorbidity.concept.coding contains 
     Swissmedic 0..1
 * indication.comorbidity.concept.coding[Swissmedic].system 1..
-* indication.comorbidity.concept.coding[Swissmedic].system = $meddra
+* indication.comorbidity.concept.coding[Swissmedic].system = $mdr
 * indication.comorbidity.concept.coding[Swissmedic].code 1..
 
 * indication.intendedEffect from EMAIntendedEffectVS (required)

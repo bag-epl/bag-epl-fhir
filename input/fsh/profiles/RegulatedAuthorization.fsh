@@ -33,16 +33,6 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * identifier[FOPH].system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-foph-dossier-number"*/
 
 
-* identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "$this"
-* identifier ^slicing.rules = #open
-* identifier.value 1..
-* identifier contains
-    Swissmedic 0..1 and
-    FOPH 0..1
-* identifier[Swissmedic] only SwissmedicIdentifier
-* identifier[FOPH] only FOPHIdentifier
-
 //Reference(MedicinalProductDefinition | BiologicallyDerivedProduct | NutritionProduct | PackagedProductDefinition | ManufacturedItemDefinition | Ingredient | SubstanceDefinition | DeviceDefinition | ResearchStudy | ActivityDefinition | PlanDefinition | ObservationDefinition | Practitioner | Organization | Location)
 * subject only Reference(CHIDMPMedicinalProductDefinition or CHIDMPPackagedProductDefinition or CHIDMPManufacturedItemDefinition or CHIDMPIngredient)
 

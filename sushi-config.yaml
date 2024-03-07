@@ -81,3 +81,4 @@ parameters:
     - urn:oid:0.4.0.127.0.16.1.1.2.11 # edqm-unit-of-presentation
     - urn:oid:1.2.276.0.76 # ema-rms
     - https://spor.ema.europa.eu/rmswi/#/lists/100000073343/terms # ema-shelf-life-type
+    - https://spor.ema.europa.eu/rmswi/#/lists/100000000004/terms # ema-domain

@@ -12,16 +12,16 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * identifier.value 1..
 
 // * domain
-* domain from ChSwissmedicDomainVS (required)
+* domain from EMADomainVS (required)
 * domain.coding 1..
 * domain.coding ^slicing.discriminator[+].type = #value
 * domain.coding ^slicing.discriminator[=].path = "system"
 * domain.coding ^slicing.rules = #open
 * domain.coding contains 
-    Swissmedic 0..1
-* domain.coding[Swissmedic].system 1..
-* domain.coding[Swissmedic].system = $Swissmedic-DomainCS
-* domain.coding[Swissmedic].code 1..
+    EMA 0..1
+* domain.coding[EMA].system 1..
+* domain.coding[EMA].system = $ema
+* domain.coding[EMA].code 1..
 
 * extension contains
     CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
