@@ -12,7 +12,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * domain.coding[EMA] = $ema#100000000012 "Human"
 
 // Authorised Pharmaceutical Dose Form
-* extension[authorizedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseFormCS#10221000 "Film-coated tablet"
+* extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10221000 "Film-coated tablet"
 
 // Medicinal Product.Combined Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a
@@ -20,13 +20,13 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * indication = "Cuprior wird angewendet zur Behandlung von Morbus Wilson bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter mit Unverträglichkeit gegenüber einer D-Penicillamin-Therapie."
 
 // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply = $SMC-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Medicinal Product.Additional Monitoring Indicator
-// * additionalMonitoringIndicator = $Swissmedic-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
+// * additionalMonitoringIndicator = $SMC-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
 
 // Medicinal Product.ic Use Indicator
-* pediatricUseIndicator = $Swissmedic-PediatricUseIndicatorCS#No "Nicht zugelassen für die Anwendung bei Kindern"
+* pediatricUseIndicator = $SMC-PediatricUseIndicatorCS#No "Nicht zugelassen für die Anwendung bei Kindern"
 
 // FOPH EPL Product.Limitation
 //* extension[limitation].valueBoolean = true
@@ -35,7 +35,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 
 // Product Classification.Value
 * classification[+] = $atc#L01EX13
-* classification[+] = $Swissmedic-HeilmittelcodeCS#S "Synthetika"
+* classification[+] = $SMC-HeilmittelcodeCS#S "Synthetika"
 
 // Marketing Status
 //* marketingStatus[+].country = $country#CH "Switzerland"

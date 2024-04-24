@@ -12,7 +12,7 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 * domain.coding[EMA] = $ema#100000000012 "Human"  
 
 // Authorised Pharmaceutical Dose Form
-* extension[authorizedDoseForm].valueCodeableConcept.coding[Swissmedic] = $Swissmedic-AuthorisedDoseFormCS#50064000 "Tablet and solvent for rectal suspension"
+* extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#50064000 "Tablet and solvent for rectal suspension"
 
 // Medicinal Product.Combined Pharmaceutical Dose Form
 * combinedPharmaceuticalDoseForm = $edqm#50064000 "Tablet and solvent for rectal suspension"
@@ -20,13 +20,13 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 * indication = "Leichte bis mittelschwere Colitis ulcerosa des Rectums sowie des Colon sigmoideum."
 
 // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* legalStatusOfSupply = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply = $SMC-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Medicinal Product.Additional Monitoring Indicator
-// * additionalMonitoringIndicator = $Swissmedic-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
+// * additionalMonitoringIndicator = $SMC-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
 
 // Medicinal Product.ic Use Indicator
-* pediatricUseIndicator = $Swissmedic-PediatricUseIndicatorCS#Yes "Zugelassen für die Anwendung bei Kindern"
+* pediatricUseIndicator = $SMC-PediatricUseIndicatorCS#Yes "Zugelassen für die Anwendung bei Kindern"
 
 // FOPH EPL Product.Limitation
 //* extension[limitation].valueBoolean = true
@@ -35,7 +35,7 @@ Description: "ENTOCORT Klistier Lösung + Filmtabl 7 Stk: Example of a Medicinal
 
 // Product Classification.Value
 * classification[+] = $atc#A07EA06
-* classification[+] = $Swissmedic-HeilmittelcodeCS#S "Synthetika"
+* classification[+] = $SMC-HeilmittelcodeCS#S "Synthetika"
 
 // Marketing Status
 //* marketingStatus[+].country = $country#CH "Switzerland"

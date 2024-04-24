@@ -1,9 +1,9 @@
 ### Introduction
 
-The EPL requires a data import from Swissmedic and from the Marketing Authorisation Holders. The dataformat is based on FHIR IDMP.
+The EPL requires a data import from SMC and from the Marketing Authorisation Holders. The dataformat is based on FHIR IDMP.
 
 ### Data Pipeline
-The following datapipeline illustrates the dataflow within the EPL from the data sources Swissmedic and Marketing Authorisation Holder to the Federal Office for Public Health, and the Export of the Spezialitätenliste.
+The following datapipeline illustrates the dataflow within the EPL from the data sources SMC and Marketing Authorisation Holder to the Federal Office for Public Health, and the Export of the Spezialitätenliste.
 
 For the Dataimport the FHIR format must be used.
 {% include img.html img="Dataflow-EPL.png" caption="Fig. 1: Data Pipeline" width="60%" %}

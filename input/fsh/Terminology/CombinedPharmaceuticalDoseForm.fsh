@@ -1,7 +1,7 @@
 ValueSet: EdqmCombinedPharmaceuticalDoseFormVS
 Id: edqm-combined-pharmaceutical-dose-form
 Title: "EDQM - Combined Pharmaceutical Dose Form"
-Description: "Value Set for the Combined Pharmaceutical Dose Froms from EDQM used by Swissmedic"
+Description: "Value Set for the Combined Pharmaceutical Dose Froms from EDQM used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"

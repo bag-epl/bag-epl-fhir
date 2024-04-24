@@ -1,7 +1,7 @@
 ValueSet: EdqmPackagingVS
 Id: edqm-packaging
 Title: "EDQM - Packaging"
-Description: "Value Set for the Packaging from EDQM used by Swissmedic"
+Description: "Value Set for the Packaging from EDQM used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"

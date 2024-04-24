@@ -1,13 +1,13 @@
-ValueSet: ChSwissmedicPediatricUseIndicatorVS
-Id: ch-swissmedic-pediatric-use-indicator
-Title: "CH Swissmedic - Pediatric Use Indicator"
-Description: "Value Set for the Pediatric Use Indicator from Swissmedic"
+ValueSet: ChSMCPediatricUseIndicatorVS
+Id: ch-SMC-pediatric-use-indicator
+Title: "CH SMC - Pediatric Use Indicator"
+Description: "Value Set for the Pediatric Use Indicator from SMC"
 * ^experimental = false
-* include codes from system ChSwissmedicPediatricUseIndicatorCS
+* include codes from system ChSMCPediatricUseIndicatorCS
 
-CodeSystem: ChSwissmedicPediatricUseIndicatorCS
-Id: ch-swissmedic-pediatric-use-indicator
-Title: "CH Swissmedic - Pediatric Use Indicator"
+CodeSystem: ChSMCPediatricUseIndicatorCS
+Id: ch-SMC-pediatric-use-indicator
+Title: "CH SMC - Pediatric Use Indicator"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Pediatric Use Indicator)"
 * ^experimental = false
 * ^caseSensitive = true

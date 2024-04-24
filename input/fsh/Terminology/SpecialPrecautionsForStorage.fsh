@@ -1,13 +1,13 @@
-ValueSet: ChSwissmedicSpecialPrecautionsForStorageVS
-Id: ch-swissmedic-special-precautions-for-storage
-Title: "CH Swissmedic - Besondere Vorsichtsmassnahmen für die Aufbewahrung"
-Description: "Value Set for the Special Precautions for Storage from Swissmedic"
+ValueSet: ChSMCSpecialPrecautionsForStorageVS
+Id: ch-SMC-special-precautions-for-storage
+Title: "CH SMC - Besondere Vorsichtsmassnahmen für die Aufbewahrung"
+Description: "Value Set for the Special Precautions for Storage from SMC"
 * ^experimental = false
-* include codes from system ChSwissmedicSpecialPrecautionsForStorageCS
+* include codes from system ChSMCSpecialPrecautionsForStorageCS
 
-CodeSystem: ChSwissmedicSpecialPrecautionsForStorageCS
-Id: ch-swissmedic-special-precautions-for-storage
-Title: "CH Swissmedic - Besondere Vorsichtsmassnahmen für die Aufbewahrung"
+CodeSystem: ChSMCSpecialPrecautionsForStorageCS
+Id: ch-SMC-special-precautions-for-storage
+Title: "CH SMC - Besondere Vorsichtsmassnahmen für die Aufbewahrung"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Besondere Vorsichtsmassnahmen für die Aufbewahrung)"
 * ^experimental = false
 * ^caseSensitive = true

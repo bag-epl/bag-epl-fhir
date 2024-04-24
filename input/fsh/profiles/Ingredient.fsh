@@ -10,19 +10,19 @@ Description: "Profile of the Ingredient resource for representing the material u
 * for only Reference(CHIDMPMedicinalProductDefinition or CHIDMPAdministrableProductDefinition or CHIDMPManufacturedItemDefinition)
 
 // ingredient role
-* role from ChSwissmedicIngredientRoleVS (required)
+* role from ChSMCIngredientRoleVS (required)
 * role.coding 1..
 * role.coding ^slicing.discriminator.type = #value
 * role.coding ^slicing.discriminator.path = "system"
 * role.coding ^slicing.rules = #open
 * role.coding contains 
-     Swissmedic 0..1
-* role.coding[Swissmedic].system 1..
-* role.coding[Swissmedic].system = $Swissmedic-IngredientRoleCS
-* role.coding[Swissmedic].code 1..
+     SMC 0..1
+* role.coding[SMC].system 1..
+* role.coding[SMC].system = $SMC-IngredientRoleCS
+* role.coding[SMC].code 1..
 
 // substance
-* substance.code from ChSwissmedicSubstanceVS (required)
+* substance.code from ChSMCSubstanceVS (required)
 * substance.code.concept 1..
 * substance.code.concept.coding 1..
 * substance.code.concept.coding ^slicing.discriminator.type = #value
@@ -31,7 +31,7 @@ Description: "Profile of the Ingredient resource for representing the material u
 * substance.code.concept.coding contains 
     UNII 0..1 
 * substance.code.concept.coding[UNII].system 1..
-* substance.code.concept.coding[UNII].system = $Swissmedic-SubstanceCS
+* substance.code.concept.coding[UNII].system = $SMC-SubstanceCS
 * substance.code.concept.coding[UNII].code 1..
 
 * substance.strength.presentationRatio.numerator

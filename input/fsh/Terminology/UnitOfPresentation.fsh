@@ -1,7 +1,7 @@
 ValueSet: EdqmUnitOfPresentationVS
 Id: edqm-unit-of-presentation
 Title: "EDQM - Unit of Presentation"
-Description: "Value Set for the Unit of Presentation from EDQM used by Swissmedic"
+Description: "Value Set for the Unit of Presentation from EDQM used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"

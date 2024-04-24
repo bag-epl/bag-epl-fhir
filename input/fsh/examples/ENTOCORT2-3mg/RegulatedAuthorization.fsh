@@ -4,10 +4,10 @@ Usage: #example
 Title: "5204201"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"
 * contained[+] = holder-Tillotts-AG
-* contained[+] = regulator-swissmedic
+* contained[+] = regulator-SMC
 
 // Marketing Authorisation.Marketing Authorisation Number
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
+* identifier.system = "http://SMC.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
 * identifier.value = "5204201"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
@@ -20,7 +20,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an M
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marktzulassung" 
 
 // Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
+* status[+].coding[SMC] = $SMC-AuthorisationStatusCS#Z "zugelassen" 
 
 // Marketing Authorisation.Authorisation Status Date
 * statusDate = "1993-06-18" 
@@ -56,7 +56,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an M
 * holder.reference = "#holder-Tillotts-AG"
 
 // 	Marketing Authorisation.Medicines Regulatory Agency (Organisation)
-* regulator.reference = "#regulator-swissmedic"
+* regulator.reference = "#regulator-SMC"
 
 // ---------------------------------------------------------------------------------------------------------------------------
 
@@ -66,10 +66,10 @@ Usage: #example
 Title: "52042011"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"
 * contained[+] = holder-Tillotts-AG
-* contained[+] = regulator-swissmedic
+* contained[+] = regulator-SMC
 
 // Marketing Authorisation.Marketing Authorisation Number
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
+* identifier.system = "http://SMC.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
 * identifier.value = "67719001"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
@@ -85,7 +85,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * validityPeriod.start = "1993-06-18"
 
 // Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
+* status[+].coding[SMC] = $SMC-AuthorisationStatusCS#Z "zugelassen" 
 
 // Reimbursement Speciality List.Reimbursement Status
 //* reimbursementStatus[+].coding[FOPH] = $ePL-ReimbursementStatusCS#RS01 "Sample Value"
@@ -111,5 +111,5 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * holder.reference = "#holder-Tillotts-AG"
 
 // 	Marketing Authorisation.Medicines Regulatory Agency (Organisation)
-* regulator.reference = "#regulator-swissmedic"
+* regulator.reference = "#regulator-SMC"
 

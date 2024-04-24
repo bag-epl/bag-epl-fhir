@@ -2,7 +2,7 @@
 The Data Export from FOPH is based on the IDMP standard added with several datafields for the Spezialitätenliste. 
 
 ### Data Pipeline
-The following datapipeline illustrates the dataflow within the EPL from the data sources Swissmedic and Marketing Authorisation Holder to the Federal Office for Public Health, and the Export of the Spezialitätenliste.
+The following datapipeline illustrates the dataflow within the EPL from the data sources SMC and Marketing Authorisation Holder to the Federal Office for Public Health, and the Export of the Spezialitätenliste.
 
 For the Dataimport the FHIR format must be used.
 

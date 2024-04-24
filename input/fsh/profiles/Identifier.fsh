@@ -36,11 +36,11 @@ Description: "Identifier holding a number for OrgID (Organisation Identifier of 
 
 // ------------------------------- Authorization.identifier ------------------------------- //
 
-Profile: SwissmedicIdentifier
+Profile: SMCIdentifier
 Parent: Identifier
-Id: ch-swissmedic-authorization-identifier
+Id: ch-SMC-authorization-identifier
 Title: "Marketing Authorization Identifier"
-Description: "Identifier holding the Swissmedic Authorisation Number"
+Description: "Identifier holding the SMC Authorisation Number"
 * system 1..
 * system = "urn:oid:2.16.756.5" (exactly)
 * system ^short = "MarketingAuthorizationNumber"

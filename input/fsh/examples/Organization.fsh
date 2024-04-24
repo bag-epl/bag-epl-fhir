@@ -42,9 +42,9 @@ Usage: #inline
 * name = "Tillotts Pharma AG"
 
 // Regulator
-Instance: regulator-swissmedic
+Instance: regulator-SMC
 InstanceOf: CHEPLOrganization
 Usage: #inline
 * identifier.system = "urn:oid:2.16.756.5.45"
 * identifier.value = "4711"
-* name = "Swissmedic"
+* name = "SMC"

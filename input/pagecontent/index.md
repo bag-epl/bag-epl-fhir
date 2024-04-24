@@ -1,6 +1,6 @@
 ### Introduction
 
-CH EPL is a project of the Swiss Federal Office of Public Health (FOPH), to enable to receive IDMP/FHIR based medicinal product information from Swissmedic and the marketing authorisation holders and to export the Spezialitätenliste in FHIR 
+CH EPL is a project of the Swiss Federal Office of Public Health (FOPH), to enable to receive IDMP/FHIR based medicinal product information from SMC and the marketing authorisation holders and to export the Spezialitätenliste in FHIR 
 
 ### IDMP Dependencies
 This implementation guide is dependent on 
@@ -36,7 +36,7 @@ This guide is the product of collaborative work undertaken with participants fro
 * [Swiss FHIR Implementers Community](https://www.fhir.ch)
 * [HL7 Switzerland](https://www.hl7.ch)
 * [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
-* [Swissmedic](https://www.swissmedic.ch/swissmedic/de/home.html)
+* [SMC](https://www.SMC.ch/SMC/de/home.html)
 * [Federal Office of Public Health](https://www.bag.admin.ch/bag/en/home.html)
 
 ### IP Statements

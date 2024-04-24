@@ -4,10 +4,10 @@ Usage: #example
 Title: "6771901"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"
 * contained[+] = holder-Curatis-AG
-* contained[+] = regulator-swissmedic
+* contained[+] = regulator-SMC
 
 // Marketing Authorisation.Marketing Authorisation Number
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
+* identifier.system = "http://SMC.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
 * identifier.value = "6771901"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
@@ -20,7 +20,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marktzulassung" 
 
 // Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
+* status[+].coding[SMC] = $SMC-AuthorisationStatusCS#Z "zugelassen" 
 
 // Marketing Authorisation.Authorisation Status Date
 * statusDate = "2021-01-21" 
@@ -32,7 +32,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * holder.reference = "#holder-Curatis-AG"
 
 // 	Marketing Authorisation.Medicines Regulatory Agency (Organisation)
-* regulator.reference = "#regulator-swissmedic"
+* regulator.reference = "#regulator-SMC"
 
 // ---------------------------------------------------------------------------------------------------------------------------
 
@@ -42,10 +42,10 @@ Usage: #example
 Title: "67719001"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisationDefinition (Marketing Authorisation)"
 * contained[+] = holder-Curatis-AG
-* contained[+] = regulator-swissmedic
+* contained[+] = regulator-SMC
 
 // Marketing Authorisation.Marketing Authorisation Number
-* identifier.system = "http://swissmedic.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
+* identifier.system = "http://SMC.ch/ig/idmp/NamingSystem/MarketingAuthorisationNumber"
 * identifier.value = "67719001"
 
 // (the link to Medicinal Product or Packaged Medicinal Product)
@@ -58,7 +58,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marktzulassung" 
 
 // Marketing Authorisation.Authorisation Status
-* status[+].coding[Swissmedic] = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" 
+* status[+].coding[SMC] = $SMC-AuthorisationStatusCS#Z "zugelassen" 
 
 // Marketing Authorisation.Authorisation Status Date
 * statusDate = "2021-01-21" 
@@ -70,7 +70,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an MarketingAuthorisati
 * holder.reference = "#holder-Curatis-AG"
 
 // 	Marketing Authorisation.Medicines Regulatory Agency (Organisation)
-* regulator.reference = "#regulator-swissmedic"
+* regulator.reference = "#regulator-SMC"
 
 // ---------------------------------------------------------------------------------------------------------------------------
 

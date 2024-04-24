@@ -24,10 +24,10 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * administrableDoseForm.coding ^slicing.discriminator[=].path = "system"
 * administrableDoseForm.coding ^slicing.rules = #open
 * administrableDoseForm.coding contains 
-    Swissmedic 1..1
-* administrableDoseForm.coding[Swissmedic].system 1..
-* administrableDoseForm.coding[Swissmedic].system = $edqm
-* administrableDoseForm.coding[Swissmedic].code 1..
+    SMC 1..1
+* administrableDoseForm.coding[SMC].system 1..
+* administrableDoseForm.coding[SMC].system = $edqm
+* administrableDoseForm.coding[SMC].code 1..
 
 // unit of presentation
 * unitOfPresentation from EdqmUnitOfPresentationVS (required)
@@ -36,10 +36,10 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * unitOfPresentation.coding ^slicing.discriminator[=].path = "system"
 * unitOfPresentation.coding ^slicing.rules = #open
 * unitOfPresentation.coding contains 
-    Swissmedic 1..1
-* unitOfPresentation.coding[Swissmedic].system 1..
-* unitOfPresentation.coding[Swissmedic].system = $edqm
-* unitOfPresentation.coding[Swissmedic].code 1..
+    SMC 1..1
+* unitOfPresentation.coding[SMC].system 1..
+* unitOfPresentation.coding[SMC].system = $edqm
+* unitOfPresentation.coding[SMC].code 1..
 
 * producedFrom only Reference(CHIDMPManufacturedItemDefinition)
 
@@ -51,7 +51,7 @@ Description: "Profile of the AdministrableProductDefinition resource for represe
 * routeOfAdministration.code.coding ^slicing.discriminator[=].path = "system"
 * routeOfAdministration.code.coding ^slicing.rules = #open
 * routeOfAdministration.code.coding contains 
-    Swissmedic 1..1
-* routeOfAdministration.code.coding[Swissmedic].system 1..
-* routeOfAdministration.code.coding[Swissmedic].system = $edqm
-* routeOfAdministration.code.coding[Swissmedic].code 1..
+    SMC 1..1
+* routeOfAdministration.code.coding[SMC].system 1..
+* routeOfAdministration.code.coding[SMC].system = $edqm
+* routeOfAdministration.code.coding[SMC].code 1..

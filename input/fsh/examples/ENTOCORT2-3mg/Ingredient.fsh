@@ -6,7 +6,13 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an I
 * status = #active
 * for[0] = Reference(PhP-Budesonide-2-3mg-RectalSuspension) 
 * for[+] = Reference(MI-Budesonide-2-3mg-TabletForRectalSuspension) 
-* role[+].coding[Swissmedic] = $Swissmedic-IngredientRoleCS#WIRKS "Wirkstoff" 
-* substance[+].code.concept.coding[UNII] = $Swissmedic-SubstanceCS#Q3OKS62Q6X "Budesonide"
-* substance[=].strength[+].presentationRatio[+].numerator = 2.3 'mg' "mg" 
-* substance[=].strength[=].presentationRatio[=].denominator = 1 '{Tablet}' "Tablet" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#WIRKS "Wirkstoff" 
+* substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#Q3OKS62Q6X "Budesonide"
+* substance[=].strength[+].presentationRatio[+].numerator.value = 2.3
+* substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 
+* substance[=].strength[=].presentationRatio[=].numerator.system = "http://unitsofmeasure.org" 
+* substance[=].strength[=].presentationRatio[=].numerator.code = #mg 
+* substance[=].strength[=].presentationRatio[=].denominator.value = 1
+* substance[=].strength[=].presentationRatio[=].denominator.unit = "tablet" 
+* substance[=].strength[=].presentationRatio[=].denominator.system = "http://unitsofmeasure.org" 
+* substance[=].strength[=].presentationRatio[=].denominator.code = #{tablet}

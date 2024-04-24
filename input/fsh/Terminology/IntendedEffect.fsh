@@ -1,7 +1,7 @@
 ValueSet: EMAIntendedEffectVS
 Id: ema-intended-effect
 Title: "EMA - Intended Effect"
-Description: "Value Set for the Intended Effect from EMA used by Swissmedic"
+Description: "Value Set for the Intended Effect from EMA used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986" //todo - correct the system urn to EMA

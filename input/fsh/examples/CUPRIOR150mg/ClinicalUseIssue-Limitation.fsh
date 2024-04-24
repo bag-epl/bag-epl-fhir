@@ -14,7 +14,7 @@
 //* indication.diseaseSymptomProcedure.concept = $sct#28442001 "Copper metabolism disorder"
 
 // Comorbidity
-//* indication.comorbidity.concept = $Swissmedic-Comorbidity#.. "xxx"
+//* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx"
 
 // Therapeutic Indication.Intended Effect
 //* indication.intendedEffect.concept = $ema#200000003194 "therapeutic"
@@ -27,7 +27,7 @@ Title: "Limitation 10061091"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalParticulars-Limitation (Indication)"
 * subject = Reference(Cuprior-150mg-Filmcoatedtablet)
 * type = ChAuthorisationTypeCS#756000002003 "Vergütung SL"
-* status = $Swissmedic-AuthorisationStatusCS#Z "zugelassen" //to be checked
+* status = $SMC-AuthorisationStatusCS#Z "zugelassen" //to be checked
 * validityPeriod.start = "2020"
 * validityPeriod.end = "2025"
 * indication.reference = Reference(IND-10061091)

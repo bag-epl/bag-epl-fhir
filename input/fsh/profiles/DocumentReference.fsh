@@ -14,10 +14,10 @@ Description: "Profile of the DocumentReference resource for representing profess
 * type.coding ^slicing.discriminator[=].path = "system"
 * type.coding ^slicing.rules = #open
 * type.coding contains 
-    Swissmedic 0..1
-* type.coding[Swissmedic] 
-* type.coding[Swissmedic].system 1..
-* type.coding[Swissmedic].system = $Swissmedic-AttachedDocumentTypeCS
-* type.coding[Swissmedic].code 1..
+    SMC 0..1
+* type.coding[SMC] 
+* type.coding[SMC].system 1..
+* type.coding[SMC].system = $SMC-AttachedDocumentTypeCS
+* type.coding[SMC].code 1..
 
 * content.attachment.url 1..

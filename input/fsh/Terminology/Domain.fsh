@@ -1,7 +1,7 @@
 ValueSet: EMADomainVS
 Id: ema-domain
 Title: "EMA - Domain"
-Description: "Value Set for the Domain from EMA used by Swissmedic"
+Description: "Value Set for the Domain from EMA used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986" //todo - correct the system urn to EMA

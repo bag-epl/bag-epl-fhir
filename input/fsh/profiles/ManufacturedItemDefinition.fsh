@@ -15,10 +15,10 @@ Description: "Profile of the ManufacturedItemDefinition resource for representin
 * manufacturedDoseForm.coding ^slicing.discriminator[=].path = "system"
 * manufacturedDoseForm.coding ^slicing.rules = #open
 * manufacturedDoseForm.coding contains 
-    Swissmedic 0..1
-* manufacturedDoseForm.coding[Swissmedic].system 1..
-* manufacturedDoseForm.coding[Swissmedic].system = $edqm
-* manufacturedDoseForm.coding[Swissmedic].code 1..
+    SMC 0..1
+* manufacturedDoseForm.coding[SMC].system 1..
+* manufacturedDoseForm.coding[SMC].system = $edqm
+* manufacturedDoseForm.coding[SMC].code 1..
 
 // unit of presentation
 * unitOfPresentation from EdqmUnitOfPresentationVS (required)
@@ -27,10 +27,10 @@ Description: "Profile of the ManufacturedItemDefinition resource for representin
 * unitOfPresentation.coding ^slicing.discriminator[=].path = "system"
 * unitOfPresentation.coding ^slicing.rules = #open
 * unitOfPresentation.coding contains 
-    Swissmedic 1..1
-* unitOfPresentation.coding[Swissmedic].system 1..
-* unitOfPresentation.coding[Swissmedic].system = $edqm
-* unitOfPresentation.coding[Swissmedic].code 1..
+    SMC 1..1
+* unitOfPresentation.coding[SMC].system 1..
+* unitOfPresentation.coding[SMC].system = $edqm
+* unitOfPresentation.coding[SMC].code 1..
 
 // TODO: definieren other characteristics
 //* property.type

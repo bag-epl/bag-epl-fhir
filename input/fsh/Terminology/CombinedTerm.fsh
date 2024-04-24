@@ -1,7 +1,7 @@
 ValueSet: EdqmCombinedTermVS
 Id: edqm-combined-term
 Title: "EDQM - Combined Term"
-Description: "Value Set for the Combined Terms from EDQM used by Swissmedic"
+Description: "Value Set for the Combined Terms from EDQM used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"

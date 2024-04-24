@@ -20,29 +20,29 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 
 * description ^short = "Textual description (this is not the name of the package or product)"
 
-* legalStatusOfSupply.code from ChSwissmedicLegalStatusOfSupplyVS (required)
+* legalStatusOfSupply.code from ChSMCLegalStatusOfSupplyVS (required)
 * legalStatusOfSupply.code.coding 1..
 * legalStatusOfSupply.code.coding ^slicing.discriminator.type = #value
 * legalStatusOfSupply.code.coding ^slicing.discriminator.path = "system"
 * legalStatusOfSupply.code.coding ^slicing.rules = #open
 * legalStatusOfSupply.code.coding contains 
-    Swissmedic 0..1
-* legalStatusOfSupply.code.coding[Swissmedic].system 1..
-* legalStatusOfSupply.code.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyCS
-* legalStatusOfSupply.code.coding[Swissmedic].code 1..
+    SMC 0..1
+* legalStatusOfSupply.code.coding[SMC].system 1..
+* legalStatusOfSupply.code.coding[SMC].system = $SMC-LegalStatusOfSupplyCS
+* legalStatusOfSupply.code.coding[SMC].code 1..
 
 * marketingStatus.country = $country#CH
 
-* marketingStatus.status from ChSwissmedicMarketingStatusVS (required)
+* marketingStatus.status from ChSMCMarketingStatusVS (required)
 * marketingStatus.status.coding 0..1
 * marketingStatus.status.coding ^slicing.discriminator[+].type = #value
 * marketingStatus.status.coding ^slicing.discriminator[=].path = "system"
 * marketingStatus.status.coding ^slicing.rules = #open
 * marketingStatus.status.coding contains 
-        Swissmedic 0..1
-* marketingStatus.status.coding[Swissmedic].system 1..
-* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusCS
-* marketingStatus.status.coding[Swissmedic].code 1..
+        SMC 0..1
+* marketingStatus.status.coding[SMC].system 1..
+* marketingStatus.status.coding[SMC].system = $SMC-MarketingStatusCS
+* marketingStatus.status.coding[SMC].code 1..
 
 * statusDate
 
@@ -52,10 +52,10 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.type.coding ^slicing.discriminator.path = "system"
 * packaging.type.coding ^slicing.rules = #open
 * packaging.type.coding contains 
-    Swissmedic 0..1 
-* packaging.type.coding[Swissmedic].system 1..
-* packaging.type.coding[Swissmedic].system = $edqm
-* packaging.type.coding[Swissmedic].code 1..
+    SMC 0..1 
+* packaging.type.coding[SMC].system 1..
+* packaging.type.coding[SMC].system = $edqm
+* packaging.type.coding[SMC].code 1..
 
 * packaging.quantity ^short = "The quantity of this level of packaging in the package that contains it (with the outermost level being 1)."
 
@@ -65,23 +65,23 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.type 
 * packaging.shelfLifeStorage.periodDuration
 
-* packaging.shelfLifeStorage.specialPrecautionsForStorage from ChSwissmedicSpecialPrecautionsForStorageVS (required)
+* packaging.shelfLifeStorage.specialPrecautionsForStorage from ChSMCSpecialPrecautionsForStorageVS (required)
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding 1..
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.discriminator[+].type = #value
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.discriminator[=].path = "system"
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding ^slicing.rules = #open
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding contains 
-    Swissmedic 0..1
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system 1..
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].system = $Swissmedic-SpecialPrecautionsForStorageCS
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[Swissmedic].code 1..
+    SMC 0..1
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].system 1..
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].system = $SMC-SpecialPrecautionsForStorageCS
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].code 1..
 
 * packaging.containedItem.item only CodeableReference(CHIDMPManufacturedItemDefinition or CHIDMPPackagedProductDefinition)
 * packaging.containedItem.amount 1..
 * packaging.containedItem.amount.value 1..
 * packaging.containedItem.amount.unit 1..
 // TODO: Slicing geht nicht bei diesem Element. 
-// VAR1: Man könnte eine constraint dafür definieren, die überprüft ob das System UCUM oder $Swissmedic-PackageItemType ist
-// VAR2 (preferred): ValueSet erstellen und darin alle $Swissmedic-PackageItemType und Ucum Codes inkludieren, dann das VS an das amount Element binden
+// VAR1: Man könnte eine constraint dafür definieren, die überprüft ob das System UCUM oder $SMC-PackageItemType ist
+// VAR2 (preferred): ValueSet erstellen und darin alle $SMC-PackageItemType und Ucum Codes inkludieren, dann das VS an das amount Element binden
 * packaging.containedItem.amount.system 1..
 * packaging.containedItem.amount.code 1..

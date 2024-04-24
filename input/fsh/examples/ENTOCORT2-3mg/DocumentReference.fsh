@@ -6,8 +6,8 @@ Title: "ENTOCORT, Filmtabletten Fachinformation"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a DocumentReference"
 
 * status = #current
-* type.coding[Swissmedic] = $Swissmedic-AttachedDocumentTypeCS#FI "Fachinformation"
-* content.attachment.url = "https://swissmedicinfo.ch/showTextAccepted.aspx?textType=FI&lang=DE&authNr=52042&supportMultipleResults=1"
+* type.coding[SMC] = $SMC-AttachedDocumentTypeCS#FI "Fachinformation"
+* content.attachment.url = "https://SMCinfo.ch/showTextAccepted.aspx?textType=FI&lang=DE&authNr=52042&supportMultipleResults=1"
 
 
 // Patienteninformation
@@ -18,5 +18,5 @@ Title: "ENTOCORT, Filmtabletten Patienteninformation"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a DocumentReference"
 
 * status = #current
-* type.coding[Swissmedic] = $Swissmedic-AttachedDocumentTypeCS#PI "Patienteninformation"
-* content.attachment.url = "https://swissmedicinfo.ch/showTextAccepted.aspx?textType=PI&lang=DE&authNr=52042&supportMultipleResults=1"
+* type.coding[SMC] = $SMC-AttachedDocumentTypeCS#PI "Patienteninformation"
+* content.attachment.url = "https://SMCinfo.ch/showTextAccepted.aspx?textType=PI&lang=DE&authNr=52042&supportMultipleResults=1"

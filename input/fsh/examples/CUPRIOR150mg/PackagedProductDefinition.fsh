@@ -5,7 +5,7 @@ Usage: #example
 Title: "CH-68291001"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefinition (Packaged Medicinal Product)"
 // Packaged Medicinal Product.PCID
-* identifier[+].system = "http://swissmedic.ch/ig/idmp/NamingSystem/PCID"
+* identifier[+].system = "http://SMC.ch/ig/idmp/NamingSystem/PCID"
 * identifier[=].value = "CH-7640109110007-6771901-001"
 
 * identifier[+].system = $gtin
@@ -18,17 +18,17 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk"
 
 // Marketing Authorisation.Legal Status of Supply (for a package)
-* legalStatusOfSupply[+].code.coding[Swissmedic] = $Swissmedic-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply[+].code.coding[SMC] = $SMC-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Packaged Medicinal Product.Marketing Status
 * marketingStatus[+].country = $country#CH "Switzerland"
-* marketingStatus[=].status.coding[Swissmedic] = $Swissmedic-MarketingStatusCS#iH "im Handel"
+* marketingStatus[=].status.coding[SMC] = $SMC-MarketingStatusCS#iH "im Handel"
 
 // Marketing Status Date
 * statusDate = "2005-04-10" // Fantasiedatum  
 
 // Package Item (Container).Package Item (Container) Type
-* packaging.type.coding[Swissmedic] = $edqm#30007000 "Blister"
+* packaging.type.coding[SMC] = $edqm#30007000 "Blister"
 // Package Item (Container).Package Item (Container) Quantity
 * packaging.quantity = 72
 
@@ -36,7 +36,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale"
 * packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month"
 
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[Swissmedic] = $Swissmedic-SpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C"
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding[SMC] = $SMC-SpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C"
 
 * packaging.containedItem[+].item.reference = Reference(MI-Trientinum-150mg-Filmcoatedtablet)
 * packaging.containedItem[=].amount.value = 6

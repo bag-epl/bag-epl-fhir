@@ -14,10 +14,10 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an A
 * formOf = Reference(Entocort-2-3mg-TabletAndSolventForRectalSuspension)
 
 // Pharmaceutical Product.Administrable Dose Form
-* administrableDoseForm.coding[Swissmedic] = $edqm#11006000 "Rectal suspension"
+* administrableDoseForm.coding[SMC] = $edqm#11006000 "Rectal suspension"
 
 // Pharmaceutical Product.Unit of Presentation
-* unitOfPresentation.coding[Swissmedic] = $edqm#15009000 "Bottle"
+* unitOfPresentation.coding[SMC] = $edqm#15009000 "Bottle"
 
 // Route of Administration.Route of Administration
 * routeOfAdministration.code = $edqm#20061000 "Rectal use"

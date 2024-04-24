@@ -1,13 +1,13 @@
-ValueSet: ChSwissmedicSubstanceVS
-Id: ch-swissmedic-substance
-Title: "CH Swissmedic - Substanzen"
-Description: "Value Set for the Substances from Swissmedic"
+ValueSet: ChSMCSubstanceVS
+Id: ch-SMC-substance
+Title: "CH SMC - Substanzen"
+Description: "Value Set for the Substances from SMC"
 * ^experimental = false
-* include codes from system ChSwissmedicSubstanceCS
+* include codes from system ChSMCSubstanceCS
 
-CodeSystem: ChSwissmedicSubstanceCS
-Id: ch-swissmedic-substance
-Title: "CH Swissmedic - Substanzen"
+CodeSystem: ChSMCSubstanceCS
+Id: ch-SMC-substance
+Title: "CH SMC - Substanzen"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Substanzen)"
 * ^experimental = false
 * ^caseSensitive = true

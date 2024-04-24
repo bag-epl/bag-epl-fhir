@@ -1,7 +1,7 @@
 ValueSet: EMAShelfLifeTypeVS
 Id: ema-shelf-life-type
 Title: "EMA - Shelf Life Type"
-Description: "Value Set for the Shelf Life Type from EMA used by Swissmedic"
+Description: "Value Set for the Shelf Life Type from EMA used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"

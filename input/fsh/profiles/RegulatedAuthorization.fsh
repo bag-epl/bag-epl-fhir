@@ -9,7 +9,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 
 
 //* identifier.system 0..1
-//* identifier.system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-swissmedic-marketing-authorisation-number"
+//* identifier.system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-SMC-marketing-authorisation-number"
 //* identifier.value 0..1
 
 //* identifier.system 0..1
@@ -23,11 +23,11 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier contains 
-    Swissmedic 0..1 and
+    SMC 0..1 and
     FOPH 0..1
-* identifier[Swissmedic] ^slicing.description = "Require specific types of identifiers."
-//* identifier[Swissmedic] contains Swissmedic 0..1 MS
-* identifier[Swissmedic].system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-swissmedic-marketing-authorisation-number"
+* identifier[SMC] ^slicing.description = "Require specific types of identifiers."
+//* identifier[SMC] contains SMC 0..1 MS
+* identifier[SMC].system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-SMC-marketing-authorisation-number"
 * identifier[FOPH] ^slicing.description = "Require specific types of identifiers."
 //* identifier[FOPH] contains FOPH 0..1 MS
 * identifier[FOPH].system = "http://fhir.ch/ig/ch-epl/NamingSystem/ch-foph-dossier-number"*/
@@ -62,16 +62,16 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 //* rename dateOfFirstAuthorisation to dateOfFirstListing
 
 // Zulassungsstatus
-* status from ChSwissmedicAuthorisationStatusVS (required)
+* status from ChSMCAuthorisationStatusVS (required)
 * status.coding 1..
 * status.coding ^slicing.discriminator.type = #value
 * status.coding ^slicing.discriminator.path = "system"
 * status.coding ^slicing.rules = #open
 * status.coding contains 
-    Swissmedic 0..1
-* status.coding[Swissmedic].system 1..
-* status.coding[Swissmedic].system = $Swissmedic-AuthorisationStatusCS
-* status.coding[Swissmedic].code 1..
+    SMC 0..1
+* status.coding[SMC].system 1..
+* status.coding[SMC].system = $SMC-AuthorisationStatusCS
+* status.coding[SMC].code 1..
 
 * statusDate
 

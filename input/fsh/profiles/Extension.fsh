@@ -6,16 +6,16 @@ Description: "Extension for representing the authorized dose form"
 * ^context[=].expression = "MedicinalProductDefinition"
 
 * value[x] only CodeableConcept
-* value[x] from ChSwissmedicAuthorisedPharmaceuticalDoseFormVS (required)
+* value[x] from ChSMCAuthorisedPharmaceuticalDoseFormVS (required)
 * value[x].coding 1..
 * value[x].coding ^slicing.discriminator[+].type = #value
 * value[x].coding ^slicing.discriminator[=].path = "system"
 * value[x].coding ^slicing.rules = #open
 * value[x].coding contains 
-    Swissmedic 0..1
-* value[x].coding[Swissmedic].system 1..
-* value[x].coding[Swissmedic].system = $edqm
-* value[x].coding[Swissmedic].code 1..
+    SMC 0..1
+* value[x].coding[SMC].system 1..
+* value[x].coding[SMC].system = $edqm
+* value[x].coding[SMC].code 1..
 
 //Extensions EPL FOPH
 //Extension: EPLLimitation
@@ -130,10 +130,10 @@ Description: "Extension for representing the limitation status"
 * value[x].coding ^slicing.discriminator[=].path = "system"
 * value[x].coding ^slicing.rules = #open
 * value[x].coding contains 
-    Swissmedic 0..1
-* value[x].coding[Swissmedic].system 1..
-* value[x].coding[Swissmedic].system = $ePL-LimitationStatusCS
-* value[x].coding[Swissmedic].code 1..
+    SMC 0..1
+* value[x].coding[SMC].system 1..
+* value[x].coding[SMC].system = $ePL-LimitationStatusCS
+* value[x].coding[SMC].code 1..
 
 Extension: EPLLimitationStatusDate
 Id: limitationStatusDate

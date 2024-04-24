@@ -8,7 +8,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 // * MPID
 
 * identifier.system 1..
-* identifier.system = $MPID // Vorschlag für Swissmedic Naming System
+* identifier.system = $MPID // Vorschlag für SMC Naming System
 * identifier.value 1..
 
 // * domain
@@ -41,38 +41,38 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * indication ^short = "Description of indication(s) for this product"
 
-* legalStatusOfSupply from ChSwissmedicLegalStatusOfSupplyVS (required)
+* legalStatusOfSupply from ChSMCLegalStatusOfSupplyVS (required)
 * legalStatusOfSupply.coding 1..
 * legalStatusOfSupply.coding ^slicing.discriminator.type = #value
 * legalStatusOfSupply.coding ^slicing.discriminator.path = "system"
 * legalStatusOfSupply.coding ^slicing.rules = #open
 * legalStatusOfSupply.coding contains 
-    Swissmedic 0..1
-* legalStatusOfSupply.coding[Swissmedic].system 1..
-* legalStatusOfSupply.coding[Swissmedic].system = $Swissmedic-LegalStatusOfSupplyCS
-* legalStatusOfSupply.coding[Swissmedic].code 1..
+    SMC 0..1
+* legalStatusOfSupply.coding[SMC].system 1..
+* legalStatusOfSupply.coding[SMC].system = $SMC-LegalStatusOfSupplyCS
+* legalStatusOfSupply.coding[SMC].code 1..
 
-* additionalMonitoringIndicator from ChSwissmedicAdditionalMonitoringIndicatorVS (required)
+* additionalMonitoringIndicator from ChSMCAdditionalMonitoringIndicatorVS (required)
 * additionalMonitoringIndicator.coding 0..1
 * additionalMonitoringIndicator.coding ^slicing.discriminator.type = #value
 * additionalMonitoringIndicator.coding ^slicing.discriminator.path = "system"
 * additionalMonitoringIndicator.coding ^slicing.rules = #open
 * additionalMonitoringIndicator.coding contains 
-    Swissmedic 0..1
-* additionalMonitoringIndicator.coding[Swissmedic].system 1..
-* additionalMonitoringIndicator.coding[Swissmedic].system = $Swissmedic-AdditionalMonitoringIndicatorCS
-* additionalMonitoringIndicator.coding[Swissmedic].code 1..
+    SMC 0..1
+* additionalMonitoringIndicator.coding[SMC].system 1..
+* additionalMonitoringIndicator.coding[SMC].system = $SMC-AdditionalMonitoringIndicatorCS
+* additionalMonitoringIndicator.coding[SMC].code 1..
 
-* pediatricUseIndicator from ChSwissmedicPediatricUseIndicatorVS (required)
+* pediatricUseIndicator from ChSMCPediatricUseIndicatorVS (required)
 * pediatricUseIndicator.coding 0..1
 * pediatricUseIndicator.coding ^slicing.discriminator.type = #value
 * pediatricUseIndicator.coding ^slicing.discriminator.path = "system"
 * pediatricUseIndicator.coding ^slicing.rules = #open
 * pediatricUseIndicator.coding contains 
-    Swissmedic 0..1
-* pediatricUseIndicator.coding[Swissmedic].system 1..
-* pediatricUseIndicator.coding[Swissmedic].system = $Swissmedic-PediatricUseIndicatorCS
-* pediatricUseIndicator.coding[Swissmedic].code 1..
+    SMC 0..1
+* pediatricUseIndicator.coding[SMC].system 1..
+* pediatricUseIndicator.coding[SMC].system = $SMC-PediatricUseIndicatorCS
+* pediatricUseIndicator.coding[SMC].code 1..
 
 
 * classification ^slicing.discriminator[+].type = #value
@@ -89,7 +89,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * classification[Heilmittelcode].coding 1..
 * classification[Heilmittelcode].coding.system 1..
-* classification[Heilmittelcode].coding.system = $Swissmedic-HeilmittelcodeCS (exactly)
+* classification[Heilmittelcode].coding.system = $SMC-HeilmittelcodeCS (exactly)
 * classification[Heilmittelcode].coding.code 1..
 
 * marketingStatus.country = $country#CH
@@ -99,10 +99,10 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * marketingStatus.status.coding ^slicing.discriminator[=].path = "system"
 * marketingStatus.status.coding ^slicing.rules = #open
 * marketingStatus.status.coding contains 
-    Swissmedic 0..1
-* marketingStatus.status.coding[Swissmedic].system 0..1
-* marketingStatus.status.coding[Swissmedic].system = $Swissmedic-MarketingStatusCS
-* marketingStatus.status.coding[Swissmedic].code 0..1
+    SMC 0..1
+* marketingStatus.status.coding[SMC].system 0..1
+* marketingStatus.status.coding[SMC].system = $SMC-MarketingStatusCS
+* marketingStatus.status.coding[SMC].code 0..1
 
 * attachedDocument ^short = "Professional information and/or patient information"
 * attachedDocument only Reference(CHIDMPDocumentReference)

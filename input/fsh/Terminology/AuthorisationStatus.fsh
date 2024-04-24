@@ -1,13 +1,13 @@
-ValueSet: ChSwissmedicAuthorisationStatusVS
-Id: ch-swissmedic-authorisation-status
-Title: "CH Swissmedic - Zulassungsstatus"
-Description: "Value Set for the Authorisation Status from Swissmedic used by FOPH"
+ValueSet: ChSMCAuthorisationStatusVS
+Id: ch-SMC-authorisation-status
+Title: "CH SMC - Zulassungsstatus"
+Description: "Value Set for the Authorisation Status from SMC used by FOPH"
 * ^experimental = false
-* include codes from system ChSwissmedicAuthorisationStatusCS
+* include codes from system ChSMCAuthorisationStatusCS
 
-CodeSystem: ChSwissmedicAuthorisationStatusCS
-Id: ch-swissmedic-authorisation-status
-Title: "CH Swissmedic - Zulassungsstatus"
+CodeSystem: ChSMCAuthorisationStatusCS
+Id: ch-SMC-authorisation-status
+Title: "CH SMC - Zulassungsstatus"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Zulassungsstatus)"
 * ^experimental = false
 * ^caseSensitive = false

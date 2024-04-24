@@ -14,7 +14,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an C
 * indication.diseaseSymptomProcedure.concept = $IndicationAs#10009900 "Colitis ulcerative"
 
 // Comorbidity
-//* indication.comorbidity.concept = $Swissmedic-Comorbidity#.. "xxx"
+//* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx"
 
 // Therapeutic Indication.Intended Effect
 * indication.intendedEffect.concept = $ema#200000003194 "therapeutic"
