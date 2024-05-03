@@ -22,137 +22,138 @@ Description: "Code System for the Original/Generica Code from ePL used by FOPH"
 * #756001003008 "Parallelimportiertes Präparat"
 * #756001003009 "Co-Marketing Präparat"*/
 
-* ^concept[0].code = #756001003001
-* ^concept[0].display = "Generic product"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Generikum"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "G"
-
-* ^concept[0].code = #756001003002
-* ^concept[0].display = "Originator product"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Originalpräparat"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "O"
-
-* ^concept[0].code = #756001003003
-* ^concept[0].display = "Reference product"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Referenzpräparat"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "R"
-
-* ^concept[0].code = #756001003004
-* ^concept[0].display = "Biosimilar"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Biosimilar"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "BioS"
-
-* ^concept[0].code = #756001003005
-* ^concept[0].display = "Complementary medicine"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Komplementärmedizinisches Präparat"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "K"
-
-* ^concept[0].code = #756001003006
-* ^concept[0].display = "Medicines with known active substances"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Arzneimittel mit bekanntem Wirkstoff"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "BWS"
-
-* ^concept[0].code = #756001003007
-* ^concept[0].display = "Vaccine"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Impfstoff"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "I"
-
-* ^concept[0].code = #756001003008
-* ^concept[0].display = "Parallel import product"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Parallelimportiertes Präparat"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "PI"
-
-* ^concept[0].code = #756001003009
-* ^concept[0].display = "Co-marketing product"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Co-Marketing Präparat"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "CoM"
+* ^concept[+].code = #756001003001
+* ^concept[=].display = "Generic product"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Generikum"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "G"
+ 
+* ^concept[+].code = #756001003002
+* ^concept[=].display = "Originator product"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Originalpräparat"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "O"
+ 
+* ^concept[+].code = #756001003003
+* ^concept[=].display = "Reference product"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Referenzpräparat"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "R"
+ 
+* ^concept[+].code = #756001003004
+* ^concept[=].display = "Biosimilar"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Biosimilar"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "BioS"
+ 
+* ^concept[+].code = #756001003005
+* ^concept[=].display = "Complementary medicine"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Komplementärmedizinisches Präparat"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "K"
+ 
+* ^concept[+].code = #756001003006
+* ^concept[=].display = "Medicines with known active substances"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Arzneimittel mit bekanntem Wirkstoff"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "BWS"
+ 
+* ^concept[+].code = #756001003007
+* ^concept[=].display = "Vaccine"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Impfstoff"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "I"
+ 
+* ^concept[+].code = #756001003008
+* ^concept[=].display = "Parallel import product"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Parallelimportiertes Präparat"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "PI"
+ 
+* ^concept[+].code = #756001003009
+* ^concept[=].display = "Co-marketing product"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Co-Marketing Präparat"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "CoM"
+ 

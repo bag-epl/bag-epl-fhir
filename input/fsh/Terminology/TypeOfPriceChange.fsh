@@ -26,197 +26,198 @@ Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes
 * #756001006012 "Preismutation VA"
 * #756001006013 "Preismutation einheitlicher VA"*/
 
-* ^concept[0].code = #756001006001
-* ^concept[0].display = "External reference price "
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Auslandspreisvergleich"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "APV"
-
-* ^concept[0].code = #756001006002
-* ^concept[0].display = "Extraordinary price mutation"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Ausserordentliche Preismutation"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "aMu"
-
-* ^concept[0].code = #756001006003
-* ^concept[0].display = "Voluntary price reduction"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Freiwillige Preissenkung"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "fPS"
-
-* ^concept[0].code = #756001006004
-* ^concept[0].display = "Voluntary price reduction within 18 months of listing"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Freiwillige Preissenkung innerhalb der ersten 18 Monate nach Aufnahme"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "fPS18"
-
-* ^concept[0].code = #756001006005
-* ^concept[0].display = "VAT-change"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "MwSt-Änderung"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "MwSt"
-
-* ^concept[0].code = #756001006006
-* ^concept[0].display = "Normal price mutation"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Normale Preismutation"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "nMu"
-
-* ^concept[0].code = #756001006007
-* ^concept[0].display = "Price mutation after triennal review of pharmaceuticals "
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preisänderung nach 3-jährlicher Überprüfung der Aufnahmebedingungen"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "3JUE"
-
-* ^concept[0].code = #756001006008
-* ^concept[0].display = "Price mutation after patent expiry"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preisänderung nach Patentablauf"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "PA"
-
-* ^concept[0].code = #756001006009
-* ^concept[0].display = "Price increase"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preiserhöhungsgesuch"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "PEG"
-
-* ^concept[0].code = #756001006010
-* ^concept[0].display = "Price mutation at first listing"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preismutation bei Erstaufnahme"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "NA"
-
-* ^concept[0].code = #756001006011
-* ^concept[0].display = "Price mutation introduction of uniform wholesale margin"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preismutation Einführung einheitlicher VA"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "EeVA"
-
-* ^concept[0].code = #756001006012
-* ^concept[0].display = "Price mutation wholesale margin"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preismutation VA"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "VA"
-
-* ^concept[0].code = #756001006013
-* ^concept[0].display = "Price mutation uniform wholesale margin"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Preismutation einheitlicher VA"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "eVA"
+* ^concept[+].code = #756002006001
+* ^concept[=].display = "External reference price "
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Auslandspreisvergleich"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "APV"
+ 
+* ^concept[+].code = #756002006002
+* ^concept[=].display = "Extraordinary price mutation"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Ausserordentliche Preismutation"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "aMu"
+ 
+* ^concept[+].code = #756002006003
+* ^concept[=].display = "Voluntary price reduction"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Freiwillige Preissenkung"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "fPS"
+ 
+* ^concept[+].code = #756002006004
+* ^concept[=].display = "Voluntary price reduction within 18 months of listing"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Freiwillige Preissenkung innerhalb der ersten 18 Monate nach Aufnahme"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "fPS18"
+ 
+* ^concept[+].code = #756002006005
+* ^concept[=].display = "VAT-change"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "MwSt-Änderung"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "MwSt"
+ 
+* ^concept[+].code = #756002006006
+* ^concept[=].display = "Normal price mutation"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Normale Preismutation"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "nMu"
+ 
+* ^concept[+].code = #756002006007
+* ^concept[=].display = "Price mutation after triennal review of pharmaceuticals "
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preisänderung nach 3-jährlicher Überprüfung der Aufnahmebedingungen"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "3JUE"
+ 
+* ^concept[+].code = #756002006008
+* ^concept[=].display = "Price mutation after patent expiry"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preisänderung nach Patentablauf"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "PA"
+ 
+* ^concept[+].code = #756002006009
+* ^concept[=].display = "Price increase"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preiserhöhungsgesuch"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "PEG"
+ 
+* ^concept[+].code = #756002006010
+* ^concept[=].display = "Price mutation at first listing"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preismutation bei Erstaufnahme"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "NA"
+ 
+* ^concept[+].code = #756002006011
+* ^concept[=].display = "Price mutation introduction of uniform wholesale margin"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preismutation Einführung einheitlicher VA"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "EeVA"
+ 
+* ^concept[+].code = #756002006012
+* ^concept[=].display = "Price mutation wholesale margin"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preismutation VA"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "VA"
+ 
+* ^concept[+].code = #756002006013
+* ^concept[=].display = "Price mutation uniform wholesale margin"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Preismutation einheitlicher VA"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "eVA"
+ 

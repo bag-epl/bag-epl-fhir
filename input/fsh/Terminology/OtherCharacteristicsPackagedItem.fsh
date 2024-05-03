@@ -15,32 +15,33 @@ Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes
 /* #756001041001 "Modal-Packung"
 * #756001041002 "Grosse Packung"*/
 
-* ^concept[0].code = #756001041001
-* ^concept[0].display = "Modal pack"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Modal-Packung"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "MoP"
-
-* ^concept[0].code = #756001041002
-* ^concept[0].display = "Large pack"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Grosse Packung"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "GrP"
+* ^concept[+].code = #756005041001
+* ^concept[=].display = "Modal pack"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Modal-Packung"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "MoP"
+ 
+* ^concept[+].code = #756005041002
+* ^concept[=].display = "Large pack"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Grosse Packung"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "GrP"
+ 

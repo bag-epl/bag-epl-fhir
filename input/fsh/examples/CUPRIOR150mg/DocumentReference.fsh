@@ -7,7 +7,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a DocumentReference"
 
 * status = #current
 * type.coding[SMC] = $SMC-AttachedDocumentTypeCS#FI "Fachinformation"
-* content.attachment.url = "https://SMCinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=67719&supportMultipleResults=1"
+* content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=67719&supportMultipleResults=1"
 
 
 // Patienteninformation
@@ -19,4 +19,4 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a DocumentReference"
 
 * status = #current
 * type.coding[SMC] = $SMC-AttachedDocumentTypeCS#PI "Patienteninformation"
-* content.attachment.url = "https://SMCinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=67719&supportMultipleResults=1"
+* content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=67719&supportMultipleResults=1"

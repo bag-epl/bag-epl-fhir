@@ -18,7 +18,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk"
 
 // Marketing Authorisation.Legal Status of Supply (for a package)
-* legalStatusOfSupply[+].code.coding[SMC] = $SMC-LegalStatusOfSupplyCS#756005004003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
+* legalStatusOfSupply[+].code.coding[SMC] = $SMC-LegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 
 // Packaged Medicinal Product.Marketing Status
 * marketingStatus[+].country = $country#CH "Switzerland"

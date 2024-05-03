@@ -15,32 +15,32 @@ Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes
 /* #756001021001 "Vergütet"
 * #756001021002 "nicht Vergütet"*/
 
-* ^concept[0].code = #756001021001
-* ^concept[0].display = "Reimbursed"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Vergütet"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "V"
+* ^concept[+].code = #756001021001
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Vergütet"
+* ^concept[=].display = "Reimbursed"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "V"
 
-* ^concept[0].code = #756001021002
-* ^concept[0].display = "not Reimbursed"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "nicht Vergütet"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "nV"
+* ^concept[+].code = #756001021002
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "nicht Vergütet"
+* ^concept[=].display = "not Reimbursed"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "nV"

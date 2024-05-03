@@ -16,47 +16,48 @@ Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes
 * #756001005002 "Fabrikabgabe Preis"
 * #756001005003 "Wirtschaftlicher Preis"*/
 
-* ^concept[0].code = #756001005001
-* ^concept[0].display = "Retail price"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Publikumspreis"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "PP"
-
-* ^concept[0].code = #756001005002
-* ^concept[0].display = "Ex-factory price"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Fabrikabgabe Preis"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "FAP"
-
-* ^concept[0].code = #756001005003
-* ^concept[0].display = "Cost effective price"
-* ^concept[0].designation[1].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000003001
-* ^concept[0].designation[1].use.display = "Fully specified name"
-* ^concept[0].designation[1].value = "Wirtschaftlicher Preis"
-* ^concept[0].designation[0].language = #de
-* ^concept[0].designation[1].use.system = "http://www.snomed.org/"
-* ^concept[0].designation[1].use.version = "1.0"
-* ^concept[0].designation[1].use.code = #900000000000013009
-* ^concept[0].designation[0].use.display = "Synonym"
-* ^concept[0].designation[0].value = "WP"
+* ^concept[+].code = #756002005001
+* ^concept[=].display = "Retail price"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Publikumspreis"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "PP"
+ 
+* ^concept[+].code = #756002005002
+* ^concept[=].display = "Ex-factory price"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Fabrikabgabe Preis"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "FAP"
+ 
+* ^concept[+].code = #756002005003
+* ^concept[=].display = "Cost effective price"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Wirtschaftlicher Preis"
+* ^concept[=].designation[+].language = #de
+* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
+* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.code = #900000000000013009
+* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].value = "WP"
+ 
