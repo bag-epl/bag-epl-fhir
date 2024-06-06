@@ -1,6 +1,6 @@
 Instance: LIM-Cuprior-150mg-population-specifics
 InstanceOf: Group
-Usage: #inline
+Usage: #example
 * type = #person
 * membership = #definitional
 * characteristic.code = $GroupCharacteristicKind#age-range

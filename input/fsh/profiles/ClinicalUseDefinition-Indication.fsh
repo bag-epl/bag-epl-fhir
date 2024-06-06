@@ -13,7 +13,7 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 
 * indication 1..
 
-* indication.extension contains ChEplLimitation named limitation 0..1
+// * indication.extension contains ChEplLimitation named limitation 0..1
 
 * indication.diseaseSymptomProcedure.concept 1..
 * indication.diseaseSymptomProcedure.concept.coding 1..
@@ -21,10 +21,14 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.diseaseSymptomProcedure.concept.coding ^slicing.discriminator[=].path = "system"
 * indication.diseaseSymptomProcedure.concept.coding ^slicing.rules = #open
 * indication.diseaseSymptomProcedure.concept.coding contains 
-    SMC 0..1
+    SMC 0..1 and
+    FOPH 0..1
 * indication.diseaseSymptomProcedure.concept.coding[SMC].system 1..
 * indication.diseaseSymptomProcedure.concept.coding[SMC].system = $mdr
 * indication.diseaseSymptomProcedure.concept.coding[SMC].code 1..
+* indication.diseaseSymptomProcedure.concept.coding[FOPH].system 1..
+* indication.diseaseSymptomProcedure.concept.coding[FOPH].system = $sct
+* indication.diseaseSymptomProcedure.concept.coding[FOPH].code 1..
 
 * indication.comorbidity.concept 1..
 * indication.comorbidity.concept.coding 1..

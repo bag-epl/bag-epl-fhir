@@ -57,7 +57,7 @@ Alias:  $SMC-OrphanDesignationAuthorisationStatus =   http://fhir.ch/ig/ch-epl/C
 Alias:  $CH-MedicinalProductNameType =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 Alias:  $SMC-MasterFileType =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-MasterFileType //Provisorisch
 Alias:  $SMC-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-ReferencedProductType //Provisorisch
-Alias:  $SMC-AttachedDocumentTypeCS =                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-attached-document-type //Provisorisch
+Alias:  ChSMCAttachedDocumentTypeCS =                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-attached-document-type //Provisorisch
 
 // FOPH
 // Alias:  $ePL-OriginalGenericCodeCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-original-generic-code 
@@ -81,7 +81,7 @@ Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/c
 Alias:  $ePL-LimitationStatusCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-limitation-status 
 Alias:  $ePL-ReimbursementStatusCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status  
 Alias:  $ePL-ListingStatusCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-listing-status  
-Alias:  $ePL-GammeCS =                                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-gamme
+//Alias:  $ePL-GammeCS =                                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-gamme
 Alias:  $ePL-PriceTypeCS =                                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-price-type
 
 // Section purple - Clinical Particulars 
@@ -101,7 +101,7 @@ Alias:  $SMC-PackageComponentType =                   http://fhir.ch/ig/ch-epl/C
 Alias:  $SMC-PackageComponentTypeVS =                 http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-PackageComponentType //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.9
 // Alias:  $SMC-ShelfLifeTimePeriodUnit =                http://unitsofmeasure.org 
 Alias:  $SMC-ShelfLifeTimePeriodUnitVS =              http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-ShelfLifeTimePeriodUnit //Provisorisch
-Alias:  $SMC-SpecialPrecautionsForStorageCS =         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-special-precautions-for-storage //Provisorisch
+Alias:  ChSMCSpecialPrecautionsForStorageCS =         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-special-precautions-for-storage //Provisorisch
 Alias:  $SMC-Scoring =                                http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-Scoring //Provisorisch
 Alias:  $SMC-ScoringVS =                              http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-Scoring //Provisorisch
 // Alias:  $SMC-ManufacturedDoseFormCS =                 urn:oid:0.4.0.127.0.16.1.1.2.1
@@ -136,8 +136,16 @@ Alias:  $SMC-MethodOfAdministrationVS =               http://fhir.ch/ig/ch-epl/V
 // Alias:  $SMC-AdministrableDoseFormCS =                urn:oid:0.4.0.127.0.16.1.1.2.1
 //Alias:  $SMC-AdministrableDoseFormVS =                http://fhir.ch/ig/ch-emed/ValueSet/edqm-pharmaceuticaldoseform
 
+Alias: $auth-type =                                     http://example.com/system/auth-type
+Alias: $auth-status =                                   http://example.com/system/auth-status
+//Alias: $limitationStatus =                            http://a-url-to-be-decided/fhir/limitationStatus
+Alias: $product-intended-use =                          http://hl7.org/fhir/product-intended-use
+Alias: $intendedEffect =                                https://spor.ema.europa.eu/v1/lists/intendedEffect
+Alias: $GroupCharacteristicKind =                       http://hl7.org/fhir/CodeSystem/GroupCharacteristicKind
+
 // External Identifier Systems
 
-Alias: $PhPID =   http://fhir.ch/ig/ch-epl/IDSystem-ch-PhPID
-Alias: $MPID =    http://fhir.ch/ig/ch-epl/IDSystem-ch-MPID  
-Alias: $PCID =    http://fhir.ch/ig/ch-epl/IDSystem-ch-PCID
+Alias: $PhPID =   http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-PhPID
+Alias: $MPID =    http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-MPID  
+Alias: $PCID =    http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-PCID
+Alias: $AuthNo =  http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-MarketingAuthorisationNumber

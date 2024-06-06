@@ -20,16 +20,16 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 
 * description ^short = "Textual description (this is not the name of the package or product)"
 
-* legalStatusOfSupply.code from ChSMCLegalStatusOfSupplyVS (required)
-* legalStatusOfSupply.code.coding 1..
-* legalStatusOfSupply.code.coding ^slicing.discriminator.type = #value
-* legalStatusOfSupply.code.coding ^slicing.discriminator.path = "system"
-* legalStatusOfSupply.code.coding ^slicing.rules = #open
-* legalStatusOfSupply.code.coding contains 
-    SMC 0..1
-* legalStatusOfSupply.code.coding[SMC].system 1..
-* legalStatusOfSupply.code.coding[SMC].system = $SMC-LegalStatusOfSupplyCS
-* legalStatusOfSupply.code.coding[SMC].code 1..
+//* legalStatusOfSupply.code from ChSMCLegalStatusOfSupplyVS (required)
+//* legalStatusOfSupply.code.coding 1..
+//* legalStatusOfSupply.code.coding ^slicing.discriminator.type = #value
+//* legalStatusOfSupply.code.coding ^slicing.discriminator.path = "system"
+//* legalStatusOfSupply.code.coding ^slicing.rules = #open
+//* legalStatusOfSupply.code.coding contains 
+//    SMC 0..1
+//* legalStatusOfSupply.code.coding[SMC].system 1..
+// * legalStatusOfSupply.code.coding[SMC].system = ChSMCLegalStatusOfSupplyCS
+//* legalStatusOfSupply.code.coding[SMC].code 1..
 
 * marketingStatus.country = $country#CH
 
@@ -73,7 +73,7 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding contains 
     SMC 0..1
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].system 1..
-* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].system = $SMC-SpecialPrecautionsForStorageCS
+* packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].system = ChSMCSpecialPrecautionsForStorageCS
 * packaging.shelfLifeStorage.specialPrecautionsForStorage.coding[SMC].code 1..
 
 * packaging.containedItem.item only CodeableReference(CHIDMPManufacturedItemDefinition or CHIDMPPackagedProductDefinition)

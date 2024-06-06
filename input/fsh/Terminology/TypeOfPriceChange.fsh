@@ -1,14 +1,14 @@
-ValueSet: ChEplPreisaenderungstypVS
-Id: ch-epl-foph-preisaenderungstyp
-Title: "CH EPL - Preisaenderungstyp"
-Description: "Value Set for Preisaenderungstyp from ePL used by FOPH"
+ValueSet: ChEplTypeofPriceChangeVS
+Id: ch-epl-foph-type-of-price-change
+Title: "CH EPL - TypeofPriceChange"
+Description: "Value Set for TypeofPriceChange from ePL used by FOPH"
 * ^experimental = false
-* include codes from system ChEplPreisaenderungstypCS
+* include codes from system ChEplTypeOfPriceChangeCS
 
-CodeSystem: ChEplPreisaenderungstypCS
-Id: ch-epl-foph-preisaenderungstyp
-Title: "CH EPL - Preisaenderungstyp"
-Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Preisaenderungstyp"
+CodeSystem: ChEplTypeOfPriceChangeCS
+Id: ch-epl-foph-type-of-price-change
+Title: "CH EPL - TypeofPriceChange"
+Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes of ValueSets TypeofPriceChange"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

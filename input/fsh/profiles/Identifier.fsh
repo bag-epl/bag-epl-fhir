@@ -33,6 +33,16 @@ Description: "Identifier holding a number for OrgID (Organisation Identifier of 
 * value 1..
 * value ^short = "OrgID"
 
+Profile: LOCIdentifier
+Parent: Identifier
+Id: ch-core-loc-identifier
+Title: "LOC Identifier"
+Description: "Identifier holding a number for LocID (Location Identifier of the European Medicines Agency - Organisation Management System OMS)"
+* system 1..
+* system = "urn:oid:1.2.276.0.76" (exactly)
+* system ^short = "LocID"
+* value 1..
+* value ^short = "LocID"
 
 // ------------------------------- Authorization.identifier ------------------------------- //
 
@@ -53,7 +63,7 @@ Id: ch-foph-dossier-number
 Title: "FOPH Dossier Number"
 Description: "Identifier holding the Dossier number of FOPH"
 * system 1..
-* system = "urn:oid:2.16.756.1" (exactly)
+* system = "urn:oid:2.16.756.1" (exactly) // todo: define system for FOPH
 * system ^short = "FOPHDossierNumber"
 * value 1..
 * value ^short = "FOPHDossierNumber"

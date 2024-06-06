@@ -1,14 +1,14 @@
-ValueSet: ChEplOriginalGenericaCodeVS
-Id: ch-epl-foph-original-generica-code
-Title: "CH EPL - Original Generica Code"
-Description: "Value Set for the Original/Generica Code from ePL used by FOPH"
+ValueSet: ChEplProductTypeVS
+Id: ch-epl-foph-product-type
+Title: "CH EPL - Product Type"
+Description: "Value Set for the Product Type from ePL used by FOPH"
 * ^experimental = false
-* include codes from system ChEplOriginalGenericaCodeCS
+* include codes from system ChEplProductTypeCS
 
-CodeSystem: ChEplOriginalGenericaCodeCS
-Id: ch-epl-foph-original-generica-code
-Title: "CH EPL - Original Generica Code"
-Description: "Code System for the Original/Generica Code from ePL used by FOPH"
+CodeSystem: ChEplProductTypeCS
+Id: ch-epl-foph-product-type
+Title: "CH EPL - Product Type"
+Description: "Code System for the Product Type from ePL used by FOPH"
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #complete

@@ -1,0 +1,70 @@
+// Extensions of FOPH for Limitation Status
+
+Extension: EPLLimitationStatus
+Id: limitationStatus
+Title: "EPL Limitation Status"
+Description: "Extension for representing the limitation status"
+* ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/limitationStatus"
+* ^status = #draft
+* ^experimental = false
+* ^date = "2024-02-20"
+* ^publisher = "Federal Office of Public Health - Switzerland"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only CodeableConcept
+* value[x] from ChEplLimitationStatusVS (required)
+* value[x].coding 1..
+* value[x].coding ^slicing.discriminator[+].type = #value
+* value[x].coding ^slicing.discriminator[=].path = "system"
+* value[x].coding ^slicing.rules = #open
+* value[x].coding contains 
+    SMC 0..1
+* value[x].coding[SMC].system 1..
+* value[x].coding[SMC].system = $ePL-LimitationStatusCS
+* value[x].coding[SMC].code 1..
+
+Extension: EPLLimitationStatusDate
+Id: limitationStatusDate
+Title: "CH - EPL Limitation Status Date"
+Description: "Extension for representing the date the limitation status was assigned used by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLLimitationStartDate
+Id: limitationStartDate
+Title: "CH - EPL Limitation Start Date"
+Description: "Extension for representing the date the limitation started by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLLimitationEndDate
+Id: limitationEndDate
+Title: "CH - EPL Limitation End Date"
+Description: "Extension for representing the date the limitation ended by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLReimbursementExpiryDate
+Id: reimbursementExpiryDate
+Title: "CH - EPL Reimbursement Expiry Date"
+Description: "Extension for representing the expirydate of reimbursement by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime
+
+Extension: EPLDateOfFirstLimitation
+Id: dateOfFirstLimitation
+Title: "CH - EPL Date of First Limitation"
+Description: "Extension for representing the date when a limitation was asigned for the first time by FOPH"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only dateTime

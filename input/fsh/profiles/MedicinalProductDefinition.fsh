@@ -41,16 +41,16 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * indication ^short = "Description of indication(s) for this product"
 
-* legalStatusOfSupply from ChSMCLegalStatusOfSupplyVS (required)
-* legalStatusOfSupply.coding 1..
-* legalStatusOfSupply.coding ^slicing.discriminator.type = #value
-* legalStatusOfSupply.coding ^slicing.discriminator.path = "system"
-* legalStatusOfSupply.coding ^slicing.rules = #open
-* legalStatusOfSupply.coding contains 
-    SMC 0..1
-* legalStatusOfSupply.coding[SMC].system 1..
-* legalStatusOfSupply.coding[SMC].system = $SMC-LegalStatusOfSupplyCS
-* legalStatusOfSupply.coding[SMC].code 1..
+//* legalStatusOfSupply from ChSMCLegalStatusOfSupplyVS (required) // to do - to be checked
+//* legalStatusOfSupply.coding 1..
+//* legalStatusOfSupply.coding ^slicing.discriminator.type = #value
+//* legalStatusOfSupply.coding ^slicing.discriminator.path = "system"
+//* legalStatusOfSupply.coding ^slicing.rules = #open
+//* legalStatusOfSupply.coding contains 
+//    SMC 0..1
+//* legalStatusOfSupply.coding[SMC].system 1..
+//* legalStatusOfSupply.coding[SMC].system = $SMC-LegalStatusOfSupplyCS
+//* legalStatusOfSupply.coding[SMC].code 1..
 
 * additionalMonitoringIndicator from ChSMCAdditionalMonitoringIndicatorVS (required)
 * additionalMonitoringIndicator.coding 0..1

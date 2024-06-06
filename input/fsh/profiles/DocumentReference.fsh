@@ -17,7 +17,7 @@ Description: "Profile of the DocumentReference resource for representing profess
     SMC 0..1
 * type.coding[SMC] 
 * type.coding[SMC].system 1..
-* type.coding[SMC].system = $SMC-AttachedDocumentTypeCS
+* type.coding[SMC].system = ChSMCAttachedDocumentTypeCS
 * type.coding[SMC].code 1..
 
 * content.attachment.url 1..

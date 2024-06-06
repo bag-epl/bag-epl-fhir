@@ -68,19 +68,23 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * status.coding ^slicing.discriminator.path = "system"
 * status.coding ^slicing.rules = #open
 * status.coding contains 
-    SMC 0..1
+    SMC 0..1 and
+    FOPH 0..1
 * status.coding[SMC].system 1..
 * status.coding[SMC].system = $SMC-AuthorisationStatusCS
 * status.coding[SMC].code 1..
+* status.coding[FOPH].system 1..
+* status.coding[FOPH].system = $ePL-ReimbursementStatusCS
+* status.coding[FOPH].code 1..
 
 * statusDate
 
 * validityPeriod.start
 * validityPeriod.end
 
-* extension contains
-    EPLFOPHDossierNumber named fophDossierNumber 0..1 and
-    EPLReimbursementEnd named reimbursementEnd 0..1 
+// * extension contains
+//     EPLFOPHDossierNumber named fophDossierNumber 0..1 and
+//     EPLReimbursementEnd named reimbursementEnd 0..1 
 
 * holder ^type.aggregation = #contained
 
