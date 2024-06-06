@@ -1,13 +1,13 @@
 ValueSet: ChSMCLegalStatusOfSupplyVS
 Id: ch-SMC-legal-status-of-supply
-Title: "CH SMC - Abgabekategorie"
+Title: "CH SMC - Legal Status of Supply"
 Description: "Value Set for the Legal Status of Supply from SMC"
 * ^experimental = false
 * include codes from system ChSMCLegalStatusOfSupplyCS
 
 CodeSystem: ChSMCLegalStatusOfSupplyCS
 Id: ch-SMC-legal-status-of-supply
-Title: "CH SMC - Abgabekategorie"
+Title: "CH SMC - Legal Status of Supply"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Abgabekategorie)"
 * ^experimental = false
 * ^caseSensitive = true

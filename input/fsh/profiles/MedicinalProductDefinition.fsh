@@ -80,17 +80,17 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * classification ^slicing.rules = #open
 * classification contains
     ATC 0..1 and
-    Heilmittelcode 0..1
+    TherapeuticProductcode 0..1
 
 * classification[ATC].coding 1..
 * classification[ATC].coding.system 1..
 * classification[ATC].coding.system = $atc (exactly)
 * classification[ATC].coding.code 1..
 
-* classification[Heilmittelcode].coding 1..
-* classification[Heilmittelcode].coding.system 1..
-* classification[Heilmittelcode].coding.system = $SMC-HeilmittelcodeCS (exactly)
-* classification[Heilmittelcode].coding.code 1..
+* classification[TherapeuticProductcode].coding 1..
+* classification[TherapeuticProductcode].coding.system 1..
+* classification[TherapeuticProductcode].coding.system = $SMC-TherapeuticProductcodeCS (exactly)
+* classification[TherapeuticProductcode].coding.code 1..
 
 * marketingStatus.country = $country#CH
 

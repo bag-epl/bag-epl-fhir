@@ -1,14 +1,14 @@
-ValueSet: ChSMCHeilmittelcodeVS
-Id: ch-SMC-heilmittelcode
-Title: "CH SMC - Heilmittelcode"
-Description: "Value Set for the Heilmittelcode from SMC used by FOPH"
+ValueSet: ChSMCTherapeuticProductcodeVS
+Id: ch-SMC-therapeuticproductcode
+Title: "CH SMC - TherapeuticProductcode"
+Description: "Value Set for the TherapeuticProductcode from SMC used by FOPH"
 * ^experimental = false
-* include codes from system ChSMCHeilmittelcodeCS
+* include codes from system ChSMCTherapeuticProductcodeCS
 
-CodeSystem: ChSMCHeilmittelcodeCS
-Id: ch-SMC-heilmittelcode
-Title: "CH SMC - Heilmittelcode"
-Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Heilmittelcode)"
+CodeSystem: ChSMCTherapeuticProductcodeCS
+Id: ch-SMC-therapeuticproductcode
+Title: "CH SMC - TherapeuticProductcode"
+Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets TherapeuticProductcode)"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

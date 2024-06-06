@@ -1,13 +1,13 @@
 ValueSet: ChEplOtherCharacteristicsPackagedItemVS
 Id: ch-epl-foph-other-characteristics-packaged-item
-Title: "CH EPL - Weitere Eigenschaften Verpackung"
+Title: "CH EPL - Other Characteristics Packaged Item"
 Description: "Value Set for Other Characteristics of a Packaged Item from ePL used by FOPH"
 * ^experimental = false
 * include codes from system ChEplOtherCharacteristicsPackagedItemCS
 
 CodeSystem: ChEplOtherCharacteristicsPackagedItemCS
 Id: ch-epl-foph-other-characteristics-packaged-item
-Title: "CH EPL - Weitere Eigenschaften Verpackung"
+Title: "CH EPL - Other Characteristics Packaged Item"
 Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Other Characteristics of a Packaged Item"
 * ^experimental = false
 * ^caseSensitive = false

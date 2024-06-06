@@ -1,13 +1,13 @@
 ValueSet: ChEplTypeofPriceChangeVS
 Id: ch-epl-foph-type-of-price-change
-Title: "CH EPL - TypeofPriceChange"
+Title: "CH EPL - Type of Price Change"
 Description: "Value Set for TypeofPriceChange from ePL used by FOPH"
 * ^experimental = false
 * include codes from system ChEplTypeOfPriceChangeCS
 
 CodeSystem: ChEplTypeOfPriceChangeCS
 Id: ch-epl-foph-type-of-price-change
-Title: "CH EPL - TypeofPriceChange"
+Title: "CH EPL - Type of Price Change"
 Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes of ValueSets TypeofPriceChange"
 * ^experimental = false
 * ^caseSensitive = false

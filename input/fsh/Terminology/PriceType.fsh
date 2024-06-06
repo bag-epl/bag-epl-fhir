@@ -1,13 +1,13 @@
 ValueSet: ChEplPricetypeVS
 Id: ch-epl-foph-pricetype
-Title: "CH EPL - Preistyp"
+Title: "CH EPL - Price Type"
 Description: "Value Set for Pricetype from ePL used by FOPH"
 * ^experimental = false
 * include codes from system ChEplPriceTypeCS
 
 CodeSystem: ChEplPriceTypeCS
 Id: ch-epl-foph-price-type
-Title: "CH EPL - Preis Typ"
+Title: "CH EPL - Price Type"
 Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Price Type"
 * ^experimental = false
 * ^caseSensitive = false

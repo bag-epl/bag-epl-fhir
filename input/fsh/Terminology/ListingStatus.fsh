@@ -1,13 +1,13 @@
 ValueSet: ChEplListingStatusVS
 Id: ch-epl-foph-listing-status
-Title: "CH EPL - Vergütungsstatus"
+Title: "CH EPL - Listing Status"
 Description: "Value Set for Listing Status from ePL used by FOPH"
 * ^experimental = false
 * include codes from system ChEplListingStatusCS
 
 CodeSystem: ChEplListingStatusCS
 Id: ch-epl-foph-listing-status
-Title: "CH EPL - Listungs Status"
+Title: "CH EPL - Listing Status"
 Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Listungs Status"
 * ^experimental = false
 * ^caseSensitive = false

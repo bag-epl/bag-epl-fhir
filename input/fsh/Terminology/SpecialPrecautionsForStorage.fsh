@@ -1,13 +1,13 @@
 ValueSet: ChSMCSpecialPrecautionsForStorageVS
 Id: ch-SMC-special-precautions-for-storage
-Title: "CH SMC - Besondere Vorsichtsmassnahmen für die Aufbewahrung"
+Title: "CH SMC - Special Precautions for Storage"
 Description: "Value Set for the Special Precautions for Storage from SMC"
 * ^experimental = false
 * include codes from system ChSMCSpecialPrecautionsForStorageCS
 
 CodeSystem: ChSMCSpecialPrecautionsForStorageCS
 Id: ch-SMC-special-precautions-for-storage
-Title: "CH SMC - Besondere Vorsichtsmassnahmen für die Aufbewahrung"
+Title: "CH SMC - Special Precautions for Storage"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of ValueSets Besondere Vorsichtsmassnahmen für die Aufbewahrung)"
 * ^experimental = false
 * ^caseSensitive = true

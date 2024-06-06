@@ -1,6 +1,6 @@
 ValueSet: ChAuthorisationTypeVS
 Id: ch-authorisation-type
-Title: "CH - Zulassungstyp"
+Title: "CH - Authorisation Type"
 Description: "Value Set for Authorisation Type in Switzerland used by FOPH"
 * ^experimental = false
 * include codes from system ChAuthorisationTypeCS
