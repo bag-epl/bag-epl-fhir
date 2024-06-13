@@ -27,7 +27,7 @@ Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes
 * #756001006013 "Preismutation einheitlicher VA"*/
 
 * ^concept[+].code = #756002006001
-* ^concept[=].display = "External reference price "
+* ^concept[=].display = "External reference price"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = "http://www.snomed.org/"
 * ^concept[=].designation[=].use.version = "1.0"
@@ -117,7 +117,7 @@ Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes
 * ^concept[=].designation[=].value = "nMu"
  
 * ^concept[+].code = #756002006007
-* ^concept[=].display = "Price mutation after triennal review of pharmaceuticals "
+* ^concept[=].display = "Price mutation after triennal review of pharmaceuticals"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = "http://www.snomed.org/"
 * ^concept[=].designation[=].use.version = "1.0"

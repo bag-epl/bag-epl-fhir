@@ -6,7 +6,7 @@ Usage: #inline
 * identifier.value = "100062050"
 * name = "Bayer (Schweiz) AG"
 
-Instance: holder-ideogen
+Instance: holder-Ideogen-AG
 InstanceOf: CHEPLOrganization
 Usage: #inline
 * identifier.system = "urn:oid:1.2.276.0.76"
@@ -34,12 +34,26 @@ Usage: #inline
 * identifier.value = "100082791"
 * name = "Curatis AG"
 
-Instance: holder-Tillotts-AG
+Instance: holder-Tillotts-Pharma-AG
 InstanceOf: CHEPLOrganization
 Usage: #inline
 * identifier.system = "urn:oid:1.2.276.0.76"
 * identifier.value = "100005174"
 * name = "Tillotts Pharma AG"
+
+Instance: holder-Pfizer-AG
+InstanceOf: CHEPLOrganization
+Usage: #inline
+* identifier.system = "urn:oid:1.2.276.0.76"
+* identifier.value = "100015286"
+* name = "Pfizer AG"
+
+Instance: holder-MSD-AG
+InstanceOf: CHEPLOrganization
+Usage: #inline
+* identifier.system = "urn:oid:1.2.276.0.76"
+* identifier.value = "100080484"
+* name = "MSD Merck Sharp & Dohme AG"
 
 // Regulator
 Instance: regulator-SMC

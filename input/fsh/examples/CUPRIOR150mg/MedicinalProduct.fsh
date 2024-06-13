@@ -9,7 +9,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * identifier[=].value = "CH-7640109110007-6771901" //MPID
 * domain.coding[EMA] = $ema#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10221000 "Film-coated tablet" // Authorised Pharmaceutical Dose Form
-//* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
+//* combinedPharmaceuticalDoseForm.coding = $edqm#... "..." // Combined Pharmaceutical Dose Form
 * indication = "Cuprior wird angewendet zur Behandlung von Morbus Wilson bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter mit Unverträglichkeit gegenüber einer D-Penicillamin-Therapie." // Full Indication Text
 * legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
 // * additionalMonitoringIndicator = $SMC-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
@@ -20,7 +20,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 
 // Product Classification
 * classification[+] = $atc#L01EX13  // ATC Code
-* classification[+] = $SMC-TherapeuticProductcodeCS#S "Synthetika" // TherapeuticProductcode
+* classification[+] = ChSMCTherapeuticProductcodeCS#S "Synthetika" // TherapeuticProductcode
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Cuprior)  // Link to the Professional Information

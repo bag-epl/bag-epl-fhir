@@ -20,7 +20,7 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
     period 1..1 and
     reimbursementEndDate 0..1 and
     firstLimitationDate 1..1 and
-    limitationIndication 1..1 and // Limitation
+    limitationIndication 0..1 and // Limitation
     indicationCode 0..1 // Indication Code
 
 * extension[status] only Extension

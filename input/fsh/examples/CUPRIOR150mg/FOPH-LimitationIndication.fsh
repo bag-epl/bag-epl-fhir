@@ -5,7 +5,7 @@ Title: "Limitation 90560007"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalUseDefinition-Limitation (Indication)"
 
 * type = #indication
-* indication.diseaseSymptomProcedure.concept = $sct#88518009 "Copper metabolism disorder" // Limitation as Disease Symptom Procedure
+* indication.diseaseSymptomProcedure.concept = $sct#88518009 "Wilson's disease" // Limitation as Disease Symptom Procedure
 //* indication.diseaseStatus.concept = $sct#90734009 "Chronic" // Disease Status
 //* indication.comorbidity.concept = $sct#.. "xxx" // Comorbidity
 * indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect

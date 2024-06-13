@@ -8434,7 +8434,7 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * #65C72P1860 "Estradiol dienantate"
 * #NIG5418BXB "Estradiol dipropionate"
 * #PAP315WZIA "Estradiol enantate"
-* #CXY7B3Q98Z "Estradiol hemihydrate"
+* #CXY7B3Q98Z "Estradiol-hemihydrate"
 * #DI3496530P "Estradiol hexahydrobenzoate"
 * #1Q5Y448XT0 "Estradiol monopalmitate"
 * #LS956OGN6U "Estradiol phenylpropionate"
