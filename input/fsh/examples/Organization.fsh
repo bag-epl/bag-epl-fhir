@@ -48,7 +48,7 @@ Usage: #inline
 * identifier.value = "100015286"
 * name = "Pfizer AG"
 
-Instance: holder-MSD-AG
+Instance: holder-MSD-Merck-Sharp-Dohme-AG
 InstanceOf: CHEPLOrganization
 Usage: #inline
 * identifier.system = "urn:oid:1.2.276.0.76"

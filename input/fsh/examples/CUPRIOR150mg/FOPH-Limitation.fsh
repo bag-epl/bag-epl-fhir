@@ -68,7 +68,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Regulated Authorizat
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2021-08-01" // Limitation Period Start Date
 //* indication.extension[=].extension[=].valuePeriod.end = "..."  // Limitation Period End Date
-//* indication.extension[=].extension[+].url = "reimbursedmentEndDate"
+//* indication.extension[=].extension[+].url = "reimbursementEndDate"
 //* indication.extension[=].extension[=].valueDate = "2024-11-01" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2021-08-01" // Date of First Limitation

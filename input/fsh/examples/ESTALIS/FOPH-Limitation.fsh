@@ -68,7 +68,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Regulated Authoriza
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2000-04-15" // Limitation Period Start Date
 //* indication.extension[=].extension[=].valuePeriod.end = "..."  // Limitation Period End Date
-//* indication.extension[=].extension[+].url = "reimbursedmentEndDate"
+//* indication.extension[=].extension[+].url = "reimbursementEndDate"
 //* indication.extension[=].extension[=].valueDate = "2024-11-01" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2000-04-15" // Date of First Limitation
