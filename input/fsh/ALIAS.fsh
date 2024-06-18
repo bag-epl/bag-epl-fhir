@@ -12,6 +12,7 @@ Alias: $edqm =                          urn:oid:0.4.0.127.0.16.1.1.2.1 // https:
 Alias: $gtin =                          urn:oid:2.51.1.1
 Alias: $ema =                           urn:oid:1.2.276.0.76
 Alias: $mdr =                           http://terminology.hl7.org/CodeSystem/mdr
+//Alias: $mdr =                           https://terminology.hl7.org/5.5.0/CodeSystem/mdr
 Alias: $sct =                           http://snomed.info/sct
 
 // ISO 

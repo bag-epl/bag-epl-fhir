@@ -1,7 +1,7 @@
-Instance: MI-Pembrolizumabum-100mg-Vial
+Instance: MI-Pembrolizumab-100mg-Vial
 InstanceOf: CHIDMPManufacturedItemDefinition
 Usage: #example
-Title: "MI Pembrolizumabum-100mg-Vial"
+Title: "MI Pembrolizumab-100mg-Vial"
 Description: "Manufactured Item definition for KEYTRUDA Inf Konz 100 mg / 4 ml"
 * status = #active
 

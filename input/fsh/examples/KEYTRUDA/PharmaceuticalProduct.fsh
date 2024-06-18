@@ -1,7 +1,7 @@
-Instance: PhP-Pembrolizumabum-100mg-Vial
+Instance: PhP-Pembrolizumab-100mg-Vial
 InstanceOf: CHIDMPAdministrableProductDefinition
 Usage: #example
-Title: "PhP Pembrolizumabum-100mg-Vial"
+Title: "PhP Pembrolizumab-100mg-Vial"
 Description: "Administrable Product of KEYTRUDA Inf Konz 100 mg / 4 ml"
 
 // Pharmaceutical Product

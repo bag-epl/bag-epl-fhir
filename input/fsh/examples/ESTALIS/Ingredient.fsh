@@ -13,9 +13,9 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Ingredient (Ingredi
 * substance[=].strength[=].presentationRatio[=].numerator.system = "http://unitsofmeasure.org" 
 * substance[=].strength[=].presentationRatio[=].numerator.code = #mg 
 * substance[=].strength[=].presentationRatio[=].denominator.value = 1
-* substance[=].strength[=].presentationRatio[=].denominator.unit = "Patch" 
-* substance[=].strength[=].presentationRatio[=].denominator.system = "http://unitsofmeasure.org" 
-* substance[=].strength[=].presentationRatio[=].denominator.code = #{patch}
+* substance[=].strength[=].presentationRatio[=].denominator.unit = "Patch"
+* substance[=].strength[=].presentationRatio[=].denominator.system = $edqm
+* substance[=].strength[=].presentationRatio[=].denominator.code = #15036000
 
 Instance: Norethisteroni-acetas-0.496mg
 InstanceOf: CHIDMPIngredient
@@ -32,6 +32,6 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Ingredient (Ingredi
 * substance[=].strength[=].presentationRatio[=].numerator.system = "http://unitsofmeasure.org" 
 * substance[=].strength[=].presentationRatio[=].numerator.code = #mg 
 * substance[=].strength[=].presentationRatio[=].denominator.value = 1
-* substance[=].strength[=].presentationRatio[=].denominator.unit = "Patch" 
-* substance[=].strength[=].presentationRatio[=].denominator.system = "http://unitsofmeasure.org" 
-* substance[=].strength[=].presentationRatio[=].denominator.code = #{patch}
+* substance[=].strength[=].presentationRatio[=].denominator.unit = "Patch"
+* substance[=].strength[=].presentationRatio[=].denominator.system = $edqm
+* substance[=].strength[=].presentationRatio[=].denominator.code = #15036000

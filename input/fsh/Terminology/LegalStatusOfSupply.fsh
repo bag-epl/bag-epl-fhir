@@ -16,151 +16,91 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005022001
 * ^concept[=].display = "One-time dispensation on medical or veterinary prescription (A)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "A"
  
 * ^concept[+].code = #756005022002
 * ^concept[=].display = "One-time dispensation on medical or veterinary prescription (A)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "A+"
  
 * ^concept[+].code = #756005022003
 * ^concept[=].display = "Dispensation on medical or veterinary prescription (B)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "B"
  
 * ^concept[+].code = #756005022004
 * ^concept[=].display = "Dispensation on medical or veterinary prescription (B)/Dispensation after professional advice from medical personnel"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)/Abgabe nach Fachberatung durch Medizinalpersonen"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "B/C"
  
 * ^concept[+].code = #756005022005
 * ^concept[=].display = "Dispensation on medical or veterinary prescription (B)/Dispensation after professional advice (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)/Abgabe nach Fachberatung (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "B/D"
  
 * ^concept[+].code = #756005022006
 * ^concept[=].display = "Dispensation on medical or veterinary prescription (B)/Dispensation after professional advice (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe nach Fachberatung durch Medizinalpersonen (C)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "C"
  
 * ^concept[+].code = #756005022007
 * ^concept[=].display = "Dispensation after professional advice from medical personnel (C)/Dispensation after professional advice (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe nach Fachberatung durch Medizinalpersonen (C)/Abgabe nach Fachberatung (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "C/D"
  
 * ^concept[+].code = #756005022008
 * ^concept[=].display = "Dispensation following professional advice (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe nach Fachberatung (D)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "D"
  
 * ^concept[+].code = #756005022009
 * ^concept[=].display = "Dispensation following professional advice (D) / Dispensation without professional advice (E)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe nach Fachberatung (D) / Abgabe ohne Fachberatung (E)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "D/E"
  
 * ^concept[+].code = #756005022010
 * ^concept[=].display = "Dispensation without professional advice (E)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Abgabe ohne Fachberatung (E)"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "E"
  
 

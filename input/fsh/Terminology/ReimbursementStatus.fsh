@@ -17,30 +17,18 @@ Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes
 
 * ^concept[+].code = #756001021001
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Vergütet"
 * ^concept[=].display = "Reimbursed"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "V"
 
 * ^concept[+].code = #756001021002
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "nicht Vergütet"
 * ^concept[=].display = "not Reimbursed"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "nV"

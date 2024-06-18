@@ -6,12 +6,12 @@ The following datapipeline illustrates the dataflow within the EPL from the data
 
 For the Dataimport the FHIR format must be used.
 
-{% include img.html img="Dataflow-EPL.png" caption="Fig. 1: Data Pipeline" width="100%" %}
+{% include img.html img="Dataflow-EPL.png" caption="Fig. 1: Data Pipeline" width="60%" %}
 
 ### EPL Datamodel for Authorised Medicinal Products plus Späzialitätenliste
 The following datamodel illustrates the addapted IDMP datamodel based on ISO 11615:2017 addapted for EPL of the Federal Office for Public Health FOPH.
 
-{% include img.html img="EPL-Draft-Datamodel-Medicinal_Product_de-CH.png" caption="Fig. 2: EPL Datamodel - Authorised Medicinal Products plus Späzialitätenliste (German - Switzerland)" width="100%" %}
+{% include img.html img="EPL-Datamodel-Medicinal_Product_de-CH.png" caption="Fig. 2: EPL Datamodel - Authorised Medicinal Products plus Späzialitätenliste (German - Switzerland)" width="100%" %}
 
 ### FHIR Document Bundle
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.

@@ -13,7 +13,6 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of an Ingredient (Ingredie
 * substance[=].strength[=].presentationRatio[=].numerator.system = "http://unitsofmeasure.org" 
 * substance[=].strength[=].presentationRatio[=].numerator.code = #mg 
 * substance[=].strength[=].presentationRatio[=].denominator.value = 1
-* substance[=].strength[=].presentationRatio[=].denominator.unit = "capsule" 
-* substance[=].strength[=].presentationRatio[=].denominator.system = "http://unitsofmeasure.org" 
-* substance[=].strength[=].presentationRatio[=].denominator.code = #{capsule}
-
+* substance[=].strength[=].presentationRatio[=].denominator.unit = "Capsule" 
+* substance[=].strength[=].presentationRatio[=].denominator.system = $edqm
+* substance[=].strength[=].presentationRatio[=].denominator.code = #15012000

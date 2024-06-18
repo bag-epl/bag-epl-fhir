@@ -21,11 +21,11 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(RegulatedAuthorisation, FOPH-20416)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Pembrolizumabum-100mg-Vial) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Pembrolizumab-100mg-Vial) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Pembrolizumabum-100mg-Vial)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Pembrolizumab-100mg-Vial)
 * entry[+]
-  * insert bundleEntry(Ingredient, Pembrolizumabum100)
+  * insert bundleEntry(Ingredient, Pembrolizumab100)
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10027400)
 * entry[+]

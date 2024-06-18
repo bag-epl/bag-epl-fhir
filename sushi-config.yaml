@@ -28,7 +28,7 @@ contact:
 
 dependencies:
 #  ch.fhir.ig.ch-core: 4.0.1
-  hl7.terminology: 5.4.0
+  hl7.terminology.r5: 5.5.0
 
 pages:
   index.md:
@@ -41,8 +41,18 @@ pages:
     title: Dataexport FOPH Spezialitätenliste
   usecase-german.md:
     title: Use Cases
-  examples.md:
-    title: Examples
+  cuprior.md:
+    title: Cuprior
+  entocort.md:
+    title: Entocort
+  estalis.md:
+    title: Estalis 
+  keytruda.md:
+    title: Keytruda
+  plaxovid.md:
+    title: Plaxovid
+  triogen.md:
+    title: Triogen 
   profiles.md:
     title: Profiles
   extensions.md:
@@ -58,7 +68,13 @@ menu:
     Spezialitätenliste: spezialitaetenliste.html
   Use Case:
     German: usecase-german.html 
-  Examples: examples.html
+  Examples: 
+    Cuprior: cuprior.html
+    Entocort: entocort.html
+    Estalis: estalis.html
+    Keytruda: keytruda.html
+    Plaxovid: plaxovid.html
+    Triogen: triogen.html
   Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html
