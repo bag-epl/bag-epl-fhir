@@ -4,7 +4,7 @@ Extension: RegulatedAuthorizationLimitation
 Id: regulatedAuthorization-limitation
 Title: "CH - EPL Regulated Authorization Limitation"
 Description: "A limitation to an authorisation for reimbursement of a drug, for a certain indication."
-* ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation" //to be checked
+* ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation" 
 * ^status = #draft
 * ^experimental = false
 * ^date = "2024-02-20"
@@ -22,7 +22,7 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
     firstLimitationDate 1..1 and
     limitationIndication 0..1 and 
     indicationCode 0..1 and
-    productPrice 0..*
+    http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice named productPrice 0..*
 
 * extension ^slicing.rules = #open
 
