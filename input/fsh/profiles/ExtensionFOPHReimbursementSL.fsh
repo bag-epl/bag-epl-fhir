@@ -2,7 +2,7 @@
 
 Extension: ReimbursementSL
 Id: reimbursementSL
-Title: "Reimbursement SL"
+Title: "CH - EPL Reimbursement SL"
 Description: "A set of information about the reimbursement of a drug"
 * ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/reimbursementSL"
 * ^status = #draft

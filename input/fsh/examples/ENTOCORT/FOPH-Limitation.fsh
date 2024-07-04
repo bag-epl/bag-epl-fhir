@@ -42,9 +42,9 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension[=].extension[=].valueMoney.value = 40.89
 * extension[=].extension[=].valueMoney.currency = #CHF
 * extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005002 "Ex-factory price"
+* extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
+* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
 * extension[=].extension[+].url = "changeDate"
 * extension[=].extension[=].valueDate = "2023-12-01"
 
@@ -53,9 +53,9 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension[=].extension[=].valueMoney.value = 63.40
 * extension[=].extension[=].valueMoney.currency = #CHF
 * extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005001 "Retail price"
+* extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006005 "VAT-change"
+* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
 * extension[=].extension[+].url = "changeDate"
 * extension[=].extension[=].valueDate = "2024-01-01"
 
@@ -87,9 +87,9 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * indication.extension[=].extension[=].extension[=].valueMoney.value = 40.89
 * indication.extension[=].extension[=].extension[=].valueMoney.currency = #CHF
 * indication.extension[=].extension[=].extension[+].url = "type"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005002 "Ex-factory price"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * indication.extension[=].extension[=].extension[+].url = "changeType"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
 * indication.extension[=].extension[=].extension[+].url = "changeDate"
 * indication.extension[=].extension[=].extension[=].valueDate = "2023-12-01"
 
@@ -98,9 +98,9 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * indication.extension[=].extension[=].extension[=].valueMoney.value = 63.40
 * indication.extension[=].extension[=].extension[=].valueMoney.currency = #CHF
 * indication.extension[=].extension[=].extension[+].url = "type"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005001 "Retail price"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * indication.extension[=].extension[=].extension[+].url = "changeType"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006005 "VAT-change"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
 * indication.extension[=].extension[=].extension[+].url = "changeDate"
 * indication.extension[=].extension[=].extension[=].valueDate = "2024-01-01"
 

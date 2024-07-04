@@ -2,7 +2,7 @@
 
 Extension: RegulatedAuthorizationLimitation
 Id: regulatedAuthorization-limitation
-Title: "Regulated Authorization Limitation"
+Title: "CH - EPL Regulated Authorization Limitation"
 Description: "A limitation to an authorisation for reimbursement of a drug, for a certain indication."
 * ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation" //to be checked
 * ^status = #draft
@@ -20,8 +20,11 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
     period 1..1 and
     reimbursementEndDate 0..1 and
     firstLimitationDate 1..1 and
-    limitationIndication 0..1 and // Limitation
-    indicationCode 0..1 // Indication Code
+    limitationIndication 0..1 and 
+    indicationCode 0..1 and
+    productPrice 0..*
+
+* extension ^slicing.rules = #open
 
 * extension[status] only Extension
 * extension[status] ^definition = "The status of the limitation"

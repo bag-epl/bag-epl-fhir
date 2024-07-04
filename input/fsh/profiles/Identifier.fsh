@@ -44,6 +44,17 @@ Description: "Identifier holding a number for LocID (Location Identifier of the 
 * value 1..
 * value ^short = "LocID"
 
+Profile: GLNIdentifier
+Parent: Identifier
+Id: ch-core-gln-identifier
+Title: "GLN Identifier"
+Description: "Identifier holding a number for GLN (Global Location Number)"
+* system 1..
+* system = "urn:oid:2.51.1.3" (exactly)
+* system ^short = "GLNID"
+* value 1..
+* value ^short = "GLNID"
+
 // ------------------------------- Authorization.identifier ------------------------------- //
 
 Profile: FOPHIdentifier

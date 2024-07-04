@@ -24,6 +24,10 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#NO30 "Nicht über 30°C" // Special Precaution for Storage
 
+// Other Characteristics
+// * packaging.property[0].type.coding = 
+// * packaging.property[+].valueCodeableConcept.coding = ChEplOtherCharacteristicsPackagedItemCS#756005041001 "Modal pack"
+
 // Package Item (Container) - Inner Package
 * packaging.packaging[0].type.coding = $edqm#30007000 "Blister" // Package Item (Container) Type
 * packaging.packaging[0].quantity = 12 // Package Item (Container) Quantity

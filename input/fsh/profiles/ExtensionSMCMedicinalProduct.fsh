@@ -2,7 +2,7 @@
 
 Extension: CHIDMPAuthorizedDoseForm
 Id: authorizedDoseForm
-Title: "IDMP Authorized Dose Form"
+Title: "CH - SMC Authorized Dose Form"
 Description: "Extension for representing the authorized dose form"
 * ^context[0].type = #element
 * ^context[=].expression = "MedicinalProductDefinition"

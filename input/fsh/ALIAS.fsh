@@ -10,9 +10,9 @@ Alias: $country =                       urn:iso:std:iso:3166
 
 Alias: $edqm =                          urn:oid:0.4.0.127.0.16.1.1.2.1 // https://confluence.hl7.org/display/TA/EDQM+Standard+Terms
 Alias: $gtin =                          urn:oid:2.51.1.1
+Alias: $gln =                           urn:oid:2.51.1.3
 Alias: $ema =                           urn:oid:1.2.276.0.76
-Alias: $mdr =                           http://terminology.hl7.org/CodeSystem/mdr
-//Alias: $mdr =                           https://terminology.hl7.org/5.5.0/CodeSystem/mdr
+Alias: $mdr =                           https://www.meddra.org
 Alias: $sct =                           http://snomed.info/sct
 
 // ISO 
@@ -23,10 +23,7 @@ Alias: $ISO-NamePartVS =                http://hl7.org/fhir/ValueSet/medicinal-p
 Alias:  $EMA-MediaType =                https://spor.ema.europa.eu/v1/lists/200000015398
 Alias:  $EMA-Material =                 https://spor.ema.europa.eu/v1/lists/200000003199
 Alias:  $EMA-ShelfLifeType =            https://spor.ema.europa.eu/rmswi/#/lists/100000073343/terms
-
-// MedDRA
-Alias:  $IndicationAs =                 http://terminology.hl7.org/CodeSystem/mdr //MedDRA
-Alias:  $Comorbidity =                  http://terminology.hl7.org/CodeSystem/mdr //MedDRA
+// to do: Pfade prüfen
 
 // UCUM
 Alias: $UnitOfMeasurement =             http://unitsofmeasure.org
@@ -41,31 +38,28 @@ Alias: $CSChIgExampleTranslation =      https://fhir.ch/ig/ch-ig/CodeSystem/ch-i
 // Section Yellow - Medicinal Products
 
 // FHIR Code-Systems
-Alias:  $FHIR-Domain =                                       http://hl7.org/fhir/medicinal-product-domain
+Alias:  $FHIR-Domain =                                http://hl7.org/fhir/medicinal-product-domain
 
 // Section Yellow - Medicinal Product
-Alias:  $CH-MedicialProductNameTypeCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
+Alias:  $CH-MedicialProductNameTypeCS =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 
 // SMC
-Alias:  $SMC-DomainCS =                                 http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-domain //Provisorisch
+Alias:  $SMC-DomainCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-domain //Provisorisch
 Alias:  $SMC-AuthorisedDoseFormCS =                   urn:oid:0.4.0.127.0.16.1.1.2.1
 Alias:  $SMC-AdditionalMonitoringIndicatorCS =        http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-additional-monitoring-indicator //Provisorisch
-Alias:  $SMC-AttachedDocumentType =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-AttachedDocumentType //Provisorisch
+Alias:  $SMC-AttachedDocumentType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-AttachedDocumentType //Provisorisch
 Alias:  $SMC-PediatricUseIndicatorCS =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-pediatric-use-indicator //Provisorisch
-Alias:  $SMC-TherapeuticProductcodeCS =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-therapeuticproductcode //Provisorisch
+Alias:  $SMC-TherapeuticProductcodeCS =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-therapeuticproductcode //Provisorisch
 Alias:  $SMC-OrphanIndicationType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-OrphanIndicationType //Provisorisch
 Alias:  $SMC-OrphanDesignationAuthorisationStatus =   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-OrphanDesignationAuthorisationStatus //Provisorisch
-Alias:  $CH-MedicinalProductNameType =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
+Alias:  $CH-MedicinalProductNameType =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 Alias:  $SMC-MasterFileType =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-MasterFileType //Provisorisch
 Alias:  $SMC-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-ReferencedProductType //Provisorisch
-
-// FOPH
-Alias:  $ePL-StatusMedicinalProduct =                        http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-status-medicinal-product 
 
 // Section Green - Marketing Authorisations
 
 // SMC
-Alias:  $CH-AuthorisationType =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-authorisation-type //Provisorisch
+Alias:  $CH-AuthorisationType =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-authorisation-type //Provisorisch
 Alias:  $SMC-LegalStatusOfSupplyCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-legal-status-of-supply //Provisorisch
 Alias:  $SMC-AuthorisationStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-authorisation-status //Provisorisch
 Alias:  $SMC-ProcedureType =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-ProcedureType //Provisorisch
@@ -75,17 +69,7 @@ Alias:  $SMC-ApplicationTypeVS =                      http://fhir.ch/ig/ch-epl/V
 Alias:  $SMC-MarketingStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-marketing-status //Provisorisch
 
 // FOPH
-Alias:  $ePL-MedicinalProductStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-medicinal-product-status
-Alias:  $ePL-TypeOfPriceChangeCS =                           http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-type-of-price-change 
-Alias:  $ePL-LimitationStatusCS =                            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-limitation-status 
-Alias:  $ePL-ReimbursementStatusCS =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status  
-Alias:  $ePL-ListingStatusCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-listing-status  
-Alias:  $ePL-PriceTypeCS =                                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-price-type
-
-// Section purple - Clinical Particulars 
-
-// SMC
-//Alias:  $ema-IntendedEffectCS =                              http://fhir.ch/ig/ch-epl/CodeSystem/ch-ema-intended-effect //Provisorisch
+Alias:  $ePL-ReimbursementStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status  
 
 // Section blue - Packaging
 
@@ -100,10 +84,6 @@ Alias:  $SMC-ShelfLifeTimePeriodUnitVS =              http://fhir.ch/ig/ch-epl/V
 Alias:  $SMC-SpecialPrecautionsForStorageCS =         http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-SpecialPrecautionsForStorage //Provisorisch
 Alias:  $SMC-Scoring =                                http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-Scoring //Provisorisch
 Alias:  $SMC-ScoringVS =                              http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-Scoring //Provisorisch
-
-// FOPH
-Alias:  $ePL-PackagingStatusCS =                             http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-packaging-status 
-Alias:  $ePL-OtherCharacteristicsPackagedItemCS =            http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-other-characteristics-packaged-item
 
 // Section orange - Substances Strength
 

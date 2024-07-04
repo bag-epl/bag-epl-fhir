@@ -36,10 +36,14 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.comorbidity.concept.coding ^slicing.discriminator[=].path = "system"
 * indication.comorbidity.concept.coding ^slicing.rules = #open
 * indication.comorbidity.concept.coding contains 
-    SMC 0..1
+    SMC 0..1 and
+    FOPH 0..1
 * indication.comorbidity.concept.coding[SMC].system 1..
 * indication.comorbidity.concept.coding[SMC].system = $mdr
 * indication.comorbidity.concept.coding[SMC].code 1..
+* indication.comorbidity.concept.coding[FOPH].system 1..
+* indication.comorbidity.concept.coding[FOPH].system = $sct
+* indication.comorbidity.concept.coding[FOPH].code 1..
 
 * indication.intendedEffect from EMAIntendedEffectVS (required)
 * indication.intendedEffect.concept 1..

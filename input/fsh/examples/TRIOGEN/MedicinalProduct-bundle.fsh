@@ -27,6 +27,8 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(AdministrableProductDefinition, PhP-Trientinum-250mg-Capsule)
 * entry[+]
+  * insert bundleEntry(Ingredient, Trientinum250)
+* entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10061091)
 * entry[+]
-  * insert bundleEntry(Ingredient, Trientinum250)
+  * insert bundleEntry(ClinicalUseDefinition, LIM-79886009)

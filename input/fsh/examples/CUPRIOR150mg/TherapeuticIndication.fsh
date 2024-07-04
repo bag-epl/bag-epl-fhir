@@ -9,6 +9,6 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalParticulars-
 * subject = Reference(Cuprior-150mg-Filmcoatedtablet) // Link to the Medicinal Product
 
 // Therapeutic Indication.
-* indication.diseaseSymptomProcedure.concept = $IndicationAs#10061091 "Wilson's disease" // Indication as "Disease / Symptom / Procedure"
+* indication.diseaseSymptomProcedure.concept = $mdr#10061091 "Wilson's disease" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
 * indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect

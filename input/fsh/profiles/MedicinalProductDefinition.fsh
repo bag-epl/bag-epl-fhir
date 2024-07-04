@@ -25,7 +25,6 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * extension contains
     CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
-    // EPLLimitation named limitation 1..1 and // Extensions FOPH 
     EPLFullLimitationText named fullLimitationText 0..1 // Extensions FOPH 
 
 * combinedPharmaceuticalDoseForm from EdqmCombinedPharmaceuticalDoseFormVS (required)

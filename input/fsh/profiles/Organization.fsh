@@ -5,15 +5,16 @@ Title: "CH EPL Organization"
 Description: "Defines basic constraints and extensions on the Organization resource for use with other CH EPL resources"
 
 * . ^short = "CH EPL Organization"
-* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "$this"
 * identifier ^slicing.rules = #open
-* identifier.value 1..
+//* identifier.value 0..
 * identifier contains
 //     BER 0..1 and
 //     UIDB 0..1 and
 //     OrgID 0..1 and
-    LocID 0..1
+    LocID 0..1 and
+    GLN 0..1
 // * identifier[BER] only BERIdentifier
 // * identifier[BER] ^short = "BER (Business and Enterprise Register), BUR (Betriebs- und Unternehmensregister), REE (Registre des entreprises et des établissements), RIS (Registro delle imprese e degli stabilimenti)"
 // * identifier[BER] ^definition = "See [BER](http://fhir.ch/ig/ch-core/NamingSystem/ber)"
@@ -30,6 +31,12 @@ Description: "Defines basic constraints and extensions on the Organization resou
 * identifier[LocID] ^short = "LocID (Organisation Management System)"
 * identifier[LocID] ^definition = "See [LocID](https://spor.ema.europa.eu/rmswi/#/)"
 * identifier[LocID] ^patternIdentifier.system = "urn:oid:1.2.276.0.76"
+* identifier[LocID].value 1..
+* identifier[GLN] only GLNIdentifier
+* identifier[GLN] ^short = "Global Location Number (GLN)"
+* identifier[GLN] ^definition = "See [GLN](http://fhir.ch/ig/ch-core/NamingSystem/gln)"
+* identifier[GLN] ^patternIdentifier.system = "urn:oid:2.51.1.3"
+* identifier[GLN].value 1..
 //* type from $DocumentEntry.healthcareFacilityTypeCode (preferred)
 
 //* telecom ^slicing.discriminator.type = #value

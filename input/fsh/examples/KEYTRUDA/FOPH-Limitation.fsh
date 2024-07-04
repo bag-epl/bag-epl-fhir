@@ -43,9 +43,9 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * extension[=].extension[=].valueMoney.value = 4407.68
 * extension[=].extension[=].valueMoney.currency = #CHF
 * extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005002 "Ex-factory price"
+* extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006006 "Normal price mutation"
+* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006006 "Normal price mutation"
 * extension[=].extension[+].url = "changeDate"
 * extension[=].extension[=].valueDate = "2023-01-01"
 
@@ -54,9 +54,9 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * extension[=].extension[=].valueMoney.value = 4768.50
 * extension[=].extension[=].valueMoney.currency = #CHF
 * extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005001 "Retail price"
+* extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006005 "VAT-change"
+* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
 * extension[=].extension[+].url = "changeDate"
 * extension[=].extension[=].valueDate = "2024-01-01"
 
@@ -88,9 +88,9 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * indication.extension[=].extension[=].extension[=].valueMoney.value = 4407.68
 * indication.extension[=].extension[=].extension[=].valueMoney.currency = #CHF
 * indication.extension[=].extension[=].extension[+].url = "type"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005002 "Ex-factory price"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * indication.extension[=].extension[=].extension[+].url = "changeType"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006006 "Normal price mutation"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006006 "Normal price mutation"
 * indication.extension[=].extension[=].extension[+].url = "changeDate"
 * indication.extension[=].extension[=].extension[=].valueDate = "2023-01-01"
 
@@ -99,9 +99,9 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * indication.extension[=].extension[=].extension[=].valueMoney.value = 4768.50
 * indication.extension[=].extension[=].extension[=].valueMoney.currency = #CHF
 * indication.extension[=].extension[=].extension[+].url = "type"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-PriceTypeCS#756002005001 "Retail price"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * indication.extension[=].extension[=].extension[+].url = "changeType"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = $ePL-TypeOfPriceChangeCS#756002006005 "VAT-change"
+* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
 * indication.extension[=].extension[=].extension[+].url = "changeDate"
 * indication.extension[=].extension[=].extension[=].valueDate = "2024-01-01"
 

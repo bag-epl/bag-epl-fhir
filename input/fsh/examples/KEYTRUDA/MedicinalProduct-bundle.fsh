@@ -29,6 +29,8 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10027400)
 * entry[+]
+  * insert bundleEntry(ClinicalUseDefinition, IND-10075566)
+* entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10028881)
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10021782)
@@ -37,4 +39,4 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10043971)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10075566)
+  * insert bundleEntry(ClinicalUseDefinition, LIM-254837009)

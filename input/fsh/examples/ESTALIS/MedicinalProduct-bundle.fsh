@@ -27,6 +27,8 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(AdministrableProductDefinition, PhP-Estradiolum-Norethisteroni-Transdermalpatch)
 * entry[+]
+  * insert bundleEntry(ClinicalUseDefinition, IND-10030247)
+* entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10031285)
 * entry[+]
   * insert bundleEntry(Ingredient, Estradiol-hemihydrate-0.512mg)

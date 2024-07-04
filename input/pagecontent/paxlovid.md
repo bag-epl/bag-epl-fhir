@@ -13,4 +13,4 @@ Darstellung der IDMP Datenattribute als FHIR XML und JSON:
 
 #### IDMP Datenbeispiel
 Darstellung der IDMP Datenelemente:
-{% include img.html img="plaxovid-structure.png" caption="Fig. 1: IDMP Datamodel - Plaxovid" width="100%" %}
+{% include img.html img="paxlovid-structure.png" caption="Fig. 1: IDMP Datamodel - Paxlovid" width="100%" %}

@@ -2,7 +2,7 @@
 
 Extension: ProductPrice
 Id: productPrice
-Title: "Product Price"
+Title: "CH - EPL Product Price"
 Description: "A set of information about the price of a drug"
 * ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
 * ^status = #draft

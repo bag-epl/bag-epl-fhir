@@ -9,6 +9,6 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of an ClinicalParticula
 * subject = Reference(Paxlovid-Filmcoatedtablet) // Link to the Medicinal Product
 
 // Therapeutic Indication.
-* indication.diseaseSymptomProcedure.concept = $IndicationAs#10084529 "Coronavirus-Krankheit 2019 (COVID-19)" // Indication as "Disease / Symptom / Procedure"
+* indication.diseaseSymptomProcedure.concept = $mdr#10084529 "Coronavirus-Krankheit 2019 (COVID-19)" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
 * indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
