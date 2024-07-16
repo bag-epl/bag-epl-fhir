@@ -50,6 +50,6 @@ The following datamodel illustrates the full IDMP datamodel according to ISO 116
 
 #### IDMP Datamodel for Authorised Medicinal Products (German - Switzerland)
 The following datamodel illustrates the full IDMP datamodel according to ISO 11615:2017 translated into German representing the official Swiss locale terminology.
-{% include img.html img="ISO_11615_2017-Datamodel-Medicinal_Product_de-CH.png" caption="Fig. 2: IDMP Datamodel - Authorised Medicinal Products (German - Switzerland)" width="100%" %}
+{% include img.html img="ISO_11615_2017-Datamodel-Medicinal_Product_de-CH.png" caption="Fig. 2: IDMP Datamodel - Authorised Medicinal Products (German - Switzerland)" %}
 
 

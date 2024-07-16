@@ -25,13 +25,15 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(ManufacturedItemDefinition, MI-Nirmatrelvir-150mg) 
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Ritonavirum-150mg) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Ritonavirum-100mg) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Nirmatrelvir-150mg-Ritonavirum-150mg-Filmcoatedtablet)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Nirmatrelvir-150mg-Filmcoatedtablet)
+* entry[+]
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Ritonavirum-100mg-Filmcoatedtablet)
 * entry[+]
   * insert bundleEntry(Ingredient, Nirmatrelvir150)
 * entry[+]
-  * insert bundleEntry(Ingredient, Ritonavirum150)
+  * insert bundleEntry(Ingredient, Ritonavirum100)
 * entry[+]
   * insert bundleEntry(ClinicalUseDefinition, IND-10084529)
 * entry[+]
