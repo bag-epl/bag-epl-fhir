@@ -13,7 +13,7 @@ The following datamodel illustrates the addapted IDMP datamodel based on ISO 116
 
 IDMP classes and datalelements not used by FOPH have been removed from the basic model and ePL classes and elements have been added. 
 
-{% include img.html img="EPL-Datamodel-Medicinal_Product.png" caption="Fig. 2: EPL Datamodel - Authorised Medicinal Products plus Späzialitätenliste" %}
+{% include img.html img="EPL-Datamodel-Medicinal_Product_de-CH_v0.9.png" caption="Fig. 2: EPL Datamodel - Authorised Medicinal Products plus Späzialitätenliste" %}
 
 The dataelement extensions defined by EMA and Swissmedic are marked with [ext], while the extendions defined by FOPH are marked with [foph].
 
