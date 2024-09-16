@@ -17,7 +17,7 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a PackagedProductDefini
 
 // Package Item (Container) - Outer Package
 * packaging.type.coding[SMC] = $edqm#30009000 "Box" // Package Item (Container) Type
-* packaging.quantity = 6 // Package Item (Container) Quantity
+* packaging.quantity = 1 // Package Item (Container) Quantity
 
 // Shelf Life / Storage
 * packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type

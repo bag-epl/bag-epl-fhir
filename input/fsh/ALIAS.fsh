@@ -52,7 +52,7 @@ Alias:  $SMC-PediatricUseIndicatorCS =                http://fhir.ch/ig/ch-epl/C
 Alias:  $SMC-TherapeuticProductcodeCS =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-therapeuticproductcode //Provisorisch
 Alias:  $SMC-OrphanIndicationType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-OrphanIndicationType //Provisorisch
 Alias:  $SMC-OrphanDesignationAuthorisationStatus =   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-OrphanDesignationAuthorisationStatus //Provisorisch
-Alias:  $CH-MedicinalProductNameType =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
+Alias:  $CH-MedicinalProductNameTypeCS =              http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 Alias:  $SMC-MasterFileType =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-MasterFileType //Provisorisch
 Alias:  $SMC-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-ReferencedProductType //Provisorisch
 

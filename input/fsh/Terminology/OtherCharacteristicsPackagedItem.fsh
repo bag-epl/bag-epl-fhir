@@ -1,35 +1,15 @@
-ValueSet: ChEplOtherCharacteristicsPackagedItemVS
-Id: ch-epl-foph-other-characteristics-packaged-item
-Title: "CH EPL - Other Characteristics Packaged Item"
-Description: "Value Set for Other Characteristics of a Packaged Item from ePL used by FOPH"
+ValueSet: ChProductCharacteristicsTypeVS
+Id: ch-product-characteristics-type
+Title: "CH - Product Characteristics Type"
+Description: "Value Set for Product Characteristics"
 * ^experimental = false
-* include codes from system ChEplOtherCharacteristicsPackagedItemCS
+* include codes from system ChProductCharacteristicsTypeCS
 
-CodeSystem: ChEplOtherCharacteristicsPackagedItemCS
-Id: ch-epl-foph-other-characteristics-packaged-item
-Title: "CH EPL - Other Characteristics Packaged Item"
-Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes of ValueSets Other Characteristics of a Packaged Item"
+CodeSystem: ChProductCharacteristicsTypeCS
+Id: ch-product-characteristics-type
+Title: "CH - Product Characteristics Type"
+Description: "CH - Standard Terms to define the different product characteristics"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete
-/* #756001041001 "Modal-Packung"
-* #756001041002 "Grosse Packung"*/
-
-* ^concept[+].code = #756005041001
-* ^concept[=].display = "Modal pack"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
-* ^concept[=].designation[=].value = "Modal-Packung"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
-* ^concept[=].designation[=].value = "MoP"
- 
-* ^concept[+].code = #756005041002
-* ^concept[=].display = "Large pack"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
-* ^concept[=].designation[=].value = "Grosse Packung"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
-* ^concept[=].designation[=].value = "GrP"
- 
+* #PackageItemContainer "Other Characteristics"

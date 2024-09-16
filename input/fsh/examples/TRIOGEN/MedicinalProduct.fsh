@@ -37,6 +37,8 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a MedicinalProductDefin
 //* name[de-CH][=].part[+].part = ","
 //* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
+* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Swissmedic"
+
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html
 * name[de-CH][=].usage[=].language = $language#de-CH "German (Switzerland)" // Language http://hl7.org/fhir/R4/valueset-languages.html

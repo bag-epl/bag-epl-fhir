@@ -17,7 +17,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 
 // Package Item (Container) - Outer Package
 * packaging.type.coding[SMC] = $edqm#30009000 "Box" // Package Item (Container) Type
-* packaging.quantity = 6 // Package Item (Container) Quantity
+* packaging.quantity = 1 // Package Item (Container) Quantity
 
 // Shelf Life / Storage
 * packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
@@ -29,10 +29,14 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 // * packaging.property[+].valueCodeableConcept.coding = ChEplOtherCharacteristicsPackagedItemCS#756005041001 "Modal pack"
 
 // Package Item (Container) - Inner Package
-* packaging.packaging[0].type.coding = $edqm#30007000 "Blister" // Package Item (Container) Type
-* packaging.packaging[0].quantity = 12 // Package Item (Container) Quantity
+//* packaging.packaging[0].type.coding = $edqm#30007000 "Blister" // Package Item (Container) Type
+//* packaging.packaging[0].quantity = 12 // Package Item (Container) Quantity
 
 // Packaged Medicinal Product.Marketing Status
 //* marketingStatus[+].country = $country#CH "Switzerland"
 //* marketingStatus[=].status.coding[SMC] = ChSMCMarketingStatusCS#iH "im Handel" // Marketing Status
 //* statusDate = "2005-04-10" // Marketing Status Date
+
+// Other Characteristics
+* characteristic[0].type = ChProductCharacteristicsTypeCS#PackageItemContainer "Other Characteristics"
+* characteristic[0].valueCodeableConcept = ChEplOtherCharacteristicsPackagedItemCS#756005041001 "Modal-Packung"
