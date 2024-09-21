@@ -10,7 +10,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Pa
 * packageFor = Reference(Entocort-Solvent-and-Tablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Dispensation on medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
-* containedItemQuantity[+].value = 7 
+* containedItemQuantity[+].value = 7  // Pack Size
 * containedItemQuantity[=].unit = "Tablet" 
 * containedItemQuantity[=].system = $edqm 
 * containedItemQuantity[=].code = $edqm#15054000 "Tablet" 

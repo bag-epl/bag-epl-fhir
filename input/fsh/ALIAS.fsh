@@ -22,10 +22,13 @@ Alias: $ISO-NamePart  =                 http://hl7.org/fhir/medicinal-product-na
 Alias: $ISO-NamePartVS =                http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type
 
 // EMA
-Alias:  $EMA-MediaType =                https://spor.ema.europa.eu/v1/lists/200000015398
-Alias:  $EMA-Material =                 https://spor.ema.europa.eu/v1/lists/200000003199
-Alias:  $EMA-ShelfLifeType =            https://spor.ema.europa.eu/rmswi/#/lists/100000073343/terms
-// to do: Pfade prüfen
+Alias:  $EMA-MediaType =                http://spor.ema.europa.eu/v1/lists/200000015398
+Alias:  $EMA-Material =                 http://spor.ema.europa.eu/v1/lists/200000003199
+Alias:  $EMA-ShelfLifeType =            http://spor.ema.europa.eu/v1/lists/100000073343
+
+// MedDRA
+Alias:  $IndicationAs =                 http://terminology.hl7.org/CodeSystem/mdr //MedDRA
+Alias:  $Comorbidity =                  http://terminology.hl7.org/CodeSystem/mdr //MedDRA
 
 // UCUM
 Alias: $UnitOfMeasurement =             http://unitsofmeasure.org
@@ -45,7 +48,7 @@ Alias:  $FHIR-Domain =                                http://hl7.org/fhir/medici
 // Section Yellow - Medicinal Product
 Alias:  $CH-MedicialProductNameTypeCS =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 
-// SMC
+// SMC to be updated as soon the final addresses are officially published by Swissmedic
 Alias:  $SMC-DomainCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-domain //Provisorisch
 Alias:  $SMC-AuthorisedDoseFormCS =                   http://standardterms.edqm.eu
 Alias:  $SMC-AdditionalMonitoringIndicatorCS =        http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-additional-monitoring-indicator //Provisorisch

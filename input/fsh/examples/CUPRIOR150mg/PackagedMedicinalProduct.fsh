@@ -10,7 +10,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * packageFor = Reference(Cuprior-150mg-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Legal Status of Supply (for a package)
-* containedItemQuantity[+].value = 72 
+* containedItemQuantity[+].value = 72  // Pack Size
 * containedItemQuantity[=].unit = "Tablet" 
 * containedItemQuantity[=].system = $edqm 
 * containedItemQuantity[=].code = $edqm#15054000 "Tablet" 

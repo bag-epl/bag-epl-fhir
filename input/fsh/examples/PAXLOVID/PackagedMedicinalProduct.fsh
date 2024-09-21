@@ -10,7 +10,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 * packageFor = Reference(Paxlovid-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "PAXLOVID Filmtabl 4x150mg/2x100mg" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022002 "One-time dispensation on medical or veterinary prescription (A)" // Legal Status of Supply (for a package)
-* containedItemQuantity[+].value = 30 
+* containedItemQuantity[+].value = 30  // Pack Size
 * containedItemQuantity[=].unit = "Tablet" 
 * containedItemQuantity[=].system = $edqm 
 * containedItemQuantity[=].code = $edqm#15054000 "Tablet" 

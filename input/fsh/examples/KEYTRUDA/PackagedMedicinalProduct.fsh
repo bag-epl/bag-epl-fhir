@@ -10,7 +10,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * packageFor = Reference(Keytruda-100mg-Vial) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "KEYTRUDA Inf Konz 100 mg/4ml Durchstf" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022001 "One-time dispensation on medical or veterinary prescription (A)" // Legal Status of Supply (for a package)
-* containedItemQuantity[+].value = 1 
+* containedItemQuantity[+].value = 1  // Pack Size
 * containedItemQuantity[=].unit = "Vial" 
 * containedItemQuantity[=].system = $edqm 
 * containedItemQuantity[=].code = $edqm#15060000 "Vial" 
