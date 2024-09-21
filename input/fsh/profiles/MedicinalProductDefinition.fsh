@@ -20,7 +20,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * domain.coding contains 
     EMA 0..1
 * domain.coding[EMA].system 1..
-* domain.coding[EMA].system = $ema
+* domain.coding[EMA].system = $emaDomain
 * domain.coding[EMA].code 1..
 
 * extension contains

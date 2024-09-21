@@ -7,7 +7,7 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a MedicinalProductDefin
 // Medicinal Product
 * identifier[+].system = $MPID
 * identifier[=].value = "CH-7601001403062-6743101" //MPID
-* domain.coding[EMA] = $ema#100000000012 "Human"  // Domain
+* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10210000 "Capsule, hard" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Zur Behandlung der Kupferspeicherkrankheit (Morbus Wilson) bei Patienten, die eine Behandlung mit D-Penicillamin nicht vertragen." // Full Indication Text

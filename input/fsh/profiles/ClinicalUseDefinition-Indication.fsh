@@ -54,5 +54,5 @@ Description: "Profile of the ClinicalUseDefinition resource for representing an 
 * indication.intendedEffect.concept.coding contains 
     SMC 0..1
 * indication.intendedEffect.concept.coding[SMC].system 1..
-* indication.intendedEffect.concept.coding[SMC].system = $ema
+* indication.intendedEffect.concept.coding[SMC].system = $emaIntendedEffect
 * indication.intendedEffect.concept.coding[SMC].code 1..

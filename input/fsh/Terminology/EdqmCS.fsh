@@ -2,7 +2,7 @@ CodeSystem: EdqmCS
 Id: edqm-standardterms
 Title: "EDQM - Standard Terms"
 Description: "EDQM - Standard Terms used in Switzerland (see original codes system defined in https://standardterms.edqm.eu/#)"
-* ^url = "urn:oid:0.4.0.127.0.16.1.1.2.1"
+* ^url = "http://standardterms.edqm.eu"
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #fragment

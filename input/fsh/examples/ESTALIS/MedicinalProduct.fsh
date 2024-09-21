@@ -7,7 +7,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a MedicinalProductDefi
 // Medicinal Product
 * identifier[+].system = $MPID
 * identifier[=].value = "CH-7601001029439-5470402" //MPID
-* domain.coding[EMA] = $ema#100000000012 "Human"  // Domain
+* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10519000 "Transdermal patch" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Klimakterische Beschwerden: Behandlung der Symptome des Östrogenmangels infolge der natürlichen oder künstlichen Menopause bei nicht-hysterektomierten Frauen.

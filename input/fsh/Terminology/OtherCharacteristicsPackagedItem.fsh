@@ -12,4 +12,4 @@ Description: "CH - Standard Terms to define the different product characteristic
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete
-* #PackageItemContainer "Other Characteristics"
+* #PackageSizeType "Package Size Type"

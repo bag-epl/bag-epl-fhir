@@ -9,7 +9,6 @@ CodeSystem: EMAShelfLifeTypeCS
 Id: ema-shelf-life-type
 Title: "EMA - Shelf Life Type"
 Description: "CH - Standard Terms used in Switzerland (aggregations of codes of Value Set for the Shelf Life Type from EMA used by SMC)"
-* ^url = "http://spor.ema.europa.eu/v1/lists/100000073343"
 * ^experimental = false
 * ^caseSensitive = false
 * ^content = #complete

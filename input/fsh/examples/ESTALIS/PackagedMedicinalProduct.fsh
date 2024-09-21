@@ -10,6 +10,10 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a PackagedProductDefin
 * packageFor = Reference(Estalis-Transdermalpatch) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ESTALIS Matrixpfl 50/250 24 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Dispensation on medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
+* containedItemQuantity[+].value = 24 
+* containedItemQuantity[=].unit = "Patch" 
+* containedItemQuantity[=].system = $edqm 
+* containedItemQuantity[=].code = $edqm#15036000 "Patch" 
 
 // Data Carrier Identifier
 * packaging.identifier[+].system = $gtin
@@ -20,7 +24,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a PackagedProductDefin
 * packaging.quantity = 1 // Package Item (Container) Quantity
 
 // Shelf Life / Storage
-* packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
+* packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 * packaging.shelfLifeStorage[=].periodDuration = 6 'mo' "month" // Shelf Life Time Period
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#NO25 "Nicht über 25°C" // Special Precaution for Storage
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#L "vor Licht Schützen" // Special Precaution for Storage

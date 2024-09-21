@@ -10,6 +10,10 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 * packageFor = Reference(Paxlovid-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "PAXLOVID Filmtabl 4x150mg/2x100mg" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022002 "One-time dispensation on medical or veterinary prescription (A)" // Legal Status of Supply (for a package)
+* containedItemQuantity[+].value = 30 
+* containedItemQuantity[=].unit = "Tablet" 
+* containedItemQuantity[=].system = $edqm 
+* containedItemQuantity[=].code = $edqm#15054000 "Tablet" 
 
 // Data Carrier Identifier
 * packaging.identifier[+].system = $gtin
@@ -20,7 +24,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 * packaging.quantity = 1 // Package Item (Container) Quantity
 
 // Shelf Life / Storage
-* packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
+* packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 //* packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#NO25 "Nicht über 25°C" // Special Precaution for Storage
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#2 "Im Kühlschrank (2°C - 8°C)" // Special Precaution for Storage

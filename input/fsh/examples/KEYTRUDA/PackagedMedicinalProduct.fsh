@@ -10,6 +10,10 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * packageFor = Reference(Keytruda-100mg-Vial) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "KEYTRUDA Inf Konz 100 mg/4ml Durchstf" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022001 "One-time dispensation on medical or veterinary prescription (A)" // Legal Status of Supply (for a package)
+* containedItemQuantity[+].value = 1 
+* containedItemQuantity[=].unit = "Vial" 
+* containedItemQuantity[=].system = $edqm 
+* containedItemQuantity[=].code = $edqm#15060000 "Vial" 
 
 // Data Carrier Identifier
 * packaging.identifier[+].system = $gtin
@@ -20,7 +24,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * packaging.quantity = 1 // Package Item (Container) Quantity
 
 // Shelf Life / Storage
-* packaging.shelfLifeStorage[0].type = $ema#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
+* packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 //* packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#2 "Im Kühlschrank (2°C - 8°C)" // Special Precaution for Storage
 * packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#L "vor Licht Schützen" // Special Precaution for Storage

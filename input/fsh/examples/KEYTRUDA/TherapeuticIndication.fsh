@@ -11,7 +11,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalParticulars
 // Therapeutic Indication.
 * indication.diseaseSymptomProcedure.concept = $mdr#10027400 "Melanom" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
-* indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
+* indication.intendedEffect.concept = $emaIntendedEffect#200000003194 "therapeutic" // Intended Effect
 
 // ------------------------------
 
@@ -28,7 +28,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalParticulars
 // Therapeutic Indication.
 * indication.diseaseSymptomProcedure.concept = $mdr#10075566 "Triple negative breast cancer" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
-* indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
+* indication.intendedEffect.concept = $emaIntendedEffect#200000003194 "therapeutic" // Intended Effect
 
 // ------------------------------
 Instance: IND-10028881
@@ -44,7 +44,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalParticulars
 // Therapeutic Indication.
 * indication.diseaseSymptomProcedure.concept = $mdr#10028881 "Nicht-kleinzelliges Lungenkarzinom" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
-* indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
+* indication.intendedEffect.concept = $emaIntendedEffect#200000003194 "therapeutic" // Intended Effect
 
 // ------------------------------
 
@@ -61,7 +61,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalParticulars
 // Therapeutic Indication.
 * indication.diseaseSymptomProcedure.concept = $mdr#10021782 "Kopf- und Halskarzinom" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
-* indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
+* indication.intendedEffect.concept = $emaIntendedEffect#200000003194 "therapeutic" // Intended Effect
 
 // ------------------------------
 
@@ -78,7 +78,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalParticulars
 // Therapeutic Indication.
 * indication.diseaseSymptomProcedure.concept = $mdr#10019927 "Klassisches Hodgkin Lymphom" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
-* indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
+* indication.intendedEffect.concept = $emaIntendedEffect#200000003194 "therapeutic" // Intended Effect
 
 // ------------------------------
 
@@ -95,4 +95,4 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalParticulars
 // Therapeutic Indication.
 * indication.diseaseSymptomProcedure.concept = $mdr#10043971 "Primäres mediastinales grosszelliges B-Zell-Lymphom" // Indication as "Disease / Symptom / Procedure"
 //* indication.comorbidity.concept = $SMC-Comorbidity#.. "xxx" // Comorbidity
-* indication.intendedEffect.concept = $ema#200000003194 "therapeutic" // Intended Effect
+* indication.intendedEffect.concept = $emaIntendedEffect#200000003194 "therapeutic" // Intended Effect

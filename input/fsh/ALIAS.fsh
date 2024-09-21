@@ -8,10 +8,12 @@ Alias: $atc =                           http://www.whocc.no/atc
 Alias: $language =                      urn:ietf:bcp:47
 Alias: $country =                       urn:iso:std:iso:3166
 
-Alias: $edqm =                          urn:oid:0.4.0.127.0.16.1.1.2.1 // https://confluence.hl7.org/display/TA/EDQM+Standard+Terms
+Alias: $edqm =                          http://standardterms.edqm.eu // https://confluence.hl7.org/display/TA/EDQM+Standard+Terms
 Alias: $gtin =                          urn:oid:2.51.1.1
 Alias: $gln =                           urn:oid:2.51.1.3
-Alias: $ema =                           urn:oid:1.2.276.0.76
+Alias: $emaDomain =                     http://spor.ema.europa.eu/v1/lists/100000000004
+Alias: $emaIntendedEffect =             http://spor.ema.europa.eu/v1/lists/200000003186
+Alias: $emaShelfLifeType =              http://spor.ema.europa.eu/v1/lists/100000073343
 Alias: $mdr =                           https://www.meddra.org
 Alias: $sct =                           http://snomed.info/sct
 
@@ -45,7 +47,7 @@ Alias:  $CH-MedicialProductNameTypeCS =               http://fhir.ch/ig/ch-epl/C
 
 // SMC
 Alias:  $SMC-DomainCS =                               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-domain //Provisorisch
-Alias:  $SMC-AuthorisedDoseFormCS =                   urn:oid:0.4.0.127.0.16.1.1.2.1
+Alias:  $SMC-AuthorisedDoseFormCS =                   http://standardterms.edqm.eu
 Alias:  $SMC-AdditionalMonitoringIndicatorCS =        http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-additional-monitoring-indicator //Provisorisch
 Alias:  $SMC-AttachedDocumentType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-AttachedDocumentType //Provisorisch
 Alias:  $SMC-PediatricUseIndicatorCS =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-pediatric-use-indicator //Provisorisch
@@ -94,8 +96,8 @@ Alias:  $SMC-OriginOfSubstance =                      http://fhir.ch/ig/ch-epl/C
 Alias:  $SMC-OriginOfSubstanceVS =                    http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-OriginOfSubstance //Provisorisch
 Alias:  $SMC-QuantityOperator =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-QuantityOperator //Provisorisch                      
 Alias:  $SMC-QuantityOperatorVS =                     http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-QuantityOperator //Provisorisch
-Alias:  $SMC-StrengthPresentationUnit =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.11 
-Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM urn:oid:0.4.0.127.0.16.1.1.2.11 
+Alias:  $SMC-StrengthPresentationUnit =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM http://standardterms.edqm.eu1 
+Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM http://standardterms.edqm.eu1 
 
 
 // External Identifier Systems
