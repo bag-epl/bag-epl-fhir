@@ -42,5 +42,5 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 //* statusDate = "2005-04-10" // Marketing Status Date
 
 // Other Characteristics
-* characteristic[0].type = ChProductCharacteristicsTypeCS#PackageSizeType "Package Size Type"
+* characteristic[0].type = ChOtherCharacteristicsTypeCS#756000003001 "Package Size Type"
 * characteristic[0].valueCodeableConcept = ChEplOtherCharacteristicsPackagedItemCS#756005041001 "Modal-Packung"
