@@ -12,15 +12,6 @@ Description: "Code System for the Product Type from ePL used by FOPH"
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #complete
-/* #756001003001 "Generikum"
-* #756001003002 "Originalpräparat"
-* #756001003003 "Referenzpräparat"
-* #756001003004 "Biosimilar"
-* #756001003005 "Komplementärmedizinisches Präparat"
-* #756001003006 "Arzneimittel mit bekanntem Wirkstoff"
-* #756001003007 "Impfstoff"
-* #756001003008 "Parallelimportiertes Präparat"
-* #756001003009 "Co-Marketing Präparat"*/
 
 * ^concept[+].code = #756001003001
 * ^concept[=].display = "Generic product"

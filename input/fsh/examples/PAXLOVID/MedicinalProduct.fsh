@@ -12,9 +12,9 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a MedicinalProductDe
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Paxlovid wird angewendet für die Behandlung der Coronavirus-Krankheit 2019 (COVID-19) bei Erwachsenen, die keine Sauerstofftherapie oder Hospitalisierung aufgrund von COVID-19 benötigen und bei denen ein erhöhtes Risiko für einen schweren Verlauf von COVID-19 besteht (siehe «Klinische Wirksamkeit»).
 Paxlovid ist nicht als Ersatz für eine Impfung gegen COVID-19 vorgesehen. Paxlovid sollte gemäss den offiziellen Empfehlungen und unter Berücksichtigung der lokalen epidemiologischen Daten zu zirkulierenden SARS-CoV-2-Varianten angewendet werden." // Full Indication Text
-* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022002 "One-time dispensation on medical or veterinary prescription (A)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-* additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#BLACK_TR "Black Triangle Warning"
-// * pediatricUseIndicator = $SMC-PediatricUseIndicatorCS#No "Nicht zugelassen für die Anwendung bei Kindern" // Productic Use Indicator
+* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022002 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
+* additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001001 "Black Triangle Warning"
+* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003002 "Nicht zugelassen für die Anwendung bei Kindern" // Paediatric Use Indicator
 
 // FOPH EPL Product.FullLimitationText
 * extension[fullLimitationText].valueString = "Befristete Limitation bis 31.12.2025. PAXLOVID wird als antivirale Monotherapie für die Behandlung einer bestätigten Covid-19 Infektion (Positiver Erregernachweis Antigen/PCR und vorhandener Covid-19-Symptome) in folgenden Fällen vergütet:
@@ -23,7 +23,9 @@ Paxlovid ist nicht als Ersatz für eine Impfung gegen COVID-19 vorgesehen. Paxlo
 
 // Product Classification
 * classification[+] = $atc#J05AE  // ATC Code
-* classification[+] = ChSMCTherapeuticProductcodeCS#S "Synthetika" // TherapeuticProductcode
+* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA BWS Art 12. Abs. 5 VAZV" // Authorisation Category - sample
+* classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetika" // TherapeuticProductcode
+* classification[+] = ChEplProductTypeCS#756001003002 "Originalpräparat" // Product Type - sample
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Paxlovid)  // Link to the Professional Information

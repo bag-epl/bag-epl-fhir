@@ -12,15 +12,17 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 //* combinedPharmaceuticalDoseForm.coding = $edqm#... "..." // Combined Pharmaceutical Dose Form
 * indication = "Cuprior wird angewendet zur Behandlung von Morbus Wilson bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter mit Unverträglichkeit gegenüber einer D-Penicillamin-Therapie." // Full Indication Text
 * legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
-// * additionalMonitoringIndicator = $SMC-AdditionalMonitoringIndicatorVS#BLACK_TR "Black Triangle Warning"
-// * pediatricUseIndicator = $SMC-PediatricUseIndicatorCS#No "Nicht zugelassen für die Anwendung bei Kindern" // Productic Use Indicator
+* additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
+* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Zugelassen für die Anwendung bei Kindern" // Productic Use Indicator
 
 // FOPH EPL Product.FullLimitationText
 * extension[fullLimitationText].valueString = "CUPRIOR wird vergütet zur Behandlung der Kupferspeicherkrankheit (Morbus Wilson) bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter, die eine Behandlung mit D-Penicillamin nicht vertragen. Die Behandlung muss von Gastroenterologen oder Hepatologen mit Erfahrung bei der Behandlung von Patienten mit Morbus Wilson initiiert und überwacht werden."
 
 // Product Classification
 * classification[+] = $atc#L01EX13  // ATC Code
-* classification[+] = ChSMCTherapeuticProductcodeCS#S "Synthetika" // TherapeuticProductcode
+* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA BWS Art 12. Abs. 5 VAZV" // Authorisation Category - sample
+* classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetika" // TherapeuticProductcode
+* classification[+] = ChEplProductTypeCS#756001003002 "Originalpräparat" // Product Type - sample
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Cuprior)  // Link to the Professional Information

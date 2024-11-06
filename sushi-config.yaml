@@ -59,8 +59,8 @@ pages:
     title: Extensions
   terminology.md:
     title: Terminology
-  changelog.md:
-    title: Changelog
+#  changelog.md:
+#    title: Changelog
 
 menu:
   Home: index.html

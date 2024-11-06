@@ -54,12 +54,16 @@ Alias:  $SMC-AuthorisedDoseFormCS =                   http://standardterms.edqm.
 Alias:  $SMC-AdditionalMonitoringIndicatorCS =        http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-additional-monitoring-indicator //Provisorisch
 Alias:  $SMC-AttachedDocumentType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-AttachedDocumentType //Provisorisch
 Alias:  $SMC-PediatricUseIndicatorCS =                http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-pediatric-use-indicator //Provisorisch
+Alias:  $SMC-AuthorisationCategoryCS =                http://fhir.ch/ig/ch-idmp/CodeSystem/ch-SMC-authorisation-category //Provisorisch
 Alias:  $SMC-TherapeuticProductcodeCS =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-therapeuticproductcode //Provisorisch
 Alias:  $SMC-OrphanIndicationType =                   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-OrphanIndicationType //Provisorisch
 Alias:  $SMC-OrphanDesignationAuthorisationStatus =   http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-OrphanDesignationAuthorisationStatus //Provisorisch
 Alias:  $CH-MedicinalProductNameTypeCS =              http://fhir.ch/ig/ch-epl/CodeSystem/ch-medicinal-product-name-type
 Alias:  $SMC-MasterFileType =                         http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-MasterFileType //Provisorisch
 Alias:  $SMC-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-ReferencedProductType //Provisorisch
+
+// FOPH
+Alias:  $ePL-ProductTypeCS =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-product-type 
 
 // Section Green - Marketing Authorisations
 
@@ -74,7 +78,7 @@ Alias:  $SMC-ApplicationTypeVS =                      http://fhir.ch/ig/ch-epl/V
 Alias:  $SMC-MarketingStatusCS =                      http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-marketing-status //Provisorisch
 
 // FOPH
-Alias:  $ePL-ReimbursementStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status  
+Alias:  $ePL-ReimbursementStatusCS =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-reimbursement-status 
 
 // Section blue - Packaging
 
@@ -109,3 +113,4 @@ Alias: $PhPID =   http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-PhPID
 Alias: $MPID =    http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-MPID  
 Alias: $PCID =    http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-PCID
 Alias: $AuthNo =  http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-MarketingAuthorisationNumber
+Alias: $AttNo =   http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-AttachmentNumber

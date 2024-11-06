@@ -9,7 +9,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * identifier[=].value = "CH-7601001001138-6623101-001" // PCID
 * packageFor = Reference(Keytruda-100mg-Vial) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "KEYTRUDA Inf Konz 100 mg/4ml Durchstf" // Package Description
-* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022001 "One-time dispensation on medical or veterinary prescription (A)" // Legal Status of Supply (for a package)
+* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022001 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Legal Status of Supply (for a package)
 * containedItemQuantity[+].value = 1  // Pack Size
 * containedItemQuantity[=].unit = "Vial" 
 * containedItemQuantity[=].system = $edqm 
@@ -26,10 +26,12 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 // Shelf Life / Storage
 * packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 //* packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#2 "Im Kühlschrank (2°C - 8°C)" // Special Precaution for Storage
-* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#L "vor Licht Schützen" // Special Precaution for Storage
-* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#NF "Nicht einfrieren" // Special Precaution for Storage
-* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#OVP "In der Originalverpackung aufbewahren." // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042007 "Im Kühlschrank (2°C - 8°C)"
+
+ // Special Precaution for Storage
+* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042004 "vor Licht Schützen" // Special Precaution for Storage
+* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042001 "Nicht einfrieren" // Special Precaution for Storage
+* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042011 "In der Originalverpackung aufbewahren." // Special Precaution for Storage
 //* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#- "Nicht schütteln" // Special Precaution for Storage
 
 // Package Item (Container) - Inner Package

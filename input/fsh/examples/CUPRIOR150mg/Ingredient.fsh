@@ -6,7 +6,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#WIRKS "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#SJ76Y07H5F "Trientine"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 150
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 
@@ -25,7 +25,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#3OWL53L36A "Mannitol"
 
 Instance: SilicaColloidalisAnhydrica
@@ -36,7 +36,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#ETJ7Z6XBU4 "SILICON DIOXIDE"
 
 Instance: GlyceroliDibehenas
@@ -47,7 +47,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#R8WTH25YS2 "GLYCEROL DIBEHENATE"
 
 Instance: PolyAlcoholVinylicus
@@ -58,7 +58,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#532B59J990 "Poly(vinyl alcohol)"
 
 Instance: Talcum
@@ -69,7 +69,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#7SEV7J4R1U "Talc"
 
 Instance: TitaniiDioxidumE171
@@ -80,7 +80,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#15FIX9V2JP "Titanium dioxide"
 
 Instance: GlycerylIsostearate
@@ -91,7 +91,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#HYE7O27HAO "Glyceryl isostearate"
 
 Instance: YellowLakeE172
@@ -102,5 +102,5 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#HNIDK "Hilfsstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051002 "Hilfsstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#EX438O2MRT "IRON OXIDE YELLOW (E172)"

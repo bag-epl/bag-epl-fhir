@@ -28,8 +28,6 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension.extension[=].valueDate = "2004-02-01" // Date of First Listing
 * extension.extension[+].url = "costShare"
 * extension.extension[=].valueInteger = 10 // Cose Share
-//* extension.extension[+].url = "productType"
-//* extension.extension[=].valueCodeableConcept = ChEplProductTypeCS#756001003001 "Generic product" // Product Type
 * extension.extension[+].url = "gamme"
 * extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004005 "RektalVaginal" // Gamme
 

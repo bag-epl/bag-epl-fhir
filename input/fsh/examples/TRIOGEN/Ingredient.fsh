@@ -6,7 +6,7 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-250mg-Capsule) 
 * for[+] = Reference(MI-Trientinum-250mg-Capsule) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#WIRKS "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#SJ76Y07H5F "Trientine"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 250
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 

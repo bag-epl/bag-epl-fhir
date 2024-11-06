@@ -79,17 +79,29 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * classification ^slicing.rules = #open
 * classification contains
     ATC 0..1 and
-    TherapeuticProductcode 0..1
+    AuthorisationCategory 0..1 and
+    TherapeuticProductcode 0..1 and
+    ProductType 0..1
 
 * classification[ATC].coding 1..
 * classification[ATC].coding.system 1..
 * classification[ATC].coding.system = $atc (exactly)
 * classification[ATC].coding.code 1..
 
+* classification[AuthorisationCategory].coding 1..
+* classification[AuthorisationCategory].coding.system 1..
+* classification[AuthorisationCategory].coding.system = $SMC-AuthorisationCategoryCS (exactly)
+* classification[AuthorisationCategory].coding.code 1..
+
 * classification[TherapeuticProductcode].coding 1..
 * classification[TherapeuticProductcode].coding.system 1..
 * classification[TherapeuticProductcode].coding.system = $SMC-TherapeuticProductcodeCS (exactly)
 * classification[TherapeuticProductcode].coding.code 1..
+
+* classification[ProductType].coding 1..
+* classification[ProductType].coding.system 1..
+* classification[ProductType].coding.system = $ePL-ProductTypeCS (exactly)
+* classification[ProductType].coding.code 1..
 
 * marketingStatus.country = $country#CH
 
