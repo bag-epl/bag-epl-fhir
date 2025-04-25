@@ -9,7 +9,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 * identifier[=].value = "CH-7640109110007-6771901-001" // PCID
 * packageFor = Reference(Cuprior-150mg-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk" // Package Description
-* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Legal Status of Supply (for a package)
+* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
 * containedItemQuantity[+].value = 72  // Pack Size
 * containedItemQuantity[=].unit = "Tablet" 
 * containedItemQuantity[=].system = $edqm 
@@ -26,7 +26,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 // Shelf Life / Storage
 * packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 * packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042009 "Nicht über 30°C" // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042009 "Do not store above  30°C" // Special Precaution for Storage
 
 // Other Characteristics
 // * packaging.property[0].type.coding = 
@@ -43,4 +43,4 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 
 // Other Characteristics
 * characteristic[0].type = ChOtherCharacteristicsTypeCS#756000003001 "Package Size Type"
-* characteristic[0].valueCodeableConcept = ChEplOtherCharacteristicsPackagedItemCS#756005041001 "Modal-Packung"
+* characteristic[0].valueCodeableConcept = ChEplOtherCharacteristicsPackagedItemCS#756005041001 "Modal pack"

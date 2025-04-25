@@ -23,9 +23,9 @@ Paxlovid ist nicht als Ersatz für eine Impfung gegen COVID-19 vorgesehen. Paxlo
 
 // Product Classification
 * classification[+] = $atc#J05AE  // ATC Code
-* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA BWS Art 12. Abs. 5 VAZV" // Authorisation Category - sample
-* classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetika" // TherapeuticProductcode
-* classification[+] = ChEplProductTypeCS#756001003002 "Originalpräparat" // Product Type - sample
+* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
+* classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetic" // TherapeuticProductcode
+* classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Paxlovid)  // Link to the Professional Information

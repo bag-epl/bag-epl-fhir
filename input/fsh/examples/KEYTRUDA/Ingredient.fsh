@@ -6,7 +6,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Ingredient (Ingredi
 * status = #active
 * for[0] = Reference(PhP-Pembrolizumab-100mg-Vial) 
 * for[+] = Reference(MI-Pembrolizumab-100mg-Vial) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Active" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#DPT0O3T46P "Pembrolizumab"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 100
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 

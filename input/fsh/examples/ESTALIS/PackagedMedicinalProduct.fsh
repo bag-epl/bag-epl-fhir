@@ -9,7 +9,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a PackagedProductDefin
 * identifier[=].value = "CH-7601001029439-5470402-097" // PCID
 * packageFor = Reference(Estalis-Transdermalpatch) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ESTALIS Matrixpfl 50/250 24 Stk" // Package Description
-* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Legal Status of Supply (for a package)
+* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
 * containedItemQuantity[+].value = 24  // Pack Size
 * containedItemQuantity[=].unit = "Patch" 
 * containedItemQuantity[=].system = $edqm 

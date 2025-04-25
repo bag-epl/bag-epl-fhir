@@ -6,7 +6,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Ingredient (Ingredi
 * status = #active
 * for[0] = Reference(PhP-Estradiolum-Norethisteroni-Transdermalpatch) 
 * for[+] = Reference(MI-Estradiolum-Norethisteroni-Transdermalpatch) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Active" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#CXY7B3Q98Z "Estradiol-hemihydrate"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 0.512
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 
@@ -25,7 +25,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Ingredient (Ingredi
 * status = #active
 * for[0] = Reference(PhP-Estradiolum-Norethisteroni-Transdermalpatch) 
 * for[+] = Reference(MI-Estradiolum-Norethisteroni-Transdermalpatch) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Active" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#9S44LIC7OJ "Norethisterone acetate"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 0.496
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 

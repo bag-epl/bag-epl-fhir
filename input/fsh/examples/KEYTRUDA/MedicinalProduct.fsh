@@ -34,7 +34,7 @@ Befristet zugelassene Indikationen: adjuvante Monotherapie des Melanoms im Stadi
 " // Full Indication Text
 * legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022001 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
-* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Zugelassen für die Anwendung bei Kindern" // Productic Use Indicator
+* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Authorised for the treatment in children" // Productic Use Indicator
 
 // FOPH EPL Product.FullLimitationText
 * extension[fullLimitationText].valueString = "Lokal rezidiverendes, nicht resezierbares oder metastasiertes triple-negatives Mammakarzinom (in Kombination mit Chemotherapie) KN 355
@@ -45,9 +45,9 @@ Folgender Code ist an den Krankenversicherer zu übermitteln: 20416.17"
 
 // Product Classification
 * classification[+] = $atc#G03FA01   // ATC Code L01FF
-* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA BWS Art 12. Abs. 5 VAZV" // Authorisation Category - sample
+* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
 * classification[+] = ChSMCTherapeuticProductcodeCS#756005004003 "Biologika" // TherapeuticProductcode
-* classification[+] = ChEplProductTypeCS#756001003002 "Originalpräparat" // Product Type - sample
+* classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Keytruda)  // Link to the Professional Information

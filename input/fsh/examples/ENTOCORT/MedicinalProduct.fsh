@@ -11,18 +11,18 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#50064000 "Tablet and solvent for rectal suspension" // Authorised Pharmaceutical Dose Form
 * combinedPharmaceuticalDoseForm.coding = $edqm#50064000 "Tablet and solvent for rectal suspension" // Combined Pharmaceutical Dose Form
 * indication = "Leichte bis mittelschwere Colitis ulcerosa des Rectums sowie des Colon sigmoideum." // Full Indication Text
-* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
+* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
-* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Zugelassen für die Anwendung bei Kindern" // Productic Use Indicator
+* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Authorised for the treatment in children" // Productic Use Indicator
 
 // FOPH EPL Product.FullLimitationText
 * extension[fullLimitationText].valueString = "Distale Form der Colitis ulcerosa bei ungenügendem Ansprechen auf oder Kontraindikation für Mesalazin."
 
 // Product Classification
 * classification[+] = $atc#A07EA06  // ATC Code
-* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA BWS Art 12. Abs. 5 VAZV" // Authorisation Category - sample
-* classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetika" // TherapeuticProductcode
-* classification[+] = ChEplProductTypeCS#756001003002 "Originalpräparat" // Product Type - sample
+* classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
+* classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetic" // TherapeuticProductcode
+* classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Entocort)  // Link to the Professional Information
