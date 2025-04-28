@@ -12,9 +12,9 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a MedicinalProductDe
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Paxlovid wird angewendet für die Behandlung der Coronavirus-Krankheit 2019 (COVID-19) bei Erwachsenen, die keine Sauerstofftherapie oder Hospitalisierung aufgrund von COVID-19 benötigen und bei denen ein erhöhtes Risiko für einen schweren Verlauf von COVID-19 besteht (siehe «Klinische Wirksamkeit»).
 Paxlovid ist nicht als Ersatz für eine Impfung gegen COVID-19 vorgesehen. Paxlovid sollte gemäss den offiziellen Empfehlungen und unter Berücksichtigung der lokalen epidemiologischen Daten zu zirkulierenden SARS-CoV-2-Varianten angewendet werden." // Full Indication Text
-* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022002 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
+* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022002 "Medicinal product subject to medical or veterinary prescription single dispensation (A+)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001001 "Black Triangle Warning"
-* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003002 "Nicht zugelassen für die Anwendung bei Kindern" // Paediatric Use Indicator
+* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003002 "Not authorised for the treatment in children"// Paediatric Use Indicator
 
 // FOPH EPL Product.FullLimitationText
 * extension[fullLimitationText].valueString = "Befristete Limitation bis 31.12.2025. PAXLOVID wird als antivirale Monotherapie für die Behandlung einer bestätigten Covid-19 Infektion (Positiver Erregernachweis Antigen/PCR und vorhandener Covid-19-Symptome) in folgenden Fällen vergütet:

@@ -1,17 +1,17 @@
 == Suppressed Messages ==
 
 # Slices on codings with given CodeSystems
-Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+# Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 
 # The EDQM CS is defined
-A definition for CodeSystem 'http://standardterms.edqm.eu' could not be found, so the code cannot be validated
+# A definition for CodeSystem 'http://standardterms.edqm.eu' could not be found, so the code cannot be validated
 
 # External code systems
-A definition for CodeSystem 'urn:oid:1.2.276.0.76' could not be found, so the code cannot be validated
-A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
+# A definition for CodeSystem 'urn:oid:1.2.276.0.76' could not be found, so the code cannot be validated
+# A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
 
 # https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/New.20IG.20parameter.20warnings
-Terminology_TX_NoValid_13
+# Terminology_TX_NoValid_13
 
 # Identifier value is requested (issue in snapshot)
-Constraint failed: ident-1: 'Identifier with no value has limited utility. If communicating that an identifier value has been suppressed or missing, the value element SHOULD be present with an extension indicating the missing semantic 
+# Constraint failed: ident-1: 'Identifier with no value has limited utility. If communicating that an identifier value has been suppressed or missing, the value element SHOULD be present with an extension indicating the missing semantic 

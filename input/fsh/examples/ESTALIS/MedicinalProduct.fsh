@@ -14,7 +14,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a MedicinalProductDefi
 Osteoporoseprophylaxe: Vorbeugung oder Verzögerung einer durch Östrogenmangel induzierten Osteoporose bei postmenopausalen Frauen mit hohem Frakturrisiko, für die eine Behandlung mit anderen zur Prävention der Osteoporose zugelassenen Arzneimitteln nicht in Frage kommt, oder bei Frauen die gleichzeitig an behandlungsbedürftigen Symptomen des Östrogenmangels leiden." // Full Indication Text
 * legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
 * additionalMonitoringIndicator = $SMC-AdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
-* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003002 "Nicht zugelassen für die Anwendung bei Kindern" // Paediatric Use Indicator
+* pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003002 "Not authorised for the treatment in children"// Paediatric Use Indicator
 
 // FOPH EPL Product.FullLimitationText
 //* extension[fullLimitationText].valueString = "xxx"

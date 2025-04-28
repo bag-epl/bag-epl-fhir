@@ -1,8 +1,9 @@
 // External Code Systems
 Alias: $loinc =                         http://loinc.org
 Alias: $sct =                           http://snomed.info/sct
+Alias: $sct-ch-edition =                http://snomed.info/sct/ch-edition
+Alias: $sct-ch-full =                   http://snomed.info/sct/ch-edition/version/20230607
 
-Alias: $sct-ch =                        http://snomed.info/sct|http://snomed.info/sct/2011000195101
 Alias: $atc =                           http://www.whocc.no/atc
 
 Alias: $language =                      urn:ietf:bcp:47
@@ -15,7 +16,6 @@ Alias: $emaDomain =                     http://spor.ema.europa.eu/v1/lists/10000
 Alias: $emaIntendedEffect =             http://spor.ema.europa.eu/v1/lists/200000003186
 Alias: $emaShelfLifeType =              http://spor.ema.europa.eu/v1/lists/100000073343
 Alias: $mdr =                           https://www.meddra.org
-Alias: $sct =                           http://snomed.info/sct
 
 // ISO 
 Alias: $ISO-NamePart  =                 http://hl7.org/fhir/medicinal-product-name-part-type
