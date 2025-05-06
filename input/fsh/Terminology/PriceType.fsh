@@ -19,27 +19,27 @@ Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes
 * ^concept[+].code = #756002005001
 * ^concept[=].display = "Retail price"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Publikumspreis"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "PP"
  
 * ^concept[+].code = #756002005002
 * ^concept[=].display = "Ex-factory price"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Fabrikabgabe Preis"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "FAP"
  
 * ^concept[+].code = #756002005003
 * ^concept[=].display = "Cost effective price"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Wirtschaftlicher Preis"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "WP"
  

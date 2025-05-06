@@ -19,26 +19,26 @@ Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes
 * ^concept[+].code = #756000002001
 * ^concept[=].display = "Marketing Authorisation"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Marktzulassung"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "MA"
  
 * ^concept[+].code = #756000002002
 * ^concept[=].display = "Orphan Designation"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Orphan Zulassung"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "OR"
  
 * ^concept[+].code = #756000002003
 * ^concept[=].display = "Reimbursement SL"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Vergütung SL"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "SL"

@@ -18,18 +18,18 @@ Description: "CH ePL - Standard Terms used in Switzerland (aggregations of codes
 * ^concept[+].code = #756005041001
 * ^concept[=].display = "Modal pack"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Modal-Packung"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "MoP"
  
 * ^concept[+].code = #756005041002
 * ^concept[=].display = "Large pack"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Grosse Packung"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "GrP"
  

@@ -18,18 +18,18 @@ Description: "CH EPL - Standard Terms used in Switzerland (aggregations of codes
 * ^concept[+].code = #756002071001
 * ^concept[=].display = "Limitation Reimbursed"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Limitierung Vergütet"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "LV"
  
 * ^concept[+].code = #756002071002
 * ^concept[=].display = "Limitation not Reimbursed"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000003001 "Fully specified name"
+* ^concept[=].designation[=].use = $sct#900000000000003001 "Fully specified name"
 * ^concept[=].designation[=].value = "Limitierung nicht Vergütet"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use = $sct-ch-full#900000000000013009 "Synonym (core metadata concept)"
+* ^concept[=].designation[=].use = $sct#900000000000013009 "Synonym (core metadata concept)"
 * ^concept[=].designation[=].value = "LnV"
  
