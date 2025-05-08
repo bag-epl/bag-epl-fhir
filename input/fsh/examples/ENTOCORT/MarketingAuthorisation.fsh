@@ -12,7 +12,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk"
 * subject = Reference(Entocort-Solvent-and-Tablet) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "1993-06-18" // Authorisation Status Date
@@ -39,7 +39,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk"
 * subject = Reference(Entocort-Solvent-and-Tablet) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "1993-06-18" // Authorisation Status Date

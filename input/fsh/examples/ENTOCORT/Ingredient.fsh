@@ -5,7 +5,7 @@ Title: "Budesonidum 2.3 mg"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an Ingredient (Ingredient)"
 * status = #active
 * for[0] = Reference(MI-Budesonidum-2.3mg-Tablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Active" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#Q3OKS62Q6X "Budesonide"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 2.3
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 
@@ -23,7 +23,7 @@ Title: "Budesonidum 2.0 mg"
 Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an Ingredient (Ingredient)"
 * status = #active
 * for[0] = Reference(PhP-Budesonidum-Suspension) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Active" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#Q3OKS62Q6X "Budesonide"
 * substance[=].strength[+].concentrationRatio[+].numerator.value = 2.0
 * substance[=].strength[=].concentrationRatio[=].numerator.unit = "mg" 

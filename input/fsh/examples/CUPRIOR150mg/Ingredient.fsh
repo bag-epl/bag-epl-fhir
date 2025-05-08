@@ -6,7 +6,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Ingredient (Ingredie
 * status = #active
 * for[0] = Reference(PhP-Trientinum-150mg-Filmcoatedtablet) 
 * for[+] = Reference(MI-Trientinum-150mg-Filmcoatedtablet) 
-* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Wirkstoff" 
+* role[+].coding[SMC] = $SMC-IngredientRoleCS#756005051001 "Active" 
 * substance[+].code.concept.coding[UNII] = $SMC-SubstanceCS#SJ76Y07H5F "Trientine"
 * substance[=].strength[+].presentationRatio[+].numerator.value = 150
 * substance[=].strength[=].presentationRatio[=].numerator.unit = "mg" 

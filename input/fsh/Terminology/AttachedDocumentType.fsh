@@ -16,14 +16,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005007001
 * ^concept[=].display = "Information for healthcare professionals"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Fachinformation"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "FI"
@@ -31,14 +29,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005007002
 * ^concept[=].display = "Patient Information"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Patienteninformation"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "PI"
@@ -46,14 +42,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005007003
 * ^concept[=].display = "Packaging"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Packmitteltexte"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "PE"
@@ -61,14 +55,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005007004
 * ^concept[=].display = "Basic information for export"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Basisinformation für den Export"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "EX"

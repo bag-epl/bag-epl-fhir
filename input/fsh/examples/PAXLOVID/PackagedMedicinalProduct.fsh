@@ -9,7 +9,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 * identifier[=].value = "CH-7601001010604-6879301-001" // PCID
 * packageFor = Reference(Paxlovid-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "PAXLOVID Filmtabl 4x150mg/2x100mg" // Package Description
-* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022002 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Legal Status of Supply (for a package)
+* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022002 "Medicinal product subject to medical or veterinary prescription single dispensation (A+)" // Legal Status of Supply (for a package)
 * containedItemQuantity[+].value = 30  // Pack Size
 * containedItemQuantity[=].unit = "Tablet" 
 * containedItemQuantity[=].system = $edqm 
@@ -27,8 +27,8 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 * packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 //* packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042008 "Nicht über 25°C" // Special Precaution for Storage
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042007 "Im Kühlschrank (2°C - 8°C)" // Special Precaution for Storage
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042001 "Nicht einfrieren" // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042007 "in the refrigerator (2°C - 8°C)" // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042001 "Do not freeze" // Special Precaution for Storage
 
 // Package Item (Container) - Inner Package
 //* packaging.packaging[0].type.coding = $edqm#30007000 "Blister" // Package Item (Container) Type

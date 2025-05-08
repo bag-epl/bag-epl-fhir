@@ -9,7 +9,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Pa
 * identifier[=].value = "CH-7601001346451-5204201-011" // PCID
 * packageFor = Reference(Entocort-Solvent-and-Tablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk" // Package Description
-* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Abgabe auf ärztliche oder tierärztliche Verschreibung (B)" // Legal Status of Supply (for a package)
+* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
 * containedItemQuantity[+].value = 7  // Pack Size
 * containedItemQuantity[=].unit = "Tablet" 
 * containedItemQuantity[=].system = $edqm 
@@ -30,7 +30,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Pa
 // Shelf Life / Storage
 * packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 * packaging.shelfLifeStorage[=].periodDuration = 60 'mo' "month" // Shelf Life Time Period
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042009 "Nicht über 30°C" // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042009 "Do not store above  30°C" // Special Precaution for Storage
 
 // Package Item (Container) - Inner Package
 //* packaging.packaging[0].type.coding = $edqm#30008000 "Bottle" // Package Item (Container) Type

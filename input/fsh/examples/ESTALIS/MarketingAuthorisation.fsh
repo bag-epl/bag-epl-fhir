@@ -12,7 +12,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk"
 * subject = Reference(Estalis-Transdermalpatch) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "1999-08-17" // Authorisation Status Date
@@ -39,7 +39,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk"
 * subject = Reference(Estalis-Transdermalpatch) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "1999-08-17" // Authorisation Status Date

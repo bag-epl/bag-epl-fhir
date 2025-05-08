@@ -16,14 +16,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005001001
 * ^concept[=].display = "Black Triangle Warning"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Schwarzes Dreieck Art. 14a AMZV"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "BLACK_TR"
@@ -31,14 +29,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005001002
 * ^concept[=].display = "Black Box Warning"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Black Box Warning"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "BBOX_W"
@@ -46,14 +42,12 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[+].code = #756005001003
 * ^concept[=].display = "No Warning"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Keine Warnung"
 * ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = "http://www.snomed.org/"
-* ^concept[=].designation[=].use.version = "1.0"
+* ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "N"

@@ -10,3 +10,4 @@ fsh-generated/**
 
 # editing files and folders
 .vscode/**
+.idea/**

@@ -12,7 +12,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml"
 * subject = Reference(Keytruda-100mg-Vial) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "2022-02-17" // Authorisation Status Date
@@ -39,7 +39,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml"
 * subject = Reference(PMP-Keytruda-100mg-4ml-Solution-for-Infusion) // Link to the Packaged Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "2022-02-17" // Authorisation Status Date

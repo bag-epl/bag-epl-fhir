@@ -12,7 +12,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk"
 * subject = Reference(Cuprior-150mg-Filmcoatedtablet) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "2021-01-21" // Authorisation Status Date
@@ -39,7 +39,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk"
 * subject = Reference(PMP-Cuprior-150mg-Filmcoatedtablet) // Link to the Packaged Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "zugelassen" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023007 "valid" // Authorisation Status
 
 
 * statusDate = "2021-01-21" // Authorisation Status Date

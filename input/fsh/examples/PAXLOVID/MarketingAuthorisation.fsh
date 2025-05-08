@@ -12,7 +12,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg"
 * subject = Reference(Paxlovid-Filmcoatedtablet) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023002 "befristet" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023002 "limited authorisation" // Authorisation Status
 * statusDate = "2022-06-15" // Authorisation Status Date
 //* validityPeriod.start = "2021-01-21" // Validity Period Start
 //* validityPeriod.end = "tbd" // Validity Period End
@@ -37,7 +37,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg"
 * subject = Reference(Paxlovid-Filmcoatedtablet) // Link to the Medicinal Product
 * region = $country#CH "Switzerland" // Country
 * type[+].coding[CH] = ChAuthorisationTypeCS#756000002001 "Marketing Authorisation" // Authorisation Type
-* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023002 "befristet" // Authorisation Status
+* status[+].coding[SMC] = ChSMCAuthorisationStatusCS#756005023002 "limited authorisation" // Authorisation Status
 * statusDate = "2022-06-15" // Authorisation Status Date
 //* validityPeriod.start = "2021-01-21" // Validity Period Start
 //* validityPeriod.end = "tbd" // Validity Period End
