@@ -44,9 +44,9 @@ FHIR® Implementation Guide for the 'Elektronische Plattform Leistungen (EPL)' o
 * If you haven't already done so, create a local *GitHub* folder on your computer (e.g. `C:\Users\username\Documents\GitHub`).
 * Open a terminal in VSC (Terminal > New Terminal)
 * Navigate to the local *GitHub* folder in the terminal (`cd .\Documents\`, `cd .\GitHub\`)
-* Then clone the repository via the terminal: `git clone https://github.com/bag-epl/foph-epl-fhir.git`
+* Then clone the repository via the terminal: `git clone https://github.com/bag-epl/bag-epl-fhir.git`
 * Open the folder of the repository in VSC (File > Open Folder...)
-* Navigate to this repository in the therminal (`cd .\foph-epl-fhir\ `)
+* Navigate to this repository in the therminal (`cd .\bag-epl-fhir\ `)
 
 ## Install the FHIR IG publisher
 * In VSC press *F1* or *Ctrl+Shift+P*
