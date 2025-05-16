@@ -29,7 +29,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension.extension[+].url = "costShare"
 * extension.extension[=].valueInteger = 10 // Cose Share
 * extension.extension[+].url = "gamme"
-* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004005 "RektalVaginal" // Gamme
+* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004005 "Rectal Vaginal" // Gamme
 
 // Reimbursement SL - Organisation
 * holder.reference = "#holder-Tillotts-Pharma-AG" // Reference to the Marketing Authorisation Holder (Organisation)

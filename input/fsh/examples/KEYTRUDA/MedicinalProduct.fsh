@@ -32,7 +32,7 @@ Persistierendes, rezidivierendes oder metastasiertes Zervixkarzinom: mit einer P
 Tumore mit hoher Mikrosatelliteninstabilität oder fehlerhafter DNA-Mismatch-Reparatur: nicht reserzierbares oder metastasiertes kolorektales Karzinom nach vorangegangener Fluoropyrimidin-basierter Therapie in Kombination mit Irinotecan oder Oxaliplatin; metastasierte Endometriumkarzinom, Magenkarzinom, Dünndarmkarzinom oder Gallengangskarzinom mit Progression nach Standardtherapie und ohne befriedigende therapeutische Alternativen; Erstlinientherapie des metastasierten kolorektalen Karzinoms.
 Befristet zugelassene Indikationen: adjuvante Monotherapie des Melanoms im Stadium IIB oder IIC nach vollständiger Resektion; adjuvante Monotherapie des nicht-kleinzelligen Lungenkarzinoms im Stadium IB, II oder IIIA nach vollständiger Resektion und ohne Rezidiv nach platinbasierter Chemotherapie. 
 " // Full Indication Text
-* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022001 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
+* legalStatusOfSupply = ChSMCLegalStatusOfSupplyCS#756005022001 "Medicinal product subject to medical or veterinary prescription single dispensation (A)" // Marketing Authorisation.Legal Status of Supply (moved here for practicality)
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
 * pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Authorised for the treatment in children" // Productic Use Indicator
 
@@ -46,7 +46,7 @@ Folgender Code ist an den Krankenversicherer zu übermitteln: 20416.17"
 // Product Classification
 * classification[+] = $atc#G03FA01   // ATC Code L01FF
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
-* classification[+] = ChSMCTherapeuticProductcodeCS#756005004003 "Biologika" // TherapeuticProductcode
+* classification[+] = ChSMCTherapeuticProductcodeCS#756005004003 "Biologics" // TherapeuticProductcode
 * classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
 
 // Attached Document

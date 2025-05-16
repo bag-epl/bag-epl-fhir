@@ -9,7 +9,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * identifier[=].value = "CH-7601001001138-6623101-001" // PCID
 * packageFor = Reference(Keytruda-100mg-Vial) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "KEYTRUDA Inf Konz 100 mg/4ml Durchstf" // Package Description
-* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022001 "Einmalige Abgabe auf ärztliche oder tierärztliche Verschreibung (A)" // Legal Status of Supply (for a package)
+* legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022001 "Medicinal product subject to medical or veterinary prescription single dispensation (A)" // Legal Status of Supply (for a package)
 * containedItemQuantity[+].value = 1  // Pack Size
 * containedItemQuantity[=].unit = "Vial" 
 * containedItemQuantity[=].system = $edqm 
