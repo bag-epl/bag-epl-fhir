@@ -24,7 +24,7 @@ The following documents have been defined (and described in more detail on the r
 
 <div markdown="1" class="stu-note">
 
-This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/de/) until September 30th, 2025 midnight.   
+This implementation guide is under STU informative ballot by [HL7 Switzerland](https://www.hl7.ch/de/) until September 30th, 2025 midnight.   
 Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
 
 [Changelog](changelog.html) with significant changes, open and closed issues.
