@@ -42,8 +42,8 @@ pages:
     title: Datasource Authorised Medicinal Product
   spezialitaetenliste.md:
     title: Dataexport FOPH Spezialitätenliste
-  usecase-german.md:
-    title: Use Cases
+#  usecase-german.md:
+#    title: Use Cases
   cuprior.md:
     title: Cuprior
   entocort.md:
@@ -71,8 +71,8 @@ menu:
     ISO IDMP: idmp.html
     Datasource: authorised-medicinal-product.html
     Spezialitätenliste: spezialitaetenliste.html
-  Use Case:
-    German: usecase-german.html 
+#  Use Case:
+#    German: usecase-german.html 
   Examples: 
      Cuprior: cuprior.html
      Entocort: entocort.html

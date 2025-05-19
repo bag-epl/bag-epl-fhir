@@ -5,8 +5,8 @@ Title: "CH EPL Organization"
 Description: "Defines basic constraints and extensions on the Organization resource for use with other CH EPL resources"
 
 * . ^short = "CH EPL Organization"
-* identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "$this"
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 //* identifier.value 0..
 * identifier contains
