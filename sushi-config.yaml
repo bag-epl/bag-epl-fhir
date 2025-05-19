@@ -14,7 +14,7 @@ copyright: CC0-1.0
 # ignore information about deprecated item, see https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin
 # jurisdiction: urn:iso:std:iso:3166#CH
 date: 2023-11-10
-version: 0.1.0
+version: 1.0.0-ballot
 fhirVersion: 5.0.0
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -28,7 +28,7 @@ contact:
 
 dependencies:
 #  ch.fhir.ig.ch-core: 4.0.1
-  hl7.terminology.r5: 5.5.0
+  hl7.terminology.r5: 6.3.0
 
 pages:
   index.md:
