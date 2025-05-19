@@ -5,6 +5,7 @@
 # https://confluence.hl7.org/display/FHIR/NPM+Package+Specification#NPMPackageSpecification-Packagename
 id: ch.fhir.ig.ch-epl
 canonical: http://fhir.ch/ig/ch-epl
+url: http://fhir.ch/ig/ch-epl/ImplementationGuide/ch.fhir.ig.ch-epl
 name: CH_EPL
 title: "CH EPL (R5)"
 description: Implementation Guide CH EPL (R5)
