@@ -1,5 +1,4 @@
 ---
 feedback:
     active: true
-    formUrl: https://www.google.com
-# URL Placeholder
+    formUrl: https://docs.google.com/forms/d/e/1FAIpQLSd1mLI82dQJ5LFoMXSXywgaCqtHnaADtuHQkMJoLwONsPg9cw/viewform?usp=dialog
