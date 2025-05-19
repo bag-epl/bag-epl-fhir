@@ -50,7 +50,7 @@ HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR <img src="icon-fhir-16.png" sty
 {% include ip-statements.xhtml %}
 
 ### Cross Version Analysis
-tbd
+
 {% include cross-version-analysis.xhtml %}
 
 ### Dependency Table
