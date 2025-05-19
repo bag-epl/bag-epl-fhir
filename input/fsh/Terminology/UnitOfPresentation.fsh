@@ -5,7 +5,7 @@ Description: "Value Set for the Unit of Presentation from EDQM used by SMC"
 * ^experimental = false
 * ^identifier.use = #official
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "http://standardterms.edqm.eu1"
+* ^identifier.value = "http://standardterms.edqm.eu"
 * $edqm#15001000 "Actuation"
 * $edqm#15002000 "Ampoule"
 * $edqm#15004000 "Applicator"

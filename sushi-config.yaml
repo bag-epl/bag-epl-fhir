@@ -88,6 +88,7 @@ parameters:
   excludettl: true
   allow-extensible-warnings: true
   display-warnings: true
+  path-expansion-params: '../../expansion-params.json' # for using SNOMED CT Swiss Extension
   special-url:
     - urn:oid:0.4.0.127.0.16.1.1.2.1 # edqm-standard-terms
     - urn:oid:0.4.0.127.0.16.1.1.2.2 # edqm-pharmaceutical-dose-form
