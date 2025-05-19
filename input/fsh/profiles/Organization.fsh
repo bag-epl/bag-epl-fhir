@@ -6,7 +6,7 @@ Description: "Defines basic constraints and extensions on the Organization resou
 
 * . ^short = "CH EPL Organization"
 * identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "$this"
+* identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 //* identifier.value 0..
 * identifier contains
@@ -31,12 +31,12 @@ Description: "Defines basic constraints and extensions on the Organization resou
 * identifier[LocID] ^short = "LocID (Organisation Management System)"
 * identifier[LocID] ^definition = "See [LocID](https://spor.ema.europa.eu/rmswi/#/)"
 * identifier[LocID] ^patternIdentifier.system = "urn:oid:1.2.276.0.76"
-* identifier[LocID].value 1..
+* identifier[LocID].value 1..1
 * identifier[GLN] only GLNIdentifier
 * identifier[GLN] ^short = "Global Location Number (GLN)"
 * identifier[GLN] ^definition = "See [GLN](http://fhir.ch/ig/ch-core/NamingSystem/gln)"
 * identifier[GLN] ^patternIdentifier.system = "urn:oid:2.51.1.3"
-* identifier[GLN].value 1..
+* identifier[GLN].value 1..1
 //* type from $DocumentEntry.healthcareFacilityTypeCode (preferred)
 
 //* telecom ^slicing.discriminator.type = #value

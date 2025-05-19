@@ -40,7 +40,7 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[=].designation[=].value = "HNIDK"
 
 * ^concept[+].code = #756005051003
-* ^concept[=].display = "excipient of particular interest "
+* ^concept[=].display = "excipient of particular interest"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001

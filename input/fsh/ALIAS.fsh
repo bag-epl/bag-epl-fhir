@@ -103,8 +103,8 @@ Alias:  $SMC-OriginOfSubstance =                      http://fhir.ch/ig/ch-epl/C
 Alias:  $SMC-OriginOfSubstanceVS =                    http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-OriginOfSubstance //Provisorisch
 Alias:  $SMC-QuantityOperator =                       http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-QuantityOperator //Provisorisch                      
 Alias:  $SMC-QuantityOperatorVS =                     http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-QuantityOperator //Provisorisch
-Alias:  $SMC-StrengthPresentationUnit =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM http://standardterms.edqm.eu1 
-Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM http://standardterms.edqm.eu1 
+Alias:  $SMC-StrengthPresentationUnit =               http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM http://standardterms.edqm.eu
+Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/ValueSet/ch-SMC-StrengthPresentationUnit //Provisorisch //EDQM http://standardterms.edqm.eu
 
 
 // External Identifier Systems
