@@ -12,13 +12,12 @@ description: Implementation Guide CH EPL (R5)
 status: active
 license: CC0-1.0
 copyright: CC0-1.0
-# ignore information about deprecated item, see https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin
-# jurisdiction: urn:iso:std:iso:3166#CH
-date: 2023-11-10
+jurisdiction: urn:iso:std:iso:3166#CH
+date: 2025-05-21
 version: 1.0.0-ballot
 fhirVersion: 5.0.0
 copyrightYear: 2023+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 publisher:
   name: Federal Office of Public Health FOPH
 contact:
@@ -28,7 +27,6 @@ contact:
         value: https://www.bag.admin.ch/bag/en/home/das-bag/kontakt-standort.html
 
 dependencies:
-#  ch.fhir.ig.ch-core: 4.0.1
   hl7.terminology.r5:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 6.3.0

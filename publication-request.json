@@ -1,0 +1,15 @@
+{
+  "package-id" : "ch.fhir.ig.ch-epl",
+  "version" : "1.0.0-ballot",
+  "path" : "http://fhir.ch/ig/ch-epl/1.0.0-ballot", 
+  "mode" : "milestone",
+  "status" : "ballot", 
+  "sequence" : "STU 1",
+  "desc" : "HL7 Switzerland STU 1 Informative Ballot", 
+  "changes" : "changelog.html",
+  "first" : true, 
+  "title" : "CH EPL (R5)",
+  "ci-build" : "https://build.fhir.org/ig/bag-epl/bag-epl-fhir",
+  "category" : "National Base",
+  "introduction" : "Implementation Guide CH EPL (R5)"
+}
