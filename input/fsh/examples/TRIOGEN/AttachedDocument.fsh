@@ -13,6 +13,7 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2019-12-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=67431&supportMultipleResults=1" // Content
+* content.attachment.contentType = #text/html
 
 // -----------------------------------------------------------------------------------
 
@@ -31,3 +32,4 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2019-12-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=67431&supportMultipleResults=1" // Content
+* content.attachment.contentType = #text/html

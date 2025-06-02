@@ -13,6 +13,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2022-04-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=52042&supportMultipleResults=1" // Content
+* content.attachment.contentType = #text/html
 
 // -----------------------------------------------------------------------------------
 
@@ -31,3 +32,4 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2022-04-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=52042&supportMultipleResults=1" // Content
+* content.attachment.contentType = #text/html

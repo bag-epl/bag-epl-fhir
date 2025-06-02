@@ -13,6 +13,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2024-07-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=68793&supportMultipleResults=1" // Content
+* content.attachment.contentType = #text/html
 
 // -----------------------------------------------------------------------------------
 
@@ -31,3 +32,4 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2024-07-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=68793&supportMultipleResults=1" // Content
+* content.attachment.contentType = #text/html
