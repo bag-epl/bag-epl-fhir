@@ -13,7 +13,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2020-09-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=67719&supportMultipleResults=1" // Content
-* content.attachment.contentType = "text/html; charset=utf-8"
+* content.attachment.contentType = "text/html"
 
 // -----------------------------------------------------------------------------------
 
@@ -32,4 +32,4 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk"
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2020-09-01T00:00:00Z" // Effective Date - sample
 * content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=67719&supportMultipleResults=1" // Content
-* content.attachment.contentType = "text/html; charset=utf-8"
+* content.attachment.contentType = "text/html"
