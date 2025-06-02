@@ -12,7 +12,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk"
 * type.coding = ChSMCAttachedDocumentTypeCS#756005007001 "Fachinformation"  // Type
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2021-10-01T00:00:00Z" // Effective Date - sample
-* content.attachment.url = "https://swissmedicinfo.ch/showTextAccepted.aspx?textType=FI&lang=DE&authNr=54704&supportMultipleResults=1" // Content
+* content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=FI&lang=DE&authNr=54704&supportMultipleResults=1" // Content
 
 // -----------------------------------------------------------------------------------
 
@@ -30,4 +30,4 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk"
 * type.coding = ChSMCAttachedDocumentTypeCS#756005007002 "Patienteninformation" // Type
 * language = $language#de-CH "German (Switzerland)" // Language
 * date = "2021-10-01T00:00:00Z" // Effective Date - sample
-* content.attachment.url = "https://swissmedicinfo.ch/showTextAccepted.aspx?textType=PI&lang=DE&authNr=54704&supportMultipleResults=1" // Content
+* content.attachment.url = "https://swissmedicinfo.ch/showText.aspx?textType=PI&lang=DE&authNr=54704&supportMultipleResults=1" // Content
