@@ -12,7 +12,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 
 * region = $country#CH
 
-// Zulassungstyp
+// Authorisation Type
 * type from ChAuthorisationTypeVS (required)
 * type.coding 0..1
 * type.coding ^slicing.discriminator.type = #value
@@ -24,7 +24,7 @@ Description: "Profile of the RegulatedAuthorization resource for representing th
 * type.coding[CH].system = $CH-AuthorisationType
 * type.coding[CH].code 1..
 
-// Zulassungsstatus
+// Authorisation Status
 * status from ChSMCAuthorisationStatusVS (required)
 * status.coding 1..
 * status.coding ^slicing.discriminator.type = #value

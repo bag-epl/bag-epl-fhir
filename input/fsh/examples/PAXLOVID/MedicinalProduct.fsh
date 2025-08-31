@@ -7,7 +7,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a MedicinalProductDe
 // Medicinal Product
 * identifier[+].system = $MPID
 * identifier[=].value = "CH-7601001010604-6879301" //MPID
-* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
+//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10221000 "Film-coated tablet" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Paxlovid wird angewendet für die Behandlung der Coronavirus-Krankheit 2019 (COVID-19) bei Erwachsenen, die keine Sauerstofftherapie oder Hospitalisierung aufgrund von COVID-19 benötigen und bei denen ein erhöhtes Risiko für einen schweren Verlauf von COVID-19 besteht (siehe «Klinische Wirksamkeit»).

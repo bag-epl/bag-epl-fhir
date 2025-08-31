@@ -2,8 +2,8 @@
 Instance: 08f553cb-1404-4972-bf14-2023a5f59955
 InstanceOf: CHIDMPBundle
 Usage: #example
-Title: "CUPRIOR Filmtabl 150 mg 72 Stk (Bundle)"
-Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a Bundle"
+Title: "CUPRIOR Filmtabl 150 mg (Bundle)"
+Description: "CUPRIOR Filmtabl 150 mg: Example of a Bundle"
 
 // Medicinal Product
 

@@ -105,7 +105,7 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[=].designation[=].value = "2"
 
 * ^concept[+].code = #756005042008
-* ^concept[=].display = "Do not store above  25°C"
+* ^concept[=].display = "Do not store above 25°C"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -118,7 +118,7 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^concept[=].designation[=].value = "NO25"
 
 * ^concept[+].code = #756005042009
-* ^concept[=].display = "Do not store above  30°C"
+* ^concept[=].display = "Do not store above 30°C"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001

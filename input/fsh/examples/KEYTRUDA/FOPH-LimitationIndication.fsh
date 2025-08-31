@@ -2,7 +2,7 @@ Instance: LIM-254837009
 InstanceOf: ClinicalUseDefinition
 Usage: #example
 Title: "Limitation 254837009"
-Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of an ClinicalUseDefinition-Limitation (Indication)"
+Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an ClinicalUseDefinition-Limitation (Indication)"
 
 * type = #indication
 * indication.diseaseSymptomProcedure.concept = $sct#254837009 "Malignant tumor of breast" // Limitation as Disease Symptom Procedure

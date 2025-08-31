@@ -10,9 +10,11 @@ Description: "A set of information about the price of a drug"
 * ^date = "2024-02-20"
 * ^publisher = "Federal Office of Public Health - Switzerland"
 * ^context[0].type = #extension
-* ^context[=].expression = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* ^context[=].expression = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation" // use in Limitation
+* ^context[+].type = #extension
+* ^context[=].expression = "http://fhir.ch/ig/ch-epl/StructureDefinition/reimbursementSL" // use in Reimbursement SL
 * ^context[+].type = #element
-* ^context[=].expression = "RegulatedAuthorization"
+* ^context[=].expression = "RegulatedAuthorization" // use in Reimbursement SL
 * . 0..*
 * extension contains
     type 0..1 and
