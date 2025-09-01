@@ -12,16 +12,16 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * identifier.value 1..
 
 // * domain
-* domain from EMADomainVS (required)
-* domain.coding 1..
-* domain.coding ^slicing.discriminator[+].type = #value
-* domain.coding ^slicing.discriminator[=].path = "system"
-* domain.coding ^slicing.rules = #open
-* domain.coding contains 
-    EMA 0..1
-* domain.coding[EMA].system 1..
-* domain.coding[EMA].system = $emaDomain
-* domain.coding[EMA].code 1..
+//* domain from EMADomainVS (required)
+//* domain.coding 1..
+//* domain.coding ^slicing.discriminator[+].type = #value
+//* domain.coding ^slicing.discriminator[=].path = "system"
+//* domain.coding ^slicing.rules = #open
+//* domain.coding contains 
+//    EMA 0..1
+//* domain.coding[EMA].system 1..
+//* domain.coding[EMA].system = $emaDomain
+//* domain.coding[EMA].code 1..
 
 * extension contains
     CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and

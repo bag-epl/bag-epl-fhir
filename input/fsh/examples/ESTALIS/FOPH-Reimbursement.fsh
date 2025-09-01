@@ -33,9 +33,6 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Regulated Authoriza
 * extension.extension[+].url = "gamme"
 * extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004011 "Transdermal" // Gamme
 
-// Reimbursement SL - Organisation
-* holder.reference = "#holder-Sandoz-Pharmaceuticals-AG" // Reference to the Marketing Authorisation Holder (Organisation)
-
 // Price (Reimbursement SL)
 * extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
 * extension[=].extension[+].url = "value"
@@ -106,3 +103,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Regulated Authoriza
 
 // Indication Reference
 * indication.reference = Reference(IND-10031285)
+
+
+// Reimbursement SL - Organisation
+* holder.reference = "#holder-Sandoz-Pharmaceuticals-AG" // Reference to the Marketing Authorisation Holder (Organisation)

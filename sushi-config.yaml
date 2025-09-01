@@ -29,19 +29,21 @@ contact:
 dependencies:
   hl7.terminology.r5:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
-    version: 6.3.0
+    version: 6.5.0
 
 pages:
   index.md:
     title: Home
   idmp.md:
     title: IDMP Standard ISO 11615
-  authorised-medicinal-product.md:
-    title: Datasource Authorised Medicinal Product
+#  authorised-medicinal-product.md:
+#  title: Datasource Authorised Medicinal Product
   spezialitaetenliste.md:
     title: Dataexport FOPH Spezialitätenliste
 #  usecase-german.md:
 #    title: Use Cases
+  abrilada.md:
+    title: Abrilada
   cuprior.md:
     title: Cuprior
   entocort.md:
@@ -67,11 +69,12 @@ menu:
   Home: index.html
   Documentation:
     ISO IDMP: idmp.html
-    Datasource: authorised-medicinal-product.html
+#  Datasource: authorised-medicinal-product.html
     Spezialitätenliste: spezialitaetenliste.html
 #  Use Case:
 #    German: usecase-german.html 
   Examples: 
+     Abrilada: abrilada.html
      Cuprior: cuprior.html
      Entocort: entocort.html
      Estalis: estalis.html

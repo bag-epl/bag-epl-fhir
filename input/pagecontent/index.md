@@ -19,7 +19,6 @@ This implementation guide describes mainly the exchange formats and handlings ar
 
 The following documents have been defined (and described in more detail on the respective subsections):
 [IDMP](idmp.html)
-[Data Import to FOPH](authorised-medicinal-product.html)
 [Data Export from FOPH](spezialitaetenliste.html)
 
 <div markdown="1" class="stu-note">

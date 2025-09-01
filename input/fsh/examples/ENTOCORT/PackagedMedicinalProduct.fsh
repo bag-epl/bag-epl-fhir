@@ -30,7 +30,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Pa
 // Shelf Life / Storage
 * packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
 * packaging.shelfLifeStorage[=].periodDuration = 60 'mo' "month" // Shelf Life Time Period
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042009 "Do not store above  30°C" // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042009 "Do not store above 30°C" // Special Precaution for Storage
 
 // Package Item (Container) - Inner Package
 //* packaging.packaging[0].type.coding = $edqm#30008000 "Bottle" // Package Item (Container) Type

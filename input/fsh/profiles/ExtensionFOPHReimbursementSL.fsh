@@ -11,7 +11,7 @@ Description: "A set of information about the reimbursement of a drug"
 * ^publisher = "Federal Office of Public Health - Switzerland"
 * ^context[+].type = #element
 * ^context[=].expression = "RegulatedAuthorization"
-* . 0..1
+* . 0..*
 * extension contains
     FOPHDossierNumber 1..1 and // FOPH Dossier Number 
     status 1..1 and // Reimbresement Status
@@ -20,9 +20,10 @@ Description: "A set of information about the reimbursement of a drug"
     listingStatus 1..1 and // Listing Status
     listingPeriod 1..1 and // Listing Period
     firstListingDate 1..1 and // Date of First Listing
-    costShare 0..1 and // Cose Share
+    costShare 0..1 and // Cost Share
     productType 0..* and // Product Type
-    gamme 0..1 // Gamme
+    gamme 0..1 and // Gamme 
+    http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice named productPrice 0..*    
 
 * extension[FOPHDossierNumber] only Extension
 * extension[FOPHDossierNumber] ^definition = "The dossier number of FOPH"

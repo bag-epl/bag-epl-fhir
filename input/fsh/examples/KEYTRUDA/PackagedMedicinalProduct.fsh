@@ -24,15 +24,20 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * packaging.quantity = 1 // Package Item (Container) Quantity
 
 // Shelf Life / Storage
-* packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
-//* packaging.shelfLifeStorage[=].periodDuration = 36 'mo' "month" // Shelf Life Time Period
-* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042007 "in the refrigerator (2°C - 8°C)"
-
+* packaging.shelfLifeStorage[0].type = $emaShelfLifeType#100000073406 "Shelf life from manufacturing time" // Shelf Life Type
+* packaging.shelfLifeStorage[=].periodString = "Das Arzneimittel darf nur bis zu dem auf dem Behälter mit «EXP» bezeichneten Datum verwendet werden." // Shelf Life Time Period
  // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042007 "in the refrigerator (2°C - 8°C)"
 * packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042004 "protect from light" // Special Precaution for Storage
 * packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042001 "Do not freeze" // Special Precaution for Storage
 * packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042011 "Store in the original container" // Special Precaution for Storage
-//* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#- "Nicht schütteln" // Special Precaution for Storage
+
+* packaging.shelfLifeStorage[+].type = $emaShelfLifeType#100000073403 "Shelf life of the medicinal product as packaged for sale" // Shelf Life Type
+* packaging.shelfLifeStorage[=].periodDuration = 24 'h' "hour" // Shelf Life Time Period
+ // Special Precaution for Storage
+* packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042008 "Do not store above 25°C"
+* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042004 "protect from light" // Special Precaution for Storage
+* packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042011 "Store in the original container" // Special Precaution for Storage
 
 // Package Item (Container) - Inner Package
 //* packaging.packaging[0].type.coding = $edqm#30007000 "Vial" // Package Item (Container) Type

@@ -33,9 +33,6 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of an Regulated Authorizat
 * extension.extension[+].url = "gamme"
 * extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004001 "Oral" // Gamme
 
-// Reimbursement SL - Organisation
-* holder.reference = "#holder-Ideogen-AG" // Reference to the Marketing Authorisation Holder (Organisation)
-
 // Price (Reimbursement SL)
 * extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
 * extension[=].extension[+].url = "value"
@@ -106,3 +103,7 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of an Regulated Authorizat
 
 // Indication Reference
 * indication.reference = Reference(IND-10061091)
+
+
+// Reimbursement SL - Organisation
+* holder.reference = "#holder-Ideogen-AG" // Reference to the Marketing Authorisation Holder (Organisation)
