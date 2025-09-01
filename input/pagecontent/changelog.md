@@ -13,7 +13,6 @@ This example product was required to present the FHIR structure for multiple pac
 - Adding full limitation text to medicinal product class (Element was already in the FHIR profil but not in the model)
 
 #### Changes in the datatable
-[#18](https://github.com/bag-epl/bag-epl-fhir/issues/19)
 - Changing the cardinality of Regulated Autorisation (Reimbursement) from 0..1
 - Changing the cardinality of Packaged Medicinal Product reference in Marketing Authroisation (Reimbursement) to 0..*
 Change comment: Even when the datamodel indicates the cardinalities vice versa, in FHIR the pointer direction in the FHIR structure is in oposition to the pointer direction in the business data model. Hence, the business datamodel indicates 1..* packaged medicinal products pointing to 0..1 Reimbursement Authorisations each. But in the FHIR structure a Reimbursement instance is created, and the Reimbursement instance is pointing to the related Packaged Medicinal Product. This is the reason for the reversed cardinality. 
