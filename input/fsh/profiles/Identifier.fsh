@@ -35,7 +35,7 @@
 
 Profile: LOCIdentifier
 Parent: Identifier
-Id: ch-core-loc-identifier
+Id: ch-smc-loc-identifier
 Title: "LOC Identifier"
 Description: "Identifier holding a number for LocID (Location Identifier of the European Medicines Agency - Organisation Management System OMS)"
 * system 1..
