@@ -4,6 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 #### Fixed
 - [#13](https://github.com/bag-epl/bag-epl-fhir/issues/13): Missing line breaks
+- [#18](https://github.com/bag-epl/bag-epl-fhir/issues/18): Validatable bundle
 - [#21](https://github.com/bag-epl/bag-epl-fhir/issues/21): Link to FOPH is broken
 - [#23](https://github.com/bag-epl/bag-epl-fhir/issues/23): LOC identifier
 
