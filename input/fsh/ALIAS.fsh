@@ -34,7 +34,9 @@ Alias:  $Comorbidity =                  http://terminology.hl7.org/CodeSystem/md
 Alias: $UnitOfMeasurement =             http://unitsofmeasure.org
 
 // Profiles
-Alias: $ChCorePractitioner =            https://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner
+Alias: $ChCorePractitioner =                 https://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner
+Alias: $CH_IDMP_MedicinalProductDefinition = http://fhir.ch/ig/ch-epl/StructureDefinition/ch-idmp-medicinalproductdefinition
+Alias: $CH_EPL_IG =                          http://fhir.ch/ig/ch-epl/StructureDefinition
 
 // XML CH IG Code System
 Alias: $CSChIgExampleTranslation =      https://fhir.ch/ig/ch-ig/CodeSystem/ch-ig-example-translation

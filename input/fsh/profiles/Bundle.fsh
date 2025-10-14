@@ -21,12 +21,10 @@ Description: "Profile of the Bundle resource for representing the set of resourc
     OtherCHResourcesEntry 0..*
 
 // Slice 1: MedicinalProductDefinition (exactly one)
-* entry[MedicinalProductDefinitionEntry].resource only Reference(http://fhir.ch/ig/ch-epl/StructureDefinition/ch-idmp-medicinalproductdefinition)
-* entry[MedicinalProductDefinitionEntry].resource 1..1
+* entry[MedicinalProductDefinitionEntry].resource only CH_IDMP_MedicinalProductDefinition
 
 // Slice 2: Other CH-EPL resources (optional, multiple)
-* entry[OtherCHResourcesEntry].resource only Reference(http://fhir.ch/ig/ch-epl/StructureDefinition/)
-* entry[OtherCHResourcesEntry].resource 1..1
+* entry[OtherCHResourcesEntry].resource only CH_EPL_IG
 
 RuleSet: bundleEntry(type, id)
 * fullUrl = "http://fhir.epl.bag.admin.ch/{type}/{id}"
