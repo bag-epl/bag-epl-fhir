@@ -109,8 +109,8 @@ Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/V
 
 // External Identifier Systems
 
-Alias: $PhPID =   http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-PhPID
-Alias: $MPID =    http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-MPID  
-Alias: $PCID =    http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-PCID
-Alias: $AuthNo =  http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-MarketingAuthorisationNumber
-Alias: $AttNo =   http://SMC.ch/ig/idmp/NamingSystem/IDSystem-ch-AttachmentNumber
+Alias: $PhPID =   "https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-PhPID" //Provisorisch
+Alias: $MPID =    "https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-MPID" //Provisorisch
+Alias: $PCID =    "https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-PCID" //Provisorisch
+Alias: $AuthNo =  "https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-MarketingAuthorisationNumber" //Provisorisch
+Alias: $AttNo =   "https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-AttachmentNumber" //Provisorisch
