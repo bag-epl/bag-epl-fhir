@@ -18,15 +18,22 @@ Description: "Profile of the Bundle resource for representing the set of resourc
 // Define slices
 * entry contains
     MedicinalProductDefinitionEntry 1..1 and
+    PackagedProductDefinitionEntry 1..* and
     OtherCHResourcesEntry 0..*
 
 // Slice 1: MedicinalProductDefinition (exactly one)
-* entry[MedicinalProductDefinitionEntry].resource only MedicinalProductDefinition
-* entry[MedicinalProductDefinitionEntry].resource ^profile = "http://fhir.ch/ig/ch-epl/StructureDefinition/ch-idmp-medicinalproductdefinition"
+* entry[MedicinalProductDefinitionEntry].resource only CHIDMPMedicinalProductDefinition
 
-// Slice 2: Other CH-EPL resources (optional, multiple)
-* entry[OtherCHResourcesEntry].resource only Resource
-* entry[OtherCHResourcesEntry].resource ^profile = "http://fhir.ch/ig/ch-epl/StructureDefinition/"
+// Slice 2: PackagedProductDefinition (at least one)
+* entry[PackagedProductDefinitionEntry].resource only CHIDMPPackagedProductDefinition
+
+// Slice 3: Other CH-EPL resources (optional, multiple)
+* entry[OtherCHResourcesEntry].resource only CHIDMPAdministrableProductDefinition or 
+                                             CHIDMPRegulatedAuthorization or
+                                             CHIDMPIngredient or
+                                             CHIDMPClinicalUseDefinitionIndication or
+                                             CHIDMPManufacturedItemDefinition
+                                             
 
 RuleSet: bundleEntry(type, id)
 * fullUrl = "http://fhir.epl.bag.admin.ch/{type}/{id}"
