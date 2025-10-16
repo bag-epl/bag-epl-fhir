@@ -9,7 +9,7 @@ Description: "CUPRIOR Filmtabl 150 mg: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(MedicinalProductDefinition, Cuprior-150mg-Filmcoatedtablet)
+  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Cuprior-150mg-Filmcoatedtablet)
 * entry[+]
   * insert bundleEntry(DocumentReference, DocRef-FI-Cuprior)
 * entry[+]
@@ -17,15 +17,15 @@ Description: "CUPRIOR Filmtabl 150 mg: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(RegulatedAuthorisation, MA-6771901)
 * entry[+]
-  * insert bundleEntry(PackagedProductDefinition, PMP-Cuprior-150mg-Filmcoatedtablet)
+  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Cuprior-150mg-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-67719001)
+  * insert bundleEntry(RegulatedAuthorization, MA-67719001)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, FOPH-21208)
+  * insert bundleEntry(RegulatedAuthorization, FOPH-21208)
 * entry[+]
   * insert bundleEntry(ManufacturedItemDefinition, MI-Trientinum-150mg-Filmcoatedtablet) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Trientinum-150mg-Filmcoatedtablet)
+  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Trientinum-150mg-Filmcoatedtablet)
 * entry[+]
   * insert bundleEntry(Ingredient, Trientinum150)
 * entry[+]

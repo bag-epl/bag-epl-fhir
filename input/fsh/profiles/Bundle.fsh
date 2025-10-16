@@ -32,8 +32,8 @@ Description: "Profile of the Bundle resource for representing the set of resourc
                                              CHIDMPRegulatedAuthorization or
                                              CHIDMPIngredient or
                                              CHIDMPClinicalUseDefinitionIndication or
-                                             CHIDMPManufacturedItemDefinition
-                                             
+                                             CHIDMPManufacturedItemDefinition or
+                                             CHIDMPDocumentReference
 
 RuleSet: bundleEntry(type, id)
 * fullUrl = "http://fhir.epl.bag.admin.ch/{type}/{id}"
