@@ -1,5 +1,5 @@
 Instance: LIM-79886009
-InstanceOf: CHIDMPRegulatedAuthorization
+InstanceOf: RegulatedAuthorization
 Usage: #example
 Title: "Limitation 79886009"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an ClinicalUseDefinition-Limitation (Indication)"
