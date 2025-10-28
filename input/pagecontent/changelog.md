@@ -1,14 +1,15 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### Informative Ballot Review (2025-09-30)
+### DSTU 1 Informative Ballot Review (2025-09-30)
 
 #### Fixed
 - [#13](https://github.com/bag-epl/bag-epl-fhir/issues/13): Missing line breaks
 - [#18](https://github.com/bag-epl/bag-epl-fhir/issues/18): Validatable bundle
 - [#21](https://github.com/bag-epl/bag-epl-fhir/issues/21): Link to FOPH is broken
 - [#23](https://github.com/bag-epl/bag-epl-fhir/issues/23): LOC identifier
+- [#31](https://github.com/bag-epl/bag-epl-fhir/issues/31): Fix non-resolvable links / Introduce temporary NamingSystems
 
-### DSTU 2 FOPH Review (2024-08-31)
+### FOPH Review (2024-08-31)
 
 #### Fixed
 - [#19](https://github.com/bag-epl/bag-epl-fhir/issues/19): Model lacks the ability to add multiple packages for a medical product
@@ -48,6 +49,6 @@ Change comment: Even when the datamodel indicates the cardinalities vice versa, 
 - Updated the grafic of the business datamodel
 - Updated the grafic of the datatable
 
-### DSTU 1 Initial Version (2024-05-21)
+### Initial Version (2024-05-21)
 - Initial published version.
 
