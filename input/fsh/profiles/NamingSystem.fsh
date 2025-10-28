@@ -108,3 +108,64 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/pcid"
 * uniqueId[=].preferred = true
+
+
+Instance: PhPID
+InstanceOf: NamingSystem
+Title: "Pharmaceutical Product Identifier"
+Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "PhPID"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify pharmaceutical products per ISO 11616 (PhPID)."
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:TBD"
+* uniqueId[=].comment = "OID to be assigned once ISO/EMA defines official PhPID OID."
+* uniqueId[=].preferred = false
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/phpid"
+* uniqueId[=].preferred = true
+
+
+Instance: AuthNo
+InstanceOf: NamingSystem
+Title: "Marketing Authorisation Number"
+Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "PhPID"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify the regulatory authorisation (MA) of a medicinal product."
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:TBD"
+* uniqueId[=].comment = "OID to be assigned by the relevant authority (e.g. Swissmedic) once published."
+* uniqueId[=].preferred = false
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/authno"
+* uniqueId[=].preferred = true
+
+
+
+Instance: AttNo
+InstanceOf: NamingSystem
+Title: "Application / Assessment Tracking Number"
+Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "AttNo"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify regulatory applications or assessment procedures (e.g., MAA, NDA, BLA)."
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:TBD"
+* uniqueId[=].comment = "OID to be assigned by relevant regulatory authorities once available."
+* uniqueId[=].preferred = false
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/attno"
+* uniqueId[=].preferred = true
