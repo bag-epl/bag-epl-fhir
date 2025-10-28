@@ -19,12 +19,12 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension.extension[+].url = "statusDate"
 * extension.extension[=].valueDate = "2021-06-01" // Reimbursement Start
 * extension.extension[+].url = "expiryDate"
-* extension.extension[=].valueDate = "9999-12-31" // Reimbursement Expiry Date
+* extension.extension[=].valueDate = "2100-12-31" // Reimbursement Expiry Date
 * extension.extension[+].url = "listingStatus"
 * extension.extension[=].valueCodeableConcept = ChEplListingStatusCS#756001002001 "Listed" // Listing Status
 * extension.extension[+].url = "listingPeriod"
 * extension.extension[=].valuePeriod.start = "2021-06-01" // Listing Period Start
-* extension.extension[=].valuePeriod.end = "9999-12-31" // Listing Period End
+* extension.extension[=].valuePeriod.end = "2100-12-31" // Listing Period End
 * extension.extension[+].url = "firstListingDate"
 * extension.extension[=].valueDate = "2021-06-01" // Date of First Listing
 * extension.extension[+].url = "costShare"
@@ -76,9 +76,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -99,9 +99,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -122,9 +122,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -145,9 +145,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -165,9 +165,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -188,9 +188,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -211,9 +211,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -300,9 +300,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -323,9 +323,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -346,9 +346,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -369,9 +369,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -389,9 +389,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -412,9 +412,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
@@ -435,9 +435,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
 * indication.extension[=].extension[+].url = "period"
 * indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "9999-12-31"  // Limitation Period End Date
+* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
 * indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "9999-12-31" // Reimbursement End Date
+* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 

@@ -23,7 +23,7 @@ Description: "CUPRIOR Filmtabl 150 mg: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(CHIDMPRegulatedAuthorization, FOPH-21208)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Trientinum-150mg-Filmcoatedtablet) 
+  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Trientinum-150mg-Filmcoatedtablet) 
 * entry[+]
   * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Trientinum-150mg-Filmcoatedtablet)
 * entry[+]
