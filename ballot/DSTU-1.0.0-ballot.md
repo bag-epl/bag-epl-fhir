@@ -1,7 +1,7 @@
 # Feedback from Ballot CH EPL FHIR DSTU1
 
 ## General information
-The informative STU1 ballot ([IG v1.0.0-ballot](https://fhir.ch/ig/ch-epl/1.0.0-ballot/index.html)) ballot was held from August 4 to September 30, 2025. From September 16 to 18, the annual Projectathon took place, where there was the opportunity to provide feedback and ask questions during a dedicated CH EPL FAQ session.
+The informative STU1 ballot ([IG v1.0.0-ballot](https://fhir.ch/ig/ch-epl/1.0.0-ballot/index.html)) was held from August 4 to September 30, 2025. From September 16 to 18, the annual Projectathon took place, where there was the opportunity to provide feedback and ask questions during a dedicated CH EPL FAQ session.
 
 During the ballot, [22 issues](https://github.com/bag-epl/bag-epl-fhir/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22DSTU%201%20Ballot%22) were reported. Here is a brief summary of them.
 
@@ -47,7 +47,7 @@ During the ballot, [22 issues](https://github.com/bag-epl/bag-epl-fhir/issues?q=
 
 ## Voting
 
-Since this is a comment only ballot there is no formal voting.
+Since this is a _comment only ballot_ there is no formal voting.
 
 However there where two no-votes submitted with the following comments.
 
