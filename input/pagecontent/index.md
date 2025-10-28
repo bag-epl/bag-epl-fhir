@@ -18,8 +18,8 @@ which describe the international context, especially related to IDMP.
 This implementation guide describes mainly the exchange formats and handlings around the "Spezialitätenliste". 
 
 The following documents have been defined (and described in more detail on the respective subsections):
-[IDMP](idmp.html)
-[Data Export from FOPH](spezialitaetenliste.html)
+- [IDMP](idmp.html)
+- [Data Export from FOPH](spezialitaetenliste.html)
 
 <div markdown="1" class="stu-note">
 
@@ -38,8 +38,8 @@ This guide is the product of collaborative work undertaken with participants fro
 * [Swiss FHIR Implementers Community](https://www.fhir.ch)
 * [HL7 Switzerland](https://www.hl7.ch)
 * [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
-* [SMC](https://www.SMC.ch/SMC/de/home.html)
-* [Federal Office of Public Health](https://www.bag.admin.ch/bag/en/home.html)
+* [Swissmedic](https://www.swissmedic.ch)
+* [Federal Office of Public Health](https://www.bag.admin.ch)
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
