@@ -32,8 +32,8 @@ The dataelement extensions defined by EMA and Swissmedic are marked with [ext], 
 ### Datamodel for the full Authorised Medicinal Products plus Spezialitätenliste
 This chapter has been removed, as the datamodel published by Swissmedic is under development. This chapter will be added, as soon as Swissmedic is publishing the full model.
 
-### FHIR Document Bundle
-This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
+### FHIR Bundle
+This exchange format is defined as a FHIR Bundle resource of type collection containing a list of IDMP resource entries. 
 
 #### Datastructure
 The following table indicates the dataelements as build in the FHIR structure. The color coding of IDMP ISO 11615 datamodel has been used to group the different dataelement.

@@ -68,3 +68,83 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "urn:oid:2.51.1.1"
 * uniqueId[=].preferred = false
+
+
+Instance: MPID
+InstanceOf: NamingSystem
+Title: "Medical Product Identifier"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "MPID"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify medicinal products per ISO 11615 (MPID)."
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/mpid"
+* uniqueId[=].preferred = true
+
+
+Instance: PCID
+InstanceOf: NamingSystem
+Title: "Clinical Product Identifier"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "CPID"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify clinical products per ISO 11616 (CPID)."
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/pcid"
+* uniqueId[=].preferred = true
+
+
+Instance: PhPID
+InstanceOf: NamingSystem
+Title: "Pharmaceutical Product Identifier"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "PhPID"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify pharmaceutical products per ISO 11616 (PhPID)."
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/phpid"
+* uniqueId[=].preferred = true
+
+
+Instance: AuthNo
+InstanceOf: NamingSystem
+Title: "Marketing Authorisation Number"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "PhPID"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify the regulatory authorisation (MA) of a medicinal product."
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/authno"
+* uniqueId[=].preferred = true
+
+
+Instance: AttNo
+InstanceOf: NamingSystem
+Title: "Application / Assessment Tracking Number"
+Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Usage: #definition
+
+* name = "AttNo"
+* status = #draft
+* kind = #identifier
+* date = "2025-10-28"
+* usage = "Used to identify regulatory applications or assessment procedures (e.g., MAA, NDA, BLA)."
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/attno"
+* uniqueId[=].preferred = true

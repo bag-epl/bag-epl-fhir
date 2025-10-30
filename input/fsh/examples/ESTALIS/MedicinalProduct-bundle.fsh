@@ -9,28 +9,28 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(MedicinalProductDefinition, Estalis-Transdermalpatch)
+  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Estalis-Transdermalpatch)
 * entry[+]
-  * insert bundleEntry(DocumentReference, DocRef-FI-Estalis)
+  * insert bundleEntry(CHIDMPDocumentReference, DocRef-FI-Estalis)
 * entry[+]
-  * insert bundleEntry(DocumentReference, DocRef-PI-Estalis)
+  * insert bundleEntry(CHIDMPDocumentReference, DocRef-PI-Estalis)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-5470402)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-5470402)
 * entry[+]
-  * insert bundleEntry(PackagedProductDefinition, PMP-Estalis-Transdermalpatch)
+  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Estalis-Transdermalpatch)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-54704089)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-54704089)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, FOPH-17418)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, FOPH-17418)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Estradiolum-Norethisteroni-Transdermalpatch) 
+  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Estradiolum-Norethisteroni-Transdermalpatch) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Estradiolum-Norethisteroni-Transdermalpatch)
+  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Estradiolum-Norethisteroni-Transdermalpatch)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10030247)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10030247)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10031285)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10031285)
 * entry[+]
-  * insert bundleEntry(Ingredient, Estradiol-hemihydrate-0.512mg)
+  * insert bundleEntry(CHIDMPIngredient, Estradiol-hemihydrate-0.512mg)
 * entry[+]
-  * insert bundleEntry(Ingredient, Norethisteroni-acetas-0.496mg)
+  * insert bundleEntry(CHIDMPIngredient, Norethisteroni-acetas-0.496mg)
