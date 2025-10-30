@@ -73,7 +73,7 @@ Usage: #definition
 Instance: MPID
 InstanceOf: NamingSystem
 Title: "Medical Product Identifier"
-Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
 Usage: #definition
 
 * name = "MPID"
@@ -81,19 +81,15 @@ Usage: #definition
 * kind = #identifier
 * date = "2025-10-28"
 * usage = "Used to identify medicinal products per ISO 11615 (MPID)."
-* uniqueId[+].type = #oid
-* uniqueId[=].value = "urn:oid:TBD"
-* uniqueId[=].comment = "OID to be assigned once ISO/EMA defines official MPID OID."
-* uniqueId[=].preferred = false
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/mpid"
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/mpid"
 * uniqueId[=].preferred = true
 
 
 Instance: PCID
 InstanceOf: NamingSystem
 Title: "Clinical Product Identifier"
-Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
 Usage: #definition
 
 * name = "CPID"
@@ -101,19 +97,15 @@ Usage: #definition
 * kind = #identifier
 * date = "2025-10-28"
 * usage = "Used to identify clinical products per ISO 11616 (CPID)."
-* uniqueId[+].type = #oid
-* uniqueId[=].value = "urn:oid:TBD"
-* uniqueId[=].comment = "OID to be assigned once ISO/EMA defines official CPID OID."
-* uniqueId[=].preferred = false
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/pcid"
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/pcid"
 * uniqueId[=].preferred = true
 
 
 Instance: PhPID
 InstanceOf: NamingSystem
 Title: "Pharmaceutical Product Identifier"
-Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
 Usage: #definition
 
 * name = "PhPID"
@@ -121,19 +113,15 @@ Usage: #definition
 * kind = #identifier
 * date = "2025-10-28"
 * usage = "Used to identify pharmaceutical products per ISO 11616 (PhPID)."
-* uniqueId[+].type = #oid
-* uniqueId[=].value = "urn:oid:TBD"
-* uniqueId[=].comment = "OID to be assigned once ISO/EMA defines official PhPID OID."
-* uniqueId[=].preferred = false
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/phpid"
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/phpid"
 * uniqueId[=].preferred = true
 
 
 Instance: AuthNo
 InstanceOf: NamingSystem
 Title: "Marketing Authorisation Number"
-Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
+Description: "Temporary Identifier in this implementation guide until officially released by Swissmedic"
 Usage: #definition
 
 * name = "PhPID"
@@ -141,14 +129,9 @@ Usage: #definition
 * kind = #identifier
 * date = "2025-10-28"
 * usage = "Used to identify the regulatory authorisation (MA) of a medicinal product."
-* uniqueId[+].type = #oid
-* uniqueId[=].value = "urn:oid:TBD"
-* uniqueId[=].comment = "OID to be assigned by the relevant authority (e.g. Swissmedic) once published."
-* uniqueId[=].preferred = false
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/authno"
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/authno"
 * uniqueId[=].preferred = true
-
 
 
 Instance: AttNo
@@ -162,10 +145,6 @@ Usage: #definition
 * kind = #identifier
 * date = "2025-10-28"
 * usage = "Used to identify regulatory applications or assessment procedures (e.g., MAA, NDA, BLA)."
-* uniqueId[+].type = #oid
-* uniqueId[=].value = "urn:oid:TBD"
-* uniqueId[=].comment = "OID to be assigned by relevant regulatory authorities once available."
-* uniqueId[=].preferred = false
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/NamingSystem/attno"
+* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/attno"
 * uniqueId[=].preferred = true

@@ -109,8 +109,8 @@ Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/V
 
 // External Identifier Systems
 
-Alias: $PhPID =   http://fhir.ch/ig/ch-epl/NamingSystem/phpid //Provisorisch
-Alias: $MPID =    http://fhir.ch/ig/ch-epl/NamingSystem/mpid //Provisorisch
-Alias: $PCID =    http://fhir.ch/ig/ch-epl/NamingSystem/pcid //Provisorisch
-Alias: $AuthNo =  http://fhir.ch/ig/ch-epl/NamingSystem/authno //Provisorisch
-Alias: $AttNo =   http://fhir.ch/ig/ch-epl/NamingSystem/attno //Provisorisch
+Alias: $PhPID =   http://fhir.ch/ig/ch-epl/sid/phpid //Provisorisch
+Alias: $MPID =    http://fhir.ch/ig/ch-epl/sid/mpid //Provisorisch
+Alias: $PCID =    http://fhir.ch/ig/ch-epl/sid/pcid //Provisorisch
+Alias: $AuthNo =  http://fhir.ch/ig/ch-epl/sid/authno //Provisorisch
+Alias: $AttNo =   http://fhir.ch/ig/ch-epl/sid/attno //Provisorisch
