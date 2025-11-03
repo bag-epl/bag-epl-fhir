@@ -9,26 +9,26 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(MedicinalProductDefinition, Triogen-250mg-Capsule)
+  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Triogen-250mg-Capsule)
 * entry[+]
-  * insert bundleEntry(DocumentReference, DocRef-FI-Triogen)
+  * insert bundleEntry(CHIDMPDocumentReference, DocRef-FI-Triogen)
 * entry[+]
-  * insert bundleEntry(DocumentReference, DocRef-PI-Triogen)
+  * insert bundleEntry(CHIDMPDocumentReference, DocRef-PI-Triogen)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-6743101)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-6743101)
 * entry[+]
-  * insert bundleEntry(PackagedProductDefinition, PMP-Triogen-250mg-Capsule)
+  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Triogen-250mg-Capsule)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-67431001)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-67431001)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, FOPH-21070)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, FOPH-21070)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Trientinum-250mg-Capsule) 
+  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Trientinum-250mg-Capsule) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Trientinum-250mg-Capsule)
+  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Trientinum-250mg-Capsule)
 * entry[+]
-  * insert bundleEntry(Ingredient, Trientinum250)
+  * insert bundleEntry(CHIDMPIngredient, Trientinum250)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10061091)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10061091)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, LIM-79886009)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-79886009)

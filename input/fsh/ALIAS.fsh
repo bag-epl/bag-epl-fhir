@@ -34,7 +34,7 @@ Alias:  $Comorbidity =                  http://terminology.hl7.org/CodeSystem/md
 Alias: $UnitOfMeasurement =             http://unitsofmeasure.org
 
 // Profiles
-Alias: $ChCorePractitioner =            https://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner
+Alias: $ChCorePractitioner =                 https://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner
 
 // XML CH IG Code System
 Alias: $CSChIgExampleTranslation =      https://fhir.ch/ig/ch-ig/CodeSystem/ch-ig-example-translation
@@ -109,8 +109,8 @@ Alias:  $SMC-StrengthPresentationUnitVS =             http://fhir.ch/ig/ch-epl/V
 
 // External Identifier Systems
 
-Alias: $PhPID =   https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-PhPID //Provisorisch
-Alias: $MPID =    https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-MPID //Provisorisch
-Alias: $PCID =    https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-PCID //Provisorisch
-Alias: $AuthNo =  https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-MarketingAuthorisationNumber //Provisorisch
-Alias: $AttNo =   https://www.swissmedic.ch/swissmedic/en/home/services/submissions/idmp.html#IDSystem-ch-AttachmentNumber //Provisorisch
+Alias: $PhPID =   http://fhir.ch/ig/ch-epl/sid/phpid //Provisorisch
+Alias: $MPID =    http://fhir.ch/ig/ch-epl/sid/mpid //Provisorisch
+Alias: $PCID =    http://fhir.ch/ig/ch-epl/sid/pcid //Provisorisch
+Alias: $AuthNo =  http://fhir.ch/ig/ch-epl/sid/authno //Provisorisch
+Alias: $AttNo =   http://fhir.ch/ig/ch-epl/sid/attno //Provisorisch

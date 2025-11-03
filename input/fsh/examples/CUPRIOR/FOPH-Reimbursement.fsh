@@ -1,5 +1,5 @@
 Instance: FOPH-21208
-InstanceOf: RegulatedAuthorization
+InstanceOf: CHIDMPRegulatedAuthorization
 Usage: #example
 Title: "Reimbursement SL 21208"
 Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Regulated Authorization - Reimbursement Authorization"

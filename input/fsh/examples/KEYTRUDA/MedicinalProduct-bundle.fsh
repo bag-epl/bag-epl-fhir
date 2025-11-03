@@ -9,34 +9,34 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(MedicinalProductDefinition, Keytruda-100mg-Vial)
+  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Keytruda-100mg-Vial)
 * entry[+]
-  * insert bundleEntry(DocumentReference, DocRef-FI-Keytruda)
+  * insert bundleEntry(CHIDMPDocumentReference, DocRef-FI-Keytruda)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-6623101)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-6623101)
 * entry[+]
-  * insert bundleEntry(PackagedProductDefinition, PMP-Keytruda-100mg-4ml-Solution-for-Infusion)
+  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Keytruda-100mg-4ml-Solution-for-Infusion)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, MA-66231001)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-66231001)
 * entry[+]
-  * insert bundleEntry(RegulatedAuthorisation, FOPH-20416)
+  * insert bundleEntry(CHIDMPRegulatedAuthorisation, FOPH-20416)
 * entry[+]
-  * insert bundleEntry(ManufacturedItemDefinition, MI-Pembrolizumab-100mg-Vial) 
+  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Pembrolizumab-100mg-Vial) 
 * entry[+]
-  * insert bundleEntry(AdministrableProductDefinition, PhP-Pembrolizumab-100mg-Vial)
+  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Pembrolizumab-100mg-Vial)
 * entry[+]
-  * insert bundleEntry(Ingredient, Pembrolizumab100)
+  * insert bundleEntry(CHIDMPIngredient, Pembrolizumab100)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10027400)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10027400)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10075566)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10075566)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10028881)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10028881)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10021782)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10021782)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10019927)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10019927)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, IND-10043971)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10043971)
 * entry[+]
-  * insert bundleEntry(ClinicalUseDefinition, LIM-254837009)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-254837009)
