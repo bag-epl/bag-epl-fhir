@@ -8,3 +8,13 @@ Description: "Extension for representing the full wording of the limitations use
 * ^context[=].expression = "MedicinalProductDefinition"
 
 * value[x] only string
+
+
+Extension: EPLIndexTherapeuticus
+Id: indexTherapeuticus
+Title: "CH - EPL ID Code"
+Description: "Extension for representing the legacy index therapeuticus"
+* ^context[0].type = #element
+* ^context[=].expression = "MedicinalProductDefinition"
+
+* value[x] only string

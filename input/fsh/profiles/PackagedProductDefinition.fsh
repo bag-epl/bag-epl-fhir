@@ -87,4 +87,4 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 * packaging.containedItem.amount.code 1..
 
 * extension contains
-    swissmedicCode 0..
+    EPLSwissmedicCode named swissmedicCode 0..

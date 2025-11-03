@@ -24,7 +24,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 //* domain.coding[EMA].code 1..
 
 * extension contains
-    indexTherapeuticus 0..1 and
+    EPLIndexTherapeuticus named indexTherapeuticus 0..1 and
     CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
     EPLFullLimitationText named fullLimitationText 0..1 // Extensions FOPH 
 
