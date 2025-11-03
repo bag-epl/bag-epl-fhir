@@ -24,6 +24,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 //* domain.coding[EMA].code 1..
 
 * extension contains
+    indexTherapeuticus 0..1 and
     CHIDMPAuthorizedDoseForm named authorizedDoseForm 0..1 and
     EPLFullLimitationText named fullLimitationText 0..1 // Extensions FOPH 
 
@@ -72,7 +73,6 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 * pediatricUseIndicator.coding[SMC].system 1..
 * pediatricUseIndicator.coding[SMC].system = $SMC-PediatricUseIndicatorCS
 * pediatricUseIndicator.coding[SMC].code 1..
-
 
 * classification ^slicing.discriminator[+].type = #value
 * classification ^slicing.discriminator[=].path = "coding.system"
