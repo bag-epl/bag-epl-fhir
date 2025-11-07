@@ -19,6 +19,9 @@ Description: "Profile of the Bundle resource for representing the set of resourc
 * entry contains
     MedicinalProductDefinitionEntry 1..1 and
     PackagedProductDefinitionEntry 1..* and
+    ManufacturedItemDefinitionEntry 1..* and
+    AdministrableProductDefinition 1..* and
+    Ingredient 1..* and
     OtherCHResourcesEntry 0..*
 
 // Slice 1: MedicinalProductDefinition (exactly one)
@@ -27,12 +30,18 @@ Description: "Profile of the Bundle resource for representing the set of resourc
 // Slice 2: PackagedProductDefinition (at least one)
 * entry[PackagedProductDefinitionEntry].resource only CHIDMPPackagedProductDefinition
 
-// Slice 3: Other CH-EPL resources (optional, multiple)
-* entry[OtherCHResourcesEntry].resource only CHIDMPAdministrableProductDefinition or 
-                                             CHIDMPRegulatedAuthorization or
-                                             CHIDMPIngredient or
+// Slice 3: ManufacturedItemDefinitionEntry (at least one)
+* entry[ManufacturedItemDefinitionEntry].resource only CHIDMPManufacturedItemDefinition
+
+// Slice 4: AdministrableProductDefinition (at least one)
+* entry[AdministrableProductDefinition].resource only CHIDMPAdministrableProductDefinition
+
+// Slice 5: AdministrableProductDefinition (at least one)
+* entry[Ingredient].resource only CHIDMPIngredient
+
+// Slice 6: Other CH-EPL resources (optional, multiple)
+* entry[OtherCHResourcesEntry].resource only CHIDMPRegulatedAuthorization or
                                              CHIDMPClinicalUseDefinitionIndication or
-                                             CHIDMPManufacturedItemDefinition or
                                              CHIDMPDocumentReference
 
 RuleSet: bundleEntry(type, id)
