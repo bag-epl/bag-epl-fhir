@@ -85,3 +85,6 @@ Description: "Profile of the PackagedProductDefinition resource for representing
 // VAR2 (preferred): ValueSet erstellen und darin alle $SMC-PackageItemType und Ucum Codes inkludieren, dann das VS an das amount Element binden
 * packaging.containedItem.amount.system 1..
 * packaging.containedItem.amount.code 1..
+
+* extension contains
+    EPLSwissmedicCode named swissmedicCode 0..
