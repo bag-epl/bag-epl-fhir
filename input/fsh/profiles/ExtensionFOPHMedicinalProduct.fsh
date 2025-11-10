@@ -12,7 +12,7 @@ Description: "Extension for representing the full wording of the limitations use
 
 Extension: EPLIndexTherapeuticus
 Id: indexTherapeuticus
-Title: "CH - EPL ID Code"
+Title: "CH - EPL IT Code"
 Description: "Extension for representing the legacy index therapeuticus"
 * ^context[0].type = #element
 * ^context[=].expression = "MedicinalProductDefinition"
