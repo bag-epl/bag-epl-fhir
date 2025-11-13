@@ -106,7 +106,7 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
 
 * classification[ITC].coding 1..
 * classification[ITC].coding.system 1..
-* classification[ITC].coding.system = $ITC (exactly)
+* classification[ITC].coding.system = $FOPH-IndexTherapeuticus (exactly)
 * classification[ITC].coding.code 1..
 
 * marketingStatus.country = $country#CH

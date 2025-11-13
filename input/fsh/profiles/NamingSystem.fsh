@@ -148,19 +148,3 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/attno"
 * uniqueId[=].preferred = true
-
-
-Instance: ITC
-InstanceOf: NamingSystem
-Title: "Index Therapeuticus"
-Description: "Legacy classification index therapeuticus (IT-Code)"
-Usage: #definition
-
-* name = "ITC"
-* status = #retired
-* kind = #codesystem
-* date = "2025-10-28"
-* usage = "Formerly used to classify medical products (https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html, https://spezialitaetenliste.ch)"
-* uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/cs/itc"
-* uniqueId[=].preferred = true
