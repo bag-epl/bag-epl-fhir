@@ -1,6 +1,6 @@
 CodeSystem: ITC
 Id: ch-FOPH-IndexTherapeuticus
-Title: "Index Therapeuticus"
+Title: "CH EPL - Index Therapeuticus"
 Description: "Legacy classification index therapeuticus (IT-Code)."
 
 * ^url = $FOPH-IndexTherapeuticus
