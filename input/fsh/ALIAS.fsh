@@ -118,4 +118,4 @@ Alias: $AttNo =   http://fhir.ch/ig/ch-epl/sid/attno //Provisorisch
 
 // Legacy Systems
 
-Alias: $ITC =     https://www.spezialitaetenliste.ch
+Alias: $ITC =     http://fhir.ch/ig/ch-epl/cs/itc
