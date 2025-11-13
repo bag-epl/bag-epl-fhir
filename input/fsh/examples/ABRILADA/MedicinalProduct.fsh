@@ -80,8 +80,8 @@ Behandlung erwachsener Patienten, wenn die vorausgegangene systemische Therapie 
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021024 "Extension for biosimilar" // Authorisation Category - sample
 * classification[+] = ChSMCTherapeuticProductcodeCS#756005004003 "Biologics" // TherapeuticProductcode
 * classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
-* classification[+] = $ITC#070000 "07. STOFFWECHSEL"
-* classification[=] = $ITC#071500 "07.15. Immunosuppressive Stoffe"
+* classification[+].coding[+] = $ITC#070000 "07. STOFFWECHSEL"
+* classification[=].coding[+] = $ITC#071500 "07.15. Immunosuppressive Stoffe"
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Abrilada)  // Link to the Professional Information
