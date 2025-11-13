@@ -118,4 +118,4 @@ Alias: $AttNo =   http://fhir.ch/ig/ch-epl/sid/attno //Provisorisch
 
 // Legacy Systems
 
-Alias: $ITC =     http://fhir.ch/ig/ch-epl/cs/itc
+Alias: $FOPH-IndexTherapeuticus =                     http://fhir.ch/ig/ch-epl/CodeSystem/ch-FOPH-IndexTherapeuticus
