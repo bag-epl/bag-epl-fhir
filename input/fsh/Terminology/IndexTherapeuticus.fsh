@@ -20,7 +20,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "-0.00.01."
-* ^concept[=].display = "Kein IT-Code"
+* ^concept[=].display = "-0.00.01. Kein IT-Code"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -43,7 +43,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01."
-* ^concept[=].display = "NERVENSYSTEM"
+* ^concept[=].display = "01. NERVENSYSTEM"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -66,7 +66,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01."
-* ^concept[=].display = "Analgetica"
+* ^concept[=].display = "01.01. Analgetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -89,7 +89,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.10."
-* ^concept[=].display = "Antipyretische Analgetica"
+* ^concept[=].display = "01.01.10. Antipyretische Analgetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -112,7 +112,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.20."
-* ^concept[=].display = "Kombinierte antipyretische Analgetica"
+* ^concept[=].display = "01.01.20. Kombinierte antipyretische Analgetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -135,7 +135,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.21."
-* ^concept[=].display = "Analgetica kombiniert mit Antiallergica"
+* ^concept[=].display = "01.01.21. Analgetica kombiniert mit Antiallergica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -158,7 +158,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.22."
-* ^concept[=].display = "Analgetica kombiniert mit Spasmolytica"
+* ^concept[=].display = "01.01.22. Analgetica kombiniert mit Spasmolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -181,7 +181,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.23."
-* ^concept[=].display = "Analgetica kombiniert mit Myotonolytica"
+* ^concept[=].display = "01.01.23. Analgetica kombiniert mit Myotonolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -204,7 +204,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.30."
-* ^concept[=].display = "Narkotische Analgetica"
+* ^concept[=].display = "01.01.30. Narkotische Analgetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -227,7 +227,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.40."
-* ^concept[=].display = "Kombinierte narkotische Analgetica"
+* ^concept[=].display = "01.01.40. Kombinierte narkotische Analgetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -250,7 +250,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.01.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "01.01.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -273,7 +273,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.02."
-* ^concept[=].display = "Anaesthetica"
+* ^concept[=].display = "01.02. Anaesthetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -296,7 +296,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.02.10."
-* ^concept[=].display = "Allgemeine Anaesthetica"
+* ^concept[=].display = "01.02.10. Allgemeine Anaesthetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -319,7 +319,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.02.20."
-* ^concept[=].display = "Parenterale Lokalanaesthetica"
+* ^concept[=].display = "01.02.20. Parenterale Lokalanaesthetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -342,7 +342,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.03."
-* ^concept[=].display = "Schlafmittel"
+* ^concept[=].display = "01.03. Schlafmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -365,7 +365,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.03.10."
-* ^concept[=].display = "Einfache Schlafmittel"
+* ^concept[=].display = "01.03.10. Einfache Schlafmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -388,7 +388,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.03.20."
-* ^concept[=].display = "Kombinierte Schlafmittel"
+* ^concept[=].display = "01.03.20. Kombinierte Schlafmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -411,7 +411,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.04."
-* ^concept[=].display = "Sedativa/Tranquillantia"
+* ^concept[=].display = "01.04. Sedativa/Tranquillantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -434,7 +434,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.04.10."
-* ^concept[=].display = "Einfache Sedativa/Tranquillantia"
+* ^concept[=].display = "01.04.10. Einfache Sedativa/Tranquillantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -457,7 +457,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.04.20."
-* ^concept[=].display = "Kombinierte Sedativa/Tranquillantia"
+* ^concept[=].display = "01.04.20. Kombinierte Sedativa/Tranquillantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -480,7 +480,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.05."
-* ^concept[=].display = "Neuroleptica"
+* ^concept[=].display = "01.05. Neuroleptica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -503,7 +503,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.06."
-* ^concept[=].display = "Antidepressiva"
+* ^concept[=].display = "01.06. Antidepressiva"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -526,7 +526,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.07."
-* ^concept[=].display = "Antiepileptica"
+* ^concept[=].display = "01.07. Antiepileptica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -549,7 +549,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.07.10."
-* ^concept[=].display = "Einfache Antiepileptica"
+* ^concept[=].display = "01.07.10. Einfache Antiepileptica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -572,7 +572,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.07.20."
-* ^concept[=].display = "Kombinierte Antiepileptica"
+* ^concept[=].display = "01.07.20. Kombinierte Antiepileptica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -595,7 +595,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.08."
-* ^concept[=].display = "Parkinson"
+* ^concept[=].display = "01.08. Parkinson"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -618,7 +618,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.09."
-* ^concept[=].display = "Antiemetica"
+* ^concept[=].display = "01.09. Antiemetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -641,7 +641,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.10."
-* ^concept[=].display = "Stimulantia"
+* ^concept[=].display = "01.10. Stimulantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -664,7 +664,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.10.10."
-* ^concept[=].display = "Schwache Stimulantien"
+* ^concept[=].display = "01.10.10. Schwache Stimulantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -687,7 +687,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.10.20."
-* ^concept[=].display = "Starke Stimulantien"
+* ^concept[=].display = "01.10.20. Starke Stimulantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -710,7 +710,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.10.30."
-* ^concept[=].display = "Atemanaleptica"
+* ^concept[=].display = "01.10.30. Atemanaleptica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -733,7 +733,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.11."
-* ^concept[=].display = "Anorexica"
+* ^concept[=].display = "01.11. Anorexica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -756,7 +756,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.12."
-* ^concept[=].display = "Myotonolytica"
+* ^concept[=].display = "01.12. Myotonolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -779,7 +779,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.13."
-* ^concept[=].display = "Myorelaxantia"
+* ^concept[=].display = "01.13. Myorelaxantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -802,7 +802,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.14."
-* ^concept[=].display = "Myasthenia gravis"
+* ^concept[=].display = "01.14. Myasthenia gravis"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -825,7 +825,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.98."
-* ^concept[=].display = "Immunmodulatoren"
+* ^concept[=].display = "01.98. Immunmodulatoren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -848,7 +848,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "01.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "01.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -871,7 +871,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02."
-* ^concept[=].display = "HERZ UND KREISLAUF"
+* ^concept[=].display = "02. HERZ UND KREISLAUF"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -894,7 +894,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.01."
-* ^concept[=].display = "Herzglycoside"
+* ^concept[=].display = "02.01. Herzglycoside"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -917,7 +917,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.01.10."
-* ^concept[=].display = "Einfache Herzglycoside"
+* ^concept[=].display = "02.01.10. Einfache Herzglycoside"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -940,7 +940,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.01.20."
-* ^concept[=].display = "Kombinierte Herzglycoside"
+* ^concept[=].display = "02.01.20. Kombinierte Herzglycoside"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -963,7 +963,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.02."
-* ^concept[=].display = "Antiarrhythmica"
+* ^concept[=].display = "02.02. Antiarrhythmica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -986,7 +986,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.03."
-* ^concept[=].display = "Betablocker"
+* ^concept[=].display = "02.03. Betablocker"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1009,7 +1009,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.04."
-* ^concept[=].display = "Gefässerweiternde Mittel"
+* ^concept[=].display = "02.04. Gefässerweiternde Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1032,7 +1032,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.04.10."
-* ^concept[=].display = "Nitroglyzerin und Analoge"
+* ^concept[=].display = "02.04.10. Nitroglyzerin und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1055,7 +1055,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.04.20."
-* ^concept[=].display = "Kombiniertes Nitroglycerin und Analoge"
+* ^concept[=].display = "02.04.20. Kombiniertes Nitroglycerin und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1078,7 +1078,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.04.30."
-* ^concept[=].display = "Nikotinsäure und Derivate"
+* ^concept[=].display = "02.04.30. Nikotinsäure und Derivate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1101,7 +1101,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.04.40."
-* ^concept[=].display = "Koronare und periphere gefässerweiternde Mittel"
+* ^concept[=].display = "02.04.40. Koronare und periphere gefässerweiternde Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1124,7 +1124,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.04.50."
-* ^concept[=].display = "Gefässerweiternde Mittel und/oder cerebrale Aktivatoren"
+* ^concept[=].display = "02.04.50. Gefässerweiternde Mittel und/oder cerebrale Aktivatoren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1147,7 +1147,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.05."
-* ^concept[=].display = "Gefässverengende Mittel"
+* ^concept[=].display = "02.05. Gefässverengende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1170,7 +1170,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.05.10."
-* ^concept[=].display = "Migränemittel"
+* ^concept[=].display = "02.05.10. Migränemittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1193,7 +1193,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.05.20."
-* ^concept[=].display = "Vasopressoren und Herzstimulantien"
+* ^concept[=].display = "02.05.20. Vasopressoren und Herzstimulantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1216,7 +1216,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.06."
-* ^concept[=].display = "Calciumantagonisten"
+* ^concept[=].display = "02.06. Calciumantagonisten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1239,7 +1239,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.06.10."
-* ^concept[=].display = "Klassische Calciumantagonisten"
+* ^concept[=].display = "02.06.10. Klassische Calciumantagonisten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1262,7 +1262,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.06.20."
-* ^concept[=].display = "Andere Calciumantagonisten"
+* ^concept[=].display = "02.06.20. Andere Calciumantagonisten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1285,7 +1285,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.07."
-* ^concept[=].display = "Blutdrucksenkende Mittel"
+* ^concept[=].display = "02.07. Blutdrucksenkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1308,7 +1308,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.07.10."
-* ^concept[=].display = "Einfache blutdrucksenkende Mittel"
+* ^concept[=].display = "02.07.10. Einfache blutdrucksenkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1331,7 +1331,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.07.20."
-* ^concept[=].display = "Kombinierte blutdrucksenkende Mittel"
+* ^concept[=].display = "02.07.20. Kombinierte blutdrucksenkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1354,7 +1354,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.08."
-* ^concept[=].display = "Venenmittel"
+* ^concept[=].display = "02.08. Venenmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1377,7 +1377,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.08.10."
-* ^concept[=].display = "Allgemeine Venenmittel"
+* ^concept[=].display = "02.08.10. Allgemeine Venenmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1400,7 +1400,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.08.20."
-* ^concept[=].display = "Venenmittel zu externem Gebrauch"
+* ^concept[=].display = "02.08.20. Venenmittel zu externem Gebrauch"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1423,7 +1423,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.08.30."
-* ^concept[=].display = "Venenverödung"
+* ^concept[=].display = "02.08.30. Venenverödung"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1446,7 +1446,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.09."
-* ^concept[=].display = "Antihaemorrhoidalia"
+* ^concept[=].display = "02.09. Antihaemorrhoidalia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1469,7 +1469,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.09.10."
-* ^concept[=].display = "Antihaemorrhoidalia ohne Corticosteroide"
+* ^concept[=].display = "02.09.10. Antihaemorrhoidalia ohne Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1492,7 +1492,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.09.20."
-* ^concept[=].display = "Antihaemorrhoidalia mit Corticosteroiden"
+* ^concept[=].display = "02.09.20. Antihaemorrhoidalia mit Corticosteroiden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1515,7 +1515,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.97."
-* ^concept[=].display = "Beschwerden bei Arteriosklerose"
+* ^concept[=].display = "02.97. Beschwerden bei Arteriosklerose"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1538,7 +1538,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "02.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "02.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1561,7 +1561,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03."
-* ^concept[=].display = "LUNGE UND ATMUNG"
+* ^concept[=].display = "03. LUNGE UND ATMUNG"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1584,7 +1584,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.01."
-* ^concept[=].display = "Antitussiva"
+* ^concept[=].display = "03.01. Antitussiva"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1607,7 +1607,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.01.10."
-* ^concept[=].display = "Codein und Codein-Analoge"
+* ^concept[=].display = "03.01.10. Codein und Codein-Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1630,7 +1630,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.01.20."
-* ^concept[=].display = "Andere Antitussiva"
+* ^concept[=].display = "03.01.20. Andere Antitussiva"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1653,7 +1653,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.02."
-* ^concept[=].display = "Expectorantia et Mucolytica"
+* ^concept[=].display = "03.02. Expectorantia et Mucolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1676,7 +1676,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.03."
-* ^concept[=].display = "Kombinierte Hustenpräparate"
+* ^concept[=].display = "03.03. Kombinierte Hustenpräparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1699,7 +1699,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.03.10."
-* ^concept[=].display = "Codein und Analoge"
+* ^concept[=].display = "03.03.10. Codein und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1722,7 +1722,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.03.20."
-* ^concept[=].display = "Andere kombinierte Hustenpräparate"
+* ^concept[=].display = "03.03.20. Andere kombinierte Hustenpräparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1745,7 +1745,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.04."
-* ^concept[=].display = "Antiasthmatica"
+* ^concept[=].display = "03.04. Antiasthmatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1768,7 +1768,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.04.10."
-* ^concept[=].display = "Theophyllin und Analoge"
+* ^concept[=].display = "03.04.10. Theophyllin und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1791,7 +1791,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.04.20."
-* ^concept[=].display = "Kombiniertes Theophyllin und Analoge"
+* ^concept[=].display = "03.04.20. Kombiniertes Theophyllin und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1814,7 +1814,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.04.30."
-* ^concept[=].display = "Sympathicomimetica und Parasympathicolytica"
+* ^concept[=].display = "03.04.30. Sympathicomimetica und Parasympathicolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1837,7 +1837,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.04.40."
-* ^concept[=].display = "Corticosteroide zur Inhalation"
+* ^concept[=].display = "03.04.40. Corticosteroide zur Inhalation"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1860,7 +1860,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.04.50."
-* ^concept[=].display = "Andere Antiasthmatica"
+* ^concept[=].display = "03.04.50. Andere Antiasthmatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1883,7 +1883,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.05."
-* ^concept[=].display = "Mittel gegen Atemwegsinfektionen "
+* ^concept[=].display = "03.05. Mittel gegen Atemwegsinfektionen "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1906,7 +1906,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.06."
-* ^concept[=].display = "Einreibemittel"
+* ^concept[=].display = "03.06. Einreibemittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1929,7 +1929,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "03.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "03.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1952,7 +1952,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04."
-* ^concept[=].display = "GASTROENTEROLOGICA"
+* ^concept[=].display = "04. GASTROENTEROLOGICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1975,7 +1975,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.01."
-* ^concept[=].display = "Antacida"
+* ^concept[=].display = "04.01. Antacida"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -1998,7 +1998,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.01.10."
-* ^concept[=].display = "Histamin H2-Rezeptoren Antagonist"
+* ^concept[=].display = "04.01.10. Histamin H2-Rezeptoren Antagonist"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2021,7 +2021,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.02."
-* ^concept[=].display = "Spasmolytica"
+* ^concept[=].display = "04.02. Spasmolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2044,7 +2044,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.03."
-* ^concept[=].display = "Kombinierte Spasmolytica"
+* ^concept[=].display = "04.03. Kombinierte Spasmolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2067,7 +2067,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.03.10."
-* ^concept[=].display = "Spasmolytica kombiniert mit Antacida"
+* ^concept[=].display = "04.03.10. Spasmolytica kombiniert mit Antacida"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2090,7 +2090,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.03.20."
-* ^concept[=].display = "Spasmolytica kombiniert mit Sedativa"
+* ^concept[=].display = "04.03.20. Spasmolytica kombiniert mit Sedativa"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2113,7 +2113,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.03.30."
-* ^concept[=].display = "Spasmolytica kombiniert mit andern Wirkstoffen"
+* ^concept[=].display = "04.03.30. Spasmolytica kombiniert mit andern Wirkstoffen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2136,7 +2136,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.04."
-* ^concept[=].display = "Entblähende Mittel"
+* ^concept[=].display = "04.04. Entblähende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2159,7 +2159,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.05."
-* ^concept[=].display = "Enzympräparate und/oder ansäuernde Mittel"
+* ^concept[=].display = "04.05. Enzympräparate und/oder ansäuernde Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2182,7 +2182,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.06."
-* ^concept[=].display = "Motilitätsfördernde Mittel"
+* ^concept[=].display = "04.06. Motilitätsfördernde Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2205,7 +2205,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.07."
-* ^concept[=].display = "Appetitfördernde Mittel"
+* ^concept[=].display = "04.07. Appetitfördernde Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2228,7 +2228,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08."
-* ^concept[=].display = "Laxantia"
+* ^concept[=].display = "04.08. Laxantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2251,7 +2251,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.10."
-* ^concept[=].display = "Orale Laxantien"
+* ^concept[=].display = "04.08.10. Orale Laxantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2274,7 +2274,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.11."
-* ^concept[=].display = "Synthetische und salinische Laxantien"
+* ^concept[=].display = "04.08.11. Synthetische und salinische Laxantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2297,7 +2297,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.12."
-* ^concept[=].display = "Zucker, Zuckeralkohole"
+* ^concept[=].display = "04.08.12. Zucker, Zuckeralkohole"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2320,7 +2320,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.13."
-* ^concept[=].display = "Quellmittel und Füllmittel"
+* ^concept[=].display = "04.08.13. Quellmittel und Füllmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2343,7 +2343,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.14."
-* ^concept[=].display = "Anthranoid-haltige Laxantien"
+* ^concept[=].display = "04.08.14. Anthranoid-haltige Laxantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2366,7 +2366,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.15."
-* ^concept[=].display = "Anthranoid-haltige Laxantien kombiniert mit anderen Laxantien"
+* ^concept[=].display = "04.08.15. Anthranoid-haltige Laxantien kombiniert mit anderen Laxantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2389,7 +2389,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.08.20."
-* ^concept[=].display = "Rektale Laxantien"
+* ^concept[=].display = "04.08.20. Rektale Laxantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2412,7 +2412,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.09."
-* ^concept[=].display = "Antidiarrhoica"
+* ^concept[=].display = "04.09. Antidiarrhoica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2435,7 +2435,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.10."
-* ^concept[=].display = "Adsorbentia / Adstringentia"
+* ^concept[=].display = "04.10. Adsorbentia / Adstringentia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2458,7 +2458,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.11."
-* ^concept[=].display = "Gallenwegstherapeutica"
+* ^concept[=].display = "04.11. Gallenwegstherapeutica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2481,7 +2481,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.11.10."
-* ^concept[=].display = "Gallensteinauflösende Mittel"
+* ^concept[=].display = "04.11.10. Gallensteinauflösende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2504,7 +2504,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.11.20."
-* ^concept[=].display = "Cholagoga"
+* ^concept[=].display = "04.11.20. Cholagoga"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2527,7 +2527,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "04.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "04.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2550,7 +2550,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05."
-* ^concept[=].display = "NIEREN UND WASSERHAUSHALT"
+* ^concept[=].display = "05. NIEREN UND WASSERHAUSHALT"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2573,7 +2573,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.01."
-* ^concept[=].display = "Diuretica"
+* ^concept[=].display = "05.01. Diuretica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2596,7 +2596,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.02."
-* ^concept[=].display = "Mittel gegen Erkrankungen der Harnwege"
+* ^concept[=].display = "05.02. Mittel gegen Erkrankungen der Harnwege"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2619,7 +2619,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.03."
-* ^concept[=].display = "Infundibilia"
+* ^concept[=].display = "05.03. Infundibilia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2642,7 +2642,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.03.10."
-* ^concept[=].display = "Kohlenhydrate rein"
+* ^concept[=].display = "05.03.10. Kohlenhydrate rein"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2665,7 +2665,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.03.20."
-* ^concept[=].display = "Elektrolyte rein"
+* ^concept[=].display = "05.03.20. Elektrolyte rein"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2688,7 +2688,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.03.30."
-* ^concept[=].display = "Mischlösungen (Kohlenhydrate und Elektrolyte)"
+* ^concept[=].display = "05.03.30. Mischlösungen (Kohlenhydrate und Elektrolyte)"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2711,7 +2711,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.03.40."
-* ^concept[=].display = "Andere"
+* ^concept[=].display = "05.03.40. Andere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2734,7 +2734,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.04."
-* ^concept[=].display = "Dialyselösungen"
+* ^concept[=].display = "05.04. Dialyselösungen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2757,7 +2757,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.98."
-* ^concept[=].display = "Mittel bei Prostatabeschwerden"
+* ^concept[=].display = "05.98. Mittel bei Prostatabeschwerden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2780,7 +2780,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "05.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "05.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2803,7 +2803,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06."
-* ^concept[=].display = "BLUT"
+* ^concept[=].display = "06. BLUT"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2826,7 +2826,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.01.10."
-* ^concept[=].display = "Blutkonserven und Plasmafraktionen"
+* ^concept[=].display = "06.01.10. Blutkonserven und Plasmafraktionen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2849,7 +2849,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.01.20."
-* ^concept[=].display = "Plasmaersatz"
+* ^concept[=].display = "06.01.20. Plasmaersatz"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2872,7 +2872,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.01.21."
-* ^concept[=].display = "Dextrane"
+* ^concept[=].display = "06.01.21. Dextrane"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2895,7 +2895,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.01.22."
-* ^concept[=].display = "Gelatine"
+* ^concept[=].display = "06.01.22. Gelatine"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2918,7 +2918,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.01.23."
-* ^concept[=].display = "Andere"
+* ^concept[=].display = "06.01.23. Andere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2941,7 +2941,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.02."
-* ^concept[=].display = "Haemostatica"
+* ^concept[=].display = "06.02. Haemostatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2964,7 +2964,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.03."
-* ^concept[=].display = "Anticoagulantia"
+* ^concept[=].display = "06.03. Anticoagulantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -2987,7 +2987,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.03.10."
-* ^concept[=].display = "Vitamin K-Antagonisten"
+* ^concept[=].display = "06.03.10. Vitamin K-Antagonisten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3010,7 +3010,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.03.20."
-* ^concept[=].display = "Thrombozytenaggregationshemmer"
+* ^concept[=].display = "06.03.20. Thrombozytenaggregationshemmer"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3033,7 +3033,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.03.30."
-* ^concept[=].display = "Heparin"
+* ^concept[=].display = "06.03.30. Heparin"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3056,7 +3056,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.03.40."
-* ^concept[=].display = "Faktor-Xa-Inhibitoren"
+* ^concept[=].display = "06.03.40. Faktor-Xa-Inhibitoren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3079,7 +3079,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.04."
-* ^concept[=].display = "Antagonisten der Antikoagulantien"
+* ^concept[=].display = "06.04. Antagonisten der Antikoagulantien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3102,7 +3102,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.05."
-* ^concept[=].display = "Fibrinolytica"
+* ^concept[=].display = "06.05. Fibrinolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3125,7 +3125,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.06."
-* ^concept[=].display = "Antifibrinolytica"
+* ^concept[=].display = "06.06. Antifibrinolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3148,7 +3148,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.07."
-* ^concept[=].display = "Antianaemica"
+* ^concept[=].display = "06.07. Antianaemica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3171,7 +3171,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.07.10."
-* ^concept[=].display = "Eisen"
+* ^concept[=].display = "06.07.10. Eisen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3194,7 +3194,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.07.11."
-* ^concept[=].display = "per os"
+* ^concept[=].display = "06.07.11. per os"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3217,7 +3217,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.07.12."
-* ^concept[=].display = "ad iniect."
+* ^concept[=].display = "06.07.12. ad iniect."
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3240,7 +3240,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.07.20."
-* ^concept[=].display = "Vitamin B12"
+* ^concept[=].display = "06.07.20. Vitamin B12"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3263,7 +3263,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.07.30."
-* ^concept[=].display = "Andere"
+* ^concept[=].display = "06.07.30. Andere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3286,7 +3286,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "06.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "06.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3309,7 +3309,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07."
-* ^concept[=].display = "STOFFWECHSEL"
+* ^concept[=].display = "07. STOFFWECHSEL"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3332,7 +3332,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.01."
-* ^concept[=].display = "Diaetetica"
+* ^concept[=].display = "07.01. Diaetetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3355,7 +3355,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.01.10."
-* ^concept[=].display = "Ernährungsstörungen im Säuglingsalter"
+* ^concept[=].display = "07.01.10. Ernährungsstörungen im Säuglingsalter"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3378,7 +3378,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.01.20."
-* ^concept[=].display = "Intravenöse Ernährung"
+* ^concept[=].display = "07.01.20. Intravenöse Ernährung"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3401,7 +3401,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.01.30."
-* ^concept[=].display = "Spezialdiät"
+* ^concept[=].display = "07.01.30. Spezialdiät"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3424,7 +3424,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.01.40."
-* ^concept[=].display = "Andere Ernährung"
+* ^concept[=].display = "07.01.40. Andere Ernährung"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3447,7 +3447,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.02."
-* ^concept[=].display = "Mineralia et Vitamine"
+* ^concept[=].display = "07.02. Mineralia et Vitamine"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3470,7 +3470,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.02.10."
-* ^concept[=].display = "Mineralia"
+* ^concept[=].display = "07.02.10. Mineralia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3493,7 +3493,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.02.20."
-* ^concept[=].display = "Kombinierte Mineralien"
+* ^concept[=].display = "07.02.20. Kombinierte Mineralien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3516,7 +3516,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.02.30."
-* ^concept[=].display = "Einfache Vitamine"
+* ^concept[=].display = "07.02.30. Einfache Vitamine"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3539,7 +3539,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.02.40."
-* ^concept[=].display = "Kombinierte Vitamine"
+* ^concept[=].display = "07.02.40. Kombinierte Vitamine"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3562,7 +3562,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.02.50."
-* ^concept[=].display = "Andere Kombinationen"
+* ^concept[=].display = "07.02.50. Andere Kombinationen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3585,7 +3585,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.03."
-* ^concept[=].display = "Hypophyse"
+* ^concept[=].display = "07.03. Hypophyse"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3608,7 +3608,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.03.10."
-* ^concept[=].display = "Hypophysenvorderlappen"
+* ^concept[=].display = "07.03.10. Hypophysenvorderlappen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3631,7 +3631,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.03.20."
-* ^concept[=].display = "Hypophysenhinterlappen"
+* ^concept[=].display = "07.03.20. Hypophysenhinterlappen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3654,7 +3654,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.04."
-* ^concept[=].display = "Schilddrüse"
+* ^concept[=].display = "07.04. Schilddrüse"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3677,7 +3677,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.04.10."
-* ^concept[=].display = "Thyreotropin"
+* ^concept[=].display = "07.04.10. Thyreotropin"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3700,7 +3700,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.04.20."
-* ^concept[=].display = "Schilddrüsenhormone"
+* ^concept[=].display = "07.04.20. Schilddrüsenhormone"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3723,7 +3723,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.04.30."
-* ^concept[=].display = "Thyreostatica"
+* ^concept[=].display = "07.04.30. Thyreostatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3746,7 +3746,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.05."
-* ^concept[=].display = "Calciotrope Hormone"
+* ^concept[=].display = "07.05. Calciotrope Hormone"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3769,7 +3769,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.05.10."
-* ^concept[=].display = "Parathormone"
+* ^concept[=].display = "07.05.10. Parathormone"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3792,7 +3792,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.05.20."
-* ^concept[=].display = "Calcitonine"
+* ^concept[=].display = "07.05.20. Calcitonine"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3815,7 +3815,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.06."
-* ^concept[=].display = "Pankreas"
+* ^concept[=].display = "07.06. Pankreas"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3838,7 +3838,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.06.10."
-* ^concept[=].display = "Insuline"
+* ^concept[=].display = "07.06.10. Insuline"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3861,7 +3861,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.06.20."
-* ^concept[=].display = "Orale blutzuckersenkende Mittel"
+* ^concept[=].display = "07.06.20. Orale blutzuckersenkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3884,7 +3884,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.06.30."
-* ^concept[=].display = "Glucagon"
+* ^concept[=].display = "07.06.30. Glucagon"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3907,7 +3907,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07."
-* ^concept[=].display = "Nebennierenrinde"
+* ^concept[=].display = "07.07. Nebennierenrinde"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3930,7 +3930,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.10."
-* ^concept[=].display = "Corticotropine (ACTH)"
+* ^concept[=].display = "07.07.10. Corticotropine (ACTH)"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3953,7 +3953,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.20."
-* ^concept[=].display = "Glucocorticoide"
+* ^concept[=].display = "07.07.20. Glucocorticoide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3976,7 +3976,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.21."
-* ^concept[=].display = "Cortisonum/Hydrocortisonum"
+* ^concept[=].display = "07.07.21. Cortisonum/Hydrocortisonum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -3999,7 +3999,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.22."
-* ^concept[=].display = "Prednisonum/Prednisolonum"
+* ^concept[=].display = "07.07.22. Prednisonum/Prednisolonum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4022,7 +4022,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.23."
-* ^concept[=].display = "Methylprednisolonum"
+* ^concept[=].display = "07.07.23. Methylprednisolonum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4045,7 +4045,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.24."
-* ^concept[=].display = "Triamcinolonum"
+* ^concept[=].display = "07.07.24. Triamcinolonum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4068,7 +4068,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.25."
-* ^concept[=].display = "Betamethasonum"
+* ^concept[=].display = "07.07.25. Betamethasonum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4091,7 +4091,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.26."
-* ^concept[=].display = "Dexamethasonum"
+* ^concept[=].display = "07.07.26. Dexamethasonum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4114,7 +4114,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.27."
-* ^concept[=].display = "Andere Glucocorticoide"
+* ^concept[=].display = "07.07.27. Andere Glucocorticoide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4137,7 +4137,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.30."
-* ^concept[=].display = "Mineralocorticoide"
+* ^concept[=].display = "07.07.30. Mineralocorticoide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4160,7 +4160,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.07.40."
-* ^concept[=].display = "Adrenocorticostaticum"
+* ^concept[=].display = "07.07.40. Adrenocorticostaticum"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4183,7 +4183,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08."
-* ^concept[=].display = "Geschlechtshormone"
+* ^concept[=].display = "07.08. Geschlechtshormone"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4206,7 +4206,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08.10."
-* ^concept[=].display = "Gonadotrophine und Analoge"
+* ^concept[=].display = "07.08.10. Gonadotrophine und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4229,7 +4229,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08.20."
-* ^concept[=].display = "Oestrogene"
+* ^concept[=].display = "07.08.20. Oestrogene"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4252,7 +4252,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08.30."
-* ^concept[=].display = "Gestagene"
+* ^concept[=].display = "07.08.30. Gestagene"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4275,7 +4275,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08.40."
-* ^concept[=].display = "Androgene"
+* ^concept[=].display = "07.08.40. Androgene"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4298,7 +4298,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08.50."
-* ^concept[=].display = "Anabolica"
+* ^concept[=].display = "07.08.50. Anabolica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4321,7 +4321,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.08.60."
-* ^concept[=].display = "Kombinationen"
+* ^concept[=].display = "07.08.60. Kombinationen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4344,7 +4344,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.09."
-* ^concept[=].display = "Andere Hormone"
+* ^concept[=].display = "07.09. Andere Hormone"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4367,7 +4367,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10."
-* ^concept[=].display = "Arthritis und rheumatische Krankheiten"
+* ^concept[=].display = "07.10. Arthritis und rheumatische Krankheiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4390,7 +4390,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.10."
-* ^concept[=].display = "Einfache entzündungshemmende Mittel "
+* ^concept[=].display = "07.10.10. Einfache entzündungshemmende Mittel "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4413,7 +4413,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.20."
-* ^concept[=].display = "Kombinierte entzündungshemmende Mittel"
+* ^concept[=].display = "07.10.20. Kombinierte entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4436,7 +4436,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.21."
-* ^concept[=].display = "ohne Corticosteroide"
+* ^concept[=].display = "07.10.21. ohne Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4459,7 +4459,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.22."
-* ^concept[=].display = "mit Corticosteroiden"
+* ^concept[=].display = "07.10.22. mit Corticosteroiden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4482,7 +4482,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.30."
-* ^concept[=].display = "Goldpräparate"
+* ^concept[=].display = "07.10.30. Goldpräparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4505,7 +4505,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.40."
-* ^concept[=].display = "Kutane Mittel"
+* ^concept[=].display = "07.10.40. Kutane Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4528,7 +4528,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.50."
-* ^concept[=].display = "Badezusätze und Umschläge"
+* ^concept[=].display = "07.10.50. Badezusätze und Umschläge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4551,7 +4551,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.60."
-* ^concept[=].display = "Andere Mittel gegen Arthritis und rheumatische Krankheiten"
+* ^concept[=].display = "07.10.60. Andere Mittel gegen Arthritis und rheumatische Krankheiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4574,7 +4574,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.10.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "07.10.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4597,7 +4597,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.11."
-* ^concept[=].display = "Gichtmittel"
+* ^concept[=].display = "07.11. Gichtmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4620,7 +4620,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.11.10."
-* ^concept[=].display = "Kolchizin"
+* ^concept[=].display = "07.11.10. Kolchizin"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4643,7 +4643,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.11.20."
-* ^concept[=].display = "Urikosurische Mittel"
+* ^concept[=].display = "07.11.20. Urikosurische Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4666,7 +4666,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.11.30."
-* ^concept[=].display = "Andere Gichtmittel"
+* ^concept[=].display = "07.11.30. Andere Gichtmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4689,7 +4689,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.12."
-* ^concept[=].display = "Blutlipidsenkende Mittel"
+* ^concept[=].display = "07.12. Blutlipidsenkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4712,7 +4712,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.13."
-* ^concept[=].display = "Antiallergica"
+* ^concept[=].display = "07.13. Antiallergica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4735,7 +4735,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.13.10."
-* ^concept[=].display = "Antihistaminica"
+* ^concept[=].display = "07.13.10. Antihistaminica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4758,7 +4758,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.13.20."
-* ^concept[=].display = "Andere Antiallergica"
+* ^concept[=].display = "07.13.20. Andere Antiallergica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4781,7 +4781,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.13.30."
-* ^concept[=].display = "Desensibilisierungslösungen"
+* ^concept[=].display = "07.13.30. Desensibilisierungslösungen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4804,7 +4804,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.14."
-* ^concept[=].display = "Enzympräparate"
+* ^concept[=].display = "07.14. Enzympräparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4827,7 +4827,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.15."
-* ^concept[=].display = "Immunosuppressive Stoffe"
+* ^concept[=].display = "07.15. Immunosuppressive Stoffe"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4850,7 +4850,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.16."
-* ^concept[=].display = "Oncologica"
+* ^concept[=].display = "07.16. Oncologica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4873,7 +4873,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.16.10."
-* ^concept[=].display = "Cytostatica"
+* ^concept[=].display = "07.16.10. Cytostatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4896,7 +4896,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.16.20."
-* ^concept[=].display = "Hormone"
+* ^concept[=].display = "07.16.20. Hormone"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4919,7 +4919,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.16.30."
-* ^concept[=].display = "Radio-Isotope"
+* ^concept[=].display = "07.16.30. Radio-Isotope"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4942,7 +4942,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.16.40."
-* ^concept[=].display = "Andere"
+* ^concept[=].display = "07.16.40. Andere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4965,7 +4965,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "07.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "07.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -4988,7 +4988,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08."
-* ^concept[=].display = "INFEKTIONSKRANKHEITEN"
+* ^concept[=].display = "08. INFEKTIONSKRANKHEITEN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5011,7 +5011,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01."
-* ^concept[=].display = "Mittel gegen bakterielle Erreger "
+* ^concept[=].display = "08.01. Mittel gegen bakterielle Erreger "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5034,7 +5034,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.10."
-* ^concept[=].display = "Sulfonamide"
+* ^concept[=].display = "08.01.10. Sulfonamide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5057,7 +5057,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.20."
-* ^concept[=].display = "Penicilline"
+* ^concept[=].display = "08.01.20. Penicilline"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5080,7 +5080,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.21."
-* ^concept[=].display = "Benzylpenicilline und Analoge"
+* ^concept[=].display = "08.01.21. Benzylpenicilline und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5103,7 +5103,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.22."
-* ^concept[=].display = "Säurefeste Penicilline"
+* ^concept[=].display = "08.01.22. Säurefeste Penicilline"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5126,7 +5126,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.23."
-* ^concept[=].display = "Ampicilline und Analoge"
+* ^concept[=].display = "08.01.23. Ampicilline und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5149,7 +5149,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.24."
-* ^concept[=].display = "Penicillinase-resistente Penicilline"
+* ^concept[=].display = "08.01.24. Penicillinase-resistente Penicilline"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5172,7 +5172,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.25."
-* ^concept[=].display = "Andere Penicilline (Breitspektrum-Penicilline)"
+* ^concept[=].display = "08.01.25. Andere Penicilline (Breitspektrum-Penicilline)"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5195,7 +5195,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.30."
-* ^concept[=].display = "Cephalosporine"
+* ^concept[=].display = "08.01.30. Cephalosporine"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5218,7 +5218,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.40."
-* ^concept[=].display = "Chloramphenicol und Analoge"
+* ^concept[=].display = "08.01.40. Chloramphenicol und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5241,7 +5241,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.50."
-* ^concept[=].display = "Tetracycline"
+* ^concept[=].display = "08.01.50. Tetracycline"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5264,7 +5264,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.60."
-* ^concept[=].display = "Erythromycin und Analoge"
+* ^concept[=].display = "08.01.60. Erythromycin und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5287,7 +5287,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.70."
-* ^concept[=].display = "Aminoglycoside"
+* ^concept[=].display = "08.01.70. Aminoglycoside"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5310,7 +5310,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.80."
-* ^concept[=].display = "Chinolone "
+* ^concept[=].display = "08.01.80. Chinolone "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5333,7 +5333,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.90."
-* ^concept[=].display = "Andere Mittel gegen bakterielle Erreger"
+* ^concept[=].display = "08.01.90. Andere Mittel gegen bakterielle Erreger"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5356,7 +5356,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.91."
-* ^concept[=].display = "Polypeptid-Antibiotica"
+* ^concept[=].display = "08.01.91. Polypeptid-Antibiotica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5379,7 +5379,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.92."
-* ^concept[=].display = "Lincomycine und Analoge"
+* ^concept[=].display = "08.01.92. Lincomycine und Analoge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5402,7 +5402,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.93."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "08.01.93. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5425,7 +5425,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.94."
-* ^concept[=].display = "Kombinationen"
+* ^concept[=].display = "08.01.94. Kombinationen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5448,7 +5448,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.01.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "08.01.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5471,7 +5471,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.02."
-* ^concept[=].display = "Tuberculostatica"
+* ^concept[=].display = "08.02. Tuberculostatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5494,7 +5494,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.02.10."
-* ^concept[=].display = "Einfache Tuberculostatica"
+* ^concept[=].display = "08.02.10. Einfache Tuberculostatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5517,7 +5517,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.02.20."
-* ^concept[=].display = "Kombinierte Tuberculostatica"
+* ^concept[=].display = "08.02.20. Kombinierte Tuberculostatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5540,7 +5540,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.03."
-* ^concept[=].display = "Mittel gegen Viren"
+* ^concept[=].display = "08.03. Mittel gegen Viren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5563,7 +5563,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.04."
-* ^concept[=].display = "Mittel gegen Protozoen"
+* ^concept[=].display = "08.04. Mittel gegen Protozoen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5586,7 +5586,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.04.10."
-* ^concept[=].display = "Malaria"
+* ^concept[=].display = "08.04.10. Malaria"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5609,7 +5609,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.04.20."
-* ^concept[=].display = "Syphilis"
+* ^concept[=].display = "08.04.20. Syphilis"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5632,7 +5632,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.04.30."
-* ^concept[=].display = "Andere Mittel gegen Protozoen"
+* ^concept[=].display = "08.04.30. Andere Mittel gegen Protozoen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5655,7 +5655,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.05."
-* ^concept[=].display = "Mittel gegen Parasiten"
+* ^concept[=].display = "08.05. Mittel gegen Parasiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5678,7 +5678,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.05.10."
-* ^concept[=].display = "Anthelmintica"
+* ^concept[=].display = "08.05.10. Anthelmintica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5701,7 +5701,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.05.20."
-* ^concept[=].display = "Andere Mittel gegen Parasiten"
+* ^concept[=].display = "08.05.20. Andere Mittel gegen Parasiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5724,7 +5724,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.06."
-* ^concept[=].display = "Mittel gegen Pilze"
+* ^concept[=].display = "08.06. Mittel gegen Pilze"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5747,7 +5747,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.07."
-* ^concept[=].display = "Seren"
+* ^concept[=].display = "08.07. Seren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5770,7 +5770,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.08."
-* ^concept[=].display = "Impfstoffe"
+* ^concept[=].display = "08.08. Impfstoffe"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5793,7 +5793,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.09."
-* ^concept[=].display = "Immuno-Globuline ex Plasma humano"
+* ^concept[=].display = "08.09. Immuno-Globuline ex Plasma humano"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5816,7 +5816,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "08.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "08.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5839,7 +5839,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09."
-* ^concept[=].display = "GYNAECOLOGICA"
+* ^concept[=].display = "09. GYNAECOLOGICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5862,7 +5862,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.01."
-* ^concept[=].display = "Uterina"
+* ^concept[=].display = "09.01. Uterina"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5885,7 +5885,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.01.10."
-* ^concept[=].display = "Oxytocica"
+* ^concept[=].display = "09.01.10. Oxytocica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5908,7 +5908,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.01.20."
-* ^concept[=].display = "Tocolytica"
+* ^concept[=].display = "09.01.20. Tocolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5931,7 +5931,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.02."
-* ^concept[=].display = "Kontrazeptiva"
+* ^concept[=].display = "09.02. Kontrazeptiva"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5954,7 +5954,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.02.10."
-* ^concept[=].display = "Kontrazeptiva"
+* ^concept[=].display = "09.02.10. Kontrazeptiva"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -5977,7 +5977,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.03."
-* ^concept[=].display = "Antiinfektiöse Mittel"
+* ^concept[=].display = "09.03. Antiinfektiöse Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6000,7 +6000,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "09.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "09.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6023,7 +6023,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10."
-* ^concept[=].display = "DERMATOLOGICA"
+* ^concept[=].display = "10. DERMATOLOGICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6046,7 +6046,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.01."
-* ^concept[=].display = "Anaesthetica et Antipruriginosa"
+* ^concept[=].display = "10.01. Anaesthetica et Antipruriginosa"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6069,7 +6069,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.02."
-* ^concept[=].display = "Mittel gegen Akne"
+* ^concept[=].display = "10.02. Mittel gegen Akne"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6092,7 +6092,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.03."
-* ^concept[=].display = "Mittel gegen Psoriasis "
+* ^concept[=].display = "10.03. Mittel gegen Psoriasis "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6115,7 +6115,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.04."
-* ^concept[=].display = "Mittel gegen chronisches Ekzem und Seborrhoe"
+* ^concept[=].display = "10.04. Mittel gegen chronisches Ekzem und Seborrhoe"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6138,7 +6138,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.05."
-* ^concept[=].display = "Corticosteroide"
+* ^concept[=].display = "10.05. Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6161,7 +6161,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.05.10."
-* ^concept[=].display = "Einfache Corticosteroide"
+* ^concept[=].display = "10.05.10. Einfache Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6184,7 +6184,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.05.20."
-* ^concept[=].display = "Kombinierte Corticosteroide"
+* ^concept[=].display = "10.05.20. Kombinierte Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6207,7 +6207,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.06."
-* ^concept[=].display = "Mittel zur Behandlung von Ulcera und Wunden "
+* ^concept[=].display = "10.06. Mittel zur Behandlung von Ulcera und Wunden "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6230,7 +6230,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.07."
-* ^concept[=].display = "Keratolytica"
+* ^concept[=].display = "10.07. Keratolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6253,7 +6253,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.08."
-* ^concept[=].display = "Adstringierende und entzündungshemmende Mittel"
+* ^concept[=].display = "10.08. Adstringierende und entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6276,7 +6276,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09."
-* ^concept[=].display = "Antiinfektiöse Mittel"
+* ^concept[=].display = "10.09. Antiinfektiöse Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6299,7 +6299,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.10."
-* ^concept[=].display = "Desinfizierende Mittel"
+* ^concept[=].display = "10.09.10. Desinfizierende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6322,7 +6322,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.20."
-* ^concept[=].display = "Mittel gegen bakterielle Erreger"
+* ^concept[=].display = "10.09.20. Mittel gegen bakterielle Erreger"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6345,7 +6345,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.30."
-* ^concept[=].display = "Mittel gegen Viren"
+* ^concept[=].display = "10.09.30. Mittel gegen Viren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6368,7 +6368,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.40."
-* ^concept[=].display = "Mittel gegen Pilze"
+* ^concept[=].display = "10.09.40. Mittel gegen Pilze"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6391,7 +6391,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.41."
-* ^concept[=].display = "Ohne Corticosteroide"
+* ^concept[=].display = "10.09.41. Ohne Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6414,7 +6414,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.42."
-* ^concept[=].display = "Mit Corticosteroiden"
+* ^concept[=].display = "10.09.42. Mit Corticosteroiden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6437,7 +6437,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.09.50."
-* ^concept[=].display = "Mittel gegen Parasiten"
+* ^concept[=].display = "10.09.50. Mittel gegen Parasiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6460,7 +6460,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.10."
-* ^concept[=].display = "Mittel für empfindliche Haut"
+* ^concept[=].display = "10.10. Mittel für empfindliche Haut"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6483,7 +6483,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "10.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "10.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6506,7 +6506,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11."
-* ^concept[=].display = "OPHTHALMOLOGICA"
+* ^concept[=].display = "11. OPHTHALMOLOGICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6529,7 +6529,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.01."
-* ^concept[=].display = "Miotica"
+* ^concept[=].display = "11.01. Miotica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6552,7 +6552,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.02."
-* ^concept[=].display = "Mydriatica"
+* ^concept[=].display = "11.02. Mydriatica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6575,7 +6575,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.03."
-* ^concept[=].display = "Lokalanaesthetica"
+* ^concept[=].display = "11.03. Lokalanaesthetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6598,7 +6598,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.04."
-* ^concept[=].display = "Gefässverengende Mittel"
+* ^concept[=].display = "11.04. Gefässverengende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6621,7 +6621,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.05."
-* ^concept[=].display = "Gefässerweiternde Mittel"
+* ^concept[=].display = "11.05. Gefässerweiternde Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6644,7 +6644,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.06."
-* ^concept[=].display = "Entzündungshemmende Mittel"
+* ^concept[=].display = "11.06. Entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6667,7 +6667,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.06.10."
-* ^concept[=].display = "Corticosteroide"
+* ^concept[=].display = "11.06.10. Corticosteroide"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6690,7 +6690,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.06.20."
-* ^concept[=].display = "Antiallergische Mittel"
+* ^concept[=].display = "11.06.20. Antiallergische Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6713,7 +6713,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.06.30."
-* ^concept[=].display = "Andere entzündungshemmende Mittel"
+* ^concept[=].display = "11.06.30. Andere entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6736,7 +6736,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.07."
-* ^concept[=].display = "Antiinfektiöse Mittel"
+* ^concept[=].display = "11.07. Antiinfektiöse Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6759,7 +6759,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.07.10."
-* ^concept[=].display = "Mittel gegen bakterielle Erreger"
+* ^concept[=].display = "11.07.10. Mittel gegen bakterielle Erreger"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6782,7 +6782,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.07.20."
-* ^concept[=].display = "Mittel gegen Viren"
+* ^concept[=].display = "11.07.20. Mittel gegen Viren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6805,7 +6805,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.07.30."
-* ^concept[=].display = "Mittel gegen Pilze"
+* ^concept[=].display = "11.07.30. Mittel gegen Pilze"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6828,7 +6828,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.08."
-* ^concept[=].display = "Physikalisch wirkende Mittel"
+* ^concept[=].display = "11.08. Physikalisch wirkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6851,7 +6851,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.08.10."
-* ^concept[=].display = "Kontaktlinsenflüssigkeit"
+* ^concept[=].display = "11.08.10. Kontaktlinsenflüssigkeit"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6874,7 +6874,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.08.20."
-* ^concept[=].display = "Tränenflüssigkeits-Ersatz"
+* ^concept[=].display = "11.08.20. Tränenflüssigkeits-Ersatz"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6897,7 +6897,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.09."
-* ^concept[=].display = "Präparate gegen Glaukom"
+* ^concept[=].display = "11.09. Präparate gegen Glaukom"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6920,7 +6920,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.10."
-* ^concept[=].display = "Anticataractica"
+* ^concept[=].display = "11.10. Anticataractica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6943,7 +6943,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "11.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "11.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6966,7 +6966,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12."
-* ^concept[=].display = "OTO-RHINOLARYNGOLOGICA"
+* ^concept[=].display = "12. OTO-RHINOLARYNGOLOGICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -6989,7 +6989,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.01."
-* ^concept[=].display = "Ohren"
+* ^concept[=].display = "12.01. Ohren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7012,7 +7012,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.01.10."
-* ^concept[=].display = "Schmerzlindernde und entzündungshemmende Mittel"
+* ^concept[=].display = "12.01.10. Schmerzlindernde und entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7035,7 +7035,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.01.20."
-* ^concept[=].display = "Antiinfektiöse Mittel"
+* ^concept[=].display = "12.01.20. Antiinfektiöse Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7058,7 +7058,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.01.30."
-* ^concept[=].display = "Antiinfektiöse Mittel mit Corticosteroiden"
+* ^concept[=].display = "12.01.30. Antiinfektiöse Mittel mit Corticosteroiden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7081,7 +7081,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.01.40."
-* ^concept[=].display = "Andere Mittel für Ohrenkrankheiten"
+* ^concept[=].display = "12.01.40. Andere Mittel für Ohrenkrankheiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7104,7 +7104,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02."
-* ^concept[=].display = "Nase"
+* ^concept[=].display = "12.02. Nase"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7127,7 +7127,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.10."
-* ^concept[=].display = "Gefässverengende Mittel "
+* ^concept[=].display = "12.02.10. Gefässverengende Mittel "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7150,7 +7150,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.20."
-* ^concept[=].display = "Kombinierte gefässverengende Mittel/kombinierte  Antihistaminica/übrige Kombinationen"
+* ^concept[=].display = "12.02.20. Kombinierte gefässverengende Mittel/kombinierte  Antihistaminica/übrige Kombinationen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7173,7 +7173,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.30."
-* ^concept[=].display = "Nasenmittel mit Corticosteroiden"
+* ^concept[=].display = "12.02.30. Nasenmittel mit Corticosteroiden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7196,7 +7196,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.40."
-* ^concept[=].display = "Sekretolytische und befeuchtende Mittel"
+* ^concept[=].display = "12.02.40. Sekretolytische und befeuchtende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7219,7 +7219,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.50."
-* ^concept[=].display = "Antiinfektiöse Mittel"
+* ^concept[=].display = "12.02.50. Antiinfektiöse Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7242,7 +7242,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.60."
-* ^concept[=].display = "Systemische, auf die Nasenschleimhaut wirkende Mittel"
+* ^concept[=].display = "12.02.60. Systemische, auf die Nasenschleimhaut wirkende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7265,7 +7265,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.70."
-* ^concept[=].display = "Antihistaminica"
+* ^concept[=].display = "12.02.70. Antihistaminica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7288,7 +7288,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.02.80."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "12.02.80. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7311,7 +7311,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.03."
-* ^concept[=].display = "Mund und Rachen"
+* ^concept[=].display = "12.03. Mund und Rachen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7334,7 +7334,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.03.10."
-* ^concept[=].display = "Kombinierte Lokalanaesthetica"
+* ^concept[=].display = "12.03.10. Kombinierte Lokalanaesthetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7357,7 +7357,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.03.20."
-* ^concept[=].display = "Entzündungshemmende Mittel"
+* ^concept[=].display = "12.03.20. Entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7380,7 +7380,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.03.30."
-* ^concept[=].display = "Mittel gegen bakterielle Erreger"
+* ^concept[=].display = "12.03.30. Mittel gegen bakterielle Erreger"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7403,7 +7403,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.03.40."
-* ^concept[=].display = "Mittel gegen Pilze"
+* ^concept[=].display = "12.03.40. Mittel gegen Pilze"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7426,7 +7426,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "12.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "12.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7449,7 +7449,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13."
-* ^concept[=].display = "ODONTOSTOMATOLOGICA "
+* ^concept[=].display = "13. ODONTOSTOMATOLOGICA "
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7472,7 +7472,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.01."
-* ^concept[=].display = "LOKALANAESTHETICA"
+* ^concept[=].display = "13.01. LOKALANAESTHETICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7495,7 +7495,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.01.10."
-* ^concept[=].display = "Oberflächenanästhetica"
+* ^concept[=].display = "13.01.10. Oberflächenanästhetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7518,7 +7518,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.01.20."
-* ^concept[=].display = "Infiltrations- und Leitungsanästhetica"
+* ^concept[=].display = "13.01.20. Infiltrations- und Leitungsanästhetica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7541,7 +7541,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.02."
-* ^concept[=].display = "WUNDVERSORGUNG"
+* ^concept[=].display = "13.02. WUNDVERSORGUNG"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7564,7 +7564,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.02.10."
-* ^concept[=].display = "Gefässverengende Mittel"
+* ^concept[=].display = "13.02.10. Gefässverengende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7587,7 +7587,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.02.20."
-* ^concept[=].display = "Wundverbände"
+* ^concept[=].display = "13.02.20. Wundverbände"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7610,7 +7610,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.02.30."
-* ^concept[=].display = "Andere"
+* ^concept[=].display = "13.02.30. Andere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7633,7 +7633,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.03."
-* ^concept[=].display = "ENDODONTISCHE PRAEPARATE"
+* ^concept[=].display = "13.03. ENDODONTISCHE PRAEPARATE"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7656,7 +7656,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.04."
-* ^concept[=].display = "AUF DIE GINGIVA UND DIE UEBRIGE MUNDSCHLEIMHAUT WIRKENDE MITTEL"
+* ^concept[=].display = "13.04. AUF DIE GINGIVA UND DIE UEBRIGE MUNDSCHLEIMHAUT WIRKENDE MITTEL"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7679,7 +7679,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.05."
-* ^concept[=].display = "KARIESPROPHYLAXE"
+* ^concept[=].display = "13.05. KARIESPROPHYLAXE"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7702,7 +7702,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.05.10."
-* ^concept[=].display = "Fluor"
+* ^concept[=].display = "13.05.10. Fluor"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7725,7 +7725,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.05.20."
-* ^concept[=].display = "Andere"
+* ^concept[=].display = "13.05.20. Andere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7748,7 +7748,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.06."
-* ^concept[=].display = "MUND- UND ZAHNINFEKTIONEN"
+* ^concept[=].display = "13.06. MUND- UND ZAHNINFEKTIONEN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7771,7 +7771,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.07."
-* ^concept[=].display = "PARODONTOPATHIEN"
+* ^concept[=].display = "13.07. PARODONTOPATHIEN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7794,7 +7794,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.08."
-* ^concept[=].display = "ZAHNOBERFLAECHEN- UND DENTINDESENSIBILISIERUNGSMITTEL"
+* ^concept[=].display = "13.08. ZAHNOBERFLAECHEN- UND DENTINDESENSIBILISIERUNGSMITTEL"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7817,7 +7817,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "13.99."
-* ^concept[=].display = "VARIA"
+* ^concept[=].display = "13.99. VARIA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7840,7 +7840,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14."
-* ^concept[=].display = "DIAGNOSTICA"
+* ^concept[=].display = "14. DIAGNOSTICA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7863,7 +7863,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01."
-* ^concept[=].display = "Röntgenkontrastmittel"
+* ^concept[=].display = "14.01. Röntgenkontrastmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7886,7 +7886,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.10."
-* ^concept[=].display = "Parenterale wasserlössliche Iod-Präparate"
+* ^concept[=].display = "14.01.10. Parenterale wasserlössliche Iod-Präparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7909,7 +7909,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.11."
-* ^concept[=].display = "Hochosmolare ionische Monomere"
+* ^concept[=].display = "14.01.11. Hochosmolare ionische Monomere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7932,7 +7932,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.12."
-* ^concept[=].display = "Niederosmolare ionische Dimere"
+* ^concept[=].display = "14.01.12. Niederosmolare ionische Dimere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7955,7 +7955,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.13."
-* ^concept[=].display = "Niederosmolare nicht-ionische Monomere"
+* ^concept[=].display = "14.01.13. Niederosmolare nicht-ionische Monomere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -7978,7 +7978,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.14."
-* ^concept[=].display = "Niederosmolare nicht-ionische Dimere"
+* ^concept[=].display = "14.01.14. Niederosmolare nicht-ionische Dimere"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8001,7 +8001,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.20."
-* ^concept[=].display = "Enteral anzuwendende Präparate"
+* ^concept[=].display = "14.01.20. Enteral anzuwendende Präparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8024,7 +8024,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.21."
-* ^concept[=].display = "Wasserlösliche Iodpräparate"
+* ^concept[=].display = "14.01.21. Wasserlösliche Iodpräparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8047,7 +8047,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.22."
-* ^concept[=].display = "Bariumsulfatpräparate"
+* ^concept[=].display = "14.01.22. Bariumsulfatpräparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8070,7 +8070,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.30."
-* ^concept[=].display = "Biliär eliminierte Präparate"
+* ^concept[=].display = "14.01.30. Biliär eliminierte Präparate"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8093,7 +8093,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.31."
-* ^concept[=].display = "Parenterale"
+* ^concept[=].display = "14.01.31. Parenterale"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8116,7 +8116,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.01.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "14.01.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8139,7 +8139,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.02."
-* ^concept[=].display = "Präparate für die magnetische Resonanztomographie"
+* ^concept[=].display = "14.02. Präparate für die magnetische Resonanztomographie"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8149,7 +8149,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Préparartions pour l""imagerie par résonance magnétique"
+* ^concept[=].designation[=].value = "Préparartions pour l'imagerie par résonance magnétique"
 * ^concept[=].designation[+].language = #it
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8162,7 +8162,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.03."
-* ^concept[=].display = "Andere Diagnostica"
+* ^concept[=].display = "14.03. Andere Diagnostica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8185,7 +8185,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.04."
-* ^concept[=].display = "Reagenzien"
+* ^concept[=].display = "14.04. Reagenzien"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8208,7 +8208,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "14.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "14.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8231,7 +8231,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "15."
-* ^concept[=].display = "ANTIDOTA"
+* ^concept[=].display = "15. ANTIDOTA"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8254,7 +8254,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "16."
-* ^concept[=].display = "KATIONENAUSTAUSCHER"
+* ^concept[=].display = "16. KATIONENAUSTAUSCHER"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8277,7 +8277,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "17."
-* ^concept[=].display = "RADIO-NUKLIDE"
+* ^concept[=].display = "17. RADIO-NUKLIDE"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8300,7 +8300,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "17.01."
-* ^concept[=].display = "Radio-Diagnostica"
+* ^concept[=].display = "17.01. Radio-Diagnostica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8323,7 +8323,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "17.02."
-* ^concept[=].display = "Radio-Therapeutika"
+* ^concept[=].display = "17.02. Radio-Therapeutika"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8346,7 +8346,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "17.03."
-* ^concept[=].display = "Generatoren"
+* ^concept[=].display = "17.03. Generatoren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8369,7 +8369,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "17.04."
-* ^concept[=].display = "Kits"
+* ^concept[=].display = "17.04. Kits"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8392,7 +8392,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "20."
-* ^concept[=].display = "KOMPLEMENTÄRARZNEIMITTEL (homöopathisch, anthroposophisch, asiatisch)"
+* ^concept[=].display = "20. KOMPLEMENTÄRARZNEIMITTEL (homöopathisch, anthroposophisch, asiatisch)"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8415,7 +8415,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "20.01.10."
-* ^concept[=].display = "Homöopathische Arzneimittel"
+* ^concept[=].display = "20.01.10. Homöopathische Arzneimittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8438,7 +8438,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "20.02."
-* ^concept[=].display = "Anthroposophische Arzneimittel"
+* ^concept[=].display = "20.02. Anthroposophische Arzneimittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8461,7 +8461,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "20.03."
-* ^concept[=].display = "Asiatische Arzneimittel"
+* ^concept[=].display = "20.03. Asiatische Arzneimittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8484,7 +8484,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "20.03.20."
-* ^concept[=].display = "Tibetische Arzneimittel"
+* ^concept[=].display = "20.03.20. Tibetische Arzneimittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8507,7 +8507,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "40."
-* ^concept[=].display = "KONFEKTIONIERTE PRÄPARATE"
+* ^concept[=].display = "40. KONFEKTIONIERTE PRÄPARATE"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8530,7 +8530,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "51."
-* ^concept[=].display = "NERVENSYSTEM KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "51. NERVENSYSTEM KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8553,7 +8553,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "51.04."
-* ^concept[=].display = "Sedativa/Tranquillantia"
+* ^concept[=].display = "51.04. Sedativa/Tranquillantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8576,7 +8576,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "51.04.10."
-* ^concept[=].display = "Einfache Sedativa / Tranquillantia"
+* ^concept[=].display = "51.04.10. Einfache Sedativa / Tranquillantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8599,7 +8599,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "51.04.20."
-* ^concept[=].display = "Kombinierte Sedativa / Tranquilantia"
+* ^concept[=].display = "51.04.20. Kombinierte Sedativa / Tranquilantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8622,7 +8622,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "51.06."
-* ^concept[=].display = "Antidepressiva"
+* ^concept[=].display = "51.06. Antidepressiva"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8645,7 +8645,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "51.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "51.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8668,7 +8668,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "52."
-* ^concept[=].display = "HERZ UND KREISLAUF KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "52. HERZ UND KREISLAUF KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8691,7 +8691,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "52.08."
-* ^concept[=].display = "Venenmittel"
+* ^concept[=].display = "52.08. Venenmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8714,7 +8714,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "52.08.10."
-* ^concept[=].display = "Allgemeine Venenmittel"
+* ^concept[=].display = "52.08.10. Allgemeine Venenmittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8737,7 +8737,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "52.97."
-* ^concept[=].display = "Beschwerden bei Arteriosklerose"
+* ^concept[=].display = "52.97. Beschwerden bei Arteriosklerose"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8760,7 +8760,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "52.98."
-* ^concept[=].display = "Nervöse Herzbeschwerden"
+* ^concept[=].display = "52.98. Nervöse Herzbeschwerden"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8783,7 +8783,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "53."
-* ^concept[=].display = "LUNGE UND ATMUNG KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "53. LUNGE UND ATMUNG KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8806,7 +8806,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "53.02."
-* ^concept[=].display = "Expectorantia et Mucolytica"
+* ^concept[=].display = "53.02. Expectorantia et Mucolytica"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8829,7 +8829,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "53.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "53.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8852,7 +8852,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "54."
-* ^concept[=].display = "GASTROENTEROLOGIKA KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "54. GASTROENTEROLOGIKA KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8875,7 +8875,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "54.08."
-* ^concept[=].display = "Laxantia"
+* ^concept[=].display = "54.08. Laxantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8898,7 +8898,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "54.08.10."
-* ^concept[=].display = "Laxantia"
+* ^concept[=].display = "54.08.10. Laxantia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8921,7 +8921,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "54.11.20."
-* ^concept[=].display = "Cholagoga"
+* ^concept[=].display = "54.11.20. Cholagoga"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8944,7 +8944,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "54.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "54.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8967,7 +8967,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "55."
-* ^concept[=].display = "NIEREN UND WASSERHAUSHALT KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "55. NIEREN UND WASSERHAUSHALT KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -8990,7 +8990,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "55.02."
-* ^concept[=].display = "Mittel gegen Erkrankungen der Harnwege"
+* ^concept[=].display = "55.02. Mittel gegen Erkrankungen der Harnwege"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9013,7 +9013,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "55.98."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "55.98. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9036,7 +9036,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57."
-* ^concept[=].display = "STOFFWECHSEL KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "57. STOFFWECHSEL KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9059,7 +9059,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.02."
-* ^concept[=].display = "Mineralia et Vitamina"
+* ^concept[=].display = "57.02. Mineralia et Vitamina"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9082,7 +9082,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.02.10."
-* ^concept[=].display = "Mineralia"
+* ^concept[=].display = "57.02.10. Mineralia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9105,7 +9105,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.10."
-* ^concept[=].display = "Arthritis und rheumatische Krankheiten"
+* ^concept[=].display = "57.10. Arthritis und rheumatische Krankheiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9128,7 +9128,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.10.10."
-* ^concept[=].display = "Einfache entzündungshemmende Mittel"
+* ^concept[=].display = "57.10.10. Einfache entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9151,7 +9151,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.10.40."
-* ^concept[=].display = "Kutane Mittel"
+* ^concept[=].display = "57.10.40. Kutane Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9174,7 +9174,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.10.50."
-* ^concept[=].display = "Badezusätze und Umschläge"
+* ^concept[=].display = "57.10.50. Badezusätze und Umschläge"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9197,7 +9197,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "57.10.60."
-* ^concept[=].display = "Andere Mittel gegen Arthritis und rheumatische Krankheiten"
+* ^concept[=].display = "57.10.60. Andere Mittel gegen Arthritis und rheumatische Krankheiten"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9220,7 +9220,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "58."
-* ^concept[=].display = "INFEKTIONSKRANKHEITEN KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "58. INFEKTIONSKRANKHEITEN KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9243,7 +9243,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "58.03."
-* ^concept[=].display = "Mittel gegen Viren"
+* ^concept[=].display = "58.03. Mittel gegen Viren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9266,7 +9266,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "59."
-* ^concept[=].display = "GYNAECOLOGICA KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "59. GYNAECOLOGICA KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9289,7 +9289,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "59.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "59.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9312,7 +9312,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "60."
-* ^concept[=].display = "DERMATOLOGICA KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "60. DERMATOLOGICA KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9335,7 +9335,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "60.04."
-* ^concept[=].display = "Mittel gegen chronisches Ekzem und Seborrhoe"
+* ^concept[=].display = "60.04. Mittel gegen chronisches Ekzem und Seborrhoe"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9358,7 +9358,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "60.08."
-* ^concept[=].display = "Adstringierende und entzündungshemmende Mittel"
+* ^concept[=].display = "60.08. Adstringierende und entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9381,7 +9381,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "60.09."
-* ^concept[=].display = "Antiinfektiöse Mittel"
+* ^concept[=].display = "60.09. Antiinfektiöse Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9404,7 +9404,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "60.09.30."
-* ^concept[=].display = "Mittel gegen Viren"
+* ^concept[=].display = "60.09.30. Mittel gegen Viren"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9427,7 +9427,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "60.99."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "60.99. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9450,7 +9450,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "62."
-* ^concept[=].display = "OTO-RHINOLARYNGOLOGICA KOMPLEMENTÄRMEDIZIN"
+* ^concept[=].display = "62. OTO-RHINOLARYNGOLOGICA KOMPLEMENTÄRMEDIZIN"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9473,7 +9473,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "62.02."
-* ^concept[=].display = "Nase"
+* ^concept[=].display = "62.02. Nase"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9496,7 +9496,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "62.02.80."
-* ^concept[=].display = "Varia"
+* ^concept[=].display = "62.02.80. Varia"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9519,7 +9519,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "62.03."
-* ^concept[=].display = "Mund und Rachen"
+* ^concept[=].display = "62.03. Mund und Rachen"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
@@ -9537,7 +9537,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
 * ^concept[=].designation[=].value = "62.03.20."
-* ^concept[=].display = "Entzündungshemmende Mittel"
+* ^concept[=].display = "62.03.20. Entzündungshemmende Mittel"
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001

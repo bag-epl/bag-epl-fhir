@@ -48,9 +48,9 @@ Folgender Code ist an den Krankenversicherer zu übermitteln: 20416.17"
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
 * classification[+] = ChSMCTherapeuticProductcodeCS#756005004003 "Biologics" // TherapeuticProductcode
 * classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
-* classification[+].coding[+] = ITCVS#070000 "07. STOFFWECHSEL"
-* classification[=].coding[+] = ITCVS#071600 "07.16. Oncologica"
-* classification[=].coding[+] = ITCVS#071610 "07.16.10. Cytostatica"
+* classification[+].coding[+] = ITC#070000 "07. STOFFWECHSEL"
+* classification[=].coding[+] = ITC#071600 "07.16. Oncologica"
+* classification[=].coding[+] = ITC#071610 "07.16.10. Cytostatica"
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Keytruda)  // Link to the Professional Information
