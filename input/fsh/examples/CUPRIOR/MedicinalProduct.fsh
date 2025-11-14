@@ -23,8 +23,8 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
 * classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetic" // TherapeuticProductcode
 * classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
-* classification[+].coding[+] = ITC#070000 "07. STOFFWECHSEL"
-* classification[=].coding[+] = ITC#079900 "07.99. Varia"
+* classification[+].coding[+] = ITCVS#070000 "07. STOFFWECHSEL"
+* classification[=].coding[+] = ITCVS#079900 "07.99. Varia"
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Cuprior)  // Link to the Professional Information
