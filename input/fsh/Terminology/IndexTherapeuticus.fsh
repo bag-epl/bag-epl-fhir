@@ -15,6 +15,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^purpose = "Formerly used to classify medical products (https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html, https://spezialitaetenliste.ch)"
 * ^content = #fragment
 * ^concept[+].code = #-00001
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -37,6 +38,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Kein IT-Code"
 
 * ^concept[+].code = #010000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -59,6 +61,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "SISTEMA NERVOSO"
 
 * ^concept[+].code = #010100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -81,6 +84,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici"
 
 * ^concept[+].code = #010110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -103,6 +107,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici antipiretici"
 
 * ^concept[+].code = #010120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -125,6 +130,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici antipiretici combinati"
 
 * ^concept[+].code = #010121
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -147,6 +153,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici combinati con antiallergici"
 
 * ^concept[+].code = #010122
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -169,6 +176,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici combinati con antispastici"
 
 * ^concept[+].code = #010123
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -191,6 +199,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici combinati con miotonolitici"
 
 * ^concept[+].code = #010130
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -213,6 +222,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici narcotici"
 
 * ^concept[+].code = #010140
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -235,6 +245,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analgesici narcotici combinati"
 
 * ^concept[+].code = #010199
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -257,6 +268,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #010200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -279,6 +291,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Anestetici"
 
 * ^concept[+].code = #010210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -301,6 +314,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Anestetici generali"
 
 * ^concept[+].code = #010220
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -323,6 +337,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Anestetici locali parenterali"
 
 * ^concept[+].code = #010300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -345,6 +360,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Ipnotici"
 
 * ^concept[+].code = #010310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -367,6 +383,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Ipnotici soli"
 
 * ^concept[+].code = #010320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -389,6 +406,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Ipnotici combinati"
 
 * ^concept[+].code = #010400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -411,6 +429,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Sedativi / tranquillanti"
 
 * ^concept[+].code = #010410
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -433,6 +452,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Sedativi / tranquillanti soli"
 
 * ^concept[+].code = #010420
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -455,6 +475,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Sedativi / tranquillanti combinati"
 
 * ^concept[+].code = #010500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -477,6 +498,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Neurolettici"
 
 * ^concept[+].code = #010600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -499,6 +521,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antidepressivi"
 
 * ^concept[+].code = #010700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -521,6 +544,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiepilettici"
 
 * ^concept[+].code = #010710
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -543,6 +567,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiepilettici soli"
 
 * ^concept[+].code = #010720
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -565,6 +590,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiepilettici combinati"
 
 * ^concept[+].code = #010800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -587,6 +613,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiparkinsoniani"
 
 * ^concept[+].code = #010900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -609,6 +636,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiemetici"
 
 * ^concept[+].code = #011000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -631,6 +659,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Stimolanti"
 
 * ^concept[+].code = #011010
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -653,6 +682,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Stimolanti deboli"
 
 * ^concept[+].code = #011020
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -675,6 +705,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Stimolanti forti"
 
 * ^concept[+].code = #011030
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -697,6 +728,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Analettici respiratori"
 
 * ^concept[+].code = #011100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -719,6 +751,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Anoressanti"
 
 * ^concept[+].code = #011200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -741,6 +774,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Miotonolitici"
 
 * ^concept[+].code = #011300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -763,6 +797,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Miorilassanti"
 
 * ^concept[+].code = #011400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -785,6 +820,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antimiastenici"
 
 * ^concept[+].code = #019800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -807,6 +843,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Immunomodulatori"
 
 * ^concept[+].code = #019900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -829,6 +866,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #020000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -851,6 +889,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "SISTEMA CARDIOVASCOLARE"
 
 * ^concept[+].code = #020100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -873,6 +912,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Glicosidi cardiaci"
 
 * ^concept[+].code = #020110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -895,6 +935,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Glicosidi cardiaci soli"
 
 * ^concept[+].code = #020120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -917,6 +958,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Glicosidi cardiaci combinati"
 
 * ^concept[+].code = #020200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -939,6 +981,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiaritmici"
 
 * ^concept[+].code = #020300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -961,6 +1004,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Betabloccanti"
 
 * ^concept[+].code = #020400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -983,6 +1027,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Vasodilatatori"
 
 * ^concept[+].code = #020410
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1005,6 +1050,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Nitroglicerina e analoghi"
 
 * ^concept[+].code = #020420
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1027,6 +1073,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Nitroglicerina e analoghi combinati"
 
 * ^concept[+].code = #020430
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1049,6 +1096,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Acido nicotinico e derivati"
 
 * ^concept[+].code = #020440
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1071,6 +1119,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Vasodilatatori coronarici e periferici"
 
 * ^concept[+].code = #020450
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1093,6 +1142,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Vasodilatatori e/o attivatori cerebrali"
 
 * ^concept[+].code = #020500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1115,6 +1165,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Vasocostrittori"
 
 * ^concept[+].code = #020510
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1137,6 +1188,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiemicranici"
 
 * ^concept[+].code = #020520
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1159,6 +1211,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Vasopressori e stimolanti cardiaci"
 
 * ^concept[+].code = #020600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1181,6 +1234,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Calcio-antagonisti"
 
 * ^concept[+].code = #020610
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1203,6 +1257,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Calcio-antagonisti classici"
 
 * ^concept[+].code = #020620
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1225,6 +1280,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Altri calcio-antagonisti"
 
 * ^concept[+].code = #020700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1247,6 +1303,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antipertensivi"
 
 * ^concept[+].code = #020710
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1269,6 +1326,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antipertensivi soli"
 
 * ^concept[+].code = #020720
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1291,6 +1349,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antipertensivi combinati"
 
 * ^concept[+].code = #020800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1313,6 +1372,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Medicamenti per le vene"
 
 * ^concept[+].code = #020810
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1335,6 +1395,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Medicamenti per le vene generali"
 
 * ^concept[+].code = #020820
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1357,6 +1418,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Medicamenti per le vene per uso esterno"
 
 * ^concept[+].code = #020830
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1379,6 +1441,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Sclerosanti"
 
 * ^concept[+].code = #020900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1401,6 +1464,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiemorroidali"
 
 * ^concept[+].code = #020910
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1423,6 +1487,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiemorroidali senza corticosteroidi"
 
 * ^concept[+].code = #020920
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1445,6 +1510,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiemorroidali con corticosteroidi"
 
 * ^concept[+].code = #029700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1467,6 +1533,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Troubles dus à l'artériosclérose"
 
 * ^concept[+].code = #029900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1489,6 +1556,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #030000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1511,6 +1579,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "SISTEMA RESPIRATORIO"
 
 * ^concept[+].code = #030100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1533,6 +1602,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antitosse"
 
 * ^concept[+].code = #030110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1555,6 +1625,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Codeina e analoghi della codeina"
 
 * ^concept[+].code = #030120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1577,6 +1648,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Altri antitosse"
 
 * ^concept[+].code = #030200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1599,6 +1671,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Espettoranti e mucolitici"
 
 * ^concept[+].code = #030300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1621,6 +1694,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Preparati per la tosse combinati"
 
 * ^concept[+].code = #030310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1643,6 +1717,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Codeina e analoghi"
 
 * ^concept[+].code = #030320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1665,6 +1740,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Altri preparati per la tosse combinati"
 
 * ^concept[+].code = #030400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1687,6 +1763,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiasmatici"
 
 * ^concept[+].code = #030410
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1709,6 +1786,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Teofillina e analoghi"
 
 * ^concept[+].code = #030420
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1731,6 +1809,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Teofillina e analoghi combinati"
 
 * ^concept[+].code = #030430
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1753,6 +1832,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Simpaticomimetici e parasimpaticolitici"
 
 * ^concept[+].code = #030440
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1775,6 +1855,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Corticosteroidi per inalazione"
 
 * ^concept[+].code = #030450
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1797,6 +1878,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Altri antiasmatici"
 
 * ^concept[+].code = #030500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1819,6 +1901,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Medicamenti contro le infezioni delle vie respiratorie"
 
 * ^concept[+].code = #030600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1841,6 +1924,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Preparati per frizioni"
 
 * ^concept[+].code = #039900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1863,6 +1947,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #040000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1885,6 +1970,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "GASTROENTEROLOGICI"
 
 * ^concept[+].code = #040100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1907,6 +1993,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antiacidi"
 
 * ^concept[+].code = #040110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1929,6 +2016,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antagonisti dei recettori istaminici H2"
 
 * ^concept[+].code = #040200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1951,6 +2039,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antispastici"
 
 * ^concept[+].code = #040300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1973,6 +2062,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antispastici combinati"
 
 * ^concept[+].code = #040310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -1995,6 +2085,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antispastici combinati con antiacidi"
 
 * ^concept[+].code = #040320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2017,6 +2108,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antispastici combinati con sedativi"
 
 * ^concept[+].code = #040330
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2039,6 +2131,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Antispastici combinati con altri principi attivi"
 
 * ^concept[+].code = #040400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2061,6 +2154,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Carminativi"
 
 * ^concept[+].code = #040500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2083,6 +2177,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Preparati a base di enzimi e/o medicamenti acidificanti"
 
 * ^concept[+].code = #040600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2105,6 +2200,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Procinetici"
 
 * ^concept[+].code = #040700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2127,6 +2223,7 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].value = "Stimolanti dell'appetito"
 
 * ^concept[+].code = #040800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2147,37 +2244,9 @@ Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Lassativi"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>KLEINPACKUNG</LimitationCode>
-        <LimitationType>DIA</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-    * ^concept[=].display = "Gesamthaft zugelassen &lt;b&gt;2 Kleinpackungen&lt;/b&gt; oder &lt;b&gt;1 Grosspackung&lt;/b&gt;.
-Von dieser Beschränkung ist die Behandlung der Obstipation aufgrund von Opioidtherapie, von Parkinsontherapie sowie diejenige der Obstipation von Patienten, die Antidepressiva oder Neuroleptika unterstellt sind, ausgenommen. Im Weiteren sind davon ausgenommen Para- und Tetraplegiker."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Gesamthaft zugelassen &lt;b&gt;2 Kleinpackungen&lt;/b&gt; oder &lt;b&gt;1 Grosspackung&lt;/b&gt;.
-Von dieser Beschränkung ist die Behandlung der Obstipation aufgrund von Opioidtherapie, von Parkinsontherapie sowie diejenige der Obstipation von Patienten, die Antidepressiva oder Neuroleptika unterstellt sind, ausgenommen. Im Weiteren sind davon ausgenommen Para- und Tetraplegiker."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Prescription limitée au maximum à &lt;b&gt;2 petits emballages&lt;/b&gt; ou &lt;b&gt;1 grand emballage&lt;/b&gt;.
-Cette limitation ne s'applique pas à la prise en charge des cas de constipation résultant d'un traitement par des opioïdes ou par des antiparkinsoniens ou encore à ceux consécutifs à la prise d'antidépresseurs ou de neuroleptiques. Cette limitation ne s'applique pas non plus aux paraplégiques et aux tétraplégiques."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Ammessi in totale: &lt;b&gt;2 confezioni piccole&lt;/b&gt; o &lt;b&gt;1 confezione grande&lt;/b&gt;.
-Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattamento con analgesici narcotici (oppioidi), farmaci anti-Parkinson, farmaci antidepressivi e neurolettici. Ne sono inoltre esclusi i tetra- e i paraplegici."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #040810
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2200,6 +2269,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi orali"
 
 * ^concept[+].code = #040811
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2222,6 +2292,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi sintetici e salini"
 
 * ^concept[+].code = #040812
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2244,6 +2315,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi a base di zuccheri, polioli"
 
 * ^concept[+].code = #040813
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2266,6 +2338,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi di volume"
 
 * ^concept[+].code = #040814
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2288,6 +2361,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi antrachinonici"
 
 * ^concept[+].code = #040815
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2310,6 +2384,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi antrachinonici combinati con altri lassativi"
 
 * ^concept[+].code = #040820
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2332,6 +2407,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lassativi per uso rettale"
 
 * ^concept[+].code = #040900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2354,6 +2430,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antidiarroici"
 
 * ^concept[+].code = #041000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2376,6 +2453,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Adsorbenti / astringenti"
 
 * ^concept[+].code = #041100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2398,6 +2476,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Medicamenti per la terapia biliare"
 
 * ^concept[+].code = #041110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2420,6 +2499,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Colelitolitici"
 
 * ^concept[+].code = #041120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2442,6 +2522,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Colagoghi"
 
 * ^concept[+].code = #049900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2464,6 +2545,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #050000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2486,6 +2568,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "RENI E BILANCIO IDRICO"
 
 * ^concept[+].code = #050100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2508,6 +2591,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Diuretici"
 
 * ^concept[+].code = #050200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2530,6 +2614,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Medicamenti contro le malattie delle vie urinarie"
 
 * ^concept[+].code = #050300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2552,6 +2637,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Infusioni"
 
 * ^concept[+].code = #050310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2574,6 +2660,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Carboidrati puri"
 
 * ^concept[+].code = #050320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2596,6 +2683,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Elettroliti puri"
 
 * ^concept[+].code = #050330
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2618,6 +2706,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Soluzioni miste (carboidrati ed elettroliti)"
 
 * ^concept[+].code = #050340
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2640,6 +2729,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Altri"
 
 * ^concept[+].code = #050400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2662,6 +2752,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Soluzioni per dialisi"
 
 * ^concept[+].code = #059800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2684,6 +2775,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Medicamenti in caso di disturbo della prostata"
 
 * ^concept[+].code = #059900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2706,6 +2798,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #060000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2728,6 +2821,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "SANGUE"
 
 * ^concept[+].code = #060110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2748,33 +2842,9 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Conserve di sangue e frazioni plasmatiche"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>BLUTPRODUKTE</LimitationCode>
-        <LimitationType>KOM</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-    * ^concept[=].display = "Preisberechnung für Blutpräparate aufgrund des Fabrikabgabepreises zuzüglich einer Fixmarge wegen der speziellen Verteilersituation (praktisch kein Zwischenhandel) von Fr. 40.-- zuzüglich MWST.  Diese Berechnung gilt nicht für die Humanalbumine."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Preisberechnung für Blutpräparate aufgrund des Fabrikabgabepreises zuzüglich einer Fixmarge wegen der speziellen Verteilersituation (praktisch kein Zwischenhandel) von Fr. 40.-- zuzüglich MWST.  Diese Berechnung gilt nicht für die Humanalbumine."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Calcul des prix des préparations sanguines sur la base du prix « ex factory », plus une marge fixe de 40 francs en raison de la situation particulière de distribution (pratiquement pas d'intermédiaire), TVA en sus. Ce calcul ne s'applique pas aux albumines humaines."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "I prezzi sono calcolati per prodotti sanguini sulla base del prezzo di fabbrica per la consegna e di un margine fisso di 40.-- fr. a causa della situazione particolare della distribuzione (che avviene in pratica senza intermediari) più la IVA. Questo calcolo non è valido per l'albumina umana."
-        <ValidFromDate>01.05.2014</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #060120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2797,6 +2867,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Succedanei del plasma"
 
 * ^concept[+].code = #060121
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2817,33 +2888,9 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Destrani"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>DEXTRANE</LimitationCode>
-        <LimitationType>KOM</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-    * ^concept[=].display = "Anwendung nur für den ambulanten Bereich"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Anwendung nur für den ambulanten Bereich"
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Utilisation uniquement en cas de traitement ambulatoire"
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Uso solo per trattamento ambulatorio"
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #060122
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2864,33 +2911,9 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Gelatine"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>DEXTRANE</LimitationCode>
-        <LimitationType>KOM</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-    * ^concept[=].display = "Anwendung nur für den ambulanten Bereich"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Anwendung nur für den ambulanten Bereich"
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Utilisation uniquement en cas de traitement ambulatoire"
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Uso solo per trattamento ambulatorio"
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #060123
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2913,6 +2936,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Altri"
 
 * ^concept[+].code = #060200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2935,6 +2959,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Emostatici"
 
 * ^concept[+].code = #060300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2957,6 +2982,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antitrombotici"
 
 * ^concept[+].code = #060310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -2979,6 +3005,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antagonisti della vitamina K"
 
 * ^concept[+].code = #060320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3001,6 +3028,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antiaggreganti piastrinici"
 
 * ^concept[+].code = #060330
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3023,6 +3051,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Eparina"
 
 * ^concept[+].code = #060340
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3045,6 +3074,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Inibitori del fattore Xa"
 
 * ^concept[+].code = #060400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3067,6 +3097,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antagonisti degli antitrombotici"
 
 * ^concept[+].code = #060500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3089,6 +3120,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Fibrinolitici"
 
 * ^concept[+].code = #060600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3111,6 +3143,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antifibrinolitici"
 
 * ^concept[+].code = #060700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3133,6 +3166,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Antianemici"
 
 * ^concept[+].code = #060710
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3155,6 +3189,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Ferro"
 
 * ^concept[+].code = #060711
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3177,6 +3212,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "per os"
 
 * ^concept[+].code = #060712
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3199,6 +3235,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "ad iniect."
 
 * ^concept[+].code = #060720
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3221,6 +3258,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Vitamina B12"
 
 * ^concept[+].code = #060730
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3243,6 +3281,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Altri"
 
 * ^concept[+].code = #069900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3265,6 +3304,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #070000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3287,6 +3327,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "METABOLISMO"
 
 * ^concept[+].code = #070100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3309,6 +3350,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Agenti nutrizionali"
 
 * ^concept[+].code = #070110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3329,33 +3371,9 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Disturbi dell'alimentazione nel lattante"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>070110</LimitationCode>
-        <LimitationType>DIA</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-    * ^concept[=].display = "Die aufgeführten Präparate dürfen nur für Säuglinge bis zu 12 Monaten verordnet werden."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Die aufgeführten Präparate dürfen nur für Säuglinge bis zu 12 Monaten verordnet werden."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Les préparations mentionnées ne doivent être prescrites que pour des nourrissons jusqu'à 12 mois."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "I preparati elencati possono essere prescritti unicamente per i lattanti di età minore ai 12 mesi."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #070120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3378,6 +3396,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Alimentazione endovena"
 
 * ^concept[+].code = #070130
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3400,6 +3419,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Dietetici speciali"
 
 * ^concept[+].code = #070140
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3422,6 +3442,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Altra alimentazione"
 
 * ^concept[+].code = #070200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3444,6 +3465,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Minerali e vitamine"
 
 * ^concept[+].code = #070210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3466,6 +3488,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Minerali"
 
 * ^concept[+].code = #070220
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3488,6 +3511,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Minerali combinati"
 
 * ^concept[+].code = #070230
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3510,6 +3534,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Vitamine sole"
 
 * ^concept[+].code = #070240
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3530,34 +3555,9 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Vitamine combinate"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>070240</LimitationCode>
-        <LimitationType>PKT</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-        <LimitationValue>40</LimitationValue>
-    * ^concept[=].display = "Gesamthaft zugelassen: &lt;b&gt;40&lt;/b&gt; Punkte"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Gesamthaft zugelassen: &lt;b&gt;40&lt;/b&gt; Punkte"
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Prescription limitée au maximum à: &lt;b&gt;40&lt;/b&gt; points"
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Ammessi in totale: &lt;b&gt;40&lt;/b&gt; punti"
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #070250
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3580,6 +3580,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Altre combinazioni"
 
 * ^concept[+].code = #070300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3602,6 +3603,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Ipofisi"
 
 * ^concept[+].code = #070310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3624,6 +3626,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lobo anteriore dell'ipofisi"
 
 * ^concept[+].code = #070320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3646,6 +3649,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Lobo posteriore dell'ipofisi"
 
 * ^concept[+].code = #070400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3668,6 +3672,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Tiroide"
 
 * ^concept[+].code = #070410
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3690,6 +3695,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Tireotropina"
 
 * ^concept[+].code = #070420
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3712,6 +3718,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Ormoni tiroidei"
 
 * ^concept[+].code = #070430
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3734,6 +3741,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Tireostatici"
 
 * ^concept[+].code = #070500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3756,6 +3764,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Ormoni calciotropi"
 
 * ^concept[+].code = #070510
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3778,6 +3787,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Paratormone"
 
 * ^concept[+].code = #070520
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3800,6 +3810,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Calcitonina"
 
 * ^concept[+].code = #070600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3822,6 +3833,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Pancreas"
 
 * ^concept[+].code = #070610
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3844,6 +3856,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Insuline"
 
 * ^concept[+].code = #070620
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3866,6 +3879,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Ipoglicemizzanti orali"
 
 * ^concept[+].code = #070630
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3888,6 +3902,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Glucagone"
 
 * ^concept[+].code = #070700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3910,6 +3925,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Corteccia surrenale"
 
 * ^concept[+].code = #070710
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3932,6 +3948,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Corticotropina (ACTH)"
 
 * ^concept[+].code = #070720
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3954,6 +3971,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Glucocorticoidi"
 
 * ^concept[+].code = #070721
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3976,6 +3994,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Cortisone / idrocortisone"
 
 * ^concept[+].code = #070722
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -3998,6 +4017,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Prednisone / prednisolone"
 
 * ^concept[+].code = #070723
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4020,6 +4040,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Metilprednisolone"
 
 * ^concept[+].code = #070724
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4042,6 +4063,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Triamcinolone"
 
 * ^concept[+].code = #070725
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4064,6 +4086,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Betametasone"
 
 * ^concept[+].code = #070726
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4086,6 +4109,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Desametasone"
 
 * ^concept[+].code = #070727
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4108,6 +4132,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Altri glucocorticoidi"
 
 * ^concept[+].code = #070730
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4130,6 +4155,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Mineralcorticoidi"
 
 * ^concept[+].code = #070740
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4152,6 +4178,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Adrenocorticostaticum"
 
 * ^concept[+].code = #070800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4174,6 +4201,7 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].value = "Ormoni sessuali"
 
 * ^concept[+].code = #070810
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4194,57 +4222,9 @@ Fa eccezione a questa limitazione la terapia della stipsi conseguente al trattam
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Gonadotropine e analoghi"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>070810 NEU</LimitationCode>
-        <LimitationType>AUD</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-    * ^concept[=].display = "Nicht zur Adipositasbehandlung.&lt;br&gt;
-&lt;br&gt;
-Kostenübernahme nur nach vorgängiger endokrinologischer Untersuchung, bei Vorliegen einer Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes. &lt;br&gt;
-&lt;br&gt;
-Im Fall einer Anwendung in der Reproduktionsmedizin (Stimulation des Follikelwachstums und der Ovulation):&lt;br&gt;
-Die maximale Behandlungsdauer beträgt ein Jahr. &lt;br&gt;
-Nicht zur Stimulierung einer Superovulation im Rahmen einer In-Vitro-Fertilisation (IVF).&lt;br&gt;"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Nicht zur Adipositasbehandlung.&lt;br&gt;
-&lt;br&gt;
-Kostenübernahme nur nach vorgängiger endokrinologischer Untersuchung, bei Vorliegen einer Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes. &lt;br&gt;
-&lt;br&gt;
-Im Fall einer Anwendung in der Reproduktionsmedizin (Stimulation des Follikelwachstums und der Ovulation):&lt;br&gt;
-Die maximale Behandlungsdauer beträgt ein Jahr. &lt;br&gt;
-Nicht zur Stimulierung einer Superovulation im Rahmen einer In-Vitro-Fertilisation (IVF).&lt;br&gt;"
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "N'est pas remboursé pour le traitement de l'obésité.&lt;br&gt;
-&lt;br&gt;
-Remboursement uniquement après examen endocrinologique et pour autant que l'assureur-maladie ait accordé une garantie de prise en charge des coûts après consultation du médecin-conseil.&lt;br&gt;
-&lt;br&gt;
-En cas d'application en médecine de la reproduction (stimulation de la croissance folliculaire et de l'ovulation):&lt;br&gt;
-La durée maximale du traitement se limite à une année. &lt;br&gt;
-N'est pas remboursé pour la stimulation d'une superovulation dans le cadre d'une fécondation in vitro (FIV).&lt;br&gt;"
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Non viene rimunerato per la cura dell'adiposità.&lt;br&gt;
-&lt;br&gt;
-Pagamento delle spese soltanto previo esame endocrinologico, con una garanzia di assunzione dei costi da parte dell’assicurazione malattie previa consultazione del medico di fiducia.&lt;br&gt;
-&lt;br&gt;
-In caso di applicazione nell'ambito della medicina riproduttiva (stimolazione dello sviluppo follicolare e dell'ovulazione):&lt;br&gt;
-La durata massima del trattamento è limitata ad un anno. &lt;br&gt;
-Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di una fecondazione in vitro (FIV).&lt;br&gt;"
-        <ValidFromDate>01.02.2024</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #070820
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4267,6 +4247,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Estrogeni"
 
 * ^concept[+].code = #070830
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4289,6 +4270,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Progestinici"
 
 * ^concept[+].code = #070840
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4309,33 +4291,9 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Androgeni"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>070840</LimitationCode>
-        <LimitationType>DIA</LimitationType>
-        <LimitationNiveau>I</LimitationNiveau>
-    * ^concept[=].display = "Bei gynäkologischen Indikationen sowie bei männlichem Hypogonadismus und zur Einleitung der Pubertät."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Bei gynäkologischen Indikationen sowie bei männlichem Hypogonadismus und zur Einleitung der Pubertät."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Pour les indications gynécologiques ainsi que pour l'hypogonadisme mâle et l'induction de la puberté."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Per indicazioni ginecologiche come pure per ipogonadismo maschile e per l'induzione delle pubertà."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #070850
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4358,6 +4316,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Anabolizzanti"
 
 * ^concept[+].code = #070860
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4380,6 +4339,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Combinazioni"
 
 * ^concept[+].code = #070900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4402,6 +4362,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri ormoni"
 
 * ^concept[+].code = #071000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4424,6 +4385,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Artrite e malattie reumatiche"
 
 * ^concept[+].code = #071010
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4446,6 +4408,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antiinfiammatori soli"
 
 * ^concept[+].code = #071020
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4468,6 +4431,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antiinfiammatori combinati"
 
 * ^concept[+].code = #071021
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4490,6 +4454,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "senza corticosteroidi"
 
 * ^concept[+].code = #071022
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4510,34 +4475,9 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "con corticosteroidi"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>071022</LimitationCode>
-        <LimitationType>PKT</LimitationType>
-        <LimitationNiveau>I</LimitationNiveau>
-        <LimitationValue>80</LimitationValue>
-    * ^concept[=].display = "Gesamthaft zugelassen: &lt;b&gt;80&lt;/b&gt; Punkte."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Gesamthaft zugelassen: &lt;b&gt;80&lt;/b&gt; Punkte."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Prescription limitée au maximum à: &lt;b&gt;80&lt;/b&gt; points."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Ammessi in totale: &lt;b&gt;80&lt;/b&gt; punti."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #071030
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4560,6 +4500,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Preparati a base di oro"
 
 * ^concept[+].code = #071040
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4582,6 +4523,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Medicamenti per uso topico"
 
 * ^concept[+].code = #071050
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4604,6 +4546,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Preparati per il bagno e per impacchi"
 
 * ^concept[+].code = #071060
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4626,6 +4569,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri medicamenti contro l'artrite e le malattie reumatiche"
 
 * ^concept[+].code = #071099
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4648,6 +4592,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #071100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4670,6 +4615,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antigottosi"
 
 * ^concept[+].code = #071110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4692,6 +4638,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Colchicina"
 
 * ^concept[+].code = #071120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4714,6 +4661,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Uricosurici"
 
 * ^concept[+].code = #071130
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4736,6 +4684,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri antigottosi"
 
 * ^concept[+].code = #071200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4758,6 +4707,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Ipolipemizzanti"
 
 * ^concept[+].code = #071300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4780,6 +4730,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antiallergici"
 
 * ^concept[+].code = #071310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4802,6 +4753,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antistaminici"
 
 * ^concept[+].code = #071320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4824,6 +4776,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri antiallergici"
 
 * ^concept[+].code = #071330
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4844,33 +4797,9 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Soluzioni per desensibilizzazione"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>071330</LimitationCode>
-        <LimitationType>DIA</LimitationType>
-        <LimitationNiveau>I</LimitationNiveau>
-    * ^concept[=].display = "Kostenübernahme nur nach vorgängiger allergologischer Abklärung."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Kostenübernahme nur nach vorgängiger allergologischer Abklärung."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Prise en charge seulement après exploration allergologique."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Pagamento delle spese soltanto previa esplorazione allergologica."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #071400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4893,6 +4822,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Preparati a base di enzimi"
 
 * ^concept[+].code = #071500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4915,6 +4845,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Immunosoppressori"
 
 * ^concept[+].code = #071600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4937,6 +4868,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Oncologici"
 
 * ^concept[+].code = #071610
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4959,6 +4891,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Citostatici"
 
 * ^concept[+].code = #071620
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -4981,6 +4914,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Ormoni"
 
 * ^concept[+].code = #071630
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5003,6 +4937,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Radioisotopi"
 
 * ^concept[+].code = #071640
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5025,6 +4960,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri"
 
 * ^concept[+].code = #079900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5047,6 +4983,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #080000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5069,6 +5006,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "MALATTIE INFETTIVE"
 
 * ^concept[+].code = #080100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5091,6 +5029,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antibatterici"
 
 * ^concept[+].code = #080110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5113,6 +5052,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Sulfonamidi"
 
 * ^concept[+].code = #080120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5135,6 +5075,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Penicilline"
 
 * ^concept[+].code = #080121
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5157,6 +5098,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Benzilpenicilline e analoghi"
 
 * ^concept[+].code = #080122
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5179,6 +5121,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Penicilline acido-resistenti"
 
 * ^concept[+].code = #080123
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5201,6 +5144,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Ampicilline e analoghi"
 
 * ^concept[+].code = #080124
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5223,6 +5167,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Penicilline resistenti alla penicillasi"
 
 * ^concept[+].code = #080125
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5245,6 +5190,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altre penicilline (penicilline ad ampio spettro)"
 
 * ^concept[+].code = #080130
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5267,6 +5213,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Cefalosporine"
 
 * ^concept[+].code = #080140
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5289,6 +5236,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Cloramfenicolo e analoghi"
 
 * ^concept[+].code = #080150
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5311,6 +5259,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Tetracicline"
 
 * ^concept[+].code = #080160
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5333,6 +5282,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Eritromicina e analoghi"
 
 * ^concept[+].code = #080170
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5355,6 +5305,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Aminoglicosidi"
 
 * ^concept[+].code = #080180
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5377,6 +5328,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Chinoloni "
 
 * ^concept[+].code = #080190
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5399,6 +5351,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri antibatterici"
 
 * ^concept[+].code = #080191
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5421,6 +5374,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antibiotici polipeptidici"
 
 * ^concept[+].code = #080192
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5443,6 +5397,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Lincomicine e analoghi"
 
 * ^concept[+].code = #080193
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5465,6 +5420,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #080194
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5487,6 +5443,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Combinazioni"
 
 * ^concept[+].code = #080199
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5502,9 +5459,14 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Varia"
-    <DescriptionIt />
+* ^concept[=].designation[+].language = #it
+* ^concept[=].designation[=].use.system = $sct
+* ^concept[=].designation[=].use.code = #900000000000003001
+* ^concept[=].designation[=].use.display = "Fully specified name"
+* ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #080200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5527,6 +5489,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Tubercolostatici"
 
 * ^concept[+].code = #080210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5549,6 +5512,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Tubercolostatici soli"
 
 * ^concept[+].code = #080220
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5571,6 +5535,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Tubercolostatici combinati"
 
 * ^concept[+].code = #080300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5593,6 +5558,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antivirali"
 
 * ^concept[+].code = #080400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5615,6 +5581,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antiprotozoari"
 
 * ^concept[+].code = #080410
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5635,33 +5602,9 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Antimalarici"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>MALARIA</LimitationCode>
-        <LimitationType>DIA</LimitationType>
-        <LimitationNiveau>I</LimitationNiveau>
-    * ^concept[=].display = "Prophylaktische Anwendung nicht zu Lasten der Krankenversicherer."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Prophylaktische Anwendung nicht zu Lasten der Krankenversicherer."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Utilisation à des fins prophylactiques non admise à la charge des assureurs-maladie."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Applicazione profilattica non a carico degli assicuratori-malattie."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #080420
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5684,6 +5627,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antisifilitici"
 
 * ^concept[+].code = #080430
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5706,6 +5650,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri antiprotozoari"
 
 * ^concept[+].code = #080500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5728,6 +5673,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antiparassitari"
 
 * ^concept[+].code = #080510
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5750,6 +5696,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antielmintici"
 
 * ^concept[+].code = #080520
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5772,6 +5719,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Altri antiparassitari"
 
 * ^concept[+].code = #080600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5794,6 +5742,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Antimicotici"
 
 * ^concept[+].code = #080700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5816,6 +5765,7 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].value = "Sieri"
 
 * ^concept[+].code = #080800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5836,45 +5786,9 @@ Non viene rimunerato per la stimolazione di una superovulazione nell'ambito di u
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Vaccini"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>0808 NEU</LimitationCode>
-        <LimitationType>KOM</LimitationType>
-        <LimitationNiveau>I</LimitationNiveau>
-    * ^concept[=].display = "Die Kostenübernahme der Impfstoffe als Teil einer präventiven Massnahme im Rahmen der obligatorischen Krankenpflegeversicherung richtet sich nach den in Artikel 12a KLV für die jeweiligen Impfungen abschliessend festgelegten Voraussetzungen und erfolgt nur innerhalb der Zulassung durch Swissmedic. Bei beruflicher und reisemedizinischer Indikation erfolgt keine Kostenübernahme durch die obligatorische Krankenpflegeversicherung.&lt;br&gt;
-Die Preise der Impfstoffe sind Höchstpreise (Art. 52 Abs. 3 KVG) und kommen bei Reihenimpfungen (z.B. im schulärztlichen Dienst) nicht zur Anwendung. In diesen Fällen gelten die von den Krankenversicherern mit den zuständigen Behörden ausgehandelten bzw. die allenfalls von den Behörden festgesetzten Tarife. Wenn der Impfstoff zu einem günstigeren Preis bezogen wird (z.B. im Rahmen von Reihenimpfungen), darf der Arzt oder die Ärztin nicht den Publikumspreis der SL verrechnen.&lt;br&gt;
-Die Vergünstigung muss gemäss Artikel 56 Absatz 3 KVG weitergegeben werden, ausser es bestehen Vereinbarungen nach Artikel 56 Absatz 3&lt;sup&gt;bis&lt;/sup&gt; KVG.
-"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Die Kostenübernahme der Impfstoffe als Teil einer präventiven Massnahme im Rahmen der obligatorischen Krankenpflegeversicherung richtet sich nach den in Artikel 12a KLV für die jeweiligen Impfungen abschliessend festgelegten Voraussetzungen und erfolgt nur innerhalb der Zulassung durch Swissmedic. Bei beruflicher und reisemedizinischer Indikation erfolgt keine Kostenübernahme durch die obligatorische Krankenpflegeversicherung.&lt;br&gt;
-Die Preise der Impfstoffe sind Höchstpreise (Art. 52 Abs. 3 KVG) und kommen bei Reihenimpfungen (z.B. im schulärztlichen Dienst) nicht zur Anwendung. In diesen Fällen gelten die von den Krankenversicherern mit den zuständigen Behörden ausgehandelten bzw. die allenfalls von den Behörden festgesetzten Tarife. Wenn der Impfstoff zu einem günstigeren Preis bezogen wird (z.B. im Rahmen von Reihenimpfungen), darf der Arzt oder die Ärztin nicht den Publikumspreis der SL verrechnen.&lt;br&gt;
-Die Vergünstigung muss gemäss Artikel 56 Absatz 3 KVG weitergegeben werden, ausser es bestehen Vereinbarungen nach Artikel 56 Absatz 3&lt;sup&gt;bis&lt;/sup&gt; KVG.
-"
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "La prise en charge des coûts des vaccins au titre de mesure préventive dans le cadre de l'assurance maladie obligatoire des soins est régie par les conditions contraignantes fixées à l'article 12a OPAS pour les vaccinations correspondantes et n'a lieu que dans le cadre de l'autorisation délivrée par Swissmedic. En cas d'indication professionnelle et de recommandation médicale aux voyageurs, la vaccination n'est pas prise en charge par l'assurance maladie obligatoire des soins. &lt;br&gt;
-Les prix des vaccins sont des prix maximaux (art. 52, al. 3, LAMal) et ne s'appliquent pas aux vaccinations en série (par ex. dans le service médical scolaire). Dans ce cas, les tarifs négociés par les assureurs maladie avec les autorités compétentes ou, le cas échéant, ceux fixés par les autorités, sont applicables. Si le vaccin est acheté à un prix inférieur (par exemple dans le cadre d'une série de vaccinations), le médecin ne peut pas le facturer au prix public de la LS.&lt;br&gt;
-L'avantage doit être répercuté conformément à l'article 56, al. 3, LAMal, hormis si des conventions au sens de l'art. 56, al. 3&lt;sup&gt;bis&lt;/sup&gt;, LAMal, ont été conclues.
-"
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "L’assunzione dei costi dei vaccini, in quanto misura di prevenzione nel quadro dell’assicurazione obbligatoria delle cure medico-sanitarie, è disciplinata in modo esauriente dalle condizioni fissate per i vaccini interessati nell’articolo 12a Opre e avviene solo nell’ambito dell’omologazione rilasciata da Swissmedic. In caso di indicazione professionale e di medicina di viaggio, l’assicurazione obbligatoria delle cure medico-sanitarie non ne assume i costi.&lt;br&gt;
-I prezzi dei vaccini sono prezzi massimi (art. 52 cpv. 3 LAMal) e non si applicano alle vaccinazioni in serie (ad. es. quelle effettuate nell’ambito del servizio medico scolastico). In questi casi sono applicabili le tariffe negoziate dagli assicuratori malattie con le autorità competenti o quelle eventualmente stabilite dalle autorità. Se il vaccino è acquistato a un prezzo più conveniente (p. es. nel quadro di vaccinazioni in serie), il medico non può fatturare il prezzo per il pubblico che figura nell’ES.&lt;br&gt;
-Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capoverso 3 LAMal, tranne in caso di accordi di cui all’articolo 56 capoverso 3&lt;sup&gt;bis&lt;/sup&gt; LAMal.
-"
-        <ValidFromDate>01.12.2022</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #080900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5897,6 +5811,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Immunoglobuline umane"
 
 * ^concept[+].code = #089900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5919,6 +5834,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #090000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5941,6 +5857,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "GINECOLOGICI"
 
 * ^concept[+].code = #090100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5963,6 +5880,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Uterini"
 
 * ^concept[+].code = #090110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -5985,6 +5903,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Ossitocici"
 
 * ^concept[+].code = #090120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6007,6 +5926,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Tocolitici"
 
 * ^concept[+].code = #090200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6029,6 +5949,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Contraccettivi"
 
 * ^concept[+].code = #090210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6051,6 +5972,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Contraccettivi"
 
 * ^concept[+].code = #090300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6073,6 +5995,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antimicrobici e antisettici"
 
 * ^concept[+].code = #099900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6095,6 +6018,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #100000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6117,6 +6041,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "DERMATOLOGICI"
 
 * ^concept[+].code = #100100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6139,6 +6064,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anestetici e antipruriginosi"
 
 * ^concept[+].code = #100200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6161,6 +6087,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati antiacne"
 
 * ^concept[+].code = #100300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6183,6 +6110,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antipsoriasici "
 
 * ^concept[+].code = #100400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6205,6 +6133,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati per eczema cronico e seborrea"
 
 * ^concept[+].code = #100500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6227,6 +6156,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Corticosteroidi"
 
 * ^concept[+].code = #100510
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6249,6 +6179,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Corticosteroidi soli"
 
 * ^concept[+].code = #100520
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6271,6 +6202,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Corticosteroidi combinati"
 
 * ^concept[+].code = #100600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6293,6 +6225,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati per il trattamento di ferite e ulcerazioni"
 
 * ^concept[+].code = #100700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6315,6 +6248,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Cheratolitici"
 
 * ^concept[+].code = #100800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6337,6 +6271,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati astringenti e antiinfiammatori"
 
 * ^concept[+].code = #100900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6359,6 +6294,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfettivi"
 
 * ^concept[+].code = #100910
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6381,6 +6317,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Disinfettanti"
 
 * ^concept[+].code = #100920
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6403,6 +6340,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antibatterici"
 
 * ^concept[+].code = #100930
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6425,6 +6363,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antivirali"
 
 * ^concept[+].code = #100940
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6447,6 +6386,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antimicotici"
 
 * ^concept[+].code = #100941
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6469,6 +6409,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Senza corticosteroidi"
 
 * ^concept[+].code = #100942
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6491,6 +6432,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Con corticosteroidi"
 
 * ^concept[+].code = #100950
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6513,6 +6455,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiparassitari"
 
 * ^concept[+].code = #101000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6533,34 +6476,9 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
 * ^concept[=].designation[=].value = "Preparati per pelle sensibile"
-    <Limitations>
-      <Limitation>
-        <LimitationCode>1010</LimitationCode>
-        <LimitationType>PKT</LimitationType>
-        <LimitationNiveau>IP</LimitationNiveau>
-        <LimitationValue>60</LimitationValue>
-    * ^concept[=].display = "Gesamthaft zugelassen: &lt;b&gt;60&lt;/b&gt; Punkte."
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Gesamthaft zugelassen: &lt;b&gt;60&lt;/b&gt; Punkte."
-    * ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Prescription limitée au maximum à: &lt;b&gt;60&lt;/b&gt; points."
-    * ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Ammessi in totale: &lt;b&gt;60&lt;/b&gt; punti."
-        <ValidFromDate>01.01.2000</ValidFromDate>
-        <ValidThruDate>31.12.9999</ValidThruDate>
-      </Limitation>
-    </Limitations>
-  </ItCode>
+
 * ^concept[+].code = #109900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6583,6 +6501,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #110000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6605,6 +6524,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "OFTALMOLOGICI"
 
 * ^concept[+].code = #110100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6627,6 +6547,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Miotici"
 
 * ^concept[+].code = #110200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6649,6 +6570,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Midriatici"
 
 * ^concept[+].code = #110300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6671,6 +6593,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anestetici locali"
 
 * ^concept[+].code = #110400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6693,6 +6616,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Vasocostrittori"
 
 * ^concept[+].code = #110500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6715,6 +6639,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Vasodilatatori"
 
 * ^concept[+].code = #110600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6737,6 +6662,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfiammatori"
 
 * ^concept[+].code = #110610
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6759,6 +6685,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Corticosteroidi"
 
 * ^concept[+].code = #110620
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6781,6 +6708,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiallergici"
 
 * ^concept[+].code = #110630
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6803,6 +6731,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Altri antiinfiammatori"
 
 * ^concept[+].code = #110700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6825,6 +6754,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfettivi"
 
 * ^concept[+].code = #110710
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6847,6 +6777,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antibatterici"
 
 * ^concept[+].code = #110720
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6869,6 +6800,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antivirali"
 
 * ^concept[+].code = #110730
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6891,6 +6823,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antimicotici"
 
 * ^concept[+].code = #110800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6913,6 +6846,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati ad azione fisica"
 
 * ^concept[+].code = #110810
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6935,6 +6869,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Liquido per lenti a contatto"
 
 * ^concept[+].code = #110820
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6957,6 +6892,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Lacrime artificiali"
 
 * ^concept[+].code = #110900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -6979,6 +6915,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiglaucoma"
 
 * ^concept[+].code = #111000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7001,6 +6938,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anticataratta"
 
 * ^concept[+].code = #119900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7023,6 +6961,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #120000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7045,6 +6984,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "OTORINOLARINGOLOGICI"
 
 * ^concept[+].code = #120100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7067,6 +7007,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Otologici"
 
 * ^concept[+].code = #120110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7089,6 +7030,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Analgesici e antiinfiammatori"
 
 * ^concept[+].code = #120120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7111,6 +7053,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfettivi"
 
 * ^concept[+].code = #120130
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7133,6 +7076,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfettivi con corticosteroidi"
 
 * ^concept[+].code = #120140
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7155,6 +7099,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Altri otologici"
 
 * ^concept[+].code = #120200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7177,6 +7122,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Rinologici"
 
 * ^concept[+].code = #120210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7199,6 +7145,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Vasocostrittori "
 
 * ^concept[+].code = #120220
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7221,6 +7168,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Vasocostrittori combinati / antistaminici combinati / altre combinazioni"
 
 * ^concept[+].code = #120230
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7243,6 +7191,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Rinologici con corticosteroidi"
 
 * ^concept[+].code = #120240
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7265,6 +7214,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Secretolitici e umettanti"
 
 * ^concept[+].code = #120250
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7287,6 +7237,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfettivi"
 
 * ^concept[+].code = #120260
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7309,6 +7260,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Medicamenti sistemici agenti sulla mucosa nasale"
 
 * ^concept[+].code = #120270
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7331,6 +7283,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antistaminici"
 
 * ^concept[+].code = #120280
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7353,6 +7306,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #120300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7375,6 +7329,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Cavo orale e gola"
 
 * ^concept[+].code = #120310
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7397,6 +7352,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anestetici locali combinati"
 
 * ^concept[+].code = #120320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7419,6 +7375,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antiinfiammatori"
 
 * ^concept[+].code = #120330
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7441,6 +7398,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antibatterici"
 
 * ^concept[+].code = #120340
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7463,6 +7421,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antimicotici"
 
 * ^concept[+].code = #129900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7485,6 +7444,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #130000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7507,6 +7467,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "ODONTOSTOMATOLOGICI  "
 
 * ^concept[+].code = #130100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7529,6 +7490,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "ANESTETICI LOCALI"
 
 * ^concept[+].code = #130110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7551,6 +7513,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anestetici di superficie"
 
 * ^concept[+].code = #130120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7573,6 +7536,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anestetici di infiltrazione e conduzione"
 
 * ^concept[+].code = #130200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7595,6 +7559,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "TRATTAMENTO DI FERITE"
 
 * ^concept[+].code = #130210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7617,6 +7582,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Vasocostrittori"
 
 * ^concept[+].code = #130220
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7639,6 +7605,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Bendaggi di ferite"
 
 * ^concept[+].code = #130230
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7661,6 +7628,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Altri"
 
 * ^concept[+].code = #130300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7683,6 +7651,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "PREPARATI ENDODONTICI"
 
 * ^concept[+].code = #130400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7705,6 +7674,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "PREPARATI AGENTI SULLA GENGIVA E SULLA MUCOSA ORALE"
 
 * ^concept[+].code = #130500
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7727,6 +7697,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "PROFILASSI DELLA CARIE"
 
 * ^concept[+].code = #130510
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7749,6 +7720,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Fluoro"
 
 * ^concept[+].code = #130520
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7771,6 +7743,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Altri"
 
 * ^concept[+].code = #130600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7793,6 +7766,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "INFEZIONI ORALI E DENTARIE"
 
 * ^concept[+].code = #130700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7815,6 +7789,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "PARODONTOPATIE"
 
 * ^concept[+].code = #130800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7837,6 +7812,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "PREPARATI PER LA DESENSIBILIZZAZIONE DELLA SUPERFICIE DENTALE E DELLA DENTINA"
 
 * ^concept[+].code = #139900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7859,6 +7835,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "VARIE"
 
 * ^concept[+].code = #140000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7881,6 +7858,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "DIAGNOSTICI"
 
 * ^concept[+].code = #140100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7903,6 +7881,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Mezzi di contrasto radiologici"
 
 * ^concept[+].code = #140110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7925,6 +7904,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati iodati idrosolubili parenterali"
 
 * ^concept[+].code = #140111
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7947,6 +7927,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Monomeri ionici ad alta osmolarità"
 
 * ^concept[+].code = #140112
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7969,6 +7950,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Dimeri ionici a bassa osmolarità"
 
 * ^concept[+].code = #140113
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -7991,6 +7973,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Monomeri non ionici a bassa osmolarità"
 
 * ^concept[+].code = #140114
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8013,6 +7996,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Dimeri non ionici a bassa osmolarità"
 
 * ^concept[+].code = #140120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8035,6 +8019,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati per uso enterale"
 
 * ^concept[+].code = #140121
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8057,6 +8042,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati iodati idrosolubili"
 
 * ^concept[+].code = #140122
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8079,6 +8065,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Bario solfato"
 
 * ^concept[+].code = #140130
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8101,6 +8088,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati eliminati per via biliare"
 
 * ^concept[+].code = #140131
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8123,6 +8111,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Parenterali"
 
 * ^concept[+].code = #140199
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8145,6 +8134,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #140200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8167,6 +8157,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Preparati per risonanza magnetica"
 
 * ^concept[+].code = #140300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8189,6 +8180,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Altri diagnostici"
 
 * ^concept[+].code = #140400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8211,6 +8203,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Reagenti"
 
 * ^concept[+].code = #149900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8233,6 +8226,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varie"
 
 * ^concept[+].code = #150000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8255,6 +8249,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "ANTIDOTI"
 
 * ^concept[+].code = #160000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8277,6 +8272,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "SCAMBIATORI DI CATIONI"
 
 * ^concept[+].code = #170000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8299,6 +8295,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "RADIONUCLIDI"
 
 * ^concept[+].code = #170100
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8321,6 +8318,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Radiofarmaceutici diagnostici"
 
 * ^concept[+].code = #170200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8343,6 +8341,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Radiofarmaceutici terapeutici"
 
 * ^concept[+].code = #170300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8365,6 +8364,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Generatori"
 
 * ^concept[+].code = #170400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8387,6 +8387,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Kit"
 
 * ^concept[+].code = #200000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8409,6 +8410,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "KOMPLEMENTÄRARZNEIMITTEL (homöopathisch, anthroposophisch, asiatisch)"
 
 * ^concept[+].code = #200110
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8431,6 +8433,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Homöopathische Arzneimittel"
 
 * ^concept[+].code = #200200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8453,6 +8456,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anthroposophische Arzneimittel"
 
 * ^concept[+].code = #200300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8475,6 +8479,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Asiatische Arzneimittel"
 
 * ^concept[+].code = #200320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8497,6 +8502,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Tibetische Arzneimittel"
 
 * ^concept[+].code = #400000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8519,6 +8525,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "MEDICAMENTI CONFEZIONATI"
 
 * ^concept[+].code = #510000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8541,6 +8548,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "SISTEMA NERVOSO"
 
 * ^concept[+].code = #510400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8563,6 +8571,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Sedativa/Tranquillantia"
 
 * ^concept[+].code = #510410
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8585,6 +8594,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Sédatifs - tranquillisants simples"
 
 * ^concept[+].code = #510420
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8607,6 +8617,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Sédatifs - tranquilisants composées"
 
 * ^concept[+].code = #510600
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8629,6 +8640,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Antidepressiva"
 
 * ^concept[+].code = #519900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8651,6 +8663,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #520000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8673,6 +8686,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "SISTEMA CARDIOVASCOLARE"
 
 * ^concept[+].code = #520800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8695,6 +8709,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Médicaments pour les veines"
 
 * ^concept[+].code = #520810
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8717,6 +8732,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Généreaux"
 
 * ^concept[+].code = #529700
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8739,6 +8755,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Troubles lors d'artériosclérose"
 
 * ^concept[+].code = #529800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8761,6 +8778,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Troubles cardiaques d'origine nerveuse"
 
 * ^concept[+].code = #530000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8783,6 +8801,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "SISTEMA RESPIRATORIO"
 
 * ^concept[+].code = #530200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8805,6 +8824,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Expectorantia et Mucolytica"
 
 * ^concept[+].code = #539900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8827,6 +8847,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #540000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8849,6 +8870,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "GASTROENTEROLOGICI"
 
 * ^concept[+].code = #540800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8871,6 +8893,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Laxantia"
   
 * ^concept[+].code = #540810
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8893,6 +8916,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Laxantia"
 
 * ^concept[+].code = #541120
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8915,6 +8939,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Cholagoga"
 
 * ^concept[+].code = #549900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8937,6 +8962,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #550000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8959,6 +8985,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "RENI E BILANCIO IDRICO"
 
 * ^concept[+].code = #550200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -8981,6 +9008,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Médicaments contre les affections des voies urinaires"
 
 * ^concept[+].code = #559800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9003,6 +9031,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #570000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9025,6 +9054,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "METABOLISMO"
 
 * ^concept[+].code = #570200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9047,6 +9077,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Mineralia et Vitamina"
 
 * ^concept[+].code = #570210
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9069,6 +9100,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Mineralia"
 
 * ^concept[+].code = #571000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9091,6 +9123,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Arthrites et affections rhumatismales"
 
 * ^concept[+].code = #571010
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9113,6 +9146,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Anti-inflammatoires simples"
 
 * ^concept[+].code = #571040
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9135,6 +9169,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations cutanées"
 
 * ^concept[+].code = #571050
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9157,6 +9192,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations pour bains et cataplasmes"
 
 * ^concept[+].code = #571060
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9179,6 +9215,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Autres médicaments contre l'arthrite et les affections rhumatismales"
 
 * ^concept[+].code = #580000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9201,6 +9238,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "MALATTIE INFETTIVE"
 
 * ^concept[+].code = #580300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9223,6 +9261,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations antivirales"
 
 * ^concept[+].code = #590000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9245,6 +9284,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "GINECOLOGICI"
 
 * ^concept[+].code = #599900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9267,6 +9307,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #600000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9289,6 +9330,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "DERMATOLOGICI"
 
 * ^concept[+].code = #600400
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9311,6 +9353,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations contre l'eczéma chronique et la séborrhée"
 
 * ^concept[+].code = #600800
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9333,6 +9376,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations stringentes et antiinflammatoires"
 
 * ^concept[+].code = #600900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9355,6 +9399,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations antiinfectieuses"
 
 * ^concept[+].code = #600930
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9377,6 +9422,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Préparations antivirales"
 
 * ^concept[+].code = #609900
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9399,6 +9445,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #620000
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9421,6 +9468,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "OTORINOLARINGOLOGICI"
 
 * ^concept[+].code = #620200
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9443,6 +9491,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Nez"
 
 * ^concept[+].code = #620280
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9465,6 +9514,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Varia"
 
 * ^concept[+].code = #620300
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
@@ -9482,6 +9532,7 @@ Lo sconto deve essere fatto usufruire al debitore secondo l’articolo 56 capove
 * ^concept[=].designation[=].value = "Bouche et gorge"
 
 * ^concept[+].code = #620320
+* ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000013009
 * ^concept[=].designation[=].use.display = "Synonym"
