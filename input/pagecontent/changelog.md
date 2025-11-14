@@ -9,7 +9,10 @@ All significant changes to this FHIR implementation guide will be documented on 
 - [#23](https://github.com/bag-epl/bag-epl-fhir/issues/23): LOC identifier
 - [#31](https://github.com/bag-epl/bag-epl-fhir/issues/31): Fix non-resolvable links / Introduce temporary NamingSystems
 
-### FOPH Review (2024-08-31)
+#### Added
+- Legacy code system for index therapeuticus (IT-Code)
+  
+### FOPH Review
 
 #### Fixed
 - [#19](https://github.com/bag-epl/bag-epl-fhir/issues/19): Model lacks the ability to add multiple packages for a medical product
