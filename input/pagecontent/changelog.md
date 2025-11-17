@@ -10,7 +10,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 - [#31](https://github.com/bag-epl/bag-epl-fhir/issues/31): Fix non-resolvable links / Introduce temporary NamingSystems
 
 #### Added
-- Legacy code system for index therapeuticus (IT-Code)
+- Code system for index therapeuticus (IT-Code)
   
 ### FOPH Review
 

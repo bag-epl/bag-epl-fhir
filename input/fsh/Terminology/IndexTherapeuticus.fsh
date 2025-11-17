@@ -1,7 +1,7 @@
 ValueSet: ITCVS
 Id: ch-epl-foph-index-therapeuticus
 Title: "CH EPL - Index Therapeuticus"
-Description: "Legacy value set for index therapeuticus (IT-Code)."
+Description: "Value set for index therapeuticus (IT-Code)."
 * ^experimental = false
 * ^status = #active
 * include codes from system ITC
@@ -9,35 +9,13 @@ Description: "Legacy value set for index therapeuticus (IT-Code)."
 CodeSystem: ITC
 Id: ch-epl-foph-index-therapeuticus
 Title: "CH EPL - Index Therapeuticus"
-Description: "Legacy classification index therapeuticus (IT-Code)."
+Description: "Classification index therapeuticus (IT-Code)."
 * ^experimental = false
 * ^url = $FOPH-IndexTherapeuticus
 * ^status = #active
 * ^purpose = "Formerly used to classify medical products (https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html, https://spezialitaetenliste.ch)"
 * ^caseSensitive = true
 * ^content = #complete
-* ^concept[+].code = #-00001
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000013009
-* ^concept[=].designation[=].use.display = "Synonym"
-* ^concept[=].designation[=].value = "-0.00.01."
-* ^concept[=].display = "-0.00.01. Kein IT-Code"
-* ^concept[=].designation[+].language = #de
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Kein IT-Code"
-* ^concept[=].designation[+].language = #fr
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Pas de code IT"
-* ^concept[=].designation[+].language = #it
-* ^concept[=].designation[=].use.system = $sct
-* ^concept[=].designation[=].use.code = #900000000000003001
-* ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "Kein IT-Code"
 
 * ^concept[+].code = #010000
 * ^concept[=].designation[+].language = #de

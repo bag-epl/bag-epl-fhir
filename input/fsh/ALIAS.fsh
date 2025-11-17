@@ -63,7 +63,8 @@ Alias:  $SMC-MasterFileType =                         http://fhir.ch/ig/ch-epl/C
 Alias:  $SMC-ReferencedProductType =                  http://fhir.ch/ig/ch-epl/CodeSystem/ch-SMC-ReferencedProductType //Provisorisch
 
 // FOPH
-Alias:  $ePL-ProductTypeCS =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-product-type 
+Alias:  $ePL-ProductTypeCS =                          http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-product-type
+Alias:  $FOPH-IndexTherapeuticus =                    http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-index-therapeuticus
 
 // Section Green - Marketing Authorisations
 
@@ -115,7 +116,3 @@ Alias: $PCID =    http://fhir.ch/ig/ch-epl/sid/pcid //Provisorisch
 Alias: $AuthNo =  http://fhir.ch/ig/ch-epl/sid/authno //Provisorisch
 Alias: $AttNo =   http://fhir.ch/ig/ch-epl/sid/attno //Provisorisch
 
-
-// Legacy Systems
-
-Alias: $FOPH-IndexTherapeuticus =                     http://fhir.ch/ig/ch-epl/CodeSystem/ch-epl-foph-index-therapeuticus
