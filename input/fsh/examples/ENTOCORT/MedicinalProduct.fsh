@@ -24,6 +24,8 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
 * classification[+] = ChSMCTherapeuticProductcodeCS#756005004001 "Synthetic" // TherapeuticProductcode
 * classification[+] = ChEplProductTypeCS#756001003002 "Originator product" // Product Type - sample
+* classification[+].coding[+] = ITC#040000 "04. GASTROENTEROLOGICA"
+* classification[=].coding[+] = ITC#049900 "04.99. Varia"
 
 // Attached Document
 * attachedDocument[+] = Reference(DocRef-FI-Entocort)  // Link to the Professional Information
