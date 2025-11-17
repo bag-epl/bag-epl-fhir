@@ -1,20 +1,21 @@
 ValueSet: ITCVS
-Id: ch-FOPH-IndexTherapeuticus
+Id: ch-epl-foph-index-therapeuticus
 Title: "CH EPL - Index Therapeuticus"
 Description: "Legacy value set for index therapeuticus (IT-Code)."
 * ^experimental = false
+* ^status = #active
 * include codes from system ITC
 
 CodeSystem: ITC
-Id: ch-FOPH-IndexTherapeuticus
+Id: ch-epl-foph-index-therapeuticus
 Title: "CH EPL - Index Therapeuticus"
 Description: "Legacy classification index therapeuticus (IT-Code)."
 * ^experimental = false
 * ^url = $FOPH-IndexTherapeuticus
-* ^status = #retired
+* ^status = #active
 * ^purpose = "Formerly used to classify medical products (https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html, https://spezialitaetenliste.ch)"
 * ^caseSensitive = true
-* ^content = #fragment
+* ^content = #complete
 * ^concept[+].code = #-00001
 * ^concept[=].designation[+].language = #de
 * ^concept[=].designation[=].use.system = $sct
