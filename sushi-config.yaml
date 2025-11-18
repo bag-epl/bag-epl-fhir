@@ -69,10 +69,7 @@ menu:
   Home: index.html
   Documentation:
     ISO IDMP: idmp.html
-#  Datasource: authorised-medicinal-product.html
     Spezialitätenliste: spezialitaetenliste.html
-#  Use Case:
-#    German: usecase-german.html 
   Examples: 
      Abrilada: abrilada.html
      Cuprior: cuprior.html
