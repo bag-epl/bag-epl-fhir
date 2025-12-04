@@ -1,7 +1,18 @@
 == Suppressed Messages ==
 
 # Slices on codings with given CodeSystems
-Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x] (fixed.exists().not())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 
 # External code systems
 A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
+
+# https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build/with/547712458
+The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
+
+# https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin/with/381972830
+Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|%
+
+# IG Publisher issue
+The Coding provided (http://hl7.org/fhir/tools/CodeSystem/ig-parameters#%
+Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|%

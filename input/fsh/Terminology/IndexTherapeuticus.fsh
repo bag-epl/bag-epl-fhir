@@ -7444,7 +7444,7 @@ Description: "Classification index therapeuticus (IT-Code)."
 * ^concept[=].designation[=].use.system = $sct
 * ^concept[=].designation[=].use.code = #900000000000003001
 * ^concept[=].designation[=].use.display = "Fully specified name"
-* ^concept[=].designation[=].value = "ODONTOSTOMATOLOGICI "
+* ^concept[=].designation[=].value = "ODONTOSTOMATOLOGICI"
 
 * ^concept[+].code = #130100
 * ^concept[=].designation[+].language = #de
