@@ -13,6 +13,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 #### Added
 - Code system for index therapeuticus (IT-Code)
+
+#### Changed / Updated
+- Changed hl7.terminology.r5 version to 7.0.0
   
 ### FOPH DSTU 1 Ballot (2025-05-22)
 
