@@ -38,6 +38,3 @@ All significant changes to this FHIR implementation guide will be documented on 
 - Alignment and translated the example product descriptions.
 - Removal of the attribute "Disease Status", as Swissmedic has not yet defined a value list for this element.
 - Add full limitation text to medicinal product class (Element was already in the FHIR profil but not in the model)
-
-### Initial Version (2024-05-21)
-- Initial published version.
