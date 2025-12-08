@@ -34,7 +34,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 - ExtensionFOPHReimbursementSL line, changed cardinality in line 14 to 0..* 
 - ExtensionFOPHReimbursementSL line, added line 26
 - Graphic of the business datamodel & datatable
-- Hide documentation for authoroised medicinal product as this information is under revision at Swissmedic.
+- Hide documentation for authorised medicinal product as this information is under revision at Swissmedic.
 - Alignment and translated the example product descriptions.
 - Removal of the attribute "Disease Status", as Swissmedic has not yet defined a value list for this element.
 - Add full limitation text to medicinal product class (Element was already in the FHIR profil but not in the model)
