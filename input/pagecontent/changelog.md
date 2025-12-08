@@ -20,10 +20,10 @@ All significant changes to this FHIR implementation guide will be documented on 
 - New example product Abrilada containing 2 pack sizes plus 7 limitations to illustrate multiple pack sizes and multiple limitations.
 
 #### Changes in the datatable
-- Changing the cardinality of Limitation - Price to 0..*
+- Change of the cardinality of Limitation - Price to 0..*
 - Change of the cardinality of Regulated Autorisation (Reimbursement) from 0..1
 - Change of the cardinality of Packaged Medicinal Product reference in Marketing Authroisation (Reimbursement) to 0..*
-Change comment: Even when the datamodel indicates the cardinalities vice versa, in FHIR the pointer direction in the FHIR structure is in oposition to the pointer direction in the business data model. Hence, the business datamodel indicates 1..* packaged medicinal products pointing to 0..1 Reimbursement Authorisations each. But in the FHIR structure a Reimbursement instance is created, and the Reimbursement instance is pointing to the related Packaged Medicinal Product. This is the reason for the reversed cardinality. 
+  Change comment: Even when the datamodel indicates the cardinalities vice versa, in FHIR the pointer direction in the FHIR structure is in oposition to the pointer direction in the business data model. Hence, the business datamodel indicates 1..* packaged medicinal products pointing to 0..1 Reimbursement Authorisations each. But in the FHIR structure a Reimbursement instance is created, and the Reimbursement instance is pointing to the related Packaged Medicinal Product. This is the reason for the reversed cardinality. 
 
 #### Changed / Updated
 - Changed hl7.terminology.r5 version to 6.5.0
