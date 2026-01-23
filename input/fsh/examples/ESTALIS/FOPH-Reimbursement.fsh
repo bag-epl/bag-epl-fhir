@@ -34,27 +34,27 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of an Regulated Authoriza
 * extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004011 "Transdermal" // Gamme
 
 // Price (Reimbursement SL)
-* extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
-* extension[=].extension[+].url = "value"
-* extension[=].extension[=].valueMoney.value = 32.44
-* extension[=].extension[=].valueMoney.currency = #CHF
-* extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
-* extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
-* extension[=].extension[+].url = "changeDate"
-* extension[=].extension[=].valueDate = "2014-11-01"
+* extension.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
+* extension.extension[=].extension[+].url = "value"
+* extension.extension[=].extension[=].valueMoney.value = 32.44
+* extension.extension[=].extension[=].valueMoney.currency = #CHF
+* extension.extension[=].extension[+].url = "type"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
+* extension.extension[=].extension[+].url = "changeType"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
+* extension.extension[=].extension[+].url = "changeDate"
+* extension.extension[=].extension[=].valueDate = "2014-11-01"
 
-* extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
-* extension[=].extension[+].url = "value"
-* extension[=].extension[=].valueMoney.value = 53.65
-* extension[=].extension[=].valueMoney.currency = #CHF
-* extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
-* extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
-* extension[=].extension[+].url = "changeDate"
-* extension[=].extension[=].valueDate = "2024-01-01"
+* extension.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
+* extension.extension[=].extension[+].url = "value"
+* extension.extension[=].extension[=].valueMoney.value = 53.65
+* extension.extension[=].extension[=].valueMoney.currency = #CHF
+* extension.extension[=].extension[+].url = "type"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
+* extension.extension[=].extension[+].url = "changeType"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
+* extension.extension[=].extension[+].url = "changeDate"
+* extension.extension[=].extension[=].valueDate = "2024-01-01"
 
 // Limitation Status
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
