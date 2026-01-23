@@ -81,8 +81,8 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
     ATC 0..1 and
     AuthorisationCategory 0..1 and
     TherapeuticProductcode 0..1 and
-    ProductType 0..1 and
-    ITC 0..1
+    ProductType 0..2 and
+    ITC 0..3
 
 * classification[ATC].coding 1..
 * classification[ATC].coding.system 1..
