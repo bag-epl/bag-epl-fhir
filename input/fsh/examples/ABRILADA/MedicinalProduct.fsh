@@ -45,36 +45,6 @@ Abrilada ist indiziert zur Induktion (in Kombination mit Kortikosteroiden) und E
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
 * pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Authorised for the treatment in children" // Productic Use Indicator
 
-// FOPH EPL Product.FullLimitationText
-* extension[fullLimitationText].valueString = "Austausch Referenzpräparat/Biosimilar
-Die Behandlung mit ABRILADA bedarf der Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes. Für die Behandlung mit ABRILADA ist keine neue Kostengutsprache nötig, wenn in derselben Indikation bereits eine Kostengutsprache für das Referenzpräparat oder ein anderes Biosimilar besteht.
-
-Aktive rheumatoide Arthritis
-Behandlung mit ABRILADA, wenn die vorausgegangene antirheumatische Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
-
-Aktive polyartikuläre juvenile idiopathische Arthritis bei Kindern und Jugendlichen ab einem Körpergewicht von ≥ 30 kg
-Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
-
-Psoriasis-Arthritis
-Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
-
-Ankylosierende Spondylitis (Morbus Bechterew)
-Behandlung mit ABRILADA, wenn die vorausgegangene konventionelle Therapie unzulänglich war oder nicht vertragen wurde.
-
-Aktiver Morbus Crohn
-Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war, sowie bei Patienten, die nicht mehr auf Infliximab ansprechen oder dieses nicht vertragen. Nach zwei Jahren ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes.
-
-Moderate bis schwere Colitis ulcerosa
-Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war oder nicht vertragen wurde.
-
-Die Verschreibung von ABRILADA für die folgenden Behandlungen kann nur durch Fachärzte der Dermatologie oder dermatologische Universitätskliniken/ Polikliniken erfolgen:
-
-Schwere Plaque-Psoriasis
-Behandlung erwachsener Patienten mit schwerer Plaque-Psoriasis, bei denen eine Phototherapie oder eine der folgenden konventionellen systemischen Therapien (Ciclosporin, Methotrexat, Acitretin) keinen therapeutischen Erfolg gezeigt haben. Falls nach 16 Wochen kein therapeutischer Erfolg eingetreten ist, ist die Behandlung abzubrechen.
-
-Aktive, mittelschwere bis schwere Hidradenitis suppurativa (Acne inversa)
-Behandlung erwachsener Patienten, wenn die vorausgegangene systemische Therapie mit Antibiotika unzulänglich war. Bei Patienten, die nach 12 Wochen kein Ansprechen nach HiSCR von mindestens 50% zeigen, ist die Behandlung abzubrechen. Nach 52 Wochen ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes."
-
 // Product Classification
 * classification[+] = $atc#L04AB04   // ATC Code 
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021024 "Extension for biosimilar" // Authorisation Category - sample

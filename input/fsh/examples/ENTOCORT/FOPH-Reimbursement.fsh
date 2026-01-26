@@ -67,6 +67,8 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 //* indication.extension[=].extension[=].valueDate = "2024-11-01" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2007-01-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Distale Form der Colitis ulcerosa bei ungenügendem Ansprechen auf oder Kontraindikation für Mesalazin." // Limitation Text
 
 // Limitation Indication Code
 //* indication.extension[=].extension[+].url = "indicationCode"

@@ -36,13 +36,6 @@ Befristet zugelassene Indikationen: adjuvante Monotherapie des Melanoms im Stadi
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
 * pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Authorised for the treatment in children" // Productic Use Indicator
 
-// FOPH EPL Product.FullLimitationText
-* extension[fullLimitationText].valueString = "Lokal rezidiverendes, nicht resezierbares oder metastasiertes triple-negatives Mammakarzinom (in Kombination mit Chemotherapie) KN 355
-(mit Preismodell). KEYTRUDA in Kombination mit Chemotherapie zur Behandlung des lokal rezidivierenden, nicht resezierbaren oder metastasierten triple-negativen Mammakarzinoms bei Erwachsenen, deren Tumore PD-L1 mit einem CPS ≥10 exprimieren und die keine vorherige Chemotherapie bei metastasierter Erkrankung erhalten haben.
-- Falls Patienten vorhergehend systemisch im (neo)adjuvanten Setting behandelt wurden: Mit Vortherapie auf Antrazyklin-Basis, ausser diese war kontraindiziert.
-- Ohne Therapie mit Checkpoint-Inhibitoren innerhalb der letzten 12 Monate.
-Folgender Code ist an den Krankenversicherer zu übermitteln: 20416.17"
-
 // Product Classification
 * classification[+] = $atc#G03FA01   // ATC Code L01FF
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample

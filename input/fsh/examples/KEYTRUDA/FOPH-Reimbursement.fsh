@@ -70,6 +70,12 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * indication.extension[=].extension[=].valueDate = "2025-03-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2023-01-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Lokal rezidiverendes, nicht resezierbares oder metastasiertes triple-negatives Mammakarzinom (in Kombination mit Chemotherapie) KN 355
+(mit Preismodell). KEYTRUDA in Kombination mit Chemotherapie zur Behandlung des lokal rezidivierenden, nicht resezierbaren oder metastasierten triple-negativen Mammakarzinoms bei Erwachsenen, deren Tumore PD-L1 mit einem CPS ≥10 exprimieren und die keine vorherige Chemotherapie bei metastasierter Erkrankung erhalten haben.
+- Falls Patienten vorhergehend systemisch im (neo)adjuvanten Setting behandelt wurden: Mit Vortherapie auf Antrazyklin-Basis, ausser diese war kontraindiziert.
+- Ohne Therapie mit Checkpoint-Inhibitoren innerhalb der letzten 12 Monate.
+Folgender Code ist an den Krankenversicherer zu übermitteln: 20416.17" // Limitation Text
 
 // Limitation Indication Code
 * indication.extension[=].extension[+].url = "indicationCode"
