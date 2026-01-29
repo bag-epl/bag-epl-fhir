@@ -16,9 +16,6 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 * additionalMonitoringIndicator = ChSMCAdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
 * pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003001 "Authorised for the treatment in children" // Productic Use Indicator
 
-// FOPH EPL Product.FullLimitationText
-* extension[fullLimitationText].valueString = "Distale Form der Colitis ulcerosa bei ungenügendem Ansprechen auf oder Kontraindikation für Mesalazin."
-
 // Product Classification
 * classification[+] = $atc#A07EA06  // ATC Code
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample
