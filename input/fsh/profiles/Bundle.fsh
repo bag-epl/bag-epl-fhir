@@ -19,8 +19,8 @@ Description: "Profile of the Bundle resource for representing the set of resourc
 * entry contains
     MedicinalProductDefinitionEntry 1..1 and
     PackagedProductDefinitionEntry 1..* and
-    ManufacturedItemDefinitionEntry 1..* and
-    AdministrableProductDefinition 1..* and
+    ManufacturedItemDefinitionEntry 0..* and
+    AdministrableProductDefinition 0..* and
     Ingredient 1..* and
     OtherCHResourcesEntry 0..*
 
