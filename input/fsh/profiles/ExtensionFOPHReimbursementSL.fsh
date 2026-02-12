@@ -13,7 +13,7 @@ Description: "A set of information about the reimbursement of a drug"
 * ^context[=].expression = "RegulatedAuthorization"
 * . 0..*
 * extension contains
-    FOPHDossierNumber 1..1 and // FOPH Dossier Number 
+    FOPHDossierNumber 0..1 and // FOPH Dossier Number
     status 1..1 and // Reimbresement Status
     statusDate 1..1 and // Reimbursement Status Date
     expiryDate 0..1 and // Reimbursement Expiry Date
