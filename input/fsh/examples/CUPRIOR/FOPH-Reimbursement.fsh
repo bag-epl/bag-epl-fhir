@@ -71,6 +71,8 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of an Regulated Authorizat
 //* indication.extension[=].extension[=].valueDate = "2024-11-01" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2021-08-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "CUPRIOR wird vergütet zur Behandlung der Kupferspeicherkrankheit (Morbus Wilson) bei Erwachsenen, Jugendlichen und Kindern im Alter von 5 Jahren oder älter, die eine Behandlung mit D-Penicillamin nicht vertragen. Die Behandlung muss von Gastroenterologen oder Hepatologen mit Erfahrung bei der Behandlung von Patienten mit Morbus Wilson initiiert und überwacht werden." // Limitation Text
 
 // Limitation Indication Code
 * indication.extension[=].extension[+].url = "indicationCode"

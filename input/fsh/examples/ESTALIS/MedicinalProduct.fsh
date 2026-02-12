@@ -16,8 +16,6 @@ Osteoporoseprophylaxe: Vorbeugung oder Verzögerung einer durch Östrogenmangel 
 * additionalMonitoringIndicator = $SMC-AdditionalMonitoringIndicatorCS#756005001003 "No Warning" // Additional Monitoring Indicator
 * pediatricUseIndicator = ChSMCPediatricUseIndicatorCS#756005003002 "Not authorised for the treatment in children"// Paediatric Use Indicator
 
-// FOPH EPL Product.FullLimitationText
-//* extension[fullLimitationText].valueString = "xxx"
 // Product Classification
 * classification[+] = $atc#G03FA01  // ATC Code
 * classification[+] = ChSMCAuthorisationCategoryCS#756005021001 "NA KAS art. 12 para. 5 TPLO" // Authorisation Category - sample

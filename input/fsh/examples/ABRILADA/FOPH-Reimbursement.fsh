@@ -81,6 +81,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Aktive rheumatoide Arthritis
+Behandlung mit ABRILADA, wenn die vorausgegangene antirheumatische Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10003268)
@@ -104,6 +107,11 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Psoriasis-Arthritis
+Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
+Aktive polyartikuläre juvenile idiopathische Arthritis bei Kindern und Jugendlichen ab einem Körpergewicht von ≥ 30 kg
+Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10037153)
@@ -127,6 +135,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Ankylosierende Spondylitis (Morbus Bechterew)
+Behandlung mit ABRILADA, wenn die vorausgegangene konventionelle Therapie unzulänglich war oder nicht vertragen wurde." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10019927)
@@ -150,6 +161,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Aktiver Morbus Crohn
+Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war, sowie bei Patienten, die nicht mehr auf Infliximab ansprechen oder dieses nicht vertragen. Nach zwei Jahren ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
 
 // -- Limitation 5 --
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
@@ -173,8 +187,11 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10045365)
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Moderate bis schwere Colitis ulcerosa
+Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war oder nicht vertragen wurde." // Limitation Text
 
-// -- Limitation 5 --
+// -- Limitation 6 --
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
@@ -193,11 +210,14 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Schwere Plaque-Psoriasis
+Behandlung erwachsener Patienten mit schwerer Plaque-Psoriasis, bei denen eine Phototherapie oder eine der folgenden konventionellen systemischen Therapien (Ciclosporin, Methotrexat, Acitretin) keinen therapeutischen Erfolg gezeigt haben. Falls nach 16 Wochen kein therapeutischer Erfolg eingetreten ist, ist die Behandlung abzubrechen." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10037153)
 
-// -- Limitation 5 --
+// -- Limitation 7 --
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
@@ -216,6 +236,9 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Aktive, mittelschwere bis schwere Hidradenitis suppurativa (Acne inversa)
+Behandlung erwachsener Patienten, wenn die vorausgegangene systemische Therapie mit Antibiotika unzulänglich war. Bei Patienten, die nach 12 Wochen kein Ansprechen nach HiSCR von mindestens 50% zeigen, ist die Behandlung abzubrechen. Nach 52 Wochen ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10020041)
@@ -305,6 +328,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Aktive rheumatoide Arthritis
+Behandlung mit ABRILADA, wenn die vorausgegangene antirheumatische Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10003268)
@@ -328,6 +354,11 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Psoriasis-Arthritis
+Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
+Aktive polyartikuläre juvenile idiopathische Arthritis bei Kindern und Jugendlichen ab einem Körpergewicht von ≥ 30 kg
+Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10037153)
@@ -351,6 +382,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Ankylosierende Spondylitis (Morbus Bechterew)
+Behandlung mit ABRILADA, wenn die vorausgegangene konventionelle Therapie unzulänglich war oder nicht vertragen wurde." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10019927)
@@ -374,6 +408,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Aktiver Morbus Crohn
+Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war, sowie bei Patienten, die nicht mehr auf Infliximab ansprechen oder dieses nicht vertragen. Nach zwei Jahren ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
 
 // -- Limitation 5 --
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
@@ -397,8 +434,11 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10045365)
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Moderate bis schwere Colitis ulcerosa
+Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war oder nicht vertragen wurde." // Limitation Text
 
-// -- Limitation 5 --
+// -- Limitation 6 --
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
@@ -417,11 +457,14 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Schwere Plaque-Psoriasis
+Behandlung erwachsener Patienten mit schwerer Plaque-Psoriasis, bei denen eine Phototherapie oder eine der folgenden konventionellen systemischen Therapien (Ciclosporin, Methotrexat, Acitretin) keinen therapeutischen Erfolg gezeigt haben. Falls nach 16 Wochen kein therapeutischer Erfolg eingetreten ist, ist die Behandlung abzubrechen." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10037153)
 
-// -- Limitation 5 --
+// -- Limitation 7 --
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
@@ -440,6 +483,9 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
 * indication.extension[=].extension[+].url = "firstLimitationDate"
 * indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication.extension[=].extension[+].url = "limitationText"
+* indication.extension[=].extension[=].valueString = "Aktive, mittelschwere bis schwere Hidradenitis suppurativa (Acne inversa)
+Behandlung erwachsener Patienten, wenn die vorausgegangene systemische Therapie mit Antibiotika unzulänglich war. Bei Patienten, die nach 12 Wochen kein Ansprechen nach HiSCR von mindestens 50% zeigen, ist die Behandlung abzubrechen. Nach 52 Wochen ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication.reference = Reference(IND-10020041)
