@@ -40,3 +40,5 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a Bundle"
   * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10043971)
 * entry[+]
   * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-254837009)
+* entry[+]
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-20416.XX)

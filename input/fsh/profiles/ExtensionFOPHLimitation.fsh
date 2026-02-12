@@ -20,7 +20,6 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
     period 1..1 and
     reimbursementEndDate 0..1 and
     firstLimitationDate 1..1 and
-    limitationText 0..1 and
     limitationIndication 0..1 and 
     indicationCode 0..1 and
     http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice named productPrice 0..*
@@ -57,17 +56,17 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
 * extension[firstLimitationDate].value[x] 1..
 * extension[firstLimitationDate].value[x] only date
 
-* extension[limitationText] only Extension
-* extension[limitationText] ^definition = "The text of the limitation"
-* extension[limitationText].url only uri
-* extension[limitationText].value[x] 1..
-* extension[limitationText].value[x] only string
-
 * extension[limitationIndication] only Extension
 * extension[limitationIndication] ^definition = "Reference to a Clinical Use Definition resource that defines the limitation of the indication."
 * extension[limitationIndication].url only uri
 * extension[limitationIndication].value[x] 1..1
 * extension[limitationIndication].value[x] only Reference(ClinicalUseDefinition)
+
+//* extension[limitationforIndication] only Extension
+//* extension[limitationforIndication] ^definition = "Reference to a Clinical Use Definition resource that defines the indication related to the limitation."
+//* extension[limitationforIndication].url only uri
+//* extension[limitationforIndication].value[x] 0..1
+//* extension[limitationforIndication].value[x] only Reference(ClinicalUseDefinition)
 
 * extension[indicationCode] only Extension
 * extension[indicationCode] ^definition = "The indication code assigned by FOPH"

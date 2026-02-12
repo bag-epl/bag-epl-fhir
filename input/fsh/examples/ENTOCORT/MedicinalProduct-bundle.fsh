@@ -34,3 +34,5 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Bu
   * insert bundleEntry(CHIDMPIngredient, Budesonidum2.3)
 * entry[+]
   * insert bundleEntry(CHIDMPIngredient, Budesonidum2.0)
+* entry[+]
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-64766004-ENTOCORT)
