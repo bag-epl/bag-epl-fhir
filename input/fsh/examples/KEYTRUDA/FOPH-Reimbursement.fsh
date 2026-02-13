@@ -57,7 +57,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * extension.extension[=].extension[+].url = "changeDate"
 * extension.extension[=].extension[=].valueDate = "2024-01-01"
 
-//   Limitation 1
+//   -- Limitation 1 --
 
 // Limitation Status
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
@@ -82,7 +82,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 // Indication Reference
 * indication.reference = Reference(IND-10075566)
 
-// Limitation 2
+// -- Limitation 2 --
 
 // Limitation Status
 * indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
