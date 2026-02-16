@@ -6,7 +6,7 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a PackagedProductDefini
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7601001403062-6743101-001" // PCID
+* identifier[=].value = "CH-01100828-0674310010000-0001" // PCID
 * packageFor = Reference(Triogen-250mg-Capsule) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "TRIOGEN Kaps 250 mg Ds 100 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)

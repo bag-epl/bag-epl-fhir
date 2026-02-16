@@ -100,7 +100,7 @@ parameters:
     - urn:oid:0.4.0.127.0.16.1.1.2.7 # edqm-packaging
     - urn:oid:0.4.0.127.0.16.1.1.2.11 # edqm-unit-of-presentation
     - http://standardterms.edqm.eu # edqm
-    - urn:oid:1.2.276.0.76 # ema-rms
+    - https://spor.ema.europa.eu/v1/lists # ema-rms
     - http://spor.ema.europa.eu/v1/lists/100000000004 # ema-domain
     - http://spor.ema.europa.eu/v1/lists/100000073343 # ema-shelf-life-type
     - http://spor.ema.europa.eu/v1/lists/200000003186 # ema-intended-effect

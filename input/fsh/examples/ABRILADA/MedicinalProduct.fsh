@@ -6,7 +6,7 @@ Description: "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml: Example of a Medicin
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001010604-6783101" //MPID
+* identifier[=].value = "CH-01001107-0678310010000" //MPID
 //* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#11201000 "Solution for injection" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form

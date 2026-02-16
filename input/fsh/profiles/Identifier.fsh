@@ -28,7 +28,7 @@
 // Title: "ORG Identifier"
 // Description: "Identifier holding a number for OrgID (Organisation Identifier of the European Medicines Agency - Organisation Management System OMS)"
 // * system 1..
-// * system = "urn:oid:1.2.276.0.76" (exactly)
+// * system = "https://spor.ema.europa.eu/v1/locations" (exactly)
 // * system ^short = "OrgID"
 // * value 1..
 // * value ^short = "OrgID"
@@ -39,7 +39,7 @@ Id: ch-smc-loc-identifier
 Title: "LOC Identifier"
 Description: "Identifier holding a number for LocID (Location Identifier of the European Medicines Agency - Organisation Management System OMS)"
 * system 1..
-* system = "urn:oid:1.2.276.0.76" (exactly)
+* system = "https://spor.ema.europa.eu/v1/locations" (exactly)
 * system ^short = "LocID"
 * value 1..
 * value ^short = "LocID"

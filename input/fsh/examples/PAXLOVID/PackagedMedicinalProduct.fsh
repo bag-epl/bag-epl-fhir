@@ -6,7 +6,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7601001010604-6879301-001" // PCID
+* identifier[=].value = "CH-01001107-0687930010000-0001" // PCID
 * packageFor = Reference(Paxlovid-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "PAXLOVID Filmtabl 4x150mg/2x100mg" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022002 "Medicinal product subject to medical or veterinary prescription single dispensation (A+)" // Legal Status of Supply (for a package)

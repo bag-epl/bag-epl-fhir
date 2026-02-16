@@ -6,9 +6,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001346451-5204201" //MPID
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
+* identifier[=].value = "CH-01002393-0520420010000" //MPID
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#50064000 "Tablet and solvent for rectal suspension" // Authorised Pharmaceutical Dose Form
 * combinedPharmaceuticalDoseForm.coding = $edqm#50064000 "Tablet and solvent for rectal suspension" // Combined Pharmaceutical Dose Form
 * indication = "Leichte bis mittelschwere Colitis ulcerosa des Rectums sowie des Colon sigmoideum." // Full Indication Text

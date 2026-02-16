@@ -6,8 +6,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a MedicinalProductDefi
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001001138-6623101" //MPID
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
+* identifier[=].value = "CH-01003060-0662310010000" //MPID
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#11213000 "Concentrate for solution for infusion" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Melanom: nicht resezierbar oder metastasiert; adjuvante Therapie bei vollständig reseziertem Melanom Stadium III.

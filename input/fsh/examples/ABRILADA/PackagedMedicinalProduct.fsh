@@ -6,7 +6,7 @@ Description: "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 1 x 0.8 ml: Example of a Pac
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7601001010604-6783101-001" // PCID
+* identifier[=].value = "CH-01001107-0678310010000-0001" // PCID
 * packageFor = Reference(Abrilada-40mg-Pre-Filled-Pen) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 1 x 0.8 ml" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
@@ -49,7 +49,7 @@ Description: "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 2 x 0.8 ml: Example of a Pac
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7601001010604-6783101-002" // PCID
+* identifier[=].value = "CH-01001107-0678310010000-0002" // PCID
 * packageFor = Reference(Abrilada-40mg-Pre-Filled-Pen) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 2 x 0.8 ml" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)

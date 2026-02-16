@@ -6,7 +6,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7640109110007-6771901" //MPID
+* identifier[=].value = "CH-01100726-0677190010000" //MPID
 //* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10221000 "Film-coated tablet" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm.coding = $edqm#... "..." // Combined Pharmaceutical Dose Form

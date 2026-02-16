@@ -12,7 +12,7 @@ Usage: #definition
 * uniqueId[=].value = "1.2.276.0.76"
 * uniqueId[=].preferred = true
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "urn:oid:1.2.276.0.76"
+* uniqueId[=].value = "https://spor.ema.europa.eu/v1/locations"
 * uniqueId[=].preferred = false
 
 

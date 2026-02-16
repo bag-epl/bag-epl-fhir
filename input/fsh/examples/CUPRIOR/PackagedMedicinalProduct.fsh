@@ -6,7 +6,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a PackagedProductDefini
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7640109110007-6771901-001" // PCID
+* identifier[=].value = "CH-01100726-0677190010000-0001" // PCID
 * packageFor = Reference(Cuprior-150mg-Filmcoatedtablet) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "CUPRIOR Filmtabl 150 mg 72 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)

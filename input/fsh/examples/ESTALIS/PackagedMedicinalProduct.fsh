@@ -6,7 +6,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a PackagedProductDefin
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7601001029439-5470402-097" // PCID
+* identifier[=].value = "CH-01006431-0547040020000-0097" // PCID
 * packageFor = Reference(Estalis-Transdermalpatch) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ESTALIS Matrixpfl 50/250 24 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)

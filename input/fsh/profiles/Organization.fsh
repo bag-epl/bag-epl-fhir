@@ -26,11 +26,11 @@ Description: "Defines basic constraints and extensions on the Organization resou
 // * identifier[OrgID] only ORGIdentifier
 // * identifier[OrgID] ^short = "OrgID (Organisation Management System)"
 // * identifier[OrgID] ^definition = "See [OrgID](https://spor.ema.europa.eu/rmswi/#/)"
-// * identifier[OrgID] ^patternIdentifier.system = "urn:oid:1.2.276.0.76"
+// * identifier[OrgID] ^patternIdentifier.system = "https://spor.ema.europa.eu/v1/locations"
 * identifier[LocID] only LOCIdentifier
 * identifier[LocID] ^short = "LocID (Organisation Management System)"
 * identifier[LocID] ^definition = "See [LocID](https://spor.ema.europa.eu/rmswi/#/)"
-* identifier[LocID] ^patternIdentifier.system = "urn:oid:1.2.276.0.76"
+* identifier[LocID] ^patternIdentifier.system = "https://spor.ema.europa.eu/v1/locations"
 * identifier[LocID].value 1..1
 * identifier[GLN] only GLNIdentifier
 * identifier[GLN] ^short = "Global Location Number (GLN)"
