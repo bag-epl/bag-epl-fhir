@@ -6,7 +6,7 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a MedicinalProductDefi
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CCH-01006431-0547040020000" //MPID
+* identifier[=].value = "CH-01006431-0547040020000" //MPID
 //* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10519000 "Transdermal patch" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form

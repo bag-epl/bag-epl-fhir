@@ -34,14 +34,22 @@ dependencies:
 pages:
   index.md:
     title: Home
+  foph-epl.md:
+    title: FOPH ePL
+  fhir.md:
+    title: FHIR Standard HL7
   idmp.md:
-    title: IDMP Standard ISO 11615
-#  authorised-medicinal-product.md:
-#  title: Datasource Authorised Medicinal Product
-  spezialitaetenliste.md:
-    title: Dataexport FOPH Spezialitätenliste
-#  usecase-german.md:
-#    title: Use Cases
+    title: ISO IDMP Standard (ISO 11615)
+  fhir-idmp.md:
+    title: IDMP and FHIR
+  ch-idmp.md:
+    title: Swiss IDMP Implementation
+  ema-idmp.md:
+    title: EMA IDMP Implementation and SPOR Overview
+  smc-idmp.md:
+    title: Swissmedic IDMP Implementation
+  specialitieslist.md:
+    title: Dataexport FOPH Specialities List
   abrilada.md:
     title: Abrilada
   cuprior.md:
@@ -68,8 +76,14 @@ pages:
 menu:
   Home: index.html
   Documentation:
-    ISO IDMP: idmp.html
-    Spezialitätenliste: spezialitaetenliste.html
+    Swiss IDMP Implementation: ch-idmp.html
+    FOPH ePL: foph-epl.html
+    HL7 FHIR Standard: fhir.html
+    ISO IDMP Standard (ISO 11615): idmp.html
+    IDMP and FHIR: fhir-idmp.html
+    EMA IDMP Implementation: ema-idmp.html
+    Swissmedic IDMP Implementation: smc-idmp.html
+    FOPH Specialities List: specialitieslist.html
   Examples: 
      Abrilada: abrilada.html
      Cuprior: cuprior.html
