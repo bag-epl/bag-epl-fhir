@@ -1,9 +1,9 @@
 Profile: CHIDMPMedicinalProductDefinition
 Parent: MedicinalProductDefinition
 Id: ch-idmp-medicinalproductdefinition
-Title: "IDMP MedicinalProductDefinition"
+Title: "MedicinalProductDefinition"
 Description: "Profile of the MedicinalProductDefinition resource for representing the detailed data of medicinal products." 
-* . ^short = "CH IDMP MedicinalProductDefinition"
+* . ^short = "MedicinalProductDefinition"
 
 // * MPID
 

@@ -64,6 +64,10 @@ HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR <img src="icon-fhir-16.png" sty
 
 {% include dependency-table.xhtml %}
 
+CH-ePL currently has no dependency on ch-core, as ch-core is based on FHIR R4, whereas CH-ePL is based on R5. The use of R5 was necessary because IDMP support is only available from R5 onwards.
+
+Looking ahead (expected around 2028), the dependencies of CH-ePL are likely to be updated. By that time, a Swiss IDMP base FHIR Implementation Guide is expected to be published, and CH-ePL will likely depend on this Swiss IDMP base FHIR IG. In turn, this base IG may build upon ch-core. Presumably, all of these artefacts will be aligned with the newer R6 version.
+
 ### Globals Table
 
 {% include globals-table.xhtml %}

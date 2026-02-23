@@ -77,13 +77,14 @@ menu:
   Home: index.html
   Documentation:
     Swiss IDMP Implementation: ch-idmp.html
-    FOPH ePL: foph-epl.html
+    FOPH ePL Project: foph-epl.html
+    FOPH Specialities List: specialitieslist.html
+    Swissmedic IDMP Implementation: smc-idmp.html
+    EMA IDMP Implementation: ema-idmp.html
+  Related Standards:
     HL7 FHIR Standard: fhir.html
     ISO IDMP Standard (ISO 11615): idmp.html
     IDMP and FHIR: fhir-idmp.html
-    EMA IDMP Implementation: ema-idmp.html
-    Swissmedic IDMP Implementation: smc-idmp.html
-    FOPH Specialities List: specialitieslist.html
   Examples: 
      Abrilada: abrilada.html
      Cuprior: cuprior.html

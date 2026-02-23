@@ -1,9 +1,9 @@
 Profile: CHIDMPBundle
 Parent: Bundle
 Id: ch-idmp-bundle
-Title: "IDMP Bundle"
+Title: "Bundle"
 Description: "Profile of the Bundle resource for representing the set of resources collected into a single package." 
-* . ^short = "IDMP Bundle"
+* . ^short = "Bundle"
 * type = #collection (exactly)
 
 // Require at least one entry, and each entry must contain a resource

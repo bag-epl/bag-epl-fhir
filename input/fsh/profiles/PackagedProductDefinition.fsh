@@ -1,9 +1,9 @@
 Profile: CHIDMPPackagedProductDefinition
 Parent: PackagedProductDefinition
 Id: ch-idmp-packagedproductdefinition
-Title: "IDMP PackagedProductDefinition"
+Title: "PackagedProductDefinition"
 Description: "Profile of the PackagedProductDefinition resource for representing a medically related item or items, in a container or package."
-* . ^short = "CH IDMP PackagedProductDefinition"
+* . ^short = "PackagedProductDefinition"
 
 //* identifier ^slicing.discriminator.type = #value
 //* identifier ^slicing.discriminator.path = "system"

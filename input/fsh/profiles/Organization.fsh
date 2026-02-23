@@ -1,37 +1,29 @@
-Profile: CHEPLOrganization
+Profile: CHIDMPOrganization
 Parent: Organization
-Id: ch-epl-organization
-Title: "CH EPL Organization"
+Id: ch-idmp-organization
+Title: "Organization"
 Description: "Defines basic constraints and extensions on the Organization resource for use with other CH EPL resources"
 
-* . ^short = "CH EPL Organization"
+* . ^short = "Organization"
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
-//* identifier.value 0..
+
 * identifier contains
-//     BER 0..1 and
-//     UIDB 0..1 and
-//     OrgID 0..1 and
-    LocID 0..1 and
+    SMCLocID 0..1 and
+    EMALocID 0..1 and
     GLN 0..1
-// * identifier[BER] only BERIdentifier
-// * identifier[BER] ^short = "BER (Business and Enterprise Register), BUR (Betriebs- und Unternehmensregister), REE (Registre des entreprises et des établissements), RIS (Registro delle imprese e degli stabilimenti)"
-// * identifier[BER] ^definition = "See [BER](http://fhir.ch/ig/ch-core/NamingSystem/ber)"
-// * identifier[BER] ^patternIdentifier.system = "urn:oid:2.16.756.5.45"
-// * identifier[UIDB] only UIDBIdentifier
-// * identifier[UIDB] ^short = "UIDB (Unique Identification Business), UID (Verwendung der Unternehmens-Identifikationsnummer), IDE (Utilisation du numéro d'identification des entreprises), IDI (Utilizzo del numero d'identificazione delle imprese)"
-// * identifier[UIDB] ^definition = "See [UIDB](http://fhir.ch/ig/ch-core/NamingSystem/uidb)"
-// * identifier[UIDB] ^patternIdentifier.system = "urn:oid:2.16.756.5.35"
-// * identifier[OrgID] only ORGIdentifier
-// * identifier[OrgID] ^short = "OrgID (Organisation Management System)"
-// * identifier[OrgID] ^definition = "See [OrgID](https://spor.ema.europa.eu/rmswi/#/)"
-// * identifier[OrgID] ^patternIdentifier.system = "https://spor.ema.europa.eu/v1/locations"
-* identifier[LocID] only LOCIdentifier
-* identifier[LocID] ^short = "LocID (Organisation Management System)"
-* identifier[LocID] ^definition = "See [LocID](https://spor.ema.europa.eu/rmswi/#/)"
-* identifier[LocID] ^patternIdentifier.system = "https://spor.ema.europa.eu/v1/locations"
-* identifier[LocID].value 1..1
+
+* identifier[SMCLocID] only SMCLOCIdentifier
+* identifier[SMCLocID] ^short = "SMCLocID  Swissmedic Location Identifier"
+* identifier[SMCLocID] ^definition = "See [SMCLocID] (https://www.swissmedic.ch/fhir/identifier/locations)"
+* identifier[SMCLocID] ^patternIdentifier.system = "https://www.swissmedic.ch/fhir/identifier/locations"
+* identifier[SMCLocID].value 1..1
+* identifier[EMALocID] only EMALOCIdentifier
+* identifier[EMALocID] ^short = "EMALocID (Organisation Management System)"
+* identifier[EMALocID] ^definition = "See [EMALocID](https://spor.ema.europa.eu/rmswi/#/)"
+* identifier[EMALocID] ^patternIdentifier.system = "https://spor.ema.europa.eu/v1/locations"
+* identifier[EMALocID].value 1..1
 * identifier[GLN] only GLNIdentifier
 * identifier[GLN] ^short = "Global Location Number (GLN)"
 * identifier[GLN] ^definition = "See [GLN](http://fhir.ch/ig/ch-core/NamingSystem/gln)"

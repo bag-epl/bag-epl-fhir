@@ -1,9 +1,9 @@
 Profile: CHIDMPIngredient
 Parent: Ingredient
 Id: ch-idmp-ingredient
-Title: "IDMP Ingredient"
+Title: "Ingredient"
 Description: "Profile of the Ingredient resource for representing the material used in the preparation of a medicinal/pharmaceutical product."
-* . ^short = "CH IDMP Ingredient"
+* . ^short = "Ingredient"
 
 * status 
 
