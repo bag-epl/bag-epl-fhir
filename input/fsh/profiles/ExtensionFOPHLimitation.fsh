@@ -2,7 +2,7 @@
 
 Extension: RegulatedAuthorizationLimitation
 Id: regulatedAuthorization-limitation
-Title: "CH - EPL Regulated Authorization Limitation"
+Title: "CH EPL - Regulated Authorization Limitation"
 Description: "A limitation to an authorisation for reimbursement of a drug, for a certain indication."
 * ^url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation" 
 * ^status = #draft
