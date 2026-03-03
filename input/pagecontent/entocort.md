@@ -1,4 +1,4 @@
-In diesem Kapitel sind unterschiedliche Produkte im IDMP / FHIR Format abgebildet.
+This chapter presents various products in the IDMP / FHIR format.
 
 ### ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk
 The following example demonstrates the structure of the product Entocort Enema Klistiert Lösung + Tabletten 7 Stk

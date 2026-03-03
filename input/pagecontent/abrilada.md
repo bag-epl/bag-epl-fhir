@@ -1,4 +1,4 @@
-In diesem Kapitel sind unterschiedliche Produkte im IDMP / FHIR Format abgebildet.
+This chapter presents various products in the IDMP / FHIR format.
 
 ### ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml
 The following example demonstrates the structure of the product ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml

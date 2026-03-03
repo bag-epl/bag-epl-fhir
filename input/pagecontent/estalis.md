@@ -1,4 +1,4 @@
-In diesem Kapitel sind unterschiedliche Produkte im IDMP / FHIR Format abgebildet.
+This chapter presents various products in the IDMP / FHIR format.
 
 ### Estalis Matrix Pflaster 50/250 
 The following example demonstrates the structure of the product Estalis Matrix Pflaster
