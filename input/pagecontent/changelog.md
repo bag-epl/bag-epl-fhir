@@ -15,6 +15,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 - [#48](https://github.com/bag-epl/bag-epl-fhir/issues/48): LOC identifier
 - [#49](https://github.com/bag-epl/bag-epl-fhir/issues/49): Fix non-resolvable links / Introduce temporary NamingSystems
 
+#### Added
+- Price Model Specification and Price Model added to Extensions, but not in the examples, as the data is not yet available.
+
 ### FOPH DSTU 1 (2025-12-08)
 
 #### Fixed
