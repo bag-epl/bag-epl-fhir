@@ -95,4 +95,4 @@ Usage: #inline
 * identifier[=].value = "100010911"
 * identifier[+].system = "urn:oid:2.51.1.3"
 * identifier[=].value = "7601001398511"
-* name = "SMC"
+* name = "Swissmedic Swiss Agency for Therapeutic Products"
