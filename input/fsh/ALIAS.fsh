@@ -18,8 +18,8 @@ Alias: $emaShelfLifeType =              http://spor.ema.europa.eu/v1/lists/10000
 Alias: $mdr =                           https://www.meddra.org
 
 // ISO 
-Alias: $ISO-NamePart  =                 http://hl7.org/fhir/medicinal-product-name-part-type
-Alias: $ISO-NamePartVS =                http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type
+//Alias: $ISO-NamePart  =                 http://hl7.org/fhir/medicinal-product-name-part-type
+//Alias: $ISO-NamePartVS =                http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type
 
 // EMA
 Alias:  $EMA-MediaType =                http://spor.ema.europa.eu/v1/lists/200000015398

@@ -21,7 +21,6 @@ Description: "A set of information about the reimbursement of a drug"
     listingPeriod 1..1 and // Listing Period
     firstListingDate 1..1 and // Date of First Listing
     costShare 0..1 and // Cost Share
-    productType 0..* and // Product Type
     gamme 0..1 and // Gamme 
     http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice named productPrice 0..*    
 
@@ -72,12 +71,6 @@ Description: "A set of information about the reimbursement of a drug"
 * extension[costShare].url only uri
 * extension[costShare].value[x] 1..
 * extension[costShare].value[x] only integer
-
-* extension[productType] only Extension
-* extension[productType] ^definition = "The product type related to the reimbursement"
-* extension[productType].url only uri
-* extension[productType].value[x] 1..
-* extension[productType].value[x] only CodeableConcept //add correct condition
 
 * extension[gamme] only Extension
 * extension[gamme] ^definition = "The gamme related to the reimbursement"

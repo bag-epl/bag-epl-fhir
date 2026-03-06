@@ -28,16 +28,8 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a MedicinalProductDefin
 
 // Medicinal Product Name
 * name[de-CH][0].productName = "Triogen 250 mg, Kapseln" // Full Name
-//* name[de-CH][=].part[0].part = "Cuprior"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#InventedNamePart "Invented Name Part"
-//* name[de-CH][=].part[+].part = "Filmtabletten"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DoseFormPart "Pharmaceutical dose form part"
-//* name[de-CH][=].part[+].part = "150 mg"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#StrengthPart "Strength part"
-//* name[de-CH][=].part[+].part = ","
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FOPH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

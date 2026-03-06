@@ -24,6 +24,7 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
     indicationCode 0..1 and
     priceModelSpecification 0..1 and
     priceModel 0..1 and
+    relatedIndication 0..1 and
     http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice named productPrice 0..*
 
 * extension ^slicing.rules = #open
@@ -81,3 +82,9 @@ Description: "A limitation to an authorisation for reimbursement of a drug, for 
 * extension[priceModel].url only uri
 * extension[priceModel].value[x] 0..1
 * extension[priceModel].value[x] only boolean
+
+* extension[relatedIndication] only Extension
+* extension[relatedIndication] ^definition = "Reference to the indication related to this limitation"
+* extension[relatedIndication].url only uri
+* extension[relatedIndication].value[x] 0..1
+* extension[relatedIndication].value[x] only Reference(ClinicalUseDefinition)

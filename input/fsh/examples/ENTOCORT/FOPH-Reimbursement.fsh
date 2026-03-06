@@ -29,7 +29,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension.extension[+].url = "costShare"
 * extension.extension[=].valueInteger = 10 // Cose Share
 * extension.extension[+].url = "gamme"
-* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004005 "Rectal Vaginal" // Gamme
+* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004013 "Rectal Vaginal" // Gamme
 
 // Price (Reimbursement SL)
 * extension.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
@@ -39,7 +39,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension.extension[=].extension[+].url = "type"
 * extension.extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * extension.extension[=].extension[+].url = "changeType"
-* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006010 "Price mutation after triennal review of pharmaceuticals"
 * extension.extension[=].extension[+].url = "changeDate"
 * extension.extension[=].extension[=].valueDate = "2023-12-01"
 
@@ -50,54 +50,54 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of an R
 * extension.extension[=].extension[+].url = "type"
 * extension.extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * extension.extension[=].extension[+].url = "changeType"
-* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006008 "VAT-change"
 * extension.extension[=].extension[+].url = "changeDate"
 * extension.extension[=].extension[=].valueDate = "2024-01-01"
 
 // Limitation Status
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2007-01-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2007-01-01" // Limitation Period Start Date
-//* indication.extension[=].extension[=].valuePeriod.end = "..."  // Limitation Period End Date
-//* indication.extension[=].extension[+].url = "reimbursementEndDate"
-//* indication.extension[=].extension[=].valueDate = "2024-11-01" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2007-01-01" // Date of First Limitation
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2007-01-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2007-01-01" // Limitation Period Start Date
+//* indication[=].extension[=].extension[=].valuePeriod.end = "..."  // Limitation Period End Date
+//* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+//* indication[=].extension[=].extension[=].valueDate = "2024-11-01" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2007-01-01" // Date of First Limitation
 
 // Limitation Indication Code
-//* indication.extension[=].extension[+].url = "indicationCode"
-//* indication.extension[=].extension[=].valueString = "ABCDE.XX" // Indication Code
+//* indication[=].extension[=].extension[+].url = "indicationCode"
+//* indication[=].extension[=].extension[=].valueString = "ABCDE.XX" // Indication Code
 
 // Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication"
-* indication.extension[=].extension[=].valueReference = Reference(LIM-64766004-ENTOCORT)
+* indication[=].extension[=].extension[+].url = "limitationIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-64766004-ENTOCORT)
 
 // Price (Limitation)
-* indication.extension[=].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
-* indication.extension[=].extension[=].extension[+].url = "value"
-* indication.extension[=].extension[=].extension[=].valueMoney.value = 40.89
-* indication.extension[=].extension[=].extension[=].valueMoney.currency = #CHF
-* indication.extension[=].extension[=].extension[+].url = "type"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
-* indication.extension[=].extension[=].extension[+].url = "changeType"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006007 "Price mutation after triennal review of pharmaceuticals"
-* indication.extension[=].extension[=].extension[+].url = "changeDate"
-* indication.extension[=].extension[=].extension[=].valueDate = "2023-12-01"
+* indication[=].extension[=].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
+* indication[=].extension[=].extension[=].extension[+].url = "value"
+* indication[=].extension[=].extension[=].extension[=].valueMoney.value = 40.89
+* indication[=].extension[=].extension[=].extension[=].valueMoney.currency = #CHF
+* indication[=].extension[=].extension[=].extension[+].url = "type"
+* indication[=].extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
+* indication[=].extension[=].extension[=].extension[+].url = "changeType"
+* indication[=].extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006010 "Price mutation after triennal review of pharmaceuticals"
+* indication[=].extension[=].extension[=].extension[+].url = "changeDate"
+* indication[=].extension[=].extension[=].extension[=].valueDate = "2023-12-01"
 
-* indication.extension[=].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
-* indication.extension[=].extension[=].extension[+].url = "value"
-* indication.extension[=].extension[=].extension[=].valueMoney.value = 63.40
-* indication.extension[=].extension[=].extension[=].valueMoney.currency = #CHF
-* indication.extension[=].extension[=].extension[+].url = "type"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
-* indication.extension[=].extension[=].extension[+].url = "changeType"
-* indication.extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
-* indication.extension[=].extension[=].extension[+].url = "changeDate"
-* indication.extension[=].extension[=].extension[=].valueDate = "2024-01-01"
+* indication[=].extension[=].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"
+* indication[=].extension[=].extension[=].extension[+].url = "value"
+* indication[=].extension[=].extension[=].extension[=].valueMoney.value = 63.40
+* indication[=].extension[=].extension[=].extension[=].valueMoney.currency = #CHF
+* indication[=].extension[=].extension[=].extension[+].url = "type"
+* indication[=].extension[=].extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
+* indication[=].extension[=].extension[=].extension[+].url = "changeType"
+* indication[=].extension[=].extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006008 "VAT-change"
+* indication[=].extension[=].extension[=].extension[+].url = "changeDate"
+* indication[=].extension[=].extension[=].extension[=].valueDate = "2024-01-01"
 
 // Indication Reference
 * indication.reference = Reference(IND-10009900)

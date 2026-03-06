@@ -28,16 +28,8 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 
 // Medicinal Product Name
 * name[de-CH][0].productName = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk" // Full Name
-//* name[de-CH][=].part[0].part = "ENTOCORT"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#InventedNamePart "Invented Name Part"
-//* name[de-CH][=].part[+].part = "Enema Klistier Lösung + Tabletten"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DoseFormPart "Pharmaceutical dose form part"
-//* name[de-CH][=].part[+].part = "7 Stk"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#StrengthPart "Strength part"
-//* name[de-CH][=].part[+].part = "+"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FOPH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

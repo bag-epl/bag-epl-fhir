@@ -1,7 +1,7 @@
 Instance: PMP-Keytruda-100mg-4ml-Solution-for-Infusion
 InstanceOf: CHIDMPPackagedProductDefinition
 Usage: #example
-Title: "CH-66231001"
+Title: "KEYTRUDA infusion concentrate 100 mg / 4 ml"
 Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefinition (Packaged Medicinal Product)"
 
 // Packaged Medicinal Product
@@ -38,12 +38,3 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a PackagedProductDefin
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042008 "Do not store above 25°C"
 * packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042004 "protect from light" // Special Precaution for Storage
 * packaging.shelfLifeStorage[+].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042011 "Store in the original container" // Special Precaution for Storage
-
-// Package Item (Container) - Inner Package
-//* packaging.packaging[0].type.coding = $edqm#30007000 "Vial" // Package Item (Container) Type
-//* packaging.packaging[0].quantity = 12 // Package Item (Container) Quantity
-
-// Packaged Medicinal Product.Marketing Status
-//* marketingStatus[+].country = $country#CH "Switzerland"
-//* marketingStatus[=].status.coding[SMC] = ChSMCMarketingStatusCS#iH "im Handel" // Marketing Status
-//* statusDate = "2005-04-10" // Marketing Status Date

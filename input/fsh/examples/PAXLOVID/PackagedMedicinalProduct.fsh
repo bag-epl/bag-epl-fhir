@@ -1,7 +1,7 @@
 Instance: PMP-Paxlovid-Filmcoatedtablet
 InstanceOf: CHIDMPPackagedProductDefinition
 Usage: #example
-Title: "CH-68793001"
+Title: "AXLOVID film-coated tablets 4 × 150 mg / 2 × 100 mg"
 Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDefinition (Packaged Medicinal Product)"
 
 // Packaged Medicinal Product
@@ -29,12 +29,3 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a PackagedProductDef
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042008 "Nicht über 25°C" // Special Precaution for Storage
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042007 "in the refrigerator (2°C - 8°C)" // Special Precaution for Storage
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042001 "Do not freeze" // Special Precaution for Storage
-
-// Package Item (Container) - Inner Package
-//* packaging.packaging[0].type.coding = $edqm#30007000 "Blister" // Package Item (Container) Type
-//* packaging.packaging[0].quantity = 12 // Package Item (Container) Quantity
-
-// Packaged Medicinal Product.Marketing Status
-//* marketingStatus[+].country = $country#CH "Switzerland"
-//* marketingStatus[=].status.coding[SMC] = ChSMCMarketingStatusCS#iH "im Handel" // Marketing Status
-//* statusDate = "2005-04-10" // Marketing Status Date

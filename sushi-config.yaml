@@ -13,8 +13,8 @@ status: active
 license: CC0-1.0
 copyright: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#CH
-date: 2025-12-08
-version: 1.0.0
+date: 2026-03-06
+version: 1.0.1
 fhirVersion: 5.0.0
 copyrightYear: 2023+
 releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -30,6 +30,8 @@ dependencies:
   hl7.terminology.r5:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 7.0.1
+  hl7.fhir.uv.tools.r5:
+    version: 1.1.0
 
 pages:
   index.md:
@@ -119,4 +121,3 @@ parameters:
     - http://spor.ema.europa.eu/v1/lists/100000000004 # ema-domain
     - http://spor.ema.europa.eu/v1/lists/100000073343 # ema-shelf-life-type
     - http://spor.ema.europa.eu/v1/lists/200000003186 # ema-intended-effect
-    
