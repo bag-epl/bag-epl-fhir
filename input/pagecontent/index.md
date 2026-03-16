@@ -1,5 +1,5 @@
 ### Introduction
-CH EPL is a project of the Swiss Federal Office of Public Health (FOPH) to enable receiving IDMP/FHIR based medicinal product information from Swissmedic (SMC) and marketing authorisation holders, and to export the specialities list in FHIR.
+The CH ePL is a major digital transformation project initiated by the Federal Office of Public Health (FOPH) in Switzerland to modernise how key healthcare benefit lists (including the specialities list and MiGeL) and their processes are managed, published, and exchanged electronically.
 
 #### FHIR ressources for IDMP
 This implementation guide uses the following FHIR resource to represent the context of the international ISO IDMP (Identification of Medicinal Products) standard:

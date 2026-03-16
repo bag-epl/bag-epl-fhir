@@ -40,8 +40,8 @@ External parties such as **health insurers** will be able to retrieve data via e
 The ePL is being rolled out over several years:
 
 - **2025:** Progressive launch begins with the triennial review process and publication of the SL on the new platform. 
-- **Late 2025:** Full digitalisation of SL publication processes is expected to be completed. 
-- **2026–2027:** The scope will expand further, including **MiGeL and Analyseliste (Analysis List)** and digitalisation of their associated application and review processes.
+- **mid 2026:** Full digitalisation of SL publication processes is expected to be completed. 
+- **2026–2027:** The scope will expand further to include **MiGeL and the SL listing application process**.
 
 ---
 
@@ -49,14 +49,13 @@ The ePL is being rolled out over several years:
 
 #### **For Marketing Authorisation Holders**
 
-- Direct access to submit and track applications for inclusion in the SL, GGSL, and MiGeL.  
+- Direct access to submit and track applications for inclusion in the SL and GGSL.  
 - A unified platform enabling status tracking and communication with FOPH.  
 - Planned ability to auto‑import product master data from **Swissmedic** to reduce manual data entry.
 
 #### **For Health Insurers**
 
-- Electronic access to structured list data that is relevant for billing and reimbursement.  
-- Possibility of direct API integration for claim processing and automated data retrieval.
+- Electronic access to structured list data that is relevant for billing and reimbursement.
 
 #### **For Software Vendors and Developers**
 
