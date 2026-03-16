@@ -13,7 +13,7 @@ Description: "Classification index therapeuticus (IT-Code)."
 * ^experimental = false
 * ^url = $FOPH-IndexTherapeuticus
 * ^status = #active
-* ^purpose = "Formerly used to classify medical products (https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html, https://spezialitaetenliste.ch)"
+* ^purpose = "Formerly used to classify medical products (https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html, https://specialitieslist.ch)"
 * ^caseSensitive = true
 * ^content = #complete
 

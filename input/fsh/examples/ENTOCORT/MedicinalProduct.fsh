@@ -6,9 +6,7 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001346451-5204201" //MPID
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
+* identifier[=].value = "CH-01002393-0520420010000" //MPID
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#50064000 "Tablet and solvent for rectal suspension" // Authorised Pharmaceutical Dose Form
 * combinedPharmaceuticalDoseForm.coding = $edqm#50064000 "Tablet and solvent for rectal suspension" // Combined Pharmaceutical Dose Form
 * indication = "Leichte bis mittelschwere Colitis ulcerosa des Rectums sowie des Colon sigmoideum." // Full Indication Text
@@ -30,16 +28,8 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Me
 
 // Medicinal Product Name
 * name[de-CH][0].productName = "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk" // Full Name
-//* name[de-CH][=].part[0].part = "ENTOCORT"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#InventedNamePart "Invented Name Part"
-//* name[de-CH][=].part[+].part = "Enema Klistier Lösung + Tabletten"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DoseFormPart "Pharmaceutical dose form part"
-//* name[de-CH][=].part[+].part = "7 Stk"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#StrengthPart "Strength part"
-//* name[de-CH][=].part[+].part = "+"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FPOH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

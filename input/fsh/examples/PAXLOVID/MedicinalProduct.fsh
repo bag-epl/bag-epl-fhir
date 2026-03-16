@@ -6,8 +6,7 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a MedicinalProductDe
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001010604-6879301" //MPID
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
+* identifier[=].value = "CH-01001107-0687930010000" //MPID
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10221000 "Film-coated tablet" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Paxlovid wird angewendet für die Behandlung der Coronavirus-Krankheit 2019 (COVID-19) bei Erwachsenen, die keine Sauerstofftherapie oder Hospitalisierung aufgrund von COVID-19 benötigen und bei denen ein erhöhtes Risiko für einen schweren Verlauf von COVID-19 besteht (siehe «Klinische Wirksamkeit»).
@@ -39,7 +38,7 @@ Paxlovid ist nicht als Ersatz für eine Impfung gegen COVID-19 vorgesehen. Paxlo
 //* name[de-CH][=].part[+].part = ","
 //* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FPOH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

@@ -1,4 +1,4 @@
-In diesem Kapitel sind unterschiedliche Produkte im IDMP / FHIR Format abgebildet.
+This chapter presents various products in the IDMP / FHIR format.
 
 ### KEYTRUDA Inf Konz 100 mg/4ml Durchstf
 The following example demonstrates the structure of the product KEYTRUDA Inf Konz 100 mg/4ml Durchstf

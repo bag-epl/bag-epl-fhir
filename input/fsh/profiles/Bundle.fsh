@@ -1,9 +1,9 @@
 Profile: CHIDMPBundle
 Parent: Bundle
 Id: ch-idmp-bundle
-Title: "IDMP Bundle"
+Title: "Bundle"
 Description: "Profile of the Bundle resource for representing the set of resources collected into a single package." 
-* . ^short = "IDMP Bundle"
+* . ^short = "Bundle"
 * type = #collection (exactly)
 
 // Require at least one entry, and each entry must contain a resource
@@ -17,12 +17,12 @@ Description: "Profile of the Bundle resource for representing the set of resourc
 
 // Define slices
 * entry contains
-    MedicinalProductDefinitionEntry 1..1 and
-    PackagedProductDefinitionEntry 1..* and
-    ManufacturedItemDefinitionEntry 0..* and
-    AdministrableProductDefinition 0..* and
-    Ingredient 1..* and
-    OtherCHResourcesEntry 0..*
+    MedicinalProductDefinitionEntry 1..1 MS and
+    PackagedProductDefinitionEntry 1..* MS and
+    ManufacturedItemDefinitionEntry 0..* MS and
+    AdministrableProductDefinition 0..* MS and
+    Ingredient 1..* MS and
+    OtherCHResourcesEntry 0..* MS
 
 // Slice 1: MedicinalProductDefinition (exactly one)
 * entry[MedicinalProductDefinitionEntry].resource only CHIDMPMedicinalProductDefinition

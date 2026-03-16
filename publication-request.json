@@ -1,6 +1,6 @@
 {
   "package-id" : "ch.fhir.ig.ch-epl",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "path" : "http://fhir.ch/ig/ch-epl/1.0.0", 
   "mode" : "milestone",
   "status" : "trial-use", 

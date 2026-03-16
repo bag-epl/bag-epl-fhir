@@ -6,7 +6,7 @@ Description: "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml: Example of a Medicin
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001010604-6783101" //MPID
+* identifier[=].value = "CH-01001107-0678310010000" //MPID
 //* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#11201000 "Solution for injection" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
@@ -60,7 +60,7 @@ Abrilada ist indiziert zur Induktion (in Kombination mit Kortikosteroiden) und E
 // Medicinal Product Name
 * name[de-CH][0].productName = "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml" // Full Name
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FPOH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

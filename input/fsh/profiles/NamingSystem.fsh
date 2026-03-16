@@ -12,7 +12,7 @@ Usage: #definition
 * uniqueId[=].value = "1.2.276.0.76"
 * uniqueId[=].preferred = true
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "urn:oid:1.2.276.0.76"
+* uniqueId[=].value = "https://spor.ema.europa.eu/v1/locations"
 * uniqueId[=].preferred = false
 
 
@@ -148,3 +148,15 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/attno"
 * uniqueId[=].preferred = true
+
+Instance: SwissmedicLocationsIdentifier
+InstanceOf: NamingSystem
+Title: "Swissmedic Location Identifier"
+Usage: #definition
+* name = "SwissmedicLocationsIdentifier"
+* status = #active
+* kind = #identifier
+* date = "2026-03-06"
+* uniqueId[0].type = #uri
+* uniqueId[0].value = "https://www.swissmedic.ch/fhir/identifier/locations"
+* uniqueId[0].preferred = true

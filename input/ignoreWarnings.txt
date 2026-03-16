@@ -5,14 +5,26 @@ Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x] (fixe
 
 # External code systems
 A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
+A definition for CodeSystem 'https://www.meddra.org' could not be found
+Das CodeSystem https://www.meddra.org ist unbekannt
 
 # https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build/with/547712458
 The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
 No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
+
+# https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build/with/547712458
+The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+URL-Wert 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters' löst nicht auf
 
 # https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/http.3A.2F.2Fhl7.2Eorg.2Ffhir.2FValueSet.2Fjurisdiction.20deprecated.20warnin/with/381972830
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|%
 
 # IG Publisher issue
 The Coding provided (http://hl7.org/fhir/tools/CodeSystem/ig-parameters#%
+Der angegebene Code 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters#%
+
 Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|%
+Die bereitgestellte Codierung ist nicht im ValueSet 'Guide Parameter Code'%
+
+# IG Implementation Guide source
+The URL should refer directly to the ImplementationGuide resource

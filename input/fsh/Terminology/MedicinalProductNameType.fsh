@@ -12,5 +12,5 @@ Description: "CH - Standard Terms used in Switzerland (aggregations of codes of 
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #complete
-* #SMC "Zugelassener Arzneimittelname"
-* #FOPH "BAG Arzneimittelname"
+* #SMC "Authorised Medicinal Product Name"
+* #FOPH "FOPH Medicinal Product Name"

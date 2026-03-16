@@ -16,3 +16,12 @@ Description: "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml: Example of an Ingred
 * substance[=].strength[=].presentationRatio[=].denominator.unit = "Pen"
 * substance[=].strength[=].presentationRatio[=].denominator.system = $edqm
 * substance[=].strength[=].presentationRatio[=].denominator.code = #15037000
+
+* substance[=].strength[=].concentrationRatio[+].numerator.value = 50
+* substance[=].strength[=].concentrationRatio[=].numerator.unit = "mg"
+* substance[=].strength[=].concentrationRatio[=].numerator.system = "http://unitsofmeasure.org"
+* substance[=].strength[=].concentrationRatio[=].numerator.code = #mg
+* substance[=].strength[=].concentrationRatio[=].denominator.value = 1
+* substance[=].strength[=].concentrationRatio[=].denominator.unit = "ml"
+* substance[=].strength[=].concentrationRatio[=].denominator.system = "http://unitsofmeasure.org"
+* substance[=].strength[=].concentrationRatio[=].denominator.code = #ml

@@ -31,4 +31,4 @@ Description: "TRIOGEN Kaps 250 mg Ds 100 Stk: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10061091)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-79886009)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-79886009-TRIOGEN)

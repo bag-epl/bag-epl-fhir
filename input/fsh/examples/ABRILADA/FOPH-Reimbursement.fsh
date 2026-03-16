@@ -29,10 +29,8 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension.extension[=].valueDate = "2021-06-01" // Date of First Listing
 * extension.extension[+].url = "costShare"
 * extension.extension[=].valueInteger = 10 // Cost Share
-* extension.extension[+].url = "productType"
-* extension.extension[=].valueCodeableConcept = ChEplProductTypeCS#756001003002 "Originator product" // Product Type
 * extension.extension[+].url = "gamme"
-* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004002 "Parenteral" // Gamme
+* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004004 "Parenteral" // Gamme
 
 // Reimbursement SL - Organisation
 * holder.reference = "#holder-Pfizer-AG" // Reference to the Marketing Authorisation Holder (Organisation)
@@ -45,7 +43,7 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension.extension[=].extension[+].url = "type"
 * extension.extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * extension.extension[=].extension[+].url = "changeType"
-* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006006 "Normal price mutation"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006009 "Normal price mutation"
 * extension.extension[=].extension[+].url = "changeDate"
 * extension.extension[=].extension[=].valueDate = "2023-12-01"
 
@@ -56,192 +54,181 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension.extension[=].extension[+].url = "type"
 * extension.extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * extension.extension[=].extension[+].url = "changeType"
-* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
+* extension.extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006008 "VAT-change"
 * extension.extension[=].extension[+].url = "changeDate"
 * extension.extension[=].extension[=].valueDate = "2023-12-01"
 
 // List of Limitations of package 1
 
 // -- Limitation 1 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-69896004)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-69896004)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Aktive rheumatoide Arthritis
-Behandlung mit ABRILADA, wenn die vorausgegangene antirheumatische Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10003268)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10003268)
+//* indication[=].reference = Reference(IND-10003268)
 
 // -- Limitation 2 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-156370009)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-156370009)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Psoriasis-Arthritis
-Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
-Aktive polyartikuläre juvenile idiopathische Arthritis bei Kindern und Jugendlichen ab einem Körpergewicht von ≥ 30 kg
-Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10037153)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10019927)
+//* indication[=].reference = Reference(IND-10019927)
 
 // -- Limitation 3 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-9631008)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-9631008)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Ankylosierende Spondylitis (Morbus Bechterew)
-Behandlung mit ABRILADA, wenn die vorausgegangene konventionelle Therapie unzulänglich war oder nicht vertragen wurde." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10019927)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10019927)
+//* indication[=].reference = Reference(IND-10019927)
 
 // -- Limitation 4 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-34000006)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-34000006)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Aktiver Morbus Crohn
-Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war, sowie bei Patienten, die nicht mehr auf Infliximab ansprechen oder dieses nicht vertragen. Nach zwei Jahren ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // -- Limitation 5 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-64766004)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-64766004-ABRILADA)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10045365)
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Moderate bis schwere Colitis ulcerosa
-Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war oder nicht vertragen wurde." // Limitation Text
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10045365)
+//* indication[=].reference = Reference(IND-10045365)
 
 // -- Limitation 6 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-9014002)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-9014002)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Schwere Plaque-Psoriasis
-Behandlung erwachsener Patienten mit schwerer Plaque-Psoriasis, bei denen eine Phototherapie oder eine der folgenden konventionellen systemischen Therapien (Ciclosporin, Methotrexat, Acitretin) keinen therapeutischen Erfolg gezeigt haben. Falls nach 16 Wochen kein therapeutischer Erfolg eingetreten ist, ist die Behandlung abzubrechen." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10037153)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10037153)
+//* indication[=].reference = Reference(IND-10037153)
 
 // -- Limitation 7 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-59393003)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-59393003)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Aktive, mittelschwere bis schwere Hidradenitis suppurativa (Acne inversa)
-Behandlung erwachsener Patienten, wenn die vorausgegangene systemische Therapie mit Antibiotika unzulänglich war. Bei Patienten, die nach 12 Wochen kein Ansprechen nach HiSCR von mindestens 50% zeigen, ist die Behandlung abzubrechen. Nach 52 Wochen ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10020041)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10020041)
+//* indication[=].reference = Reference(IND-10020041)
 
 // Reimbursement SL - Organisation
 * holder.reference = "#holder-Pfizer-AG" // Reference to the Marketing Authorisation Holder (Organisation)
@@ -279,8 +266,6 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension.extension[=].valueDate = "2021-06-01" // Date of First Listing
 * extension.extension[+].url = "costShare"
 * extension.extension[=].valueInteger = 10 // Cose Share
-//* extension.extension[+].url = "productType"
-//* extension.extension[=].valueCodeableConcept = ChEplProductTypeCS#756001003001 "Generic product" // Product Type
 //* extension.extension[+].url = "gamme"
 //* extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004009 "Parenteral Depot" // Gamme
 
@@ -292,7 +277,7 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension[=].extension[+].url = "type"
 * extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005002 "Ex-factory price"
 * extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006006 "Normal price mutation"
+* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006009 "Normal price mutation"
 * extension[=].extension[+].url = "changeDate"
 * extension[=].extension[=].valueDate = "2023-12-01"
 
@@ -303,192 +288,181 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 * extension[=].extension[+].url = "type"
 * extension[=].extension[=].valueCodeableConcept = ChEplPriceTypeCS#756002005001 "Retail price"
 * extension[=].extension[+].url = "changeType"
-* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006005 "VAT-change"
+* extension[=].extension[=].valueCodeableConcept = ChEplTypeOfPriceChangeCS#756002006008 "VAT-change"
 * extension[=].extension[+].url = "changeDate"
 * extension[=].extension[=].valueDate = "2023-12-01"
 
 // List of Limitations of package 2
 
 // -- Limitation 1 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-69896004)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-69896004)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Aktive rheumatoide Arthritis
-Behandlung mit ABRILADA, wenn die vorausgegangene antirheumatische Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10003268)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10003268)
+//* indication[=].reference = Reference(IND-10003268)
 
 // -- Limitation 2 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-156370009)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-156370009)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Psoriasis-Arthritis
-Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war.
-Aktive polyartikuläre juvenile idiopathische Arthritis bei Kindern und Jugendlichen ab einem Körpergewicht von ≥ 30 kg
-Behandlung mit ABRILADA, wenn die vorausgegangene Standardtherapie mit krankheitsmodifizierenden Antirheumatika (DMARDs) unzulänglich war." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10037153)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10037153)
+//* indication[=].reference = Reference(IND-10037153)
 
 // -- Limitation 3 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-9631008)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-9631008)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Ankylosierende Spondylitis (Morbus Bechterew)
-Behandlung mit ABRILADA, wenn die vorausgegangene konventionelle Therapie unzulänglich war oder nicht vertragen wurde." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10019927)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10019927)
+//* indication[=].reference = Reference(IND-10019927)
 
 // -- Limitation 4 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-34000006)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-34000006)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Aktiver Morbus Crohn
-Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war, sowie bei Patienten, die nicht mehr auf Infliximab ansprechen oder dieses nicht vertragen. Nach zwei Jahren ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // -- Limitation 5 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-64766004)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-64766004-ABRILADA)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10045365)
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Moderate bis schwere Colitis ulcerosa
-Behandlung erwachsener Patienten mit ABRILADA, wenn die vorausgegangene konventionelle Therapie (z.B. mit Azathioprin, 6-Mercaptopurin oder Glukokortikoiden) unzulänglich war oder nicht vertragen wurde." // Limitation Text
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10045365)
+//* indication[=].reference = Reference(IND-10045365)
 
 // -- Limitation 6 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-9014002)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-9014002)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Schwere Plaque-Psoriasis
-Behandlung erwachsener Patienten mit schwerer Plaque-Psoriasis, bei denen eine Phototherapie oder eine der folgenden konventionellen systemischen Therapien (Ciclosporin, Methotrexat, Acitretin) keinen therapeutischen Erfolg gezeigt haben. Falls nach 16 Wochen kein therapeutischer Erfolg eingetreten ist, ist die Behandlung abzubrechen." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10037153)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10037153)
+//* indication[=].reference = Reference(IND-10037153)
 
 // -- Limitation 7 --
-* indication.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
+* indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
 
 // --- Limitation Reference
-* indication.extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
-* indication.extension[=].extension[=].valueReference = Reference(LIM-59393003)
+* indication[=].extension[=].extension[+].url = "limitationIndication" // Clinical Use Definition)
+* indication[=].extension[=].extension[=].valueReference = Reference(LIM-59393003)
 
 // --- Limitation Status
-* indication.extension[=].extension[+].url = "status"
-* indication.extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
-* indication.extension[=].extension[+].url = "statusDate"
-* indication.extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
-* indication.extension[=].extension[+].url = "period"
-* indication.extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
-* indication.extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
-* indication.extension[=].extension[+].url = "reimbursementEndDate"
-* indication.extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
-* indication.extension[=].extension[+].url = "firstLimitationDate"
-* indication.extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
-* indication.extension[=].extension[+].url = "limitationText"
-* indication.extension[=].extension[=].valueString = "Aktive, mittelschwere bis schwere Hidradenitis suppurativa (Acne inversa)
-Behandlung erwachsener Patienten, wenn die vorausgegangene systemische Therapie mit Antibiotika unzulänglich war. Bei Patienten, die nach 12 Wochen kein Ansprechen nach HiSCR von mindestens 50% zeigen, ist die Behandlung abzubrechen. Nach 52 Wochen ununterbrochener Therapie bedarf die Behandlung einer erneuten Kostengutsprache durch den Krankenversicherer nach vorgängiger Konsultation des Vertrauensarztes." // Limitation Text
+* indication[=].extension[=].extension[+].url = "status"
+* indication[=].extension[=].extension[=].valueCodeableConcept = ChEplLimitationStatusCS#756002071001 "Limitation Reimbursed" // Limitation Status
+* indication[=].extension[=].extension[+].url = "statusDate"
+* indication[=].extension[=].extension[=].valueDate = "2024-05-01" // Limitation Status Date
+* indication[=].extension[=].extension[+].url = "period"
+* indication[=].extension[=].extension[=].valuePeriod.start = "2024-05-01" // Limitation Period Start Date
+* indication[=].extension[=].extension[=].valuePeriod.end = "2100-12-31"  // Limitation Period End Date
+* indication[=].extension[=].extension[+].url = "reimbursementEndDate"
+* indication[=].extension[=].extension[=].valueDate = "2100-12-31" // Reimbursement End Date
+* indication[=].extension[=].extension[+].url = "firstLimitationDate"
+* indication[=].extension[=].extension[=].valueDate = "2022-03-01" // Date of First Limitation
 
 // --- Indication Reference - Reference to the indication related to this limitation
-* indication.reference = Reference(IND-10020041)
+* indication[=].extension[=].extension[+].url = "relatedIndication"
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10020041)
+//* indication[=].reference = Reference(IND-10020041)
 
 
 // Reimbursement SL - Organisation

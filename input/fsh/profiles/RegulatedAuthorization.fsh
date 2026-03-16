@@ -1,9 +1,9 @@
 Profile: CHIDMPRegulatedAuthorization
 Parent: RegulatedAuthorization
 Id: ch-idmp-regulatedauthorization
-Title: "IDMP RegulatedAuthorization"
+Title: "RegulatedAuthorization"
 Description: "Profile of the RegulatedAuthorization resource for representing the market authorization of a (packaged) medicinal product."
-* . ^short = "IDMP RegulatedAuthorization"
+* . ^short = "RegulatedAuthorization"
 
 * contained
 

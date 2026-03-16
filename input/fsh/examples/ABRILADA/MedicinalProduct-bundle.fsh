@@ -59,7 +59,7 @@ Description: "ABRILADA Inj Lös 40 mg/0.8ml Fertpen 0.8 ml: Example of a Bundle"
 * entry[+]
   * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-34000006)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-64766004)
+  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-64766004-ABRILADA)
 * entry[+]
   * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-9014002)
 * entry[+]

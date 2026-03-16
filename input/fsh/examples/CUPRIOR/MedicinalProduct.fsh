@@ -6,7 +6,7 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7640109110007-6771901" //MPID
+* identifier[=].value = "CH-01100726-0677190010000" //MPID
 //* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#10221000 "Film-coated tablet" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm.coding = $edqm#... "..." // Combined Pharmaceutical Dose Form
@@ -29,16 +29,8 @@ Description: "CUPRIOR Filmtabl 150 mg 72 Stk: Example of a MedicinalProductDefin
 
 // Medicinal Product Name
 * name[de-CH][0].productName = "Cuprior 150 mg, Filmtabletten" // Full Name
-//* name[de-CH][=].part[0].part = "Cuprior"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#InventedNamePart "Invented Name Part"
-//* name[de-CH][=].part[+].part = "Filmtabletten"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DoseFormPart "Pharmaceutical dose form part"
-//* name[de-CH][=].part[+].part = "150 mg"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#StrengthPart "Strength part"
-//* name[de-CH][=].part[+].part = ","
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FPOH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

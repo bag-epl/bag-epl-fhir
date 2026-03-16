@@ -1,15 +1,15 @@
 Profile: CHIDMPMedicinalProductDefinition
 Parent: MedicinalProductDefinition
 Id: ch-idmp-medicinalproductdefinition
-Title: "IDMP MedicinalProductDefinition"
+Title: "MedicinalProductDefinition"
 Description: "Profile of the MedicinalProductDefinition resource for representing the detailed data of medicinal products." 
-* . ^short = "CH IDMP MedicinalProductDefinition"
+* . ^short = "MedicinalProductDefinition"
 
 // * MPID
 
-* identifier.system 1..
+* identifier.system 1..1
 * identifier.system = $MPID // Vorschlag für SMC Naming System
-* identifier.value 1..
+* identifier.value 1..1
 
 // * domain
 //* domain from EMADomainVS (required)
@@ -133,21 +133,21 @@ Description: "Profile of the MedicinalProductDefinition resource for representin
     it-CH 0..1
 
 * name[en].productName ^short = "The full product name in English"
-* name[en].part.type from $ISO-NamePartVS (required)
+//* name[en].part.type from $ISO-NamePartVS (required)
 * name[en].usage.country = $country#CH
 * name[en].usage.language = $language#en
 
 * name[de-CH].productName ^short = "The full product name in German (Switzerland)"
-* name[de-CH].part.type from $ISO-NamePartVS (required)
+//* name[de-CH].part.type from $ISO-NamePartVS (required)
 * name[de-CH].usage.country = $country#CH
 * name[de-CH].usage.language = $language#de-CH
 
 * name[fr-CH].productName ^short = "The full product name in French (Switzerland)"
-* name[fr-CH].part.type from $ISO-NamePartVS (required)
+//* name[fr-CH].part.type from $ISO-NamePartVS (required)
 * name[fr-CH].usage.country = $country#CH
 * name[fr-CH].usage.language = $language#fr-CH
 
 * name[it-CH].productName ^short = "The full product name in Italian (Switzerland)"
-* name[it-CH].part.type from $ISO-NamePartVS (required)
+//* name[it-CH].part.type from $ISO-NamePartVS (required)
 * name[it-CH].usage.country = $country#CH
 * name[it-CH].usage.language = $language#it-CH

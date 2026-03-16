@@ -6,8 +6,7 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of a MedicinalProductDefi
 
 // Medicinal Product
 * identifier[+].system = $MPID
-* identifier[=].value = "CH-7601001001138-6623101" //MPID
-//* domain.coding[EMA] = $emaDomain#100000000012 "Human"  // Domain
+* identifier[=].value = "CH-01003060-0662310010000" //MPID
 * extension[authorizedDoseForm].valueCodeableConcept.coding[SMC] = $SMC-AuthorisedDoseFormCS#11213000 "Concentrate for solution for infusion" // Authorised Pharmaceutical Dose Form
 //* combinedPharmaceuticalDoseForm = n/a // Combined Pharmaceutical Dose Form
 * indication = "Melanom: nicht resezierbar oder metastasiert; adjuvante Therapie bei vollständig reseziertem Melanom Stadium III.
@@ -51,16 +50,8 @@ Befristet zugelassene Indikationen: adjuvante Monotherapie des Melanoms im Stadi
 
 // Medicinal Product Name
 * name[de-CH][0].productName = "KEYTRUDA Inf Konz 100 mg/4ml" // Full Name
-//* name[de-CH][=].part[0].part = "Cuprior"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#InventedNamePart "Invented Name Part"
-//* name[de-CH][=].part[+].part = "Filmtabletten"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DoseFormPart "Pharmaceutical dose form part"
-//* name[de-CH][=].part[+].part = "150 mg"
-//* name[de-CH][=].part[=].type = $ISO-NamePart#StrengthPart "Strength part"
-//* name[de-CH][=].part[+].part = ","
-//* name[de-CH][=].part[=].type = $ISO-NamePart#DelimiterPart "Delimiter Part"
 
-* name[0].type.coding = ChMedicinalProductNameTypeCS#SMC "Zugelassener Arzneimittelname" // Name Type (Swissmedic or FPOH)
+* name[0].type.coding = ChMedicinalProductNameTypeCS#FOPH "FOPH Medicinal Product Name" // Name Type (Swissmedic or FOPH)
 
 // Country / Language
 * name[de-CH][=].usage[0].country = $country#CH "Switzerland" // Country: https://hl7.org/fhir/R4/valueset-iso3166-1-2.html

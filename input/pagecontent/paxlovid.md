@@ -1,4 +1,4 @@
-In diesem Kapitel sind unterschiedliche Produkte im IDMP / FHIR Format abgebildet.
+This chapter presents various products in the IDMP / FHIR format.
 
 ### PAXLOVID Filmtabl 4x150mg/2x100mg 5 x 6 Stk
 The following example demonstrates the structure of the product PAXLOVID Filmtabl 4x150mg/2x100mg 5 x 6 Stk

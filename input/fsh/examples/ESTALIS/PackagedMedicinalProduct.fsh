@@ -1,12 +1,12 @@
 Instance: PMP-Estalis-Transdermalpatch
 InstanceOf: CHIDMPPackagedProductDefinition
 Usage: #example
-Title: "CH-54704089"
+Title: "ESTALIS matrix patch 50/250, 24 units"
 Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a PackagedProductDefinition (Packaged Medicinal Product)"
 
 // Packaged Medicinal Product
 * identifier[+].system = $PCID
-* identifier[=].value = "CH-7601001029439-5470402-097" // PCID
+* identifier[=].value = "CH-01006431-0547040020000-0097" // PCID
 * packageFor = Reference(Estalis-Transdermalpatch) // Link from Packaged Medicinal Product to Medicinal Product
 * description = "ESTALIS Matrixpfl 50/250 24 Stk" // Package Description
 * legalStatusOfSupply[+].code = ChSMCLegalStatusOfSupplyCS#756005022003 "Medicinal product subject to medical or veterinary prescription (B)" // Legal Status of Supply (for a package)
@@ -28,12 +28,3 @@ Description: "ESTALIS Matrixpfl 50/250 24 Stk: Example of a PackagedProductDefin
 * packaging.shelfLifeStorage[=].periodDuration = 6 'mo' "month" // Shelf Life Time Period
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042008 "Nicht über 25°C" // Special Precaution for Storage
 * packaging.shelfLifeStorage[0].specialPrecautionsForStorage.coding = ChSMCSpecialPrecautionsForStorageCS#756005042004 "protect from light" // Special Precaution for Storage
-
-// Package Item (Container) - Inner Package
-//* packaging.packaging[0].type.coding = $edqm#30007000 "Blister" // Package Item (Container) Type
-//* packaging.packaging[0].quantity = 12 // Package Item (Container) Quantity
-
-// Packaged Medicinal Product.Marketing Status
-//* marketingStatus[+].country = $country#CH "Switzerland"
-//* marketingStatus[=].status.coding[SMC] = ChSMCMarketingStatusCS#iH "im Handel" // Marketing Status
-//* statusDate = "2005-04-10" // Marketing Status Date

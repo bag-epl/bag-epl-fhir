@@ -1,4 +1,4 @@
-In diesem Kapitel sind unterschiedliche Produkte im IDMP / FHIR Format abgebildet.
+This chapter presents various products in the IDMP / FHIR format.
 
 ### CUPRIOR Filmtabl 150 mg 72 Stk
 The following example demonstrates the structure of the product Cuprior 150 mg 72 Stk
