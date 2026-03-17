@@ -5,8 +5,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 #### Fixed
 - [#16](https://github.com/bag-epl/bag-epl-fhir/issues/16): Structured "Full Limitation Text"
 - [#23](https://github.com/bag-epl/bag-epl-fhir/issues/23): LOC identifier
-- [#23](https://github.com/bag-epl/bag-epl-fhir/issues/24): Update Examples with new MPID/PCID
-- [#25](https://github.com/bag-epl/bag-epl-fhir/issues/26): Documentation
+- [#24](https://github.com/bag-epl/bag-epl-fhir/issues/24): Update Examples with new MPID/PCID
+- [#25](https://github.com/bag-epl/bag-epl-fhir/issues/25): Documentation
 - [#26](https://github.com/bag-epl/bag-epl-fhir/issues/26): Inconsistencies DE/EN
 - [#27](https://github.com/bag-epl/bag-epl-fhir/issues/27): Profile Names
 - [#28](https://github.com/bag-epl/bag-epl-fhir/issues/28): Home Documentation
@@ -16,7 +16,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 - [#49](https://github.com/bag-epl/bag-epl-fhir/issues/49): Fix non-resolvable links / Introduce temporary NamingSystems
 
 #### Added
-- Price Model Specification and Price Model added to Extensions, but not in the examples, as the data is not yet available.
+- Price Model Specification and Price Model added to Limitation Extension, but not in the examples, as the data is not yet available.
+- Price Model added to Reimbursement Extension.
 
 ### FOPH DSTU 1 (2025-12-08)
 
