@@ -21,7 +21,8 @@ Description: "A set of information about the reimbursement of a drug"
     listingPeriod 1..1 and // Listing Period
     firstListingDate 1..1 and // Date of First Listing
     costShare 0..1 and // Cost Share
-    gamme 0..1 and // Gamme 
+    gamme 0..1 and // Gamme
+    priceModel 0..1 and // Price Model
     http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice named productPrice 0..*    
 
 * extension[FOPHDossierNumber] only Extension
@@ -77,5 +78,11 @@ Description: "A set of information about the reimbursement of a drug"
 * extension[gamme].url only uri
 * extension[gamme].value[x] 1..
 * extension[gamme].value[x] only CodeableConcept //add correct condition
+
+* extension[priceModel] only Extension
+* extension[priceModel] ^definition = "Indicator for a Price Model"
+* extension[priceModel].url only uri
+* extension[priceModel].value[x] 1..
+* extension[priceModel].value[x] only boolean
 
 * url = "http://fhir.ch/ig/ch-epl/StructureDefinition/reimbursementSL" (exactly)
