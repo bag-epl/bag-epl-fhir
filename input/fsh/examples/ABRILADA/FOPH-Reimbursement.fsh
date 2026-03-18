@@ -107,8 +107,7 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication[=].extension[=].extension[+].url = "relatedIndication"
-* indication[=].extension[=].extension[=].valueReference = Reference(IND-10019927)
-//* indication[=].reference = Reference(IND-10019927)
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10037153)
 
 // -- Limitation 3 --
 * indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
@@ -132,8 +131,7 @@ Description: "Abrilada-40mg-1-Pre-Filled-Pen: Example of an Regulated Authorizat
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication[=].extension[=].extension[+].url = "relatedIndication"
-* indication[=].extension[=].extension[=].valueReference = Reference(IND-10019927)
-//* indication[=].reference = Reference(IND-10019927)
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10002556)
 
 // -- Limitation 4 --
 * indication[+].extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/regulatedAuthorization-limitation"
@@ -366,7 +364,7 @@ Description: "Abrilada-40mg-2-Pre-Filled-Pen: Example of an Regulated Authorizat
 
 // --- Indication Reference - Reference to the indication related to this limitation
 * indication[=].extension[=].extension[+].url = "relatedIndication"
-* indication[=].extension[=].extension[=].valueReference = Reference(IND-10019927)
+* indication[=].extension[=].extension[=].valueReference = Reference(IND-10002556)
 //* indication[=].reference = Reference(IND-10019927)
 
 // -- Limitation 4 --

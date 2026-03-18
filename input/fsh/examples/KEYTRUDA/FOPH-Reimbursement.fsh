@@ -31,6 +31,8 @@ Description: "KEYTRUDA Inf Konz 100 mg / 4 ml: Example of an Regulated Authoriza
 * extension.extension[=].valueInteger = 10 // Cose Share
 * extension.extension[+].url = "gamme"
 * extension.extension[=].valueCodeableConcept = ChEplGammeCS#756002004005 "Parenteral Depot" // Gamme
+* extension.extension[+].url = "priceModel"
+* extension.extension[=].valueBoolean = true // Price Model
 
 // Price (Reimbursement SL)
 * extension.extension[+].url = "http://fhir.ch/ig/ch-epl/StructureDefinition/productPrice"

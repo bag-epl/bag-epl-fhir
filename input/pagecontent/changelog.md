@@ -1,5 +1,11 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### 1.0.2 (2026-02)
+
+#### Fixed
+- [#16](https://github.com/bag-epl/bag-epl-fhir/issues/51): Price Model
+- minor corrections in Abrilada example
+
 ### 1.0.1 (2026-02)
 
 #### Fixed

@@ -29,7 +29,7 @@ contact:
 dependencies:
   hl7.terminology.r5:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
-    version: 7.0.1
+    version: 7.1.0
   hl7.fhir.uv.tools.r5:
     version: 1.1.0
 
