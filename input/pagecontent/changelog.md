@@ -1,12 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### 1.0.2 (2026-02)
-
-#### Fixed
-- [#16](https://github.com/bag-epl/bag-epl-fhir/issues/51): Price Model
-- minor corrections in Abrilada example
-
-### 1.0.1 (2026-02)
+### 1.0.1 (2026-03-24)
 
 #### Fixed
 - [#16](https://github.com/bag-epl/bag-epl-fhir/issues/16): Structured "Full Limitation Text"
@@ -24,6 +18,12 @@ All significant changes to this FHIR implementation guide will be documented on 
 #### Added
 - Price Model Specification and Price Model added to Limitation Extension, but not in the examples, as the data is not yet available.
 - Price Model added to Reimbursement Extension.
+
+#### Changed / Updated
+- Changed hl7.terminology.r5 version to 7.0.1
+
+#### Fixed
+- Minor corrections in Abrilada example
 
 ### FOPH DSTU 1 (2025-12-08)
 
