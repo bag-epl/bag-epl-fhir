@@ -149,14 +149,16 @@ Usage: #definition
 * uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/attno"
 * uniqueId[=].preferred = true
 
+
 Instance: SwissmedicLocationsIdentifier
 InstanceOf: NamingSystem
 Title: "Swissmedic Location Identifier"
 Usage: #definition
+
 * name = "SwissmedicLocationsIdentifier"
 * status = #active
 * kind = #identifier
 * date = "2026-03-06"
-* uniqueId[0].type = #uri
-* uniqueId[0].value = "https://www.swissmedic.ch/fhir/identifier/locations"
-* uniqueId[0].preferred = true
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://www.swissmedic.ch/fhir/identifier/locations"
+* uniqueId[=].preferred = true
