@@ -153,6 +153,7 @@ Usage: #definition
 Instance: SwissmedicLocationsIdentifier
 InstanceOf: NamingSystem
 Title: "Swissmedic Location Identifier"
+Description: "Temporary Namingsystem in this implementation guide until officially released by Swissmedic"
 Usage: #definition
 
 * name = "SwissmedicLocationsIdentifier"
