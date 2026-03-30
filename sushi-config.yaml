@@ -31,7 +31,7 @@ dependencies:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 7.1.0
   hl7.fhir.uv.tools.r5:
-    version: 1.1.0
+    version: 1.1.2
 
 pages:
   index.md:
@@ -59,13 +59,13 @@ pages:
   entocort.md:
     title: Entocort
   estalis.md:
-    title: Estalis 
+    title: Estalis
   keytruda.md:
     title: Keytruda
   paxlovid.md:
     title: Paxlovid
   triogen.md:
-    title: Triogen 
+    title: Triogen
   profiles.md:
     title: Profiles
   extensions.md:
@@ -87,14 +87,14 @@ menu:
     HL7 FHIR Standard: fhir.html
     ISO IDMP Standard (ISO 11615): idmp.html
     IDMP and FHIR: fhir-idmp.html
-  Examples: 
-     Abrilada: abrilada.html
-     Cuprior: cuprior.html
-     Entocort: entocort.html
-     Estalis: estalis.html
-     Keytruda: keytruda.html
-     Paxlovid: paxlovid.html
-     Triogen: triogen.html
+  Examples:
+    Abrilada: abrilada.html
+    Cuprior: cuprior.html
+    Entocort: entocort.html
+    Estalis: estalis.html
+    Keytruda: keytruda.html
+    Paxlovid: paxlovid.html
+    Triogen: triogen.html
   Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html
@@ -106,7 +106,7 @@ parameters:
   excludettl: true
   allow-extensible-warnings: true
   display-warnings: true
-  path-expansion-params: '../../expansion-params.json' # for using SNOMED CT Swiss Extension
+  path-expansion-params: "../../expansion-params.json" # for using SNOMED CT Swiss Extension
   special-url:
     - urn:oid:0.4.0.127.0.16.1.1.2.1 # edqm-standard-terms
     - urn:oid:0.4.0.127.0.16.1.1.2.2 # edqm-pharmaceutical-dose-form

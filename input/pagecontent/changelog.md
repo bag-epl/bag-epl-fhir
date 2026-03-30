@@ -17,6 +17,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 #### Changed / Updated
 - Changed hl7.terminology.r5 version to 7.1.0
+- Changed hl7.fhir.uv.tools.r5 version to 1.1.2
 - Minor corrections in Abrilada example
 
 ### FOPH DSTU 1 (2025-12-08)
