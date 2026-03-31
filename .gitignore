@@ -8,6 +8,9 @@ fsh-generated/**
 # jar files
 *.jar
 
+# log files
+*.log
+
 # editing files and folders
 .vscode/**
 .idea/**
