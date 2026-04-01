@@ -9,32 +9,32 @@ Description: "PAXLOVID Filmtabl 4x150mg/2x100mg: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Paxlovid-Filmcoatedtablet)
+  * insert bundleEntry(MedicinalProductDefinition, Paxlovid-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPDocumentReference, DocRef-FI-Paxlovid)
+  * insert bundleEntry(DocumentReference, DocRef-FI-Paxlovid)
 * entry[+]
-  * insert bundleEntry(CHIDMPDocumentReference, DocRef-PI-Paxlovid)
+  * insert bundleEntry(DocumentReference, DocRef-PI-Paxlovid)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-6879301)
+  * insert bundleEntry(RegulatedAuthorization, MA-6879301)
 * entry[+]
-  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Paxlovid-Filmcoatedtablet)
+  * insert bundleEntry(PackagedProductDefinition, PMP-Paxlovid-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-68793001)
+  * insert bundleEntry(RegulatedAuthorization, MA-68793001)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, FOPH-21529)
+  * insert bundleEntry(RegulatedAuthorization, FOPH-21529)
 * entry[+]
-  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Nirmatrelvir-150mg) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Nirmatrelvir-150mg) 
 * entry[+]
-  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Ritonavirum-100mg) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Ritonavirum-100mg) 
 * entry[+]
-  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Nirmatrelvir-150mg-Filmcoatedtablet)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Nirmatrelvir-150mg-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Ritonavirum-100mg-Filmcoatedtablet)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Ritonavirum-100mg-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPIngredient, Nirmatrelvir150)
+  * insert bundleEntry(Ingredient, Nirmatrelvir150)
 * entry[+]
-  * insert bundleEntry(CHIDMPIngredient, Ritonavirum100)
+  * insert bundleEntry(Ingredient, Ritonavirum100)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10084529)
+  * insert bundleEntry(ClinicalUseDefinition, IND-10084529)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-840539006)
+  * insert bundleEntry(ClinicalUseDefinition, LIM-840539006)
