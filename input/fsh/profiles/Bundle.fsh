@@ -45,5 +45,5 @@ Description: "Profile of the Bundle resource for representing the set of resourc
                                              CHIDMPDocumentReference
 
 RuleSet: bundleEntry(type, id)
-* fullUrl = "http://fhir.epl.bag.admin.ch/{type}/{id}"
+* fullUrl = "http://fhir.epl.bag.admin.ch/CHIDMP/{type}/{id}"
 * resource = {id}

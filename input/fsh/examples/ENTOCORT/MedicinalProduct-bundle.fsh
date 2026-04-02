@@ -9,30 +9,30 @@ Description: "ENTOCORT Enema Klistier Lösung + Tabletten 7 Stk: Example of a Bu
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Entocort-Solvent-and-Tablet)
+  * insert bundleEntry(MedicinalProductDefinition, Entocort-Solvent-and-Tablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPDocumentReference, DocRef-FI-Entocort)
+  * insert bundleEntry(DocumentReference, DocRef-FI-Entocort)
 * entry[+]
-  * insert bundleEntry(CHIDMPDocumentReference, DocRef-PI-Entocort)
+  * insert bundleEntry(DocumentReference, DocRef-PI-Entocort)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-5204201)
+  * insert bundleEntry(RegulatedAuthorization, MA-5204201)
 * entry[+]
-  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Entocort-Solvent-and-Tablet)
+  * insert bundleEntry(PackagedProductDefinition, PMP-Entocort-Solvent-and-Tablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-52042011)
+  * insert bundleEntry(RegulatedAuthorization, MA-52042011)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, FOPH-17973)
+  * insert bundleEntry(RegulatedAuthorization, FOPH-17973)
 * entry[+]
-  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Budesonidum-2.3mg-Tablet)
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Budesonidum-2.3mg-Tablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Solvent)
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Solvent)
 * entry[+]
-  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Budesonidum-Suspension)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Budesonidum-Suspension)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10009900)
+  * insert bundleEntry(ClinicalUseDefinition, IND-10009900)
 * entry[+]
-  * insert bundleEntry(CHIDMPIngredient, Budesonidum2.3)
+  * insert bundleEntry(Ingredient, Budesonidum2.3)
 * entry[+]
-  * insert bundleEntry(CHIDMPIngredient, Budesonidum2.0)
+  * insert bundleEntry(Ingredient, Budesonidum2.0)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-64766004-ENTOCORT)
+  * insert bundleEntry(ClinicalUseDefinition, LIM-64766004-ENTOCORT)

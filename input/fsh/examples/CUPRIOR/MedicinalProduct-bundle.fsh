@@ -9,26 +9,26 @@ Description: "CUPRIOR Filmtabl 150 mg: Example of a Bundle"
 
 * type = #collection
 * entry[0]
-  * insert bundleEntry(CHIDMPMedicinalProductDefinition, Cuprior-150mg-Filmcoatedtablet)
+  * insert bundleEntry(MedicinalProductDefinition, Cuprior-150mg-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPDocumentReference, DocRef-FI-Cuprior)
+  * insert bundleEntry(DocumentReference, DocRef-FI-Cuprior)
 * entry[+]
-  * insert bundleEntry(CHIDMPDocumentReference, DocRef-PI-Cuprior)
+  * insert bundleEntry(DocumentReference, DocRef-PI-Cuprior)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorisation, MA-6771901)
+  * insert bundleEntry(RegulatedAuthorization, MA-6771901)
 * entry[+]
-  * insert bundleEntry(CHIDMPPackagedProductDefinition, PMP-Cuprior-150mg-Filmcoatedtablet)
+  * insert bundleEntry(PackagedProductDefinition, PMP-Cuprior-150mg-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorization, MA-67719001)
+  * insert bundleEntry(RegulatedAuthorization, MA-67719001)
 * entry[+]
-  * insert bundleEntry(CHIDMPRegulatedAuthorization, FOPH-21208)
+  * insert bundleEntry(RegulatedAuthorization, FOPH-21208)
 * entry[+]
-  * insert bundleEntry(CHIDMPManufacturedItemDefinition, MI-Trientinum-150mg-Filmcoatedtablet) 
+  * insert bundleEntry(ManufacturedItemDefinition, MI-Trientinum-150mg-Filmcoatedtablet) 
 * entry[+]
-  * insert bundleEntry(CHIDMPAdministrableProductDefinition, PhP-Trientinum-150mg-Filmcoatedtablet)
+  * insert bundleEntry(AdministrableProductDefinition, PhP-Trientinum-150mg-Filmcoatedtablet)
 * entry[+]
-  * insert bundleEntry(CHIDMPIngredient, Trientinum150)
+  * insert bundleEntry(Ingredient, Trientinum150)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, IND-10061091)
+  * insert bundleEntry(ClinicalUseDefinition, IND-10061091)
 * entry[+]
-  * insert bundleEntry(CHIDMPClinicalUseDefinition, LIM-79886009-CUPRIOR)
+  * insert bundleEntry(ClinicalUseDefinition, LIM-79886009-CUPRIOR)

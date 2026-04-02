@@ -161,5 +161,5 @@ Usage: #definition
 * kind = #identifier
 * date = "2026-03-06"
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://fhir.ch/ig/ch-epl/sid/smc-locations"
+* uniqueId[=].value = "https://www.swissmedic.ch/fhir/identifier/locations"
 * uniqueId[=].preferred = true
