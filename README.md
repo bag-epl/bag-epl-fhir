@@ -1,7 +1,7 @@
 # CH EPL (R5)
 FHIR® Implementation Guide for the 'Elektronische Plattform Leistungen (EPL)' of the Swiss Federal Office of Public Health (FOPH).
 
-* Current Stable Version: not yet available
+* Current Stable Version: [Published on fhir.ch](https://www.fhir.ch/ig/ch-epl/index.html)
 * [CI Build](https://bageplstoragepoc.z1.web.core.windows.net/)
 
 ***************************
